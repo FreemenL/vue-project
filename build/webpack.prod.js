@@ -7,7 +7,6 @@ const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSPlugin = require("optimize-css-assets-webpack-plugin");
-const emptyWebpackBuildDetailPlugin = require("empty-webpack-build-detail-plugin");
 const devMode = process.env.NODE_ENV !== 'production';
 const common = require('./webpack.base.js');
 const CompressionWebpackPlugin = require('compression-webpack-plugin');
@@ -18,9 +17,9 @@ module.exports = merge(common, {
   mode: "production",
   output: {
     filename: 'static/js/[name].[contenthash].js',
+    chunkFilename: 'static/js/[id].[name].[chunkhash].js',
     path: paths.appBuild,
-    publicPath: './',
-    chunkFilename: 'static/js/[id].[chunkhash].js'
+    publicPath: './'
   },
   optimization: {
     sideEffects: true,
@@ -92,7 +91,7 @@ module.exports = merge(common, {
           test: /[\\/]node_modules[\\/](element-ui|_element-ui)/,
           chunks: 'initial',
           minChunks: 1,
-          name: 'antd',
+          name: 'element-ui',
           priority:98,
           enforce: true,
         },             
@@ -148,7 +147,6 @@ module.exports = merge(common, {
       }
     }),
     //  缩减代码量  使代码在浏览器中具有更快的执行时间
-    new webpack.optimize.ModuleConcatenationPlugin(),
-    new emptyWebpackBuildDetailPlugin({path: paths.appLog})
+    new webpack.optimize.ModuleConcatenationPlugin()
   ]
 });

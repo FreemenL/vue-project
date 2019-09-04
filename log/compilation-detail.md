@@ -4,27 +4,31 @@
   "errors": [],
   "warnings": [],
   "version": "4.27.1",
-  "hash": "4eacee128861e5befaca",
-  "time": 9932,
-  "builtAt": 1566831754969,
+  "hash": "925b1d91117d2323f497",
+  "time": 6678,
+  "builtAt": 1567562956517,
   "publicPath": "./",
   "outputPath": "/Users/jiayali/Desktop/vue-zero/dist",
   "assetsByChunkName": {
     "antd": [
-      "static/css/0.4eacee128861e5befaca.css",
-      "static/js/0.9b0605199ee4b6a4f8b3.js"
+      "static/css/0.925b1d91117d2323f497.css",
+      "static/js/0.antd.9b0605199ee4b6a4f8b3.js"
     ],
     "app": [
-      "static/css/1.4eacee128861e5befaca.css",
-      "static/js/1.18843d76e87436c1caeb.js"
+      "static/css/1.925b1d91117d2323f497.css",
+      "static/js/1.app.259951b37a33bce20212.js"
     ],
-    "manifest": "static/js/manifest.7c0986c5bb5fa3e3c3fb.js",
-    "vendors": "static/js/3.5cf5031bb672256215f6.js"
+    "manifest": "static/js/manifest.bd5ded7bd82e6e37841b.js",
+    "my-chunk-name": [
+      "static/css/3.925b1d91117d2323f497.css",
+      "static/js/3.my-chunk-name.3b736008cc77b9c336be.js"
+    ],
+    "vendors": "static/js/4.vendors.b8597a69d4590e0557f9.js"
   },
   "assets": [
     {
       "name": "index.html",
-      "size": 6913,
+      "size": 6930,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -58,7 +62,7 @@
       "emitted": true
     },
     {
-      "name": "static/css/0.4eacee128861e5befaca.css",
+      "name": "static/css/0.925b1d91117d2323f497.css",
       "size": 231236,
       "chunks": [
         0
@@ -69,14 +73,14 @@
       "emitted": true
     },
     {
-      "name": "static/css/0.4eacee128861e5befaca.css.gz",
+      "name": "static/css/0.925b1d91117d2323f497.css.gz",
       "size": 34820,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
-      "name": "static/css/1.4eacee128861e5befaca.css",
+      "name": "static/css/1.925b1d91117d2323f497.css",
       "size": 1415,
       "chunks": [
         1
@@ -87,12 +91,14 @@
       "emitted": true
     },
     {
-      "name": "static/css/4.4eacee128861e5befaca.css",
+      "name": "static/css/3.925b1d91117d2323f497.css",
       "size": 918,
       "chunks": [
-        4
+        3
       ],
-      "chunkNames": [],
+      "chunkNames": [
+        "my-chunk-name"
+      ],
       "emitted": true
     },
     {
@@ -110,7 +116,7 @@
       "emitted": true
     },
     {
-      "name": "static/js/0.9b0605199ee4b6a4f8b3.js",
+      "name": "static/js/0.antd.9b0605199ee4b6a4f8b3.js",
       "size": 261,
       "chunks": [
         0
@@ -121,8 +127,8 @@
       "emitted": true
     },
     {
-      "name": "static/js/1.18843d76e87436c1caeb.js",
-      "size": 8305,
+      "name": "static/js/1.app.259951b37a33bce20212.js",
+      "size": 10046,
       "chunks": [
         1
       ],
@@ -132,10 +138,21 @@
       "emitted": true
     },
     {
-      "name": "static/js/3.5cf5031bb672256215f6.js",
-      "size": 293466,
+      "name": "static/js/3.my-chunk-name.3b736008cc77b9c336be.js",
+      "size": 8736,
       "chunks": [
         3
+      ],
+      "chunkNames": [
+        "my-chunk-name"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/4.vendors.b8597a69d4590e0557f9.js",
+      "size": 293466,
+      "chunks": [
+        4
       ],
       "chunkNames": [
         "vendors"
@@ -143,24 +160,15 @@
       "emitted": true
     },
     {
-      "name": "static/js/3.5cf5031bb672256215f6.js.gz",
+      "name": "static/js/4.vendors.b8597a69d4590e0557f9.js.gz",
       "size": 81161,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
-      "name": "static/js/4.40c836ef7383ec793aea.js",
-      "size": 9746,
-      "chunks": [
-        4
-      ],
-      "chunkNames": [],
-      "emitted": true
-    },
-    {
-      "name": "static/js/manifest.7c0986c5bb5fa3e3c3fb.js",
-      "size": 11271,
+      "name": "static/js/manifest.bd5ded7bd82e6e37841b.js",
+      "size": 11321,
       "chunks": [
         2
       ],
@@ -170,8 +178,8 @@
       "emitted": true
     },
     {
-      "name": "static/js/manifest.7c0986c5bb5fa3e3c3fb.js.gz",
-      "size": 2903,
+      "name": "static/js/manifest.bd5ded7bd82e6e37841b.js.gz",
+      "size": 2925,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -183,16 +191,16 @@
       "chunks": [
         2,
         0,
-        3,
+        4,
         1
       ],
       "assets": [
-        "static/js/manifest.7c0986c5bb5fa3e3c3fb.js",
-        "static/css/0.4eacee128861e5befaca.css",
-        "static/js/0.9b0605199ee4b6a4f8b3.js",
-        "static/js/3.5cf5031bb672256215f6.js",
-        "static/css/1.4eacee128861e5befaca.css",
-        "static/js/1.18843d76e87436c1caeb.js"
+        "static/js/manifest.bd5ded7bd82e6e37841b.js",
+        "static/css/0.925b1d91117d2323f497.css",
+        "static/js/0.antd.9b0605199ee4b6a4f8b3.js",
+        "static/js/4.vendors.b8597a69d4590e0557f9.js",
+        "static/css/1.925b1d91117d2323f497.css",
+        "static/js/1.app.259951b37a33bce20212.js"
       ],
       "children": {},
       "childAssets": {}
@@ -203,16 +211,27 @@
       "chunks": [
         2,
         0,
-        3,
+        4,
         1
       ],
       "assets": [
-        "static/js/manifest.7c0986c5bb5fa3e3c3fb.js",
-        "static/css/0.4eacee128861e5befaca.css",
-        "static/js/0.9b0605199ee4b6a4f8b3.js",
-        "static/js/3.5cf5031bb672256215f6.js",
-        "static/css/1.4eacee128861e5befaca.css",
-        "static/js/1.18843d76e87436c1caeb.js"
+        "static/js/manifest.bd5ded7bd82e6e37841b.js",
+        "static/css/0.925b1d91117d2323f497.css",
+        "static/js/0.antd.9b0605199ee4b6a4f8b3.js",
+        "static/js/4.vendors.b8597a69d4590e0557f9.js",
+        "static/css/1.925b1d91117d2323f497.css",
+        "static/js/1.app.259951b37a33bce20212.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "my-chunk-name": {
+      "chunks": [
+        3
+      ],
+      "assets": [
+        "static/css/3.925b1d91117d2323f497.css",
+        "static/js/3.my-chunk-name.3b736008cc77b9c336be.js"
       ],
       "children": {},
       "childAssets": {}
@@ -230,18 +249,18 @@
         "antd"
       ],
       "files": [
-        "static/css/0.4eacee128861e5befaca.css",
-        "static/js/0.9b0605199ee4b6a4f8b3.js"
+        "static/css/0.925b1d91117d2323f497.css",
+        "static/js/0.antd.9b0605199ee4b6a4f8b3.js"
       ],
       "hash": "9b0605199ee4b6a4f8b3",
       "siblings": [
         1,
         2,
-        3
+        4
       ],
       "parents": [],
       "children": [
-        4
+        3
       ],
       "childrenByOrder": {},
       "modules": [
@@ -249,8 +268,8 @@
           "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-          "index": 18,
-          "index2": 17,
+          "index": 21,
+          "index2": 20,
           "size": 39,
           "cacheable": true,
           "built": true,
@@ -259,7 +278,7 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "issuerId": null,
           "issuerName": "./src/main.js",
           "issuerPath": [
@@ -268,24 +287,24 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             }
           ],
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           },
           "failed": false,
           "errors": 0,
@@ -297,9 +316,9 @@
           "reasons": [
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "element-ui/lib/theme-chalk/index.css",
               "loc": "5:0-46"
@@ -318,8 +337,8 @@
           "id": "?4cd9",
           "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css 0",
           "name": "css ./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-          "index": 19,
-          "index2": 16,
+          "index": 22,
+          "index2": 19,
           "size": 278122,
           "built": false,
           "optional": false,
@@ -336,17 +355,17 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
@@ -354,15 +373,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -402,23 +421,23 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 4702,
+      "size": 5610,
       "names": [
         "app"
       ],
       "files": [
-        "static/css/1.4eacee128861e5befaca.css",
-        "static/js/1.18843d76e87436c1caeb.js"
+        "static/css/1.925b1d91117d2323f497.css",
+        "static/js/1.app.259951b37a33bce20212.js"
       ],
-      "hash": "18843d76e87436c1caeb",
+      "hash": "259951b37a33bce20212",
       "siblings": [
         0,
         2,
-        3
+        4
       ],
       "parents": [],
       "children": [
-        4
+        3
       ],
       "childrenByOrder": {},
       "modules": [
@@ -427,7 +446,7 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "index": 0,
-          "index2": 19,
+          "index2": 22,
           "size": 28,
           "built": true,
           "optional": false,
@@ -440,8 +459,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           },
           "failed": false,
           "errors": 0,
@@ -468,8 +487,8 @@
           "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
           "identifier": "delegated 93 from dll-reference _dll__dllLibrary__pro",
           "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll__dllLibrary__pro",
-          "index": 8,
-          "index2": 6,
+          "index": 11,
+          "index2": 9,
           "size": 42,
           "built": true,
           "optional": false,
@@ -477,7 +496,7 @@
           "chunks": [
             1
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "issuerId": null,
           "issuerName": "./src/main.js",
           "issuerPath": [
@@ -486,24 +505,24 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             }
           ],
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           },
           "failed": false,
           "errors": 0,
@@ -512,18 +531,18 @@
           "reasons": [
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "element-ui",
               "loc": "3:0-35"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "element-ui",
               "loc": "7:8-17"
@@ -539,10 +558,10 @@
         },
         {
           "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 15,
-          "index2": 12,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "index": 18,
+          "index2": 15,
           "size": 39,
           "cacheable": true,
           "built": true,
@@ -551,7 +570,7 @@
           "chunks": [
             1
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerPath": [
@@ -560,42 +579,42 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             },
             {
               "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 230,
-                "building": 2
+                "factory": 103,
+                "building": 1
               }
             }
           ],
           "profile": {
-            "factory": 31,
-            "building": 4161
+            "factory": 4,
+            "building": 2670
           },
           "failed": false,
           "errors": 0,
@@ -604,38 +623,38 @@
           "reasons": [
             {
               "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "type": "harmony side effect evaluation",
-              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "1:0-520"
             },
             {
               "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "type": "harmony import specifier",
-              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "1:536-539"
             },
             {
               "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "type": "harmony side effect evaluation",
-              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "1:541-1058"
             },
             {
               "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "type": "harmony export imported specifier",
-              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "1:541-1058"
             }
           ],
@@ -654,8 +673,8 @@
           "id": "./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js",
           "identifier": "delegated 96 from dll-reference _dll__dllLibrary__pro",
           "name": "delegated ./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js from dll-reference _dll__dllLibrary__pro",
-          "index": 7,
-          "index2": 3,
+          "index": 10,
+          "index2": 6,
           "size": 42,
           "built": true,
           "optional": false,
@@ -672,17 +691,17 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
@@ -690,15 +709,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 19,
-            "building": 3378,
+            "factory": 2,
+            "building": 151,
             "dependencies": 0
           },
           "failed": false,
@@ -737,7 +756,7 @@
           "chunks": [
             1
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "issuerId": null,
           "issuerName": "./src/router/index.js",
           "issuerPath": [
@@ -746,34 +765,34 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 530,
-            "building": 957,
-            "dependencies": 27
+            "factory": 422,
+            "building": 589,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -782,30 +801,30 @@
           "reasons": [
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "vue-router",
               "loc": "2:0-35"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue-router",
-              "loc": "4:8-17"
+              "loc": "5:8-17"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue-router",
-              "loc": "6:19-28"
+              "loc": "7:19-28"
             }
           ],
           "usedExports": true,
@@ -820,10 +839,10 @@
         },
         {
           "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 14,
-          "index2": 13,
+          "index": 17,
+          "index2": 16,
           "size": 1058,
           "cacheable": true,
           "built": true,
@@ -832,7 +851,7 @@
           "chunks": [
             1
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "issuerId": null,
           "issuerName": "./src/App.vue",
           "issuerPath": [
@@ -841,33 +860,33 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 230,
-            "building": 2
+            "factory": 103,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -876,27 +895,27 @@
           "reasons": [
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "./App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "4:0-76"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "./App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "11:20-26"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "./App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "11:37-43"
@@ -911,15 +930,15 @@
             "ModuleConcatenation bailout: Module exports are unknown"
           ],
           "depth": 3,
-          "source": "import mod from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\""
+          "source": "import mod from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\""
         },
         {
           "id": "./src/main.js",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "name": "./src/main.js + 6 modules",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "name": "./src/main.js + 7 modules",
           "index": 1,
-          "index2": 18,
-          "size": 1994,
+          "index2": 21,
+          "size": 2590,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -960,10 +979,10 @@
           "modules": [
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "index": 1,
-              "index2": 18,
+              "index2": 21,
               "size": 348,
               "cacheable": true,
               "built": true,
@@ -979,14 +998,14 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 11
+                    "factory": 0,
+                    "building": 3
                   }
                 }
               ],
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               },
               "failed": false,
               "errors": 0,
@@ -1014,17 +1033,17 @@
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "index": 2,
-              "index2": 5,
-              "size": 188,
+              "index2": 8,
+              "size": 269,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "issuerId": null,
               "issuerName": "./src/main.js",
               "issuerPath": [
@@ -1033,24 +1052,24 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 11
+                    "factory": 0,
+                    "building": 3
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 43,
-                    "building": 33
+                    "factory": 30,
+                    "building": 536
                   }
                 }
               ],
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               },
               "failed": false,
               "errors": 0,
@@ -1059,7 +1078,7 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "module": "./src/main.js",
                   "moduleName": "./src/main.js",
                   "type": "harmony side effect evaluation",
@@ -1068,7 +1087,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "module": "./src/main.js",
                   "moduleName": "./src/main.js",
                   "type": "harmony import specifier",
@@ -1086,21 +1105,21 @@
                 "ModuleConcatenation bailout: Module is not in any chunk"
               ],
               "depth": 2,
-              "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [{ path: '/login', component: () => import('@page/login') }],\n});\n"
+              "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\nimport loadChildRoutes from '@page/load-child-routes.js'\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [\n    {\n      path: '/', \n      redirect: '/login'\n    },\n    ...loadChildRoutes\n  ],\n});\n"
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
-              "index": 9,
-              "index2": 15,
+              "index": 12,
+              "index2": 18,
               "size": 635,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "issuerId": null,
               "issuerName": "./src/main.js",
               "issuerPath": [
@@ -1109,24 +1128,24 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 11
+                    "factory": 0,
+                    "building": 3
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 43,
-                    "building": 33
+                    "factory": 30,
+                    "building": 536
                   }
                 }
               ],
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               },
               "failed": false,
               "errors": 0,
@@ -1135,7 +1154,7 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "module": "./src/main.js",
                   "moduleName": "./src/main.js",
                   "type": "harmony side effect evaluation",
@@ -1144,7 +1163,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "module": "./src/main.js",
                   "moduleName": "./src/main.js",
                   "type": "harmony import specifier",
@@ -1162,56 +1181,57 @@
                 "ModuleConcatenation bailout: Module is not in any chunk"
               ],
               "depth": 2,
-              "source": "import { render, staticRenderFns } from \"./App.vue?vue&type=template&id=5cc18124&\"\nimport script from \"./App.vue?vue&type=script&lang=js&\"\nexport * from \"./App.vue?vue&type=script&lang=js&\"\nimport style0 from \"./App.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
+              "source": "import { render, staticRenderFns } from \"./App.vue?vue&type=template&id=67cd2f4a&\"\nimport script from \"./App.vue?vue&type=script&lang=js&\"\nexport * from \"./App.vue?vue&type=script&lang=js&\"\nimport style0 from \"./App.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-              "name": "./src/App.vue?vue&type=template&id=5cc18124&",
-              "index": 10,
-              "index2": 8,
-              "size": 233,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "index": 5,
+              "index2": 4,
+              "size": 506,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "issuerId": null,
-              "issuerName": "./src/App.vue",
+              "issuerName": "./src/router/index.js",
               "issuerPath": [
                 {
                   "id": 0,
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 11
+                    "factory": 0,
+                    "building": 3
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 43,
-                    "building": 33
+                    "factory": 30,
+                    "building": 536
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
-                  "name": "./src/App.vue",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 270,
-                    "building": 6662,
-                    "dependencies": 145
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
                   }
                 }
               ],
               "profile": {
-                "factory": 230,
-                "building": 2
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
               },
               "failed": false,
               "errors": 0,
@@ -1220,29 +1240,114 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "module": "./src/router/index.js",
+                  "moduleName": "./src/router/index.js",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "@page/load-child-routes.js",
+                  "loc": "3:0-56"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "module": "./src/router/index.js",
+                  "moduleName": "./src/router/index.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "@page/load-child-routes.js",
+                  "loc": "13:7-22"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not in any chunk"
+              ],
+              "depth": 3,
+              "source": "let childRoutes = [];\nconst childRouter = require.context('./',true,/v-router\\.(js)$/);\n\nchildRouter.keys().forEach((item)=>{\n\tlet modules;\n\ttry{\n\t\tmodules = childRouter(item).default;\n\t}catch(err){\n\t\tthrow new Error(`${item}:${err}`);\n\t}\n\tif(typeof modules==\"undefined\"|| !Array.isArray(modules)){\n\t\tthrow new Error(`${item} : Not exporting modules by way of 'export default 'OR The exported module is not an array!`);\n\t}\n\tArray.prototype.push.call(childRoutes,...modules);\n})\n\nexport default childRoutes;"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+              "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
+              "index": 13,
+              "index2": 11,
+              "size": 233,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "issuerId": null,
+              "issuerName": "./src/App.vue",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./src/main.js",
+                  "profile": {
+                    "factory": 0,
+                    "building": 3
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "./src/main.js",
+                  "profile": {
+                    "factory": 30,
+                    "building": 536
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "name": "./src/App.vue",
+                  "profile": {
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 103,
+                "building": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "./App.vue?vue&type=template&id=5cc18124&",
+                  "userRequest": "./App.vue?vue&type=template&id=67cd2f4a&",
                   "loc": "1:0-82"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony import specifier",
-                  "userRequest": "./App.vue?vue&type=template&id=5cc18124&",
+                  "userRequest": "./App.vue?vue&type=template&id=67cd2f4a&",
                   "loc": "19:2-8"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony import specifier",
-                  "userRequest": "./App.vue?vue&type=template&id=5cc18124&",
+                  "userRequest": "./App.vue?vue&type=template&id=67cd2f4a&",
                   "loc": "20:2-17"
                 }
               ],
@@ -1258,21 +1363,21 @@
                 "ModuleConcatenation bailout: Module is not in any chunk"
               ],
               "depth": 3,
-              "source": "export * from \"-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=5cc18124&\""
+              "source": "export * from \"-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=67cd2f4a&\""
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "name": "./src/App.vue?vue&type=script&lang=js&",
-              "index": 12,
-              "index2": 10,
+              "index": 15,
+              "index2": 13,
               "size": 286,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "issuerId": null,
               "issuerName": "./src/App.vue",
               "issuerPath": [
@@ -1281,33 +1386,33 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 11
+                    "factory": 0,
+                    "building": 3
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 43,
-                    "building": 33
+                    "factory": 30,
+                    "building": 536
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 270,
-                    "building": 6662,
-                    "dependencies": 145
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
                   }
                 }
               ],
               "profile": {
-                "factory": 230,
-                "building": 2
+                "factory": 103,
+                "building": 1
               },
               "failed": false,
               "errors": 0,
@@ -1316,7 +1421,7 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony side effect evaluation",
@@ -1325,7 +1430,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony side effect evaluation",
@@ -1334,7 +1439,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony export imported specifier",
@@ -1343,7 +1448,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "module": "./src/App.vue",
                   "moduleName": "./src/App.vue",
                   "type": "harmony import specifier",
@@ -1365,61 +1470,61 @@
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-              "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=5cc18124&",
-              "index": 11,
-              "index2": 7,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+              "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=67cd2f4a&",
+              "index": 14,
+              "index2": 10,
               "size": 236,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
               "issuerId": null,
-              "issuerName": "./src/App.vue?vue&type=template&id=5cc18124&",
+              "issuerName": "./src/App.vue?vue&type=template&id=67cd2f4a&",
               "issuerPath": [
                 {
                   "id": 0,
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 11
+                    "factory": 0,
+                    "building": 3
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 43,
-                    "building": 33
+                    "factory": 30,
+                    "building": 536
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 270,
-                    "building": 6662,
-                    "dependencies": 145
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-                  "name": "./src/App.vue?vue&type=template&id=5cc18124&",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+                  "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
                   "profile": {
-                    "factory": 230,
-                    "building": 2
+                    "factory": 103,
+                    "building": 1
                   }
                 }
               ],
               "profile": {
-                "factory": 37,
-                "building": 44
+                "factory": 10,
+                "building": 22
               },
               "failed": false,
               "errors": 0,
@@ -1428,20 +1533,20 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-                  "module": "./src/App.vue?vue&type=template&id=5cc18124&",
-                  "moduleName": "./src/App.vue?vue&type=template&id=5cc18124&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+                  "module": "./src/App.vue?vue&type=template&id=67cd2f4a&",
+                  "moduleName": "./src/App.vue?vue&type=template&id=67cd2f4a&",
                   "type": "harmony side effect evaluation",
-                  "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=5cc18124&",
+                  "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=67cd2f4a&",
                   "loc": "1:0-233"
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-                  "module": "./src/App.vue?vue&type=template&id=5cc18124&",
-                  "moduleName": "./src/App.vue?vue&type=template&id=5cc18124&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+                  "module": "./src/App.vue?vue&type=template&id=67cd2f4a&",
+                  "moduleName": "./src/App.vue?vue&type=template&id=67cd2f4a&",
                   "type": "harmony export imported specifier",
-                  "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=5cc18124&",
+                  "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=67cd2f4a&",
                   "loc": "1:0-233"
                 }
               ],
@@ -1463,15 +1568,15 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&",
-              "index": 13,
-              "index2": 9,
-              "size": 38,
+              "index": 16,
+              "index2": 12,
+              "size": 47,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "issuerId": null,
               "issuerName": "./src/App.vue?vue&type=script&lang=js&",
               "issuerPath": [
@@ -1480,41 +1585,41 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 11
+                    "factory": 0,
+                    "building": 3
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 43,
-                    "building": 33
+                    "factory": 30,
+                    "building": 536
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 270,
-                    "building": 6662,
-                    "dependencies": 145
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
                   }
                 },
                 {
                   "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
                   "name": "./src/App.vue?vue&type=script&lang=js&",
                   "profile": {
-                    "factory": 230,
-                    "building": 2
+                    "factory": 103,
+                    "building": 1
                   }
                 }
               ],
               "profile": {
-                "factory": 2,
+                "factory": 1,
                 "building": 1
               },
               "failed": false,
@@ -1524,7 +1629,7 @@
               "reasons": [
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
                   "module": "./src/App.vue?vue&type=script&lang=js&",
                   "moduleName": "./src/App.vue?vue&type=script&lang=js&",
                   "type": "harmony side effect evaluation",
@@ -1533,7 +1638,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
                   "module": "./src/App.vue?vue&type=script&lang=js&",
                   "moduleName": "./src/App.vue?vue&type=script&lang=js&",
                   "type": "harmony import specifier",
@@ -1542,7 +1647,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
                   "module": "./src/App.vue?vue&type=script&lang=js&",
                   "moduleName": "./src/App.vue?vue&type=script&lang=js&",
                   "type": "harmony side effect evaluation",
@@ -1551,7 +1656,7 @@
                 },
                 {
                   "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
                   "module": "./src/App.vue?vue&type=script&lang=js&",
                   "moduleName": "./src/App.vue?vue&type=script&lang=js&",
                   "type": "harmony export imported specifier",
@@ -1569,17 +1674,196 @@
                 "ModuleConcatenation bailout: Module is not in any chunk"
               ],
               "depth": 4,
-              "source": "//\n//\n//\n//\n//\n//\n\nexport default {};\n"
+              "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n\nexport default {};\n"
             }
           ],
           "filteredModules": 0
         },
         {
-          "id": "?2fa0",
-          "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true& 0",
-          "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 16,
-          "index2": 11,
+          "id": "./src/page sync recursive v-router\\.(js)$",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+          "name": "./src/page sync v-router\\.(js)$",
+          "index": 6,
+          "index2": 3,
+          "size": 184,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+          "issuerId": null,
+          "issuerName": "./src/page/load-child-routes.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 9,
+            "building": 50
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "require.context",
+              "userRequest": "./",
+              "loc": "2:20-64"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4
+        },
+        {
+          "id": "./src/page/login/v-router.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "name": "./src/page/login/v-router.js",
+          "index": 7,
+          "index2": 2,
+          "size": 128,
+          "cacheable": true,
+          "built": true,
+          "optional": true,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+          "issuerId": "./src/page sync recursive v-router\\.(js)$",
+          "issuerName": "./src/page sync v-router\\.(js)$",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            }
+          ],
+          "profile": {
+            "factory": 6,
+            "building": 9
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/page sync recursive v-router\\.(js)$",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "module": "./src/page sync v-router\\.(js)$",
+              "moduleName": "./src/page sync v-router\\.(js)$",
+              "type": "context element",
+              "userRequest": "./login/v-router.js",
+              "loc": "./login/v-router.js"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page sync v-router\\.(js)$ (referenced with context element)",
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page sync v-router\\.(js)$ (referenced with context element)"
+          ],
+          "depth": 5,
+          "source": "export default [\n\t{\n\t\tpath:'/login',\n\t\tcomponent: ()=> import(/* webpackChunkName: \"my-chunk-name\" */\"@page/login/login\"),\n\t}\n]\n"
+        },
+        {
+          "id": "?c6a9",
+          "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true& 0",
+          "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "index": 19,
+          "index2": 14,
           "size": 1415,
           "built": false,
           "optional": false,
@@ -1587,59 +1871,59 @@
           "chunks": [
             1
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerPath": [
             {
               "id": 0,
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             },
             {
               "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 230,
-                "building": 2
+                "factory": 103,
+                "building": 1
               }
             },
             {
               "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 31,
-                "building": 4161
+                "factory": 4,
+                "building": 2670
               }
             }
           ],
           "profile": {
-            "factory": 1,
+            "factory": 0,
             "building": 0
           },
           "failed": false,
@@ -1649,9 +1933,9 @@
           "reasons": [
             {
               "moduleId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&"
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&"
             }
           ],
           "usedExports": true,
@@ -1684,17 +1968,17 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
@@ -1702,15 +1986,15 @@
               "identifier": "delegated 93 from dll-reference _dll__dllLibrary__pro",
               "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll__dllLibrary__pro",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 1,
-            "building": 0
+            "factory": 0,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -1773,17 +2057,17 @@
         "manifest"
       ],
       "files": [
-        "static/js/manifest.7c0986c5bb5fa3e3c3fb.js"
+        "static/js/manifest.bd5ded7bd82e6e37841b.js"
       ],
-      "hash": "f90849d10fdb1cee552b",
+      "hash": "c252422d7985397c3a84",
       "siblings": [
         0,
         1,
-        3
+        4
       ],
       "parents": [],
       "children": [
-        4
+        3
       ],
       "childrenByOrder": {},
       "modules": [],
@@ -1802,6 +2086,1164 @@
     {
       "id": 3,
       "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 6629,
+      "names": [
+        "my-chunk-name"
+      ],
+      "files": [
+        "static/css/3.925b1d91117d2323f497.css",
+        "static/js/3.my-chunk-name.3b736008cc77b9c336be.js"
+      ],
+      "hash": "3b736008cc77b9c336be",
+      "siblings": [],
+      "parents": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "index": 29,
+          "index2": 28,
+          "size": 481,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
+              }
+            },
+            {
+              "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "profile": {
+                "factory": 4,
+                "building": 1
+              }
+            }
+          ],
+          "profile": {
+            "factory": 9,
+            "building": 2484
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "type": "harmony side effect evaluation",
+              "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "loc": "1:0-558"
+            },
+            {
+              "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "type": "harmony import specifier",
+              "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "loc": "1:574-577"
+            },
+            {
+              "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "type": "harmony side effect evaluation",
+              "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "loc": "1:579-1134"
+            },
+            {
+              "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "type": "harmony export imported specifier",
+              "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "loc": "1:579-1134"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 8,
+          "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"allcover\":\"allcover_2CXcLIDQ\",\"ctt\":\"ctt_1uJTflDo\",\"tb\":\"tb_1TmZxQdM\",\"lr\":\"lr_2G8Alspf\",\"login_page\":\"login_page_2YyrmPHK\",\"manage_tip\":\"manage_tip_3R8LFh-i\",\"form_contianer\":\"form_contianer_1EiNhouK\",\"submit_btn\":\"submit_btn_2JrWEv38\",\"tip\":\"tip_lH6ArTyj\",\"form-fade-enter-active\":\"form-fade-enter-active_2jR5eUuK\",\"form-fade-leave-active\":\"form-fade-leave-active_v3MIBbfC\",\"form-fade-enter\":\"form-fade-enter_2YAU9pez\"};"
+        },
+        {
+          "id": "./src/page/login/login.vue",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+          "name": "./src/page/login/login.vue + 4 modules",
+          "index": 23,
+          "index2": 30,
+          "size": 4096,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/page/login/v-router.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "module": "./src/page/login/v-router.js",
+              "moduleName": "./src/page/login/v-router.js",
+              "type": "import()",
+              "userRequest": "@page/login/login",
+              "loc": "4:18-84"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true& (<- Module exports are unknown)",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page/login/v-router.js (referenced with import())"
+          ],
+          "depth": 6,
+          "modules": [
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "index": 23,
+              "index2": 30,
+              "size": 649,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "issuerId": "./src/page/login/v-router.js",
+              "issuerName": "./src/page/login/v-router.js",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./src/main.js",
+                  "profile": {
+                    "factory": 0,
+                    "building": 3
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "./src/main.js",
+                  "profile": {
+                    "factory": 30,
+                    "building": 536
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "name": "./src/router/index.js",
+                  "profile": {
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+                  "name": "./src/page/load-child-routes.js",
+                  "profile": {
+                    "factory": 422,
+                    "building": 589,
+                    "dependencies": 0
+                  }
+                },
+                {
+                  "id": "./src/page sync recursive v-router\\.(js)$",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+                  "name": "./src/page sync v-router\\.(js)$",
+                  "profile": {
+                    "factory": 9,
+                    "building": 50
+                  }
+                },
+                {
+                  "id": "./src/page/login/v-router.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+                  "name": "./src/page/login/v-router.js",
+                  "profile": {
+                    "factory": 6,
+                    "building": 9
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "./src/page/login/v-router.js",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+                  "module": "./src/page/login/v-router.js",
+                  "moduleName": "./src/page/login/v-router.js",
+                  "type": "import()",
+                  "userRequest": "@page/login/login",
+                  "loc": "4:18-84"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page/login/v-router.js (referenced with import())",
+                "ModuleConcatenation bailout: Module is not in any chunk"
+              ],
+              "depth": 6,
+              "source": "import { render, staticRenderFns } from \"./login.vue?vue&type=template&id=3e58573a&\"\nimport script from \"./login.vue?vue&type=script&lang=js&\"\nexport * from \"./login.vue?vue&type=script&lang=js&\"\nimport style0 from \"./login.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "name": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "index": 24,
+              "index2": 24,
+              "size": 247,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "issuerId": null,
+              "issuerName": "./src/page/login/login.vue",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./src/main.js",
+                  "profile": {
+                    "factory": 0,
+                    "building": 3
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "./src/main.js",
+                  "profile": {
+                    "factory": 30,
+                    "building": 536
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "name": "./src/router/index.js",
+                  "profile": {
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+                  "name": "./src/page/load-child-routes.js",
+                  "profile": {
+                    "factory": 422,
+                    "building": 589,
+                    "dependencies": 0
+                  }
+                },
+                {
+                  "id": "./src/page sync recursive v-router\\.(js)$",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+                  "name": "./src/page sync v-router\\.(js)$",
+                  "profile": {
+                    "factory": 9,
+                    "building": 50
+                  }
+                },
+                {
+                  "id": "./src/page/login/v-router.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+                  "name": "./src/page/login/v-router.js",
+                  "profile": {
+                    "factory": 6,
+                    "building": 9
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "name": "./src/page/login/login.vue",
+                  "profile": {
+                    "factory": 4,
+                    "building": 176,
+                    "dependencies": 1
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 4,
+                "building": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "module": "./src/page/login/login.vue",
+                  "moduleName": "./src/page/login/login.vue",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./login.vue?vue&type=template&id=3e58573a&",
+                  "loc": "1:0-84"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "module": "./src/page/login/login.vue",
+                  "moduleName": "./src/page/login/login.vue",
+                  "type": "harmony import specifier",
+                  "userRequest": "./login.vue?vue&type=template&id=3e58573a&",
+                  "loc": "19:2-8"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "module": "./src/page/login/login.vue",
+                  "moduleName": "./src/page/login/login.vue",
+                  "type": "harmony import specifier",
+                  "userRequest": "./login.vue?vue&type=template&id=3e58573a&",
+                  "loc": "20:2-17"
+                }
+              ],
+              "usedExports": [
+                "render",
+                "staticRenderFns"
+              ],
+              "providedExports": [
+                "render",
+                "staticRenderFns"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not in any chunk"
+              ],
+              "depth": 7,
+              "source": "export * from \"-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=3e58573a&\""
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "name": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "index": 26,
+              "index2": 26,
+              "size": 302,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "issuerId": null,
+              "issuerName": "./src/page/login/login.vue",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./src/main.js",
+                  "profile": {
+                    "factory": 0,
+                    "building": 3
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "./src/main.js",
+                  "profile": {
+                    "factory": 30,
+                    "building": 536
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "name": "./src/router/index.js",
+                  "profile": {
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+                  "name": "./src/page/load-child-routes.js",
+                  "profile": {
+                    "factory": 422,
+                    "building": 589,
+                    "dependencies": 0
+                  }
+                },
+                {
+                  "id": "./src/page sync recursive v-router\\.(js)$",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+                  "name": "./src/page sync v-router\\.(js)$",
+                  "profile": {
+                    "factory": 9,
+                    "building": 50
+                  }
+                },
+                {
+                  "id": "./src/page/login/v-router.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+                  "name": "./src/page/login/v-router.js",
+                  "profile": {
+                    "factory": 6,
+                    "building": 9
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "name": "./src/page/login/login.vue",
+                  "profile": {
+                    "factory": 4,
+                    "building": 176,
+                    "dependencies": 1
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 4,
+                "building": 1
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "module": "./src/page/login/login.vue",
+                  "moduleName": "./src/page/login/login.vue",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./login.vue?vue&type=script&lang=js&",
+                  "loc": "2:0-57"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "module": "./src/page/login/login.vue",
+                  "moduleName": "./src/page/login/login.vue",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "./login.vue?vue&type=script&lang=js&",
+                  "loc": "3:0-52"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "module": "./src/page/login/login.vue",
+                  "moduleName": "./src/page/login/login.vue",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "./login.vue?vue&type=script&lang=js&",
+                  "loc": "3:0-52"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "module": "./src/page/login/login.vue",
+                  "moduleName": "./src/page/login/login.vue",
+                  "type": "harmony import specifier",
+                  "userRequest": "./login.vue?vue&type=script&lang=js&",
+                  "loc": "18:2-8"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not in any chunk"
+              ],
+              "depth": 7,
+              "source": "import mod from \"-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\"; export default mod; export * from \"-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\""
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "index": 25,
+              "index2": 23,
+              "size": 1603,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "issuerId": null,
+              "issuerName": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./src/main.js",
+                  "profile": {
+                    "factory": 0,
+                    "building": 3
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "./src/main.js",
+                  "profile": {
+                    "factory": 30,
+                    "building": 536
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "name": "./src/router/index.js",
+                  "profile": {
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+                  "name": "./src/page/load-child-routes.js",
+                  "profile": {
+                    "factory": 422,
+                    "building": 589,
+                    "dependencies": 0
+                  }
+                },
+                {
+                  "id": "./src/page sync recursive v-router\\.(js)$",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+                  "name": "./src/page sync v-router\\.(js)$",
+                  "profile": {
+                    "factory": 9,
+                    "building": 50
+                  }
+                },
+                {
+                  "id": "./src/page/login/v-router.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+                  "name": "./src/page/login/v-router.js",
+                  "profile": {
+                    "factory": 6,
+                    "building": 9
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "name": "./src/page/login/login.vue",
+                  "profile": {
+                    "factory": 4,
+                    "building": 176,
+                    "dependencies": 1
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "name": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "profile": {
+                    "factory": 4,
+                    "building": 1
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 4,
+                "building": 33
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "module": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "moduleName": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=3e58573a&",
+                  "loc": "1:0-247"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "module": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "moduleName": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=3e58573a&",
+                  "loc": "1:0-247"
+                }
+              ],
+              "usedExports": [
+                "render",
+                "staticRenderFns"
+              ],
+              "providedExports": [
+                "render",
+                "staticRenderFns"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not in any chunk"
+              ],
+              "depth": 8,
+              "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:((_vm.$style['login_page']) + \" fillcontain\")},[_c('transition',{attrs:{\"name\":\"form-fade\",\"mode\":\"in-out\"}},[_c('section',{class:_vm.$style['form_contianer']},[_c('div',{class:_vm.$style['manage_tip']},[_c('p',[_vm._v(\"\\n          elm后台管理系统\\n        \")])]),_vm._v(\" \"),_c('el-form',{ref:\"loginForm\",attrs:{\"model\":_vm.loginForm,\"rules\":_vm.rules}},[_c('el-form-item',{attrs:{\"prop\":\"username\"}},[_c('el-input',{attrs:{\"placeholder\":\"用户名\"},model:{value:(_vm.loginForm.username),callback:function ($$v) {_vm.$set(_vm.loginForm, \"username\", $$v)},expression:\"loginForm.username\"}})],1),_vm._v(\" \"),_c('el-form-item',{attrs:{\"prop\":\"password\"}},[_c('el-input',{attrs:{\"type\":\"password\",\"placeholder\":\"密码\"},model:{value:(_vm.loginForm.password),callback:function ($$v) {_vm.$set(_vm.loginForm, \"password\", $$v)},expression:\"loginForm.password\"}})],1),_vm._v(\" \"),_c('el-form-item',[_c('el-button',{class:_vm.$style['submit_btn'],attrs:{\"type\":\"primary\"},on:{\"click\":function($event){return _vm.submitForm('loginForm')}}},[_vm._v(\"\\n            登陆\\n          \")])],1)],1),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"\\n        温馨提示：\\n      \")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"\\n        未登录过的新用户，自动注册\\n      \")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"\\n        注册过的用户可凭账号密码登录\\n      \")])],1)])],1)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=script&lang=js&",
+              "index": 27,
+              "index2": 25,
+              "size": 1285,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [],
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "issuerId": null,
+              "issuerName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./src/main.js",
+                  "profile": {
+                    "factory": 0,
+                    "building": 3
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "./src/main.js",
+                  "profile": {
+                    "factory": 30,
+                    "building": 536
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+                  "name": "./src/router/index.js",
+                  "profile": {
+                    "factory": 289,
+                    "building": 4172,
+                    "dependencies": 148
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+                  "name": "./src/page/load-child-routes.js",
+                  "profile": {
+                    "factory": 422,
+                    "building": 589,
+                    "dependencies": 0
+                  }
+                },
+                {
+                  "id": "./src/page sync recursive v-router\\.(js)$",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+                  "name": "./src/page sync v-router\\.(js)$",
+                  "profile": {
+                    "factory": 9,
+                    "building": 50
+                  }
+                },
+                {
+                  "id": "./src/page/login/v-router.js",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+                  "name": "./src/page/login/v-router.js",
+                  "profile": {
+                    "factory": 6,
+                    "building": 9
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+                  "name": "./src/page/login/login.vue",
+                  "profile": {
+                    "factory": 4,
+                    "building": 176,
+                    "dependencies": 1
+                  }
+                },
+                {
+                  "id": null,
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+                  "name": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "profile": {
+                    "factory": 4,
+                    "building": 1
+                  }
+                }
+              ],
+              "profile": {
+                "factory": 2,
+                "building": 8
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+                  "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+                  "loc": "1:0-142"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+                  "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "type": "harmony import specifier",
+                  "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+                  "loc": "1:158-161"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+                  "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "type": "harmony side effect evaluation",
+                  "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+                  "loc": "1:163-302"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+                  "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+                  "type": "harmony export imported specifier",
+                  "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+                  "loc": "1:163-302"
+                }
+              ],
+              "usedExports": [
+                "default"
+              ],
+              "providedExports": [
+                "default"
+              ],
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not in any chunk"
+              ],
+              "depth": 8,
+              "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n\n\texport default {\n\t    data(){\n\t\t\treturn {\n\t\t\t\tloginForm: {\n\t\t\t\t\tusername: '',\n\t\t\t\t\tpassword: '',\n\t\t\t\t},\n\t\t\t\trules: {\n\t\t\t\t\tusername: [\n\t\t\t      { required: true, message: '请输入用户名', trigger: 'blur' },\n\t\t\t    ],\n\t\t\t\t\tpassword: [\n\t\t\t\t\t\t{ required: true, message: '请输入密码', trigger: 'blur' }\n\t\t\t\t\t],\n\t\t\t\t},\n\t\t\t\tshowLogin: false,\n\t\t\t}\n\t\t},\n\t\tmounted(){\n\n\t\t},\n\t\tmethods: {\n\t\t\tsubmitForm(formName) {\n        console.log(formName)\n\t\t\t\tthis.$refs[formName].validate(async (valid) => {\n\t\t\t\t\tif (valid) {\n\t\t\t\t\t\t\tthis.$message({\n                  type: 'success',\n                  message: '登录成功'\n              });\n\t\t\t\t\t\t\tthis.$router.push('manage')\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.$notify.error({\n\t\t\t\t\t\t\ttitle: '错误',\n\t\t\t\t\t\t\tmessage: '请输入正确的用户名密码',\n\t\t\t\t\t\t\toffset: 100\n\t\t\t\t\t\t});\n\t\t\t\t\t\treturn false;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t},\n\t\t},\n\t\twatch: {\n\t\t\tadminInfo: function (newValue){\n\t\t\t\tif (newValue.id) {\n\t\t\t\t\tthis.$message({\n              type: 'success',\n              message: '检测到您之前登录过，将自动登录'\n          });\n\t\t\t\t\tthis.$router.push('manage')\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n"
+            }
+          ],
+          "filteredModules": 0
+        },
+        {
+          "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "index": 28,
+          "index2": 29,
+          "size": 1134,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+          "issuerId": null,
+          "issuerName": "./src/page/login/login.vue",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
+              }
+            }
+          ],
+          "profile": {
+            "factory": 4,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/page/login/login.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+              "module": "./src/page/login/login.vue + 4 modules",
+              "moduleName": "./src/page/login/login.vue + 4 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "loc": "4:0-78"
+            },
+            {
+              "moduleId": "./src/page/login/login.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+              "module": "./src/page/login/login.vue + 4 modules",
+              "moduleName": "./src/page/login/login.vue + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "loc": "11:20-26"
+            },
+            {
+              "moduleId": "./src/page/login/login.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+              "module": "./src/page/login/login.vue + 4 modules",
+              "moduleName": "./src/page/login/login.vue + 4 modules",
+              "type": "harmony import specifier",
+              "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "loc": "11:37-43"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module exports are unknown",
+            "ModuleConcatenation bailout: Module exports are unknown"
+          ],
+          "depth": 7,
+          "source": "import mod from \"-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\""
+        },
+        {
+          "id": "?d860",
+          "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true& 0",
+          "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "index": 30,
+          "index2": 27,
+          "size": 918,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            3
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
+              }
+            },
+            {
+              "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "profile": {
+                "factory": 4,
+                "building": 1
+              }
+            },
+            {
+              "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "profile": {
+                "factory": 9,
+                "building": 2484
+              }
+            }
+          ],
+          "profile": {
+            "factory": 0,
+            "building": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 9
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "./src/page/login/v-router.js",
+          "module": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "moduleName": "./src/page/login/v-router.js",
+          "loc": "4:18-84",
+          "request": "@page/login/login",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "rendered": true,
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: vendors) (name: vendors)",
@@ -1810,9 +3252,9 @@
         "vendors"
       ],
       "files": [
-        "static/js/3.5cf5031bb672256215f6.js"
+        "static/js/4.vendors.b8597a69d4590e0557f9.js"
       ],
-      "hash": "5cf5031bb672256215f6",
+      "hash": "b8597a69d4590e0557f9",
       "siblings": [
         0,
         1,
@@ -1820,7 +3262,7 @@
       ],
       "parents": [],
       "children": [
-        4
+        3
       ],
       "childrenByOrder": {},
       "modules": [
@@ -1828,17 +3270,17 @@
           "id": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
           "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-          "index": 17,
-          "index2": 14,
+          "index": 20,
+          "index2": 17,
           "size": 2689,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            3
+            4
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "issuerId": null,
           "issuerName": "./src/App.vue",
           "issuerPath": [
@@ -1847,33 +3289,33 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 230,
-            "building": 2
+            "factory": 103,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -1882,38 +3324,38 @@
           "reasons": [
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
               "loc": "16:0-106"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
               "loc": "17:16-26"
             },
             {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
+              "moduleId": "./src/page/login/login.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+              "module": "./src/page/login/login.vue + 4 modules",
+              "moduleName": "./src/page/login/login.vue + 4 modules",
               "type": "harmony side effect evaluation",
-              "userRequest": "!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-              "loc": "16:0-109"
+              "userRequest": "!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+              "loc": "16:0-112"
             },
             {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
+              "moduleId": "./src/page/login/login.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+              "module": "./src/page/login/login.vue + 4 modules",
+              "moduleName": "./src/page/login/login.vue + 4 modules",
               "type": "harmony import specifier",
-              "userRequest": "!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+              "userRequest": "!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
               "loc": "17:16-26"
             }
           ],
@@ -1931,17 +3373,17 @@
           "id": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-          "index": 5,
-          "index2": 4,
+          "index": 8,
+          "index2": 7,
           "size": 325727,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            3
+            4
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "issuerId": null,
           "issuerName": "./src/main.js",
           "issuerPath": [
@@ -1950,24 +3392,24 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             }
           ],
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           },
           "failed": false,
           "errors": 0,
@@ -1976,45 +3418,45 @@
           "reasons": [
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "vue",
               "loc": "1:0-22"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "vue",
               "loc": "1:0-22"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "4:0-3"
+              "loc": "5:0-3"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
               "loc": "7:0-3"
             },
             {
               "moduleId": "./src/main.js",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-              "module": "./src/main.js + 6 modules",
-              "moduleName": "./src/main.js + 6 modules",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
               "loc": "11:8-11"
@@ -2037,15 +3479,15 @@
           "id": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_webpack@4.27.1@webpack/buildin/global.js",
           "name": "(webpack)/buildin/global.js",
-          "index": 6,
-          "index2": 2,
+          "index": 9,
+          "index2": 5,
           "size": 472,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [
-            3
+            4
           ],
           "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "issuerId": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
@@ -2056,17 +3498,17 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
@@ -2074,15 +3516,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 19,
-            "building": 3378,
+            "factory": 2,
+            "building": 151,
             "dependencies": 0
           },
           "failed": false,
@@ -2121,954 +3563,6 @@
           "reasons": []
         }
       ]
-    },
-    {
-      "id": 4,
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "size": 4900,
-      "names": [],
-      "files": [
-        "static/css/4.4eacee128861e5befaca.css",
-        "static/js/4.40c836ef7383ec793aea.js"
-      ],
-      "hash": "40c836ef7383ec793aea",
-      "siblings": [],
-      "parents": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "children": [],
-      "childrenByOrder": {},
-      "modules": [
-        {
-          "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 26,
-          "index2": 25,
-          "size": 481,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            4
-          ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerPath": [
-            {
-              "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
-              "profile": {
-                "factory": 1,
-                "building": 11
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
-              "profile": {
-                "factory": 43,
-                "building": 33
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-              "name": "./src/router/index.js",
-              "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
-              }
-            },
-            {
-              "id": "./src/page/login.vue",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "name": "./src/page/login.vue",
-              "profile": {
-                "factory": 530,
-                "building": 957,
-                "dependencies": 27
-              }
-            },
-            {
-              "id": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "profile": {
-                "factory": 207,
-                "building": 2
-              }
-            }
-          ],
-          "profile": {
-            "factory": 32,
-            "building": 4164
-          },
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "type": "harmony side effect evaluation",
-              "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "loc": "1:0-540"
-            },
-            {
-              "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "type": "harmony import specifier",
-              "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "loc": "1:556-559"
-            },
-            {
-              "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "type": "harmony side effect evaluation",
-              "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "loc": "1:561-1098"
-            },
-            {
-              "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "type": "harmony export imported specifier",
-              "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "loc": "1:561-1098"
-            }
-          ],
-          "usedExports": [
-            "default"
-          ],
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 5,
-          "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"allcover\":\"allcover_2FNyxnkr\",\"ctt\":\"ctt_3qKmXJya\",\"tb\":\"tb_2tS2wUDD\",\"lr\":\"lr_1Tyoe3tl\",\"login_page\":\"login_page_2mX7p4Oj\",\"manage_tip\":\"manage_tip_MRZNLCKq\",\"form_contianer\":\"form_contianer_3GgtVuWt\",\"submit_btn\":\"submit_btn_3xQkV1Iy\",\"tip\":\"tip_3KurRMe6\",\"form-fade-enter-active\":\"form-fade-enter-active_xBzK8847\",\"form-fade-leave-active\":\"form-fade-leave-active_EWj-D-Te\",\"form-fade-enter\":\"form-fade-enter_KOUSgxds\"};"
-        },
-        {
-          "id": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=script&lang=js&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=script&lang=js&",
-          "index": 24,
-          "index2": 22,
-          "size": 78,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            4
-          ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "issuerId": "./src/page/login.vue?vue&type=script&lang=js&",
-          "issuerName": "./src/page/login.vue?vue&type=script&lang=js&",
-          "issuerPath": [
-            {
-              "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
-              "profile": {
-                "factory": 1,
-                "building": 11
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
-              "profile": {
-                "factory": 43,
-                "building": 33
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-              "name": "./src/router/index.js",
-              "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
-              }
-            },
-            {
-              "id": "./src/page/login.vue",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "name": "./src/page/login.vue",
-              "profile": {
-                "factory": 530,
-                "building": 957,
-                "dependencies": 27
-              }
-            },
-            {
-              "id": "./src/page/login.vue?vue&type=script&lang=js&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-              "name": "./src/page/login.vue?vue&type=script&lang=js&",
-              "profile": {
-                "factory": 207,
-                "building": 2
-              }
-            }
-          ],
-          "profile": {
-            "factory": 2,
-            "building": 1
-          },
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-              "module": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-              "type": "harmony side effect evaluation",
-              "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-              "loc": "1:0-139"
-            },
-            {
-              "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-              "module": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-              "type": "harmony import specifier",
-              "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-              "loc": "1:155-158"
-            },
-            {
-              "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-              "module": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-              "type": "harmony side effect evaluation",
-              "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-              "loc": "1:160-296"
-            },
-            {
-              "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-              "module": "./src/page/login.vue?vue&type=script&lang=js&",
-              "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-              "type": "harmony export imported specifier",
-              "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-              "loc": "1:160-296"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 5,
-          "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n"
-        },
-        {
-          "id": "./src/page/login.vue",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "name": "./src/page/login.vue",
-          "index": 20,
-          "index2": 27,
-          "size": 646,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            4
-          ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "issuerId": null,
-          "issuerName": "./src/router/index.js",
-          "issuerPath": [
-            {
-              "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
-              "profile": {
-                "factory": 1,
-                "building": 11
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
-              "profile": {
-                "factory": 43,
-                "building": 33
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-              "name": "./src/router/index.js",
-              "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
-              }
-            }
-          ],
-          "profile": {
-            "factory": 530,
-            "building": 957,
-            "dependencies": 27
-          },
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-              "module": "./src/router/index.js",
-              "moduleName": "./src/router/index.js",
-              "type": "import()",
-              "userRequest": "@page/login",
-              "loc": "7:46-67"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module exports are unknown",
-            "ModuleConcatenation bailout: Module exports are unknown"
-          ],
-          "depth": 3,
-          "source": "import { render, staticRenderFns } from \"./login.vue?vue&type=template&id=0cca1591&\"\nimport script from \"./login.vue?vue&type=script&lang=js&\"\nexport * from \"./login.vue?vue&type=script&lang=js&\"\nimport style0 from \"./login.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
-        },
-        {
-          "id": "./src/page/login.vue?vue&type=script&lang=js&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "name": "./src/page/login.vue?vue&type=script&lang=js&",
-          "index": 23,
-          "index2": 23,
-          "size": 296,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            4
-          ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "issuerId": "./src/page/login.vue",
-          "issuerName": "./src/page/login.vue",
-          "issuerPath": [
-            {
-              "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
-              "profile": {
-                "factory": 1,
-                "building": 11
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
-              "profile": {
-                "factory": 43,
-                "building": 33
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-              "name": "./src/router/index.js",
-              "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
-              }
-            },
-            {
-              "id": "./src/page/login.vue",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "name": "./src/page/login.vue",
-              "profile": {
-                "factory": 530,
-                "building": 957,
-                "dependencies": 27
-              }
-            }
-          ],
-          "profile": {
-            "factory": 207,
-            "building": 2
-          },
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony side effect evaluation",
-              "userRequest": "./login.vue?vue&type=script&lang=js&",
-              "loc": "2:0-57"
-            },
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony side effect evaluation",
-              "userRequest": "./login.vue?vue&type=script&lang=js&",
-              "loc": "3:0-52"
-            },
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony export imported specifier",
-              "userRequest": "./login.vue?vue&type=script&lang=js&",
-              "loc": "3:0-52"
-            },
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony import specifier",
-              "userRequest": "./login.vue?vue&type=script&lang=js&",
-              "loc": "18:2-8"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module exports are unknown",
-            "ModuleConcatenation bailout: Module exports are unknown"
-          ],
-          "depth": 4,
-          "source": "import mod from \"-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\"; export default mod; export * from \"-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\""
-        },
-        {
-          "id": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 25,
-          "index2": 26,
-          "size": 1098,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            4
-          ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "issuerId": "./src/page/login.vue",
-          "issuerName": "./src/page/login.vue",
-          "issuerPath": [
-            {
-              "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
-              "profile": {
-                "factory": 1,
-                "building": 11
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
-              "profile": {
-                "factory": 43,
-                "building": 33
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-              "name": "./src/router/index.js",
-              "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
-              }
-            },
-            {
-              "id": "./src/page/login.vue",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "name": "./src/page/login.vue",
-              "profile": {
-                "factory": 530,
-                "building": 957,
-                "dependencies": 27
-              }
-            }
-          ],
-          "profile": {
-            "factory": 207,
-            "building": 2
-          },
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony side effect evaluation",
-              "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "loc": "4:0-78"
-            },
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony import specifier",
-              "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "loc": "11:20-26"
-            },
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony import specifier",
-              "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "loc": "11:37-43"
-            }
-          ],
-          "usedExports": [
-            "default"
-          ],
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module exports are unknown",
-            "ModuleConcatenation bailout: Module exports are unknown"
-          ],
-          "depth": 4,
-          "source": "import mod from \"-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\""
-        },
-        {
-          "id": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591& 237497edd5d474287790925325e68516",
-          "name": "./src/page/login.vue?vue&type=template&id=0cca1591& + 1 modules",
-          "index": 21,
-          "index2": 21,
-          "size": 1383,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            4
-          ],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "issuerPath": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony side effect evaluation",
-              "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-              "loc": "1:0-84"
-            },
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony import specifier",
-              "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-              "loc": "19:2-8"
-            },
-            {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
-              "type": "harmony import specifier",
-              "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-              "loc": "20:2-17"
-            }
-          ],
-          "usedExports": [
-            "render",
-            "staticRenderFns"
-          ],
-          "providedExports": [
-            "render",
-            "staticRenderFns"
-          ],
-          "optimizationBailout": [],
-          "depth": 4,
-          "modules": [
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-              "name": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-              "index": 21,
-              "index2": 21,
-              "size": 241,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "issuerId": "./src/page/login.vue",
-              "issuerName": "./src/page/login.vue",
-              "issuerPath": [
-                {
-                  "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
-                  "profile": {
-                    "factory": 1,
-                    "building": 11
-                  }
-                },
-                {
-                  "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "./src/main.js",
-                  "profile": {
-                    "factory": 43,
-                    "building": 33
-                  }
-                },
-                {
-                  "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-                  "name": "./src/router/index.js",
-                  "profile": {
-                    "factory": 270,
-                    "building": 6662,
-                    "dependencies": 145
-                  }
-                },
-                {
-                  "id": "./src/page/login.vue",
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-                  "name": "./src/page/login.vue",
-                  "profile": {
-                    "factory": 530,
-                    "building": 957,
-                    "dependencies": 27
-                  }
-                }
-              ],
-              "profile": {
-                "factory": 207,
-                "building": 2
-              },
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleId": "./src/page/login.vue",
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-                  "module": "./src/page/login.vue",
-                  "moduleName": "./src/page/login.vue",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-                  "loc": "1:0-84"
-                },
-                {
-                  "moduleId": "./src/page/login.vue",
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-                  "module": "./src/page/login.vue",
-                  "moduleName": "./src/page/login.vue",
-                  "type": "harmony import specifier",
-                  "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-                  "loc": "19:2-8"
-                },
-                {
-                  "moduleId": "./src/page/login.vue",
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-                  "module": "./src/page/login.vue",
-                  "moduleName": "./src/page/login.vue",
-                  "type": "harmony import specifier",
-                  "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-                  "loc": "20:2-17"
-                }
-              ],
-              "usedExports": [
-                "render",
-                "staticRenderFns"
-              ],
-              "providedExports": [
-                "render",
-                "staticRenderFns"
-              ],
-              "optimizationBailout": [
-                "ModuleConcatenation bailout: Module is not in any chunk"
-              ],
-              "depth": 4,
-              "source": "export * from \"-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=0cca1591&\""
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-              "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=template&id=0cca1591&",
-              "index": 22,
-              "index2": 20,
-              "size": 1142,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-              "issuerId": null,
-              "issuerName": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-              "issuerPath": [
-                {
-                  "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
-                  "profile": {
-                    "factory": 1,
-                    "building": 11
-                  }
-                },
-                {
-                  "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "./src/main.js",
-                  "profile": {
-                    "factory": 43,
-                    "building": 33
-                  }
-                },
-                {
-                  "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-                  "name": "./src/router/index.js",
-                  "profile": {
-                    "factory": 270,
-                    "building": 6662,
-                    "dependencies": 145
-                  }
-                },
-                {
-                  "id": "./src/page/login.vue",
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-                  "name": "./src/page/login.vue",
-                  "profile": {
-                    "factory": 530,
-                    "building": 957,
-                    "dependencies": 27
-                  }
-                },
-                {
-                  "id": null,
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "name": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "profile": {
-                    "factory": 207,
-                    "building": 2
-                  }
-                }
-              ],
-              "profile": {
-                "factory": 29,
-                "building": 78
-              },
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "assets": [],
-              "reasons": [
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "module": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "moduleName": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "type": "harmony side effect evaluation",
-                  "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=0cca1591&",
-                  "loc": "1:0-241"
-                },
-                {
-                  "moduleId": null,
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "module": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "moduleName": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-                  "type": "harmony export imported specifier",
-                  "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=0cca1591&",
-                  "loc": "1:0-241"
-                }
-              ],
-              "usedExports": [
-                "render",
-                "staticRenderFns"
-              ],
-              "providedExports": [
-                "render",
-                "staticRenderFns"
-              ],
-              "optimizationBailout": [
-                "ModuleConcatenation bailout: Module is not in any chunk"
-              ],
-              "depth": 5,
-              "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:((_vm.$style['login_page']) + \" fillcontain\")},[_c('transition',{attrs:{\"name\":\"form-fade\",\"mode\":\"in-out\"}},[_c('section',{class:_vm.$style['form_contianer']},[_c('div',{class:_vm.$style['manage_tip']},[_c('p',[_vm._v(\"elm后台管理系统\")])]),_vm._v(\" \"),_c('el-form',{ref:\"loginForm\"},[_c('el-form-item',{attrs:{\"prop\":\"username\"}},[_c('el-input',{attrs:{\"placeholder\":\"用户名\"}},[_c('span',[_vm._v(\"dsfsf\")])])],1),_vm._v(\" \"),_c('el-form-item',{attrs:{\"prop\":\"password\"}},[_c('el-input',{attrs:{\"type\":\"password\",\"placeholder\":\"密码\"}})],1),_vm._v(\" \"),_c('el-form-item',[_c('el-button',{class:_vm.$style['submit_btn'],attrs:{\"type\":\"primary\"}},[_vm._v(\"登陆\")])],1)],1),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"温馨提示：\")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"未登录过的新用户，自动注册\")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"注册过的用户可凭账号密码登录\")])],1)])],1)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
-            }
-          ],
-          "filteredModules": 0
-        },
-        {
-          "id": "?7aa3",
-          "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true& 0",
-          "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 27,
-          "index2": 24,
-          "size": 918,
-          "built": false,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            4
-          ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerPath": [
-            {
-              "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
-              "profile": {
-                "factory": 1,
-                "building": 11
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
-              "profile": {
-                "factory": 43,
-                "building": 33
-              }
-            },
-            {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-              "name": "./src/router/index.js",
-              "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
-              }
-            },
-            {
-              "id": "./src/page/login.vue",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "name": "./src/page/login.vue",
-              "profile": {
-                "factory": 530,
-                "building": 957,
-                "dependencies": 27
-              }
-            },
-            {
-              "id": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "profile": {
-                "factory": 207,
-                "building": 2
-              }
-            },
-            {
-              "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "profile": {
-                "factory": 32,
-                "building": 4164
-              }
-            }
-          ],
-          "profile": {
-            "factory": 0,
-            "building": 0
-          },
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "assets": [],
-          "reasons": [
-            {
-              "moduleId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is not an ECMAScript module",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 6
-        }
-      ],
-      "filteredModules": 0,
-      "origins": [
-        {
-          "moduleId": null,
-          "module": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "moduleName": "./src/router/index.js",
-          "loc": "7:46-67",
-          "request": "@page/login",
-          "reasons": []
-        }
-      ]
     }
   ],
   "modules": [
@@ -3077,7 +3571,7 @@
       "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
       "name": "multi ./src/main.js",
       "index": 0,
-      "index2": 19,
+      "index2": 22,
       "size": 28,
       "built": true,
       "optional": false,
@@ -3090,8 +3584,8 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 1,
-        "building": 11
+        "factory": 0,
+        "building": 3
       },
       "failed": false,
       "errors": 0,
@@ -3118,8 +3612,8 @@
       "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
       "identifier": "delegated 93 from dll-reference _dll__dllLibrary__pro",
       "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll__dllLibrary__pro",
-      "index": 8,
-      "index2": 6,
+      "index": 11,
+      "index2": 9,
       "size": 42,
       "built": true,
       "optional": false,
@@ -3127,7 +3621,7 @@
       "chunks": [
         1
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
       "issuerId": null,
       "issuerName": "./src/main.js",
       "issuerPath": [
@@ -3136,24 +3630,24 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         }
       ],
       "profile": {
-        "factory": 270,
-        "building": 6662,
-        "dependencies": 145
+        "factory": 289,
+        "building": 4172,
+        "dependencies": 148
       },
       "failed": false,
       "errors": 0,
@@ -3162,18 +3656,18 @@
       "reasons": [
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "element-ui",
           "loc": "3:0-35"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "element-ui",
           "loc": "7:8-17"
@@ -3191,8 +3685,8 @@
       "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
       "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-      "index": 18,
-      "index2": 17,
+      "index": 21,
+      "index2": 20,
       "size": 39,
       "cacheable": true,
       "built": true,
@@ -3201,7 +3695,7 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
       "issuerId": null,
       "issuerName": "./src/main.js",
       "issuerPath": [
@@ -3210,24 +3704,24 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         }
       ],
       "profile": {
-        "factory": 270,
-        "building": 6662,
-        "dependencies": 145
+        "factory": 289,
+        "building": 4172,
+        "dependencies": 148
       },
       "failed": false,
       "errors": 0,
@@ -3239,9 +3733,9 @@
       "reasons": [
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "element-ui/lib/theme-chalk/index.css",
           "loc": "5:0-46"
@@ -3258,10 +3752,10 @@
     },
     {
       "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 15,
-      "index2": 12,
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "index": 18,
+      "index2": 15,
       "size": 39,
       "cacheable": true,
       "built": true,
@@ -3270,7 +3764,7 @@
       "chunks": [
         1
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "issuerId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "issuerName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "issuerPath": [
@@ -3279,42 +3773,42 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         },
         {
           "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 230,
-            "building": 2
+            "factory": 103,
+            "building": 1
           }
         }
       ],
       "profile": {
-        "factory": 31,
-        "building": 4161
+        "factory": 4,
+        "building": 2670
       },
       "failed": false,
       "errors": 0,
@@ -3323,38 +3817,38 @@
       "reasons": [
         {
           "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony side effect evaluation",
-          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
           "loc": "1:0-520"
         },
         {
           "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony import specifier",
-          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
           "loc": "1:536-539"
         },
         {
           "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony side effect evaluation",
-          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
           "loc": "1:541-1058"
         },
         {
           "moduleId": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "module": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "moduleName": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony export imported specifier",
-          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "userRequest": "-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&",
           "loc": "1:541-1058"
         }
       ],
@@ -3370,74 +3864,102 @@
       "source": "// extracted by mini-css-extract-plugin"
     },
     {
-      "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 26,
-      "index2": 25,
+      "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "index": 29,
+      "index2": 28,
       "size": 481,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        4
+        3
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "issuerId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "issuerName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuerId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuerName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
       "issuerPath": [
         {
           "id": 0,
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         },
         {
-          "id": "./src/page/login.vue",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "name": "./src/page/login.vue",
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+          "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 530,
-            "building": 957,
-            "dependencies": 27
+            "factory": 422,
+            "building": 589,
+            "dependencies": 0
           }
         },
         {
-          "id": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "id": "./src/page sync recursive v-router\\.(js)$",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+          "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 207,
-            "building": 2
+            "factory": 9,
+            "building": 50
+          }
+        },
+        {
+          "id": "./src/page/login/v-router.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "name": "./src/page/login/v-router.js",
+          "profile": {
+            "factory": 6,
+            "building": 9
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+          "name": "./src/page/login/login.vue",
+          "profile": {
+            "factory": 4,
+            "building": 176,
+            "dependencies": 1
+          }
+        },
+        {
+          "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "profile": {
+            "factory": 4,
+            "building": 1
           }
         }
       ],
       "profile": {
-        "factory": 32,
-        "building": 4164
+        "factory": 9,
+        "building": 2484
       },
       "failed": false,
       "errors": 0,
@@ -3445,40 +3967,40 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony side effect evaluation",
-          "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "loc": "1:0-540"
+          "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "loc": "1:0-558"
         },
         {
-          "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony import specifier",
-          "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "loc": "1:556-559"
+          "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "loc": "1:574-577"
         },
         {
-          "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony side effect evaluation",
-          "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "loc": "1:561-1098"
+          "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "loc": "1:579-1134"
         },
         {
-          "moduleId": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "module": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleName": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleId": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "module": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleName": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "type": "harmony export imported specifier",
-          "userRequest": "-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "loc": "1:561-1098"
+          "userRequest": "-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "loc": "1:579-1134"
         }
       ],
       "usedExports": [
@@ -3489,15 +4011,15 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 5,
-      "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"allcover\":\"allcover_2FNyxnkr\",\"ctt\":\"ctt_3qKmXJya\",\"tb\":\"tb_2tS2wUDD\",\"lr\":\"lr_1Tyoe3tl\",\"login_page\":\"login_page_2mX7p4Oj\",\"manage_tip\":\"manage_tip_MRZNLCKq\",\"form_contianer\":\"form_contianer_3GgtVuWt\",\"submit_btn\":\"submit_btn_3xQkV1Iy\",\"tip\":\"tip_3KurRMe6\",\"form-fade-enter-active\":\"form-fade-enter-active_xBzK8847\",\"form-fade-leave-active\":\"form-fade-leave-active_EWj-D-Te\",\"form-fade-enter\":\"form-fade-enter_KOUSgxds\"};"
+      "depth": 8,
+      "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"allcover\":\"allcover_2CXcLIDQ\",\"ctt\":\"ctt_1uJTflDo\",\"tb\":\"tb_1TmZxQdM\",\"lr\":\"lr_2G8Alspf\",\"login_page\":\"login_page_2YyrmPHK\",\"manage_tip\":\"manage_tip_3R8LFh-i\",\"form_contianer\":\"form_contianer_1EiNhouK\",\"submit_btn\":\"submit_btn_2JrWEv38\",\"tip\":\"tip_lH6ArTyj\",\"form-fade-enter-active\":\"form-fade-enter-active_2jR5eUuK\",\"form-fade-leave-active\":\"form-fade-leave-active_v3MIBbfC\",\"form-fade-enter\":\"form-fade-enter_2YAU9pez\"};"
     },
     {
       "id": "./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js",
       "identifier": "delegated 96 from dll-reference _dll__dllLibrary__pro",
       "name": "delegated ./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js from dll-reference _dll__dllLibrary__pro",
-      "index": 7,
-      "index2": 3,
+      "index": 10,
+      "index2": 6,
       "size": 42,
       "built": true,
       "optional": false,
@@ -3514,17 +4036,17 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
@@ -3532,15 +4054,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         }
       ],
       "profile": {
-        "factory": 19,
-        "building": 3378,
+        "factory": 2,
+        "building": 151,
         "dependencies": 0
       },
       "failed": false,
@@ -3567,12 +4089,12 @@
       "depth": 3
     },
     {
-      "id": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=script&lang=js&",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-      "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=script&lang=js&",
-      "index": 24,
-      "index2": 22,
-      "size": 78,
+      "id": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+      "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+      "index": 20,
+      "index2": 17,
+      "size": 2689,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -3580,128 +4102,7 @@
       "chunks": [
         4
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-      "issuerId": "./src/page/login.vue?vue&type=script&lang=js&",
-      "issuerName": "./src/page/login.vue?vue&type=script&lang=js&",
-      "issuerPath": [
-        {
-          "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
-          "profile": {
-            "factory": 1,
-            "building": 11
-          }
-        },
-        {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "./src/main.js",
-          "profile": {
-            "factory": 43,
-            "building": 33
-          }
-        },
-        {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "name": "./src/router/index.js",
-          "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
-          }
-        },
-        {
-          "id": "./src/page/login.vue",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "name": "./src/page/login.vue",
-          "profile": {
-            "factory": 530,
-            "building": 957,
-            "dependencies": 27
-          }
-        },
-        {
-          "id": "./src/page/login.vue?vue&type=script&lang=js&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "name": "./src/page/login.vue?vue&type=script&lang=js&",
-          "profile": {
-            "factory": 207,
-            "building": 2
-          }
-        }
-      ],
-      "profile": {
-        "factory": 2,
-        "building": 1
-      },
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [],
-      "reasons": [
-        {
-          "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "module": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-          "type": "harmony side effect evaluation",
-          "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-          "loc": "1:0-139"
-        },
-        {
-          "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "module": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-          "type": "harmony import specifier",
-          "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-          "loc": "1:155-158"
-        },
-        {
-          "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "module": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-          "type": "harmony side effect evaluation",
-          "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-          "loc": "1:160-296"
-        },
-        {
-          "moduleId": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-          "module": "./src/page/login.vue?vue&type=script&lang=js&",
-          "moduleName": "./src/page/login.vue?vue&type=script&lang=js&",
-          "type": "harmony export imported specifier",
-          "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
-          "loc": "1:160-296"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 5,
-      "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n"
-    },
-    {
-      "id": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-      "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-      "index": 17,
-      "index2": 14,
-      "size": 2689,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        3
-      ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
       "issuerId": null,
       "issuerName": "./src/App.vue",
       "issuerPath": [
@@ -3710,33 +4111,33 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         }
       ],
       "profile": {
-        "factory": 230,
-        "building": 2
+        "factory": 103,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -3745,38 +4146,38 @@
       "reasons": [
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
           "loc": "16:0-106"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
           "loc": "17:16-26"
         },
         {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
+          "moduleId": "./src/page/login/login.vue",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+          "module": "./src/page/login/login.vue + 4 modules",
+          "moduleName": "./src/page/login/login.vue + 4 modules",
           "type": "harmony side effect evaluation",
-          "userRequest": "!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-          "loc": "16:0-109"
+          "userRequest": "!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+          "loc": "16:0-112"
         },
         {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
+          "moduleId": "./src/page/login/login.vue",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+          "module": "./src/page/login/login.vue + 4 modules",
+          "moduleName": "./src/page/login/login.vue + 4 modules",
           "type": "harmony import specifier",
-          "userRequest": "!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+          "userRequest": "!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
           "loc": "17:16-26"
         }
       ],
@@ -3803,7 +4204,7 @@
       "chunks": [
         1
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
       "issuerId": null,
       "issuerName": "./src/router/index.js",
       "issuerPath": [
@@ -3812,34 +4213,34 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         }
       ],
       "profile": {
-        "factory": 530,
-        "building": 957,
-        "dependencies": 27
+        "factory": 422,
+        "building": 589,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -3848,30 +4249,30 @@
       "reasons": [
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "vue-router",
           "loc": "2:0-35"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue-router",
-          "loc": "4:8-17"
+          "loc": "5:8-17"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue-router",
-          "loc": "6:19-28"
+          "loc": "7:19-28"
         }
       ],
       "usedExports": true,
@@ -3888,17 +4289,17 @@
       "id": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
       "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-      "index": 5,
-      "index2": 4,
+      "index": 8,
+      "index2": 7,
       "size": 325727,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        3
+        4
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
       "issuerId": null,
       "issuerName": "./src/main.js",
       "issuerPath": [
@@ -3907,24 +4308,24 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         }
       ],
       "profile": {
-        "factory": 270,
-        "building": 6662,
-        "dependencies": 145
+        "factory": 289,
+        "building": 4172,
+        "dependencies": 148
       },
       "failed": false,
       "errors": 0,
@@ -3933,45 +4334,45 @@
       "reasons": [
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "vue",
           "loc": "1:0-22"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "vue",
           "loc": "1:0-22"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "4:0-3"
+          "loc": "5:0-3"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
           "loc": "7:0-3"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
           "loc": "11:8-11"
@@ -3994,15 +4395,15 @@
       "id": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_webpack@4.27.1@webpack/buildin/global.js",
       "name": "(webpack)/buildin/global.js",
-      "index": 6,
-      "index2": 2,
+      "index": 9,
+      "index2": 5,
       "size": 472,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        3
+        4
       ],
       "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
       "issuerId": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
@@ -4013,17 +4414,17 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
@@ -4031,15 +4432,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         }
       ],
       "profile": {
-        "factory": 19,
-        "building": 3378,
+        "factory": 2,
+        "building": 151,
         "dependencies": 0
       },
       "failed": false,
@@ -4068,10 +4469,10 @@
     },
     {
       "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 14,
-      "index2": 13,
+      "index": 17,
+      "index2": 16,
       "size": 1058,
       "cacheable": true,
       "built": true,
@@ -4080,7 +4481,7 @@
       "chunks": [
         1
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
       "issuerId": null,
       "issuerName": "./src/App.vue",
       "issuerPath": [
@@ -4089,33 +4490,33 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         }
       ],
       "profile": {
-        "factory": 230,
-        "building": 2
+        "factory": 103,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -4124,27 +4525,27 @@
       "reasons": [
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "./App.vue?vue&type=style&index=0&lang=less&module=true&",
           "loc": "4:0-76"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "./App.vue?vue&type=style&index=0&lang=less&module=true&",
           "loc": "11:20-26"
         },
         {
           "moduleId": "./src/main.js",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-          "module": "./src/main.js + 6 modules",
-          "moduleName": "./src/main.js + 6 modules",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "./App.vue?vue&type=style&index=0&lang=less&module=true&",
           "loc": "11:37-43"
@@ -4159,15 +4560,15 @@
         "ModuleConcatenation bailout: Module exports are unknown"
       ],
       "depth": 3,
-      "source": "import mod from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\""
+      "source": "import mod from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=style&index=0&lang=less&module=true&\""
     },
     {
       "id": "./src/main.js",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js 3195ec75bb266e8827895711668dbed8",
-      "name": "./src/main.js + 6 modules",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+      "name": "./src/main.js + 7 modules",
       "index": 1,
-      "index2": 18,
-      "size": 1994,
+      "index2": 21,
+      "size": 2590,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -4208,10 +4609,10 @@
       "modules": [
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "index": 1,
-          "index2": 18,
+          "index2": 21,
           "size": 348,
           "cacheable": true,
           "built": true,
@@ -4227,14 +4628,14 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             }
           ],
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           },
           "failed": false,
           "errors": 0,
@@ -4262,17 +4663,17 @@
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "index": 2,
-          "index2": 5,
-          "size": 188,
+          "index2": 8,
+          "size": 269,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "issuerId": null,
           "issuerName": "./src/main.js",
           "issuerPath": [
@@ -4281,24 +4682,24 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             }
           ],
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           },
           "failed": false,
           "errors": 0,
@@ -4307,7 +4708,7 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "module": "./src/main.js",
               "moduleName": "./src/main.js",
               "type": "harmony side effect evaluation",
@@ -4316,7 +4717,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "module": "./src/main.js",
               "moduleName": "./src/main.js",
               "type": "harmony import specifier",
@@ -4334,21 +4735,21 @@
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
           "depth": 2,
-          "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [{ path: '/login', component: () => import('@page/login') }],\n});\n"
+          "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\nimport loadChildRoutes from '@page/load-child-routes.js'\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [\n    {\n      path: '/', \n      redirect: '/login'\n    },\n    ...loadChildRoutes\n  ],\n});\n"
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
-          "index": 9,
-          "index2": 15,
+          "index": 12,
+          "index2": 18,
           "size": 635,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "issuerId": null,
           "issuerName": "./src/main.js",
           "issuerPath": [
@@ -4357,24 +4758,24 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             }
           ],
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           },
           "failed": false,
           "errors": 0,
@@ -4383,7 +4784,7 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "module": "./src/main.js",
               "moduleName": "./src/main.js",
               "type": "harmony side effect evaluation",
@@ -4392,7 +4793,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "module": "./src/main.js",
               "moduleName": "./src/main.js",
               "type": "harmony import specifier",
@@ -4410,56 +4811,57 @@
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
           "depth": 2,
-          "source": "import { render, staticRenderFns } from \"./App.vue?vue&type=template&id=5cc18124&\"\nimport script from \"./App.vue?vue&type=script&lang=js&\"\nexport * from \"./App.vue?vue&type=script&lang=js&\"\nimport style0 from \"./App.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
+          "source": "import { render, staticRenderFns } from \"./App.vue?vue&type=template&id=67cd2f4a&\"\nimport script from \"./App.vue?vue&type=script&lang=js&\"\nexport * from \"./App.vue?vue&type=script&lang=js&\"\nimport style0 from \"./App.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-          "name": "./src/App.vue?vue&type=template&id=5cc18124&",
-          "index": 10,
-          "index2": 8,
-          "size": 233,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+          "name": "./src/page/load-child-routes.js",
+          "index": 5,
+          "index2": 4,
+          "size": 506,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "issuerId": null,
-          "issuerName": "./src/App.vue",
+          "issuerName": "./src/router/index.js",
           "issuerPath": [
             {
               "id": 0,
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
-              "name": "./src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 230,
-            "building": 2
+            "factory": 422,
+            "building": 589,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -4468,29 +4870,114 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "module": "./src/router/index.js",
+              "moduleName": "./src/router/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "@page/load-child-routes.js",
+              "loc": "3:0-56"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "module": "./src/router/index.js",
+              "moduleName": "./src/router/index.js",
+              "type": "harmony import specifier",
+              "userRequest": "@page/load-child-routes.js",
+              "loc": "13:7-22"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not in any chunk"
+          ],
+          "depth": 3,
+          "source": "let childRoutes = [];\nconst childRouter = require.context('./',true,/v-router\\.(js)$/);\n\nchildRouter.keys().forEach((item)=>{\n\tlet modules;\n\ttry{\n\t\tmodules = childRouter(item).default;\n\t}catch(err){\n\t\tthrow new Error(`${item}:${err}`);\n\t}\n\tif(typeof modules==\"undefined\"|| !Array.isArray(modules)){\n\t\tthrow new Error(`${item} : Not exporting modules by way of 'export default 'OR The exported module is not an array!`);\n\t}\n\tArray.prototype.push.call(childRoutes,...modules);\n})\n\nexport default childRoutes;"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+          "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
+          "index": 13,
+          "index2": 11,
+          "size": 233,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "issuerId": null,
+          "issuerName": "./src/App.vue",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "name": "./src/App.vue",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            }
+          ],
+          "profile": {
+            "factory": 103,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony side effect evaluation",
-              "userRequest": "./App.vue?vue&type=template&id=5cc18124&",
+              "userRequest": "./App.vue?vue&type=template&id=67cd2f4a&",
               "loc": "1:0-82"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony import specifier",
-              "userRequest": "./App.vue?vue&type=template&id=5cc18124&",
+              "userRequest": "./App.vue?vue&type=template&id=67cd2f4a&",
               "loc": "19:2-8"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony import specifier",
-              "userRequest": "./App.vue?vue&type=template&id=5cc18124&",
+              "userRequest": "./App.vue?vue&type=template&id=67cd2f4a&",
               "loc": "20:2-17"
             }
           ],
@@ -4506,21 +4993,21 @@
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
           "depth": 3,
-          "source": "export * from \"-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=5cc18124&\""
+          "source": "export * from \"-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=67cd2f4a&\""
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
           "name": "./src/App.vue?vue&type=script&lang=js&",
-          "index": 12,
-          "index2": 10,
+          "index": 15,
+          "index2": 13,
           "size": 286,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "issuerId": null,
           "issuerName": "./src/App.vue",
           "issuerPath": [
@@ -4529,33 +5016,33 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             }
           ],
           "profile": {
-            "factory": 230,
-            "building": 2
+            "factory": 103,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -4564,7 +5051,7 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony side effect evaluation",
@@ -4573,7 +5060,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony side effect evaluation",
@@ -4582,7 +5069,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony export imported specifier",
@@ -4591,7 +5078,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "module": "./src/App.vue",
               "moduleName": "./src/App.vue",
               "type": "harmony import specifier",
@@ -4613,61 +5100,61 @@
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-          "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=5cc18124&",
-          "index": 11,
-          "index2": 7,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+          "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=67cd2f4a&",
+          "index": 14,
+          "index2": 10,
           "size": 236,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
           "issuerId": null,
-          "issuerName": "./src/App.vue?vue&type=template&id=5cc18124&",
+          "issuerName": "./src/App.vue?vue&type=template&id=67cd2f4a&",
           "issuerPath": [
             {
               "id": 0,
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-              "name": "./src/App.vue?vue&type=template&id=5cc18124&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+              "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
               "profile": {
-                "factory": 230,
-                "building": 2
+                "factory": 103,
+                "building": 1
               }
             }
           ],
           "profile": {
-            "factory": 37,
-            "building": 44
+            "factory": 10,
+            "building": 22
           },
           "failed": false,
           "errors": 0,
@@ -4676,20 +5163,20 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-              "module": "./src/App.vue?vue&type=template&id=5cc18124&",
-              "moduleName": "./src/App.vue?vue&type=template&id=5cc18124&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+              "module": "./src/App.vue?vue&type=template&id=67cd2f4a&",
+              "moduleName": "./src/App.vue?vue&type=template&id=67cd2f4a&",
               "type": "harmony side effect evaluation",
-              "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=5cc18124&",
+              "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=67cd2f4a&",
               "loc": "1:0-233"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=5cc18124&",
-              "module": "./src/App.vue?vue&type=template&id=5cc18124&",
-              "moduleName": "./src/App.vue?vue&type=template&id=5cc18124&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
+              "module": "./src/App.vue?vue&type=template&id=67cd2f4a&",
+              "moduleName": "./src/App.vue?vue&type=template&id=67cd2f4a&",
               "type": "harmony export imported specifier",
-              "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=5cc18124&",
+              "userRequest": "-!../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./App.vue?vue&type=template&id=67cd2f4a&",
               "loc": "1:0-233"
             }
           ],
@@ -4711,15 +5198,15 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
           "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&",
-          "index": 13,
-          "index2": 9,
-          "size": 38,
+          "index": 16,
+          "index2": 12,
+          "size": 47,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
           "issuerId": null,
           "issuerName": "./src/App.vue?vue&type=script&lang=js&",
           "issuerPath": [
@@ -4728,41 +5215,41 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "name": "./src/App.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 230,
-                "building": 2
+                "factory": 103,
+                "building": 1
               }
             }
           ],
           "profile": {
-            "factory": 2,
+            "factory": 1,
             "building": 1
           },
           "failed": false,
@@ -4772,7 +5259,7 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "module": "./src/App.vue?vue&type=script&lang=js&",
               "moduleName": "./src/App.vue?vue&type=script&lang=js&",
               "type": "harmony side effect evaluation",
@@ -4781,7 +5268,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "module": "./src/App.vue?vue&type=script&lang=js&",
               "moduleName": "./src/App.vue?vue&type=script&lang=js&",
               "type": "harmony import specifier",
@@ -4790,7 +5277,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "module": "./src/App.vue?vue&type=script&lang=js&",
               "moduleName": "./src/App.vue?vue&type=script&lang=js&",
               "type": "harmony side effect evaluation",
@@ -4799,7 +5286,7 @@
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "module": "./src/App.vue?vue&type=script&lang=js&",
               "moduleName": "./src/App.vue?vue&type=script&lang=js&",
               "type": "harmony export imported specifier",
@@ -4817,62 +5304,70 @@
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
           "depth": 4,
-          "source": "//\n//\n//\n//\n//\n//\n\nexport default {};\n"
+          "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n\nexport default {};\n"
         }
       ],
       "filteredModules": 0
     },
     {
-      "id": "./src/page/login.vue",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-      "name": "./src/page/login.vue",
-      "index": 20,
-      "index2": 27,
-      "size": 646,
-      "cacheable": true,
+      "id": "./src/page sync recursive v-router\\.(js)$",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+      "name": "./src/page sync v-router\\.(js)$",
+      "index": 6,
+      "index2": 3,
+      "size": 184,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        4
+        1
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
       "issuerId": null,
-      "issuerName": "./src/router/index.js",
+      "issuerName": "./src/page/load-child-routes.js",
       "issuerPath": [
         {
           "id": 0,
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+          "name": "./src/page/load-child-routes.js",
+          "profile": {
+            "factory": 422,
+            "building": 589,
+            "dependencies": 0
           }
         }
       ],
       "profile": {
-        "factory": 530,
-        "building": 957,
-        "dependencies": 27
+        "factory": 9,
+        "building": 50
       },
       "failed": false,
       "errors": 0,
@@ -4880,254 +5375,36 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": null,
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "module": "./src/router/index.js",
-          "moduleName": "./src/router/index.js",
-          "type": "import()",
-          "userRequest": "@page/login",
-          "loc": "7:46-67"
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "require.context",
+          "userRequest": "./",
+          "loc": "2:20-64"
         }
       ],
       "usedExports": true,
       "providedExports": null,
       "optimizationBailout": [
-        "ModuleConcatenation bailout: Module exports are unknown",
-        "ModuleConcatenation bailout: Module exports are unknown"
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 3,
-      "source": "import { render, staticRenderFns } from \"./login.vue?vue&type=template&id=0cca1591&\"\nimport script from \"./login.vue?vue&type=script&lang=js&\"\nexport * from \"./login.vue?vue&type=script&lang=js&\"\nimport style0 from \"./login.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
+      "depth": 4
     },
     {
-      "id": "./src/page/login.vue?vue&type=script&lang=js&",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=script&lang=js&",
-      "name": "./src/page/login.vue?vue&type=script&lang=js&",
+      "id": "./src/page/login/login.vue",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+      "name": "./src/page/login/login.vue + 4 modules",
       "index": 23,
-      "index2": 23,
-      "size": 296,
+      "index2": 30,
+      "size": 4096,
       "cacheable": true,
       "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        4
-      ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-      "issuerId": "./src/page/login.vue",
-      "issuerName": "./src/page/login.vue",
-      "issuerPath": [
-        {
-          "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
-          "profile": {
-            "factory": 1,
-            "building": 11
-          }
-        },
-        {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "./src/main.js",
-          "profile": {
-            "factory": 43,
-            "building": 33
-          }
-        },
-        {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "name": "./src/router/index.js",
-          "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
-          }
-        },
-        {
-          "id": "./src/page/login.vue",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "name": "./src/page/login.vue",
-          "profile": {
-            "factory": 530,
-            "building": 957,
-            "dependencies": 27
-          }
-        }
-      ],
-      "profile": {
-        "factory": 207,
-        "building": 2
-      },
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [],
-      "reasons": [
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony side effect evaluation",
-          "userRequest": "./login.vue?vue&type=script&lang=js&",
-          "loc": "2:0-57"
-        },
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony side effect evaluation",
-          "userRequest": "./login.vue?vue&type=script&lang=js&",
-          "loc": "3:0-52"
-        },
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony export imported specifier",
-          "userRequest": "./login.vue?vue&type=script&lang=js&",
-          "loc": "3:0-52"
-        },
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony import specifier",
-          "userRequest": "./login.vue?vue&type=script&lang=js&",
-          "loc": "18:2-8"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module exports are unknown",
-        "ModuleConcatenation bailout: Module exports are unknown"
-      ],
-      "depth": 4,
-      "source": "import mod from \"-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\"; export default mod; export * from \"-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\""
-    },
-    {
-      "id": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "name": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 25,
-      "index2": 26,
-      "size": 1098,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        4
-      ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-      "issuerId": "./src/page/login.vue",
-      "issuerName": "./src/page/login.vue",
-      "issuerPath": [
-        {
-          "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
-          "profile": {
-            "factory": 1,
-            "building": 11
-          }
-        },
-        {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "./src/main.js",
-          "profile": {
-            "factory": 43,
-            "building": 33
-          }
-        },
-        {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "name": "./src/router/index.js",
-          "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
-          }
-        },
-        {
-          "id": "./src/page/login.vue",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "name": "./src/page/login.vue",
-          "profile": {
-            "factory": 530,
-            "building": 957,
-            "dependencies": 27
-          }
-        }
-      ],
-      "profile": {
-        "factory": 207,
-        "building": 2
-      },
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "assets": [],
-      "reasons": [
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony side effect evaluation",
-          "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "loc": "4:0-78"
-        },
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony import specifier",
-          "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "loc": "11:20-26"
-        },
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony import specifier",
-          "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "loc": "11:37-43"
-        }
-      ],
-      "usedExports": [
-        "default"
-      ],
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module exports are unknown",
-        "ModuleConcatenation bailout: Module exports are unknown"
-      ],
-      "depth": 4,
-      "source": "import mod from \"-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\""
-    },
-    {
-      "id": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591& 237497edd5d474287790925325e68516",
-      "name": "./src/page/login.vue?vue&type=template&id=0cca1591& + 1 modules",
-      "index": 21,
-      "index2": 21,
-      "size": 1383,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        4
+        3
       ],
       "issuer": null,
       "issuerId": null,
@@ -5139,102 +5416,103 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony side effect evaluation",
-          "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-          "loc": "1:0-84"
-        },
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony import specifier",
-          "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-          "loc": "19:2-8"
-        },
-        {
-          "moduleId": "./src/page/login.vue",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "module": "./src/page/login.vue",
-          "moduleName": "./src/page/login.vue",
-          "type": "harmony import specifier",
-          "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
-          "loc": "20:2-17"
+          "moduleId": "./src/page/login/v-router.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "module": "./src/page/login/v-router.js",
+          "moduleName": "./src/page/login/v-router.js",
+          "type": "import()",
+          "userRequest": "@page/login/login",
+          "loc": "4:18-84"
         }
       ],
-      "usedExports": [
-        "render",
-        "staticRenderFns"
-      ],
+      "usedExports": true,
       "providedExports": [
-        "render",
-        "staticRenderFns"
+        "default"
       ],
-      "optimizationBailout": [],
-      "depth": 4,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true& (<- Module exports are unknown)",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page/login/v-router.js (referenced with import())"
+      ],
+      "depth": 6,
       "modules": [
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-          "name": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-          "index": 21,
-          "index2": 21,
-          "size": 241,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+          "name": "./src/page/login/login.vue",
+          "index": 23,
+          "index2": 30,
+          "size": 649,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "issuerId": "./src/page/login.vue",
-          "issuerName": "./src/page/login.vue",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "issuerId": "./src/page/login/v-router.js",
+          "issuerName": "./src/page/login/v-router.js",
           "issuerPath": [
             {
               "id": 0,
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             },
             {
-              "id": "./src/page/login.vue",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "name": "./src/page/login.vue",
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 530,
-                "building": 957,
-                "dependencies": 27
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
               }
             }
           ],
           "profile": {
-            "factory": 207,
-            "building": 2
+            "factory": 4,
+            "building": 176,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5242,30 +5520,143 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
+              "moduleId": "./src/page/login/v-router.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "module": "./src/page/login/v-router.js",
+              "moduleName": "./src/page/login/v-router.js",
+              "type": "import()",
+              "userRequest": "@page/login/login",
+              "loc": "4:18-84"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page/login/v-router.js (referenced with import())",
+            "ModuleConcatenation bailout: Module is not in any chunk"
+          ],
+          "depth": 6,
+          "source": "import { render, staticRenderFns } from \"./login.vue?vue&type=template&id=3e58573a&\"\nimport script from \"./login.vue?vue&type=script&lang=js&\"\nexport * from \"./login.vue?vue&type=script&lang=js&\"\nimport style0 from \"./login.vue?vue&type=style&index=0&lang=less&module=true&\"\n\n\n\n\nfunction injectStyles (context) {\n  \n  this[\"$style\"] = (style0.locals || style0)\n\n}\n\n/* normalize component */\nimport normalizer from \"!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js\"\nvar component = normalizer(\n  script,\n  render,\n  staticRenderFns,\n  false,\n  injectStyles,\n  null,\n  null\n  \n)\n\nexport default component.exports"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+          "name": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+          "index": 24,
+          "index2": 24,
+          "size": 247,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+          "issuerId": null,
+          "issuerName": "./src/page/login/login.vue",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
+              }
+            }
+          ],
+          "profile": {
+            "factory": 4,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "module": "./src/page/login/login.vue",
+              "moduleName": "./src/page/login/login.vue",
               "type": "harmony side effect evaluation",
-              "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
+              "userRequest": "./login.vue?vue&type=template&id=3e58573a&",
               "loc": "1:0-84"
             },
             {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "module": "./src/page/login/login.vue",
+              "moduleName": "./src/page/login/login.vue",
               "type": "harmony import specifier",
-              "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
+              "userRequest": "./login.vue?vue&type=template&id=3e58573a&",
               "loc": "19:2-8"
             },
             {
-              "moduleId": "./src/page/login.vue",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "module": "./src/page/login.vue",
-              "moduleName": "./src/page/login.vue",
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "module": "./src/page/login/login.vue",
+              "moduleName": "./src/page/login/login.vue",
               "type": "harmony import specifier",
-              "userRequest": "./login.vue?vue&type=template&id=0cca1591&",
+              "userRequest": "./login.vue?vue&type=template&id=3e58573a&",
               "loc": "20:2-17"
             }
           ],
@@ -5280,76 +5671,95 @@
           "optimizationBailout": [
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
-          "depth": 4,
-          "source": "export * from \"-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=0cca1591&\""
+          "depth": 7,
+          "source": "export * from \"-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=3e58573a&\""
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-          "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=template&id=0cca1591&",
-          "index": 22,
-          "index2": 20,
-          "size": 1142,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+          "name": "./src/page/login/login.vue?vue&type=script&lang=js&",
+          "index": 26,
+          "index2": 26,
+          "size": 302,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "issuerId": null,
-          "issuerName": "./src/page/login.vue?vue&type=template&id=0cca1591&",
+          "issuerName": "./src/page/login/login.vue",
           "issuerPath": [
             {
               "id": 0,
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 11
+                "factory": 0,
+                "building": 3
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 43,
-                "building": 33
+                "factory": 30,
+                "building": 536
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 270,
-                "building": 6662,
-                "dependencies": 145
-              }
-            },
-            {
-              "id": "./src/page/login.vue",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-              "name": "./src/page/login.vue",
-              "profile": {
-                "factory": 530,
-                "building": 957,
-                "dependencies": 27
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
               }
             },
             {
               "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-              "name": "./src/page/login.vue?vue&type=template&id=0cca1591&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 207,
-                "building": 2
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
               }
             }
           ],
           "profile": {
-            "factory": 29,
-            "building": 78
+            "factory": 4,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -5358,21 +5768,171 @@
           "reasons": [
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-              "module": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-              "moduleName": "./src/page/login.vue?vue&type=template&id=0cca1591&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "module": "./src/page/login/login.vue",
+              "moduleName": "./src/page/login/login.vue",
               "type": "harmony side effect evaluation",
-              "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=0cca1591&",
-              "loc": "1:0-241"
+              "userRequest": "./login.vue?vue&type=script&lang=js&",
+              "loc": "2:0-57"
             },
             {
               "moduleId": null,
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=template&id=0cca1591&",
-              "module": "./src/page/login.vue?vue&type=template&id=0cca1591&",
-              "moduleName": "./src/page/login.vue?vue&type=template&id=0cca1591&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "module": "./src/page/login/login.vue",
+              "moduleName": "./src/page/login/login.vue",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./login.vue?vue&type=script&lang=js&",
+              "loc": "3:0-52"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "module": "./src/page/login/login.vue",
+              "moduleName": "./src/page/login/login.vue",
               "type": "harmony export imported specifier",
-              "userRequest": "-!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=0cca1591&",
-              "loc": "1:0-241"
+              "userRequest": "./login.vue?vue&type=script&lang=js&",
+              "loc": "3:0-52"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "module": "./src/page/login/login.vue",
+              "moduleName": "./src/page/login/login.vue",
+              "type": "harmony import specifier",
+              "userRequest": "./login.vue?vue&type=script&lang=js&",
+              "loc": "18:2-8"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not in any chunk"
+          ],
+          "depth": 7,
+          "source": "import mod from \"-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\"; export default mod; export * from \"-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&\""
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+          "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+          "index": 25,
+          "index2": 23,
+          "size": 1603,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+          "issuerId": null,
+          "issuerName": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "name": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "profile": {
+                "factory": 4,
+                "building": 1
+              }
+            }
+          ],
+          "profile": {
+            "factory": 4,
+            "building": 33
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "module": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "moduleName": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "type": "harmony side effect evaluation",
+              "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=3e58573a&",
+              "loc": "1:0-247"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "module": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "moduleName": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
+              "type": "harmony export imported specifier",
+              "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=template&id=3e58573a&",
+              "loc": "1:0-247"
             }
           ],
           "usedExports": [
@@ -5386,79 +5946,250 @@
           "optimizationBailout": [
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
-          "depth": 5,
-          "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:((_vm.$style['login_page']) + \" fillcontain\")},[_c('transition',{attrs:{\"name\":\"form-fade\",\"mode\":\"in-out\"}},[_c('section',{class:_vm.$style['form_contianer']},[_c('div',{class:_vm.$style['manage_tip']},[_c('p',[_vm._v(\"elm后台管理系统\")])]),_vm._v(\" \"),_c('el-form',{ref:\"loginForm\"},[_c('el-form-item',{attrs:{\"prop\":\"username\"}},[_c('el-input',{attrs:{\"placeholder\":\"用户名\"}},[_c('span',[_vm._v(\"dsfsf\")])])],1),_vm._v(\" \"),_c('el-form-item',{attrs:{\"prop\":\"password\"}},[_c('el-input',{attrs:{\"type\":\"password\",\"placeholder\":\"密码\"}})],1),_vm._v(\" \"),_c('el-form-item',[_c('el-button',{class:_vm.$style['submit_btn'],attrs:{\"type\":\"primary\"}},[_vm._v(\"登陆\")])],1)],1),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"温馨提示：\")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"未登录过的新用户，自动注册\")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"注册过的用户可凭账号密码登录\")])],1)])],1)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
+          "depth": 8,
+          "source": "var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:((_vm.$style['login_page']) + \" fillcontain\")},[_c('transition',{attrs:{\"name\":\"form-fade\",\"mode\":\"in-out\"}},[_c('section',{class:_vm.$style['form_contianer']},[_c('div',{class:_vm.$style['manage_tip']},[_c('p',[_vm._v(\"\\n          elm后台管理系统\\n        \")])]),_vm._v(\" \"),_c('el-form',{ref:\"loginForm\",attrs:{\"model\":_vm.loginForm,\"rules\":_vm.rules}},[_c('el-form-item',{attrs:{\"prop\":\"username\"}},[_c('el-input',{attrs:{\"placeholder\":\"用户名\"},model:{value:(_vm.loginForm.username),callback:function ($$v) {_vm.$set(_vm.loginForm, \"username\", $$v)},expression:\"loginForm.username\"}})],1),_vm._v(\" \"),_c('el-form-item',{attrs:{\"prop\":\"password\"}},[_c('el-input',{attrs:{\"type\":\"password\",\"placeholder\":\"密码\"},model:{value:(_vm.loginForm.password),callback:function ($$v) {_vm.$set(_vm.loginForm, \"password\", $$v)},expression:\"loginForm.password\"}})],1),_vm._v(\" \"),_c('el-form-item',[_c('el-button',{class:_vm.$style['submit_btn'],attrs:{\"type\":\"primary\"},on:{\"click\":function($event){return _vm.submitForm('loginForm')}}},[_vm._v(\"\\n            登陆\\n          \")])],1)],1),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"\\n        温馨提示：\\n      \")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"\\n        未登录过的新用户，自动注册\\n      \")]),_vm._v(\" \"),_c('p',{class:_vm.$style['tip']},[_vm._v(\"\\n        注册过的用户可凭账号密码登录\\n      \")])],1)])],1)}\nvar staticRenderFns = []\n\nexport { render, staticRenderFns }"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+          "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=script&lang=js&",
+          "index": 27,
+          "index2": 25,
+          "size": 1285,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+          "issuerId": null,
+          "issuerName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 3
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 30,
+                "building": 536
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+              "name": "./src/router/index.js",
+              "profile": {
+                "factory": 289,
+                "building": 4172,
+                "dependencies": 148
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+              "name": "./src/page/load-child-routes.js",
+              "profile": {
+                "factory": 422,
+                "building": 589,
+                "dependencies": 0
+              }
+            },
+            {
+              "id": "./src/page sync recursive v-router\\.(js)$",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+              "name": "./src/page sync v-router\\.(js)$",
+              "profile": {
+                "factory": 9,
+                "building": 50
+              }
+            },
+            {
+              "id": "./src/page/login/v-router.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+              "name": "./src/page/login/v-router.js",
+              "profile": {
+                "factory": 6,
+                "building": 9
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+              "name": "./src/page/login/login.vue",
+              "profile": {
+                "factory": 4,
+                "building": 176,
+                "dependencies": 1
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "name": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "profile": {
+                "factory": 4,
+                "building": 1
+              }
+            }
+          ],
+          "profile": {
+            "factory": 2,
+            "building": 8
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "type": "harmony side effect evaluation",
+              "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+              "loc": "1:0-142"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "type": "harmony import specifier",
+              "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+              "loc": "1:158-161"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "type": "harmony side effect evaluation",
+              "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+              "loc": "1:163-302"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
+              "module": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "moduleName": "./src/page/login/login.vue?vue&type=script&lang=js&",
+              "type": "harmony export imported specifier",
+              "userRequest": "-!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=script&lang=js&",
+              "loc": "1:163-302"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not in any chunk"
+          ],
+          "depth": 8,
+          "source": "//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n//\n\n\n\texport default {\n\t    data(){\n\t\t\treturn {\n\t\t\t\tloginForm: {\n\t\t\t\t\tusername: '',\n\t\t\t\t\tpassword: '',\n\t\t\t\t},\n\t\t\t\trules: {\n\t\t\t\t\tusername: [\n\t\t\t      { required: true, message: '请输入用户名', trigger: 'blur' },\n\t\t\t    ],\n\t\t\t\t\tpassword: [\n\t\t\t\t\t\t{ required: true, message: '请输入密码', trigger: 'blur' }\n\t\t\t\t\t],\n\t\t\t\t},\n\t\t\t\tshowLogin: false,\n\t\t\t}\n\t\t},\n\t\tmounted(){\n\n\t\t},\n\t\tmethods: {\n\t\t\tsubmitForm(formName) {\n        console.log(formName)\n\t\t\t\tthis.$refs[formName].validate(async (valid) => {\n\t\t\t\t\tif (valid) {\n\t\t\t\t\t\t\tthis.$message({\n                  type: 'success',\n                  message: '登录成功'\n              });\n\t\t\t\t\t\t\tthis.$router.push('manage')\n\t\t\t\t\t} else {\n\t\t\t\t\t\tthis.$notify.error({\n\t\t\t\t\t\t\ttitle: '错误',\n\t\t\t\t\t\t\tmessage: '请输入正确的用户名密码',\n\t\t\t\t\t\t\toffset: 100\n\t\t\t\t\t\t});\n\t\t\t\t\t\treturn false;\n\t\t\t\t\t}\n\t\t\t\t});\n\t\t\t},\n\t\t},\n\t\twatch: {\n\t\t\tadminInfo: function (newValue){\n\t\t\t\tif (newValue.id) {\n\t\t\t\t\tthis.$message({\n              type: 'success',\n              message: '检测到您之前登录过，将自动登录'\n          });\n\t\t\t\t\tthis.$router.push('manage')\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n"
         }
       ],
       "filteredModules": 0
     },
     {
-      "id": "?2fa0",
-      "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true& 0",
-      "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 16,
-      "index2": 11,
-      "size": 1415,
-      "built": false,
+      "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "index": 28,
+      "index2": 29,
+      "size": 1134,
+      "cacheable": true,
+      "built": true,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        1
+        3
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "issuerId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+      "issuerId": null,
+      "issuerName": "./src/page/login/login.vue",
       "issuerPath": [
         {
           "id": 0,
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue",
-          "name": "./src/App.vue",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "name": "./src/router/index.js",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         },
         {
-          "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+          "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 230,
-            "building": 2
+            "factory": 422,
+            "building": 589,
+            "dependencies": 0
           }
         },
         {
-          "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "id": "./src/page sync recursive v-router\\.(js)$",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+          "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 31,
-            "building": 4161
+            "factory": 9,
+            "building": 50
+          }
+        },
+        {
+          "id": "./src/page/login/v-router.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "name": "./src/page/login/v-router.js",
+          "profile": {
+            "factory": 6,
+            "building": 9
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+          "name": "./src/page/login/login.vue",
+          "profile": {
+            "factory": 4,
+            "building": 176,
+            "dependencies": 1
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 0
+        "factory": 4,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -5466,26 +6197,146 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&"
+          "moduleId": "./src/page/login/login.vue",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+          "module": "./src/page/login/login.vue + 4 modules",
+          "moduleName": "./src/page/login/login.vue + 4 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "loc": "4:0-78"
+        },
+        {
+          "moduleId": "./src/page/login/login.vue",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+          "module": "./src/page/login/login.vue + 4 modules",
+          "moduleName": "./src/page/login/login.vue + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "loc": "11:20-26"
+        },
+        {
+          "moduleId": "./src/page/login/login.vue",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
+          "module": "./src/page/login/login.vue + 4 modules",
+          "moduleName": "./src/page/login/login.vue + 4 modules",
+          "type": "harmony import specifier",
+          "userRequest": "./login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "loc": "11:37-43"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module exports are unknown",
+        "ModuleConcatenation bailout: Module exports are unknown"
+      ],
+      "depth": 7,
+      "source": "import mod from \"-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\"; export default mod; export * from \"-!../../../node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!../../../node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!../../../node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!../../../node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!./login.vue?vue&type=style&index=0&lang=less&module=true&\""
+    },
+    {
+      "id": "./src/page/login/v-router.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+      "name": "./src/page/login/v-router.js",
+      "index": 7,
+      "index2": 2,
+      "size": 128,
+      "cacheable": true,
+      "built": true,
+      "optional": true,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+      "issuerId": "./src/page sync recursive v-router\\.(js)$",
+      "issuerName": "./src/page sync v-router\\.(js)$",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 3
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 30,
+            "building": 536
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "name": "./src/router/index.js",
+          "profile": {
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+          "name": "./src/page/load-child-routes.js",
+          "profile": {
+            "factory": 422,
+            "building": 589,
+            "dependencies": 0
+          }
+        },
+        {
+          "id": "./src/page sync recursive v-router\\.(js)$",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+          "name": "./src/page sync v-router\\.(js)$",
+          "profile": {
+            "factory": 9,
+            "building": 50
+          }
+        }
+      ],
+      "profile": {
+        "factory": 6,
+        "building": 9
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/page sync recursive v-router\\.(js)$",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+          "module": "./src/page sync v-router\\.(js)$",
+          "moduleName": "./src/page sync v-router\\.(js)$",
+          "type": "context element",
+          "userRequest": "./login/v-router.js",
+          "loc": "./login/v-router.js"
         }
       ],
       "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [
-        "ModuleConcatenation bailout: Module is not an ECMAScript module",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      "providedExports": [
+        "default"
       ],
-      "depth": 5
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page sync v-router\\.(js)$ (referenced with context element)",
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: ./src/page sync v-router\\.(js)$ (referenced with context element)"
+      ],
+      "depth": 5,
+      "source": "export default [\n\t{\n\t\tpath:'/login',\n\t\tcomponent: ()=> import(/* webpackChunkName: \"my-chunk-name\" */\"@page/login/login\"),\n\t}\n]\n"
     },
     {
       "id": "?4cd9",
       "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css 0",
       "name": "css ./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-      "index": 19,
-      "index2": 16,
+      "index": 22,
+      "index2": 19,
       "size": 278122,
       "built": false,
       "optional": false,
@@ -5502,17 +6353,17 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
@@ -5520,15 +6371,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 1
+        "building": 0
       },
       "failed": false,
       "errors": 0,
@@ -5551,76 +6402,66 @@
       "depth": 3
     },
     {
-      "id": "?7aa3",
-      "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true& 0",
-      "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 27,
-      "index2": 24,
-      "size": 918,
+      "id": "?c6a9",
+      "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true& 0",
+      "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "index": 19,
+      "index2": 14,
+      "size": 1415,
       "built": false,
       "optional": false,
       "prefetched": false,
       "chunks": [
-        4
+        1
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "issuerId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuerId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "issuerPath": [
         {
           "id": 0,
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/router/index.js",
-          "name": "./src/router/index.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
+          "name": "./src/App.vue",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         },
         {
-          "id": "./src/page/login.vue",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue",
-          "name": "./src/page/login.vue",
+          "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 530,
-            "building": 957,
-            "dependencies": 27
+            "factory": 103,
+            "building": 1
           }
         },
         {
-          "id": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 207,
-            "building": 2
-          }
-        },
-        {
-          "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "profile": {
-            "factory": 32,
-            "building": 4164
+            "factory": 4,
+            "building": 2670
           }
         }
       ],
@@ -5634,10 +6475,10 @@
       "assets": [],
       "reasons": [
         {
-          "moduleId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&"
+          "moduleId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&"
         }
       ],
       "usedExports": true,
@@ -5646,7 +6487,133 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 6
+      "depth": 5
+    },
+    {
+      "id": "?d860",
+      "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true& 0",
+      "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "index": 30,
+      "index2": 27,
+      "size": 918,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        3
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuerId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuerName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 3
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 30,
+            "building": 536
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
+          "name": "./src/router/index.js",
+          "profile": {
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
+          "name": "./src/page/load-child-routes.js",
+          "profile": {
+            "factory": 422,
+            "building": 589,
+            "dependencies": 0
+          }
+        },
+        {
+          "id": "./src/page sync recursive v-router\\.(js)$",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
+          "name": "./src/page sync v-router\\.(js)$",
+          "profile": {
+            "factory": 9,
+            "building": 50
+          }
+        },
+        {
+          "id": "./src/page/login/v-router.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
+          "name": "./src/page/login/v-router.js",
+          "profile": {
+            "factory": 6,
+            "building": 9
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
+          "name": "./src/page/login/login.vue",
+          "profile": {
+            "factory": 4,
+            "building": 176,
+            "dependencies": 1
+          }
+        },
+        {
+          "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "profile": {
+            "factory": 4,
+            "building": 1
+          }
+        },
+        {
+          "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "profile": {
+            "factory": 9,
+            "building": 2484
+          }
+        }
+      ],
+      "profile": {
+        "factory": 0,
+        "building": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "module": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "moduleName": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 9
     },
     {
       "id": "dll-reference _dll__dllLibrary__pro",
@@ -5670,17 +6637,17 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 11
+            "factory": 0,
+            "building": 3
           }
         },
         {
           "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 43,
-            "building": 33
+            "factory": 30,
+            "building": 536
           }
         },
         {
@@ -5688,15 +6655,15 @@
           "identifier": "delegated 93 from dll-reference _dll__dllLibrary__pro",
           "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll__dllLibrary__pro",
           "profile": {
-            "factory": 270,
-            "building": 6662,
-            "dependencies": 145
+            "factory": 289,
+            "building": 4172,
+            "dependencies": 148
           }
         }
       ],
       "profile": {
-        "factory": 1,
-        "building": 0
+        "factory": 0,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -5791,7 +6758,7 @@
           "files": [
             "index.html"
           ],
-          "hash": "5d04247799be593d29e0",
+          "hash": "871ba5a98081c543e030",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -5816,8 +6783,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 36,
-                "building": 54
+                "factory": 68,
+                "building": 519
               },
               "failed": false,
               "errors": 0,
@@ -5865,14 +6832,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 36,
-                    "building": 54
+                    "factory": 68,
+                    "building": 519
                   }
                 }
               ],
               "profile": {
-                "factory": 35,
-                "building": 4157
+                "factory": 40,
+                "building": 902
               },
               "failed": false,
               "errors": 0,
@@ -5921,8 +6888,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 36,
-                    "building": 54
+                    "factory": 68,
+                    "building": 519
                   }
                 },
                 {
@@ -5930,14 +6897,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "profile": {
-                    "factory": 35,
-                    "building": 4157
+                    "factory": 40,
+                    "building": 902
                   }
                 }
               ],
               "profile": {
-                "factory": 356,
-                "building": 3
+                "factory": 1693,
+                "building": 291
               },
               "failed": false,
               "errors": 0,
@@ -5986,8 +6953,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 36,
-                    "building": 54
+                    "factory": 68,
+                    "building": 519
                   }
                 },
                 {
@@ -5995,14 +6962,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "profile": {
-                    "factory": 35,
-                    "building": 4157
+                    "factory": 40,
+                    "building": 902
                   }
                 }
               ],
               "profile": {
-                "factory": 356,
-                "building": 3
+                "factory": 1693,
+                "building": 291
               },
               "failed": false,
               "errors": 0,
@@ -6062,8 +7029,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 36,
-            "building": 54
+            "factory": 68,
+            "building": 519
           },
           "failed": false,
           "errors": 0,
@@ -6111,14 +7078,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 36,
-                "building": 54
+                "factory": 68,
+                "building": 519
               }
             }
           ],
           "profile": {
-            "factory": 35,
-            "building": 4157
+            "factory": 40,
+            "building": 902
           },
           "failed": false,
           "errors": 0,
@@ -6167,8 +7134,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 36,
-                "building": 54
+                "factory": 68,
+                "building": 519
               }
             },
             {
@@ -6176,14 +7143,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
               "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
               "profile": {
-                "factory": 35,
-                "building": 4157
+                "factory": 40,
+                "building": 902
               }
             }
           ],
           "profile": {
-            "factory": 356,
-            "building": 3
+            "factory": 1693,
+            "building": 291
           },
           "failed": false,
           "errors": 0,
@@ -6232,8 +7199,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 36,
-                "building": 54
+                "factory": 68,
+                "building": 519
               }
             },
             {
@@ -6241,14 +7208,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
               "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
               "profile": {
-                "factory": 35,
-                "building": 4157
+                "factory": 40,
+                "building": 902
               }
             }
           ],
           "profile": {
-            "factory": 356,
-            "building": 3
+            "factory": 1693,
+            "building": 291
           },
           "failed": false,
           "errors": 0,
@@ -6324,7 +7291,7 @@
           "files": [
             "*"
           ],
-          "hash": "cef5c7e336a3f3e1aa92",
+          "hash": "28e30c3e70ed5e273de2",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -6332,8 +7299,8 @@
           "modules": [
             {
               "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "index": 0,
               "index2": 1,
               "size": 1574,
@@ -6349,8 +7316,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 9,
-                "building": 3463
+                "factory": 2,
+                "building": 2327
               },
               "failed": false,
               "errors": 0,
@@ -6363,7 +7330,7 @@
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
                   "loc": "mini-css-extract-plugin"
                 }
               ],
@@ -6390,23 +7357,23 @@
               "chunks": [
                 0
               ],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "issuerId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "issuerPath": [
                 {
                   "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
                   "profile": {
-                    "factory": 9,
-                    "building": 3463
+                    "factory": 2,
+                    "building": 2327
                   }
                 }
               ],
               "profile": {
-                "factory": 614,
-                "building": 49
+                "factory": 2,
+                "building": 324
               },
               "failed": false,
               "errors": 0,
@@ -6415,9 +7382,9 @@
               "reasons": [
                 {
                   "moduleId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
                   "type": "cjs require",
                   "userRequest": "../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
                   "loc": "1:27-102"
@@ -6440,7 +7407,7 @@
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "mini-css-extract-plugin",
-              "request": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "request": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "reasons": []
             }
           ]
@@ -6449,8 +7416,8 @@
       "modules": [
         {
           "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "index": 0,
           "index2": 1,
           "size": 1574,
@@ -6466,8 +7433,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 9,
-            "building": 3463
+            "factory": 2,
+            "building": 2327
           },
           "failed": false,
           "errors": 0,
@@ -6480,7 +7447,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "mini-css-extract-plugin"
             }
           ],
@@ -6507,23 +7474,23 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerPath": [
             {
               "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 9,
-                "building": 3463
+                "factory": 2,
+                "building": 2327
               }
             }
           ],
           "profile": {
-            "factory": 614,
-            "building": 49
+            "factory": 2,
+            "building": 324
           },
           "failed": false,
           "errors": 0,
@@ -6532,9 +7499,9 @@
           "reasons": [
             {
               "moduleId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "type": "cjs require",
               "userRequest": "../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
               "loc": "1:27-102"
@@ -6552,7 +7519,7 @@
       ],
       "filteredModules": 0,
       "children": [],
-      "name": "mini-css-extract-plugin node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!src/App.vue?vue&type=style&index=0&lang=less&module=true&"
+      "name": "mini-css-extract-plugin node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!src/App.vue?vue&type=style&index=0&lang=less&module=true&"
     },
     {
       "errors": [],
@@ -6592,26 +7559,26 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 3973,
+          "size": 3976,
           "names": [
             "mini-css-extract-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "068dbd60584a46bb8462",
+          "hash": "8e3461b9b330ae215967",
           "siblings": [],
           "parents": [],
           "children": [],
           "childrenByOrder": {},
           "modules": [
             {
-              "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "index": 0,
               "index2": 1,
-              "size": 1567,
+              "size": 1570,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -6624,8 +7591,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 101,
-                "building": 3981
+                "factory": 3,
+                "building": 2398
               },
               "failed": false,
               "errors": 0,
@@ -6638,7 +7605,7 @@
                   "module": null,
                   "moduleName": null,
                   "type": "single entry",
-                  "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
                   "loc": "mini-css-extract-plugin"
                 }
               ],
@@ -6649,7 +7616,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".allcover_2FNyxnkr{position:absolute;top:0;right:0}.ctt_3qKmXJya{left:50%;transform:translate(-50%,-50%)}.ctt_3qKmXJya,.tb_2tS2wUDD{position:absolute;top:50%}.tb_2tS2wUDD{transform:translateY(-50%)}.lr_1Tyoe3tl{position:absolute;left:50%;transform:translateX(-50%)}.login_page_2mX7p4Oj{background-color:#324057}.manage_tip_MRZNLCKq{position:absolute;width:100%;top:-100px;left:0}.manage_tip_MRZNLCKq p{font-size:34px;color:#fff}.form_contianer_3GgtVuWt{width:320px;height:210px;position:absolute;top:50%;left:50%;margin-top:-105px;margin-left:-160px;padding:25px;border-radius:5px;text-align:center;background-color:#fff}.form_contianer_3GgtVuWt .submit_btn_3xQkV1Iy{width:100%;font-size:16px}.tip_3KurRMe6{font-size:12px;color:red}.form-fade-enter-active_xBzK8847,.form-fade-leave-active_EWj-D-Te{transition:all 1s}.form-fade-enter_KOUSgxds,.form-fade-leave-active_EWj-D-Te{transform:translate3d(0,-50px,0);opacity:0}\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"allcover\": \"allcover_2FNyxnkr\",\n\t\"ctt\": \"ctt_3qKmXJya\",\n\t\"tb\": \"tb_2tS2wUDD\",\n\t\"lr\": \"lr_1Tyoe3tl\",\n\t\"login_page\": \"login_page_2mX7p4Oj\",\n\t\"manage_tip\": \"manage_tip_MRZNLCKq\",\n\t\"form_contianer\": \"form_contianer_3GgtVuWt\",\n\t\"submit_btn\": \"submit_btn_3xQkV1Iy\",\n\t\"tip\": \"tip_3KurRMe6\",\n\t\"form-fade-enter-active\": \"form-fade-enter-active_xBzK8847\",\n\t\"form-fade-leave-active\": \"form-fade-leave-active_EWj-D-Te\",\n\t\"form-fade-enter\": \"form-fade-enter_KOUSgxds\"\n};"
+              "source": "exports = module.exports = require(\"../../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".allcover_2CXcLIDQ{position:absolute;top:0;right:0}.ctt_1uJTflDo{left:50%;transform:translate(-50%,-50%)}.ctt_1uJTflDo,.tb_1TmZxQdM{position:absolute;top:50%}.tb_1TmZxQdM{transform:translateY(-50%)}.lr_2G8Alspf{position:absolute;left:50%;transform:translateX(-50%)}.login_page_2YyrmPHK{background-color:#324057}.manage_tip_3R8LFh-i{position:absolute;width:100%;top:-100px;left:0}.manage_tip_3R8LFh-i p{font-size:34px;color:#fff}.form_contianer_1EiNhouK{width:320px;height:210px;position:absolute;top:50%;left:50%;margin-top:-105px;margin-left:-160px;padding:25px;border-radius:5px;text-align:center;background-color:#fff}.form_contianer_1EiNhouK .submit_btn_2JrWEv38{width:100%;font-size:16px}.tip_lH6ArTyj{font-size:12px;color:red}.form-fade-enter-active_2jR5eUuK,.form-fade-leave-active_v3MIBbfC{transition:all 1s}.form-fade-enter_2YAU9pez,.form-fade-leave-active_v3MIBbfC{transform:translate3d(0,-50px,0);opacity:0}\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"allcover\": \"allcover_2CXcLIDQ\",\n\t\"ctt\": \"ctt_1uJTflDo\",\n\t\"tb\": \"tb_1TmZxQdM\",\n\t\"lr\": \"lr_2G8Alspf\",\n\t\"login_page\": \"login_page_2YyrmPHK\",\n\t\"manage_tip\": \"manage_tip_3R8LFh-i\",\n\t\"form_contianer\": \"form_contianer_1EiNhouK\",\n\t\"submit_btn\": \"submit_btn_2JrWEv38\",\n\t\"tip\": \"tip_lH6ArTyj\",\n\t\"form-fade-enter-active\": \"form-fade-enter-active_2jR5eUuK\",\n\t\"form-fade-leave-active\": \"form-fade-leave-active_v3MIBbfC\",\n\t\"form-fade-enter\": \"form-fade-enter_2YAU9pez\"\n};"
             },
             {
               "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
@@ -6665,23 +7632,23 @@
               "chunks": [
                 0
               ],
-              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "issuerId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "issuerId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "issuerPath": [
                 {
-                  "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
                   "profile": {
-                    "factory": 101,
-                    "building": 3981
+                    "factory": 3,
+                    "building": 2398
                   }
                 }
               ],
               "profile": {
-                "factory": 3,
-                "building": 53
+                "factory": 1,
+                "building": 39
               },
               "failed": false,
               "errors": 0,
@@ -6689,13 +7656,13 @@
               "assets": [],
               "reasons": [
                 {
-                  "moduleId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-                  "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "moduleId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+                  "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
                   "type": "cjs require",
-                  "userRequest": "../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
-                  "loc": "1:27-105"
+                  "userRequest": "../../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
+                  "loc": "1:27-108"
                 }
               ],
               "usedExports": true,
@@ -6715,7 +7682,7 @@
               "moduleIdentifier": "",
               "moduleName": "",
               "loc": "mini-css-extract-plugin",
-              "request": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "request": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "reasons": []
             }
           ]
@@ -6723,12 +7690,12 @@
       ],
       "modules": [
         {
-          "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "index": 0,
           "index2": 1,
-          "size": 1567,
+          "size": 1570,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6741,8 +7708,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 101,
-            "building": 3981
+            "factory": 3,
+            "building": 2398
           },
           "failed": false,
           "errors": 0,
@@ -6755,7 +7722,7 @@
               "module": null,
               "moduleName": null,
               "type": "single entry",
-              "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "userRequest": "!!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "loc": "mini-css-extract-plugin"
             }
           ],
@@ -6766,7 +7733,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".allcover_2FNyxnkr{position:absolute;top:0;right:0}.ctt_3qKmXJya{left:50%;transform:translate(-50%,-50%)}.ctt_3qKmXJya,.tb_2tS2wUDD{position:absolute;top:50%}.tb_2tS2wUDD{transform:translateY(-50%)}.lr_1Tyoe3tl{position:absolute;left:50%;transform:translateX(-50%)}.login_page_2mX7p4Oj{background-color:#324057}.manage_tip_MRZNLCKq{position:absolute;width:100%;top:-100px;left:0}.manage_tip_MRZNLCKq p{font-size:34px;color:#fff}.form_contianer_3GgtVuWt{width:320px;height:210px;position:absolute;top:50%;left:50%;margin-top:-105px;margin-left:-160px;padding:25px;border-radius:5px;text-align:center;background-color:#fff}.form_contianer_3GgtVuWt .submit_btn_3xQkV1Iy{width:100%;font-size:16px}.tip_3KurRMe6{font-size:12px;color:red}.form-fade-enter-active_xBzK8847,.form-fade-leave-active_EWj-D-Te{transition:all 1s}.form-fade-enter_KOUSgxds,.form-fade-leave-active_EWj-D-Te{transform:translate3d(0,-50px,0);opacity:0}\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"allcover\": \"allcover_2FNyxnkr\",\n\t\"ctt\": \"ctt_3qKmXJya\",\n\t\"tb\": \"tb_2tS2wUDD\",\n\t\"lr\": \"lr_1Tyoe3tl\",\n\t\"login_page\": \"login_page_2mX7p4Oj\",\n\t\"manage_tip\": \"manage_tip_MRZNLCKq\",\n\t\"form_contianer\": \"form_contianer_3GgtVuWt\",\n\t\"submit_btn\": \"submit_btn_3xQkV1Iy\",\n\t\"tip\": \"tip_3KurRMe6\",\n\t\"form-fade-enter-active\": \"form-fade-enter-active_xBzK8847\",\n\t\"form-fade-leave-active\": \"form-fade-leave-active_EWj-D-Te\",\n\t\"form-fade-enter\": \"form-fade-enter_KOUSgxds\"\n};"
+          "source": "exports = module.exports = require(\"../../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".allcover_2CXcLIDQ{position:absolute;top:0;right:0}.ctt_1uJTflDo{left:50%;transform:translate(-50%,-50%)}.ctt_1uJTflDo,.tb_1TmZxQdM{position:absolute;top:50%}.tb_1TmZxQdM{transform:translateY(-50%)}.lr_2G8Alspf{position:absolute;left:50%;transform:translateX(-50%)}.login_page_2YyrmPHK{background-color:#324057}.manage_tip_3R8LFh-i{position:absolute;width:100%;top:-100px;left:0}.manage_tip_3R8LFh-i p{font-size:34px;color:#fff}.form_contianer_1EiNhouK{width:320px;height:210px;position:absolute;top:50%;left:50%;margin-top:-105px;margin-left:-160px;padding:25px;border-radius:5px;text-align:center;background-color:#fff}.form_contianer_1EiNhouK .submit_btn_2JrWEv38{width:100%;font-size:16px}.tip_lH6ArTyj{font-size:12px;color:red}.form-fade-enter-active_2jR5eUuK,.form-fade-leave-active_v3MIBbfC{transition:all 1s}.form-fade-enter_2YAU9pez,.form-fade-leave-active_v3MIBbfC{transform:translate3d(0,-50px,0);opacity:0}\", \"\"]);\n\n// Exports\nexports.locals = {\n\t\"allcover\": \"allcover_2CXcLIDQ\",\n\t\"ctt\": \"ctt_1uJTflDo\",\n\t\"tb\": \"tb_1TmZxQdM\",\n\t\"lr\": \"lr_2G8Alspf\",\n\t\"login_page\": \"login_page_2YyrmPHK\",\n\t\"manage_tip\": \"manage_tip_3R8LFh-i\",\n\t\"form_contianer\": \"form_contianer_1EiNhouK\",\n\t\"submit_btn\": \"submit_btn_2JrWEv38\",\n\t\"tip\": \"tip_lH6ArTyj\",\n\t\"form-fade-enter-active\": \"form-fade-enter-active_2jR5eUuK\",\n\t\"form-fade-leave-active\": \"form-fade-leave-active_v3MIBbfC\",\n\t\"form-fade-enter\": \"form-fade-enter_2YAU9pez\"\n};"
         },
         {
           "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
@@ -6782,23 +7749,23 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+          "issuerName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "issuerPath": [
             {
-              "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "id": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 101,
-                "building": 3981
+                "factory": 3,
+                "building": 2398
               }
             }
           ],
           "profile": {
-            "factory": 3,
-            "building": 53
+            "factory": 1,
+            "building": 39
           },
           "failed": false,
           "errors": 0,
@@ -6806,13 +7773,13 @@
           "assets": [],
           "reasons": [
             {
-              "moduleId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
-              "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleId": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "module": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
+              "moduleName": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "type": "cjs require",
-              "userRequest": "../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
-              "loc": "1:27-105"
+              "userRequest": "../../../node_modules/_css-loader@2.0.0@css-loader/dist/runtime/api.js",
+              "loc": "1:27-108"
             }
           ],
           "usedExports": true,
@@ -6827,7 +7794,7 @@
       ],
       "filteredModules": 0,
       "children": [],
-      "name": "mini-css-extract-plugin node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--2-1!node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--2-3!node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!src/page/login.vue?vue&type=style&index=0&lang=less&module=true&"
+      "name": "mini-css-extract-plugin node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&"
     },
     {
       "errors": [],
@@ -6874,7 +7841,7 @@
           "files": [
             "*"
           ],
-          "hash": "92a7f40ffbc11d803040",
+          "hash": "3dffa03592f168b0b15e",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -6903,14 +7870,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 87,
-                    "building": 6483
+                    "factory": 2,
+                    "building": 4118
                   }
                 }
               ],
               "profile": {
-                "factory": 56,
-                "building": 14
+                "factory": 21,
+                "building": 15
               },
               "failed": false,
               "errors": 0,
@@ -6959,14 +7926,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 87,
-                    "building": 6483
+                    "factory": 2,
+                    "building": 4118
                   }
                 }
               ],
               "profile": {
-                "factory": 56,
-                "building": 14
+                "factory": 21,
+                "building": 15
               },
               "failed": false,
               "errors": 0,
@@ -6994,7 +7961,7 @@
             },
             {
               "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--6-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--7-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
               "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
               "index": 4,
               "index2": 3,
@@ -7015,14 +7982,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 87,
-                    "building": 6483
+                    "factory": 2,
+                    "building": 4118
                   }
                 }
               ],
               "profile": {
-                "factory": 56,
-                "building": 14
+                "factory": 21,
+                "building": 15
               },
               "failed": false,
               "errors": 0,
@@ -7050,7 +8017,7 @@
             },
             {
               "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--6-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--7-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
               "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
               "index": 3,
               "index2": 2,
@@ -7071,14 +8038,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 87,
-                    "building": 6483
+                    "factory": 2,
+                    "building": 4118
                   }
                 }
               ],
               "profile": {
-                "factory": 56,
-                "building": 14
+                "factory": 21,
+                "building": 15
               },
               "failed": false,
               "errors": 0,
@@ -7123,8 +8090,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 87,
-                "building": 6483
+                "factory": 2,
+                "building": 4118
               },
               "failed": false,
               "errors": 0,
@@ -7188,14 +8155,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 87,
-                "building": 6483
+                "factory": 2,
+                "building": 4118
               }
             }
           ],
           "profile": {
-            "factory": 56,
-            "building": 14
+            "factory": 21,
+            "building": 15
           },
           "failed": false,
           "errors": 0,
@@ -7244,14 +8211,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 87,
-                "building": 6483
+                "factory": 2,
+                "building": 4118
               }
             }
           ],
           "profile": {
-            "factory": 56,
-            "building": 14
+            "factory": 21,
+            "building": 15
           },
           "failed": false,
           "errors": 0,
@@ -7279,7 +8246,7 @@
         },
         {
           "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--6-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--7-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
           "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.ttf",
           "index": 4,
           "index2": 3,
@@ -7300,14 +8267,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 87,
-                "building": 6483
+                "factory": 2,
+                "building": 4118
               }
             }
           ],
           "profile": {
-            "factory": 56,
-            "building": 14
+            "factory": 21,
+            "building": 15
           },
           "failed": false,
           "errors": 0,
@@ -7335,7 +8302,7 @@
         },
         {
           "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--6-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_url-loader@2.1.0@url-loader/dist/cjs.js??ref--7-0!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
           "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/fonts/element-icons.woff",
           "index": 3,
           "index2": 2,
@@ -7356,14 +8323,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 87,
-                "building": 6483
+                "factory": 2,
+                "building": 4118
               }
             }
           ],
           "profile": {
-            "factory": 56,
-            "building": 14
+            "factory": 21,
+            "building": 15
           },
           "failed": false,
           "errors": 0,
@@ -7408,8 +8375,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 87,
-            "building": 6483
+            "factory": 2,
+            "building": 4118
           },
           "failed": false,
           "errors": 0,

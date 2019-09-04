@@ -1,7 +1,7 @@
 module.exports = {
   // 模式  dev | run  区别:dev 会开启配置文件监听 run 不会
   pattern: 'dev',
-  // 系统路径配置 相对命令行启动目录
+  // 系统路径配置 相对命令行启动目录 
   systemPath: {
     // 入口文件
     appIndex: 'src/main',
@@ -23,26 +23,26 @@ module.exports = {
     appBuild: 'dist',
     // 配置文件目录
     appConfig: ['build', 'config'],
-    // 自定义loader目录
+    // 自定义loader目录 
     appLoader: 'build/loaders',
     // 自定义　依赖包路径下需要awesome-typescript-loader 处理的文件目录
     //appTsLoader: ['node_modules/_emptyd@0.1.7@emptyd','node_modules/_free-validator@1.0.7@free-validator', 'node_modules/_freetool@0.0.3@freetool'],
     // 静态资源路径 存放较大文件 该目录下存放文件会被 CopyWebpackPlugin 直接复制到打包后dist/static 路径
     appStatic: 'static',
     // 下不会被 cssmodule 处理的文件路径
-    appExcludeCssModule: ['normalize.css', 'element-ui'],
+    appExcludeCssModule: ['normalize.css','element-ui'],
     // 路径别名相对源码目录
     appPathAlias: {
       '@src': '',
-      '@page': `page`,
-    },
+      '@page': `page`
+    }
   },
   // 系统常量
   systemConstant: {
     // 系统名称
     title: 'emptyd-design',
     // html模板文件 路径相对命令行启动目录
-    htmlTemplate: './build/template/index.html',
+    htmlTemplate: './build/template/index.html'
   },
   // 开发环境配置
   devConfig: {
@@ -60,36 +60,26 @@ module.exports = {
   // 是否生成编译报告  为true时候可在 127.0.0.1:8888查看编译结果
   bundleAnalyzerReport: false,
   // 动态连接库中排除
-  dllLibraryExclude: [
-    'emptyd',
-    'free-validator',
-    'freetool',
-    'antd',
-    'normalize.css',
-    'animate.css',
-    'empty-style',
-    'prettier',
-  ],
-  // 是否开启编译缓存
+  dllLibraryExclude: ['emptyd','free-validator','freetool','antd', 'normalize.css','animate.css',"empty-style","prettier"],
+  // 是否开启编译缓存 
   onCompiltionCache: false,
-  // 是否开启代码检查
+  // 是否开启代码检查 
   onLint: false,
   //上传服务器配置
-  remoteServer: {
-    uploadFile: './dist/**',
-    sshConfig: {
-      remotePath: '/root/nginx_szcg/website/zhifa/dist',
-      ssh: {
-        // 正式
-        host: '129.139.254.333',
+  remoteServer:{
+    uploadFile:'./dist/**',
+    sshConfig:{
+      remotePath:'/root/nginx_szcg/website/zhifa/dist',
+      ssh: { // 正式
+        host: "129.139.254.333",
         port: 22,
         username: 'root',
-        password: 'xxxxxxxxxxxxx',
-      },
+        password: 'xxxxxxxxxxxxx'
+      }, 
       commands: [
         // 删除现有文件
-        `rm -rf /root/nginx_szcg/website/zhifa/dist`,
-      ],
-    },
-  },
-};
+        `rm -rf /root/nginx_szcg/website/zhifa/dist`
+      ]
+    }
+  }
+}

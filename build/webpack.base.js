@@ -7,6 +7,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ProgressBarPlugin = require('progress-bar-webpack-plugin');
+const WebpackBuildLogPlugin = require("webpack-build-log-plugin");
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin');
 const HtmlIncludeAssetsPlugin = require('html-webpack-include-assets-plugin');
@@ -35,6 +36,20 @@ const webpackBaseConfig = {
   },
   module: {
     rules: [{
+      enforce: 'pre',
+      test: /\.(js|html|vue)$/,
+      include: [paths.appSrc], // 精确指定要处理的目录
+      use: [
+        {
+          loader: 'eslint-loader',
+          options: {
+            formatter: require('eslint-friendly-formatter'),
+            fix: true,
+            failOnError: true
+          }
+        }
+      ]
+    },{
       test: /\.(vue)$/,
       use: ["vue-loader"],
       include: [paths.appSrc], // 精确指定要处理的目录
@@ -171,7 +186,7 @@ const webpackBaseConfig = {
     }),
     new MiniCssExtractPlugin({
       filename: devMode ? 'static/css/[name].css' : 'static/css/[name].[hash].css',
-      chunkFilename: devMode ? 'static/css/[id].css' : 'static/css/[id].[hash].css',
+      chunkFilename: devMode ? 'static/css/[id].css' : 'static/css/[id].[name].[chunkhash].css',
     }),
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
     new webpack.ContextReplacementPlugin(/moment[\/\\]locale$/, /zh-cn/),
@@ -188,7 +203,8 @@ const webpackBaseConfig = {
           loader: 'eslint-loader',
           options: {
             formatter: require('eslint-friendly-formatter'),
-            cache: true
+            fix: true,
+            failOnError: true
           }
         }],
       //共享进程池
@@ -238,6 +254,13 @@ const webpackBaseConfig = {
       threadPool: happyThreadPool,
       //允许 HappyPack 输出日志
       verbose: false,
+    }),
+    new WebpackBuildLogPlugin({
+      path: path.join(process.cwd(),'log'),
+      filename: 'compile-log.md',
+      // Note: Compile logs will only be output in the production environment.
+      //And you need to set process.env.NODE_ENV in different environments.
+      deleteFile: process.env.NODE_ENV=="production"
     })
   ]
 }

@@ -1,6 +1,9 @@
 <template>
-  <div id="app" class="fillcontain">
-    <router-view></router-view>
+  <div
+    id="app"
+    class="fillcontain"
+  >
+    <router-view />
   </div>
 </template>
 
