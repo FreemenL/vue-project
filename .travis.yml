@@ -4,8 +4,10 @@ language: node_js
 node_js:
   - "10"
 
+before_install:
+  - npm install -g cnpm --registry=https://registry.npm.taobao.org
 install:
-  - npm install
+  - cnpm install
 
 # 无其他依赖项所以执行npm run build 构建就行了
 script:
