@@ -136,7 +136,7 @@ const webpackBaseConfig = {
     modules: ['node_modules', paths.appLoader]
   },
   resolve: {
-    extensions: ['.vue','.js','.json'],
+    extensions: ['.vue','.js','.json','.less'],
     //指定包的引入目录 如果你想要添加一个目录到模块搜索目录，此目录优先于 node_modules/
     modules: [paths.appSrc, paths.appNodeModules],
     // mainFields: ['browser', 'module', 'main'],
