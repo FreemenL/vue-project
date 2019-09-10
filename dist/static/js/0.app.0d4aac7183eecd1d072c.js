@@ -85,7 +85,7 @@ vue_esm["a" /* default */].use(vue_router_esmfrom_dll_reference_dll_dllLibrary_p
 /* harmony default export */ var src_router = (new vue_router_esmfrom_dll_reference_dll_dllLibrary_pro["default"]({
   routes: [
     {
-      path: '/', 
+      path: '/',
       redirect: '/login'
     },
     ...load_child_routes
@@ -156,6 +156,14 @@ var component = Object(componentNormalizer["a" /* default */])(
 // EXTERNAL MODULE: ./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css
 var theme_chalk = __webpack_require__("./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css");
 
+// EXTERNAL MODULE: ./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js
+var singleton = __webpack_require__("./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js");
+var singleton_default = /*#__PURE__*/__webpack_require__.n(singleton);
+
+// EXTERNAL MODULE: ./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js
+var vue = __webpack_require__("./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js");
+var vue_default = /*#__PURE__*/__webpack_require__.n(vue);
+
 // CONCATENATED MODULE: ./src/main.js
 
 
@@ -163,6 +171,19 @@ var theme_chalk = __webpack_require__("./node_modules/_element-ui@2.11.1@element
 
 
 
+
+
+singleton_default.a
+  .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')
+  .addPlugin(vue_default.a, vue_esm["a" /* default */])
+  .install()
+  myUndefinedFunction();
+
+if(true ){
+  vue_esm["a" /* default */].config.errorHandler = function(err, vm, info) {
+      singleton_default.a.captureException(err)
+  }
+}
 vue_esm["a" /* default */].use(element_ui_commonfrom_dll_reference_dll_dllLibrary_pro_default.a);
 
 const app = {
@@ -229,6 +250,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ 0:
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__("./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js");
 module.exports = __webpack_require__("./src/main.js");
 
 
@@ -242,3 +264,4 @@ module.exports = _dll_dllLibrary_pro;
 /***/ })
 
 },[[0,3,1,4]]]);
+//# sourceMappingURL=0.app.0d4aac7183eecd1d072c.js.map

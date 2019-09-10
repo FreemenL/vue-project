@@ -1,6 +1,7 @@
 /**
  * 生产环境配置
  */
+const path = require("path");
 const chalk = require('chalk');//终端样式
 const webpack = require('webpack');
 const merge = require('webpack-merge');
@@ -9,11 +10,12 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const OptimizeCSSPlugin = require("optimize-css-assets-webpack-plugin");
 const devMode = process.env.NODE_ENV !== 'production';
 const common = require('./webpack.base.js');
+const SentryCliPlugin = require('@sentry/webpack-plugin');
 const CompressionWebpackPlugin = require('compression-webpack-plugin');
 const paths = require('./paths');
 
 module.exports = merge(common, {
-  devtool: false,
+  devtool: 'source-map',
   mode: "production",
   output: {
     filename: 'static/js/[name].[contenthash].js',
@@ -78,7 +80,7 @@ module.exports = merge(common, {
           name: 'ant-icon',
           priority:100,
           enforce: true,
-        },        
+        },
         moment: {
           test: /[\\/]node_modules[\\/](moment|_moment)/,
           chunks: 'initial',
@@ -86,7 +88,7 @@ module.exports = merge(common, {
           name: 'moment',
           priority:99,
           enforce: true,
-        },        
+        },
         'element-ui': {
           test: /[\\/]node_modules[\\/](element-ui|_element-ui)/,
           chunks: 'initial',
@@ -94,7 +96,7 @@ module.exports = merge(common, {
           name: 'element-ui',
           priority:98,
           enforce: true,
-        },             
+        },
         echarts: {
           test: /[\\/]node_modules[\\/](echarts|_echarts)/,
           chunks: 'initial',
@@ -102,7 +104,7 @@ module.exports = merge(common, {
           name: 'echarts',
           priority:97,
           enforce: true,
-        },        
+        },
         vendors: {
           test: /[\\/]node_modules[\\/]/,
           chunks: 'initial',
@@ -110,7 +112,7 @@ module.exports = merge(common, {
           name: 'vendors',
           priority:94,
           enforce: true,
-        },        
+        },
          // 处理异步chunk
         'async-vendors': {
           test: /[\\/]node_modules[\\/]/,
@@ -133,6 +135,13 @@ module.exports = merge(common, {
     }
   },
   plugins: [
+    new SentryCliPlugin ({
+      release: "0.0.1",//版本号
+      include: path.join(__dirname,'../dist/static/js/'), //需要上传到sentry服务器的资源目录,会自动匹配js 以及map文件
+      ignore: ['node_modules', 'webpack.config.js'], //忽略文件目录,当然我们在inlcude中制定了文件路径,这个忽略目录可以不加
+      configFile :'.sentryclirc',
+      urlPrefix : "~/static/js"    //  线上对应的url资源的相对路径 比如我的域名是 http://XXX  .com/,静态资源都在 static文件夹里面,
+    }),
     new CompressionWebpackPlugin({ //gzip 压缩
       filename: '[path].gz[query]',
       test: new RegExp(

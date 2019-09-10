@@ -15,7 +15,7 @@ const utils = require('./utils');
 const basePort = process.env.PORT || systemConfig.devConfig.localServerPort;
 
 const devconfig = {
-  devtool: 'inline-source-map',//只在开发环境下配置
+  devtool:'source-map',//只在开发环境下配置
   devServer: {
     contentBase:paths.appBuild,
     compress: true,//一切服务都启用gzip 压缩
@@ -49,7 +49,7 @@ const devconfig = {
     'repl',
     'tls',
   ].reduce((acc, name) => Object.assign({}, acc, { [name]: 'empty' }), {}),
-  
+
   cache:true,
   plugins:[
     new webpack.NamedModulesPlugin(),
@@ -80,7 +80,7 @@ if(systemConfig.bundleAnalyzerReport){
 
 const devWebpackConfig = merge(common,devconfig);
 module.exports = new Promise((resolve, reject) => {
-  
+
   portfinder.basePort = process.env.PORT || basePort;
 
   portfinder.getPort((err, port) => {

@@ -2,26 +2,35 @@
   "errors": [],
   "warnings": [],
   "version": "4.27.1",
-  "hash": "95ef384875f95fde994e",
-  "time": 5744,
-  "builtAt": 1567570153719,
+  "hash": "956d93ab4c7803dd13b8",
+  "time": 13894,
+  "builtAt": 1568099849093,
   "publicPath": "./",
   "outputPath": "/Users/jiayali/Desktop/vue-zero/dist",
   "assetsByChunkName": {
     "app": [
-      "static/css/0.app.5e2ecf181a01a59fed1a.css",
-      "static/js/0.app.5e2ecf181a01a59fed1a.js"
+      "static/css/0.app.0d4aac7183eecd1d072c.css",
+      "static/js/0.app.0d4aac7183eecd1d072c.js",
+      "static/js/0.app.0d4aac7183eecd1d072c.js.map"
     ],
     "element-ui": [
       "static/css/1.element-ui.e27befefd16bd876fa3e.css",
-      "static/js/1.element-ui.e27befefd16bd876fa3e.js"
+      "static/js/1.element-ui.e27befefd16bd876fa3e.js",
+      "static/js/1.element-ui.e27befefd16bd876fa3e.js.map"
     ],
     "login": [
       "static/css/2.login.0df491bd3edc27bb4312.css",
-      "static/js/2.login.0df491bd3edc27bb4312.js"
+      "static/js/2.login.0df491bd3edc27bb4312.js",
+      "static/js/2.login.0df491bd3edc27bb4312.js.map"
     ],
-    "manifest": "static/js/manifest.812d29ece5ac5b34a151.js",
-    "vendors": "static/js/4.vendors.d3c291ba11a403514bf4.js"
+    "manifest": [
+      "static/js/manifest.812d29ece5ac5b34a151.js",
+      "static/js/manifest.812d29ece5ac5b34a151.js.map"
+    ],
+    "vendors": [
+      "static/js/4.vendors.c313a8116b218c9ef84b.js",
+      "static/js/4.vendors.c313a8116b218c9ef84b.js.map"
+    ]
   },
   "assets": [
     {
@@ -32,7 +41,7 @@
       "emitted": true
     },
     {
-      "name": "static/css/0.app.5e2ecf181a01a59fed1a.css",
+      "name": "static/css/0.app.0d4aac7183eecd1d072c.css",
       "size": 1415,
       "chunks": [
         0
@@ -114,8 +123,8 @@
       "emitted": true
     },
     {
-      "name": "static/js/0.app.5e2ecf181a01a59fed1a.js",
-      "size": 10240,
+      "name": "static/js/0.app.0d4aac7183eecd1d072c.js",
+      "size": 11220,
       "chunks": [
         0
       ],
@@ -125,15 +134,37 @@
       "emitted": true
     },
     {
-      "name": "static/js/0.app.5e2ecf181a01a59fed1a.js.gz",
-      "size": 2169,
+      "name": "static/js/0.app.0d4aac7183eecd1d072c.js.gz",
+      "size": 2465,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
+      "name": "static/js/0.app.0d4aac7183eecd1d072c.js.map",
+      "size": 7662,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "app"
+      ],
+      "emitted": true
+    },
+    {
       "name": "static/js/1.element-ui.e27befefd16bd876fa3e.js",
-      "size": 261,
+      "size": 323,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "element-ui"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/1.element-ui.e27befefd16bd876fa3e.js.map",
+      "size": 279,
       "chunks": [
         1
       ],
@@ -144,7 +175,7 @@
     },
     {
       "name": "static/js/2.login.0df491bd3edc27bb4312.js",
-      "size": 8736,
+      "size": 8793,
       "chunks": [
         2
       ],
@@ -154,8 +185,19 @@
       "emitted": true
     },
     {
-      "name": "static/js/4.vendors.d3c291ba11a403514bf4.js",
-      "size": 292879,
+      "name": "static/js/2.login.0df491bd3edc27bb4312.js.map",
+      "size": 9419,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "login"
+      ],
+      "emitted": true
+    },
+    {
+      "name": "static/js/4.vendors.c313a8116b218c9ef84b.js",
+      "size": 419235,
       "chunks": [
         4
       ],
@@ -165,15 +207,26 @@
       "emitted": true
     },
     {
-      "name": "static/js/4.vendors.d3c291ba11a403514bf4.js.gz",
-      "size": 80921,
+      "name": "static/js/4.vendors.c313a8116b218c9ef84b.js.gz",
+      "size": 115565,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
+      "name": "static/js/4.vendors.c313a8116b218c9ef84b.js.map",
+      "size": 553198,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "vendors"
+      ],
+      "emitted": true
+    },
+    {
       "name": "static/js/manifest.812d29ece5ac5b34a151.js",
-      "size": 11370,
+      "size": 11428,
       "chunks": [
         3
       ],
@@ -184,9 +237,20 @@
     },
     {
       "name": "static/js/manifest.812d29ece5ac5b34a151.js.gz",
-      "size": 2898,
+      "size": 2949,
       "chunks": [],
       "chunkNames": [],
+      "emitted": true
+    },
+    {
+      "name": "static/js/manifest.812d29ece5ac5b34a151.js.map",
+      "size": 11762,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "manifest"
+      ],
       "emitted": true
     }
   ],
@@ -201,11 +265,15 @@
       ],
       "assets": [
         "static/js/manifest.812d29ece5ac5b34a151.js",
+        "static/js/manifest.812d29ece5ac5b34a151.js.map",
         "static/css/1.element-ui.e27befefd16bd876fa3e.css",
         "static/js/1.element-ui.e27befefd16bd876fa3e.js",
-        "static/js/4.vendors.d3c291ba11a403514bf4.js",
-        "static/css/0.app.5e2ecf181a01a59fed1a.css",
-        "static/js/0.app.5e2ecf181a01a59fed1a.js"
+        "static/js/1.element-ui.e27befefd16bd876fa3e.js.map",
+        "static/js/4.vendors.c313a8116b218c9ef84b.js",
+        "static/js/4.vendors.c313a8116b218c9ef84b.js.map",
+        "static/css/0.app.0d4aac7183eecd1d072c.css",
+        "static/js/0.app.0d4aac7183eecd1d072c.js",
+        "static/js/0.app.0d4aac7183eecd1d072c.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -221,11 +289,15 @@
       ],
       "assets": [
         "static/js/manifest.812d29ece5ac5b34a151.js",
+        "static/js/manifest.812d29ece5ac5b34a151.js.map",
         "static/css/1.element-ui.e27befefd16bd876fa3e.css",
         "static/js/1.element-ui.e27befefd16bd876fa3e.js",
-        "static/js/4.vendors.d3c291ba11a403514bf4.js",
-        "static/css/0.app.5e2ecf181a01a59fed1a.css",
-        "static/js/0.app.5e2ecf181a01a59fed1a.js"
+        "static/js/1.element-ui.e27befefd16bd876fa3e.js.map",
+        "static/js/4.vendors.c313a8116b218c9ef84b.js",
+        "static/js/4.vendors.c313a8116b218c9ef84b.js.map",
+        "static/css/0.app.0d4aac7183eecd1d072c.css",
+        "static/js/0.app.0d4aac7183eecd1d072c.js",
+        "static/js/0.app.0d4aac7183eecd1d072c.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -236,7 +308,8 @@
       ],
       "assets": [
         "static/css/2.login.0df491bd3edc27bb4312.css",
-        "static/js/2.login.0df491bd3edc27bb4312.js"
+        "static/js/2.login.0df491bd3edc27bb4312.js",
+        "static/js/2.login.0df491bd3edc27bb4312.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -248,15 +321,16 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 5663,
+      "size": 6043,
       "names": [
         "app"
       ],
       "files": [
-        "static/css/0.app.5e2ecf181a01a59fed1a.css",
-        "static/js/0.app.5e2ecf181a01a59fed1a.js"
+        "static/css/0.app.0d4aac7183eecd1d072c.css",
+        "static/js/0.app.0d4aac7183eecd1d072c.js",
+        "static/js/0.app.0d4aac7183eecd1d072c.js.map"
       ],
-      "hash": "5e2ecf181a01a59fed1a",
+      "hash": "0d4aac7183eecd1d072c",
       "siblings": [
         1,
         3,
@@ -270,11 +344,11 @@
       "modules": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "index": 0,
-          "index2": 22,
-          "size": 28,
+          "index2": 32,
+          "size": 40,
           "built": true,
           "optional": false,
           "prefetched": false,
@@ -286,8 +360,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           },
           "failed": false,
           "errors": 0,
@@ -314,8 +388,8 @@
           "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
           "identifier": "delegated 93 from dll-reference _dll_dllLibrary_pro",
           "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro",
-          "index": 11,
-          "index2": 9,
+          "index": 12,
+          "index2": 10,
           "size": 42,
           "built": true,
           "optional": false,
@@ -329,11 +403,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -341,15 +415,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             }
           ],
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           },
           "failed": false,
           "errors": 0,
@@ -372,7 +446,7 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "element-ui",
-              "loc": "7:8-17"
+              "loc": "20:8-17"
             }
           ],
           "usedExports": true,
@@ -387,8 +461,8 @@
           "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 18,
-          "index2": 15,
+          "index": 19,
+          "index2": 16,
           "size": 39,
           "cacheable": true,
           "built": true,
@@ -403,11 +477,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -415,8 +489,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -424,9 +498,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -434,14 +508,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 103,
-                "building": 1
+                "factory": 112,
+                "building": 2
               }
             }
           ],
           "profile": {
-            "factory": 5,
-            "building": 2356
+            "factory": 3,
+            "building": 2871
           },
           "failed": false,
           "errors": 0,
@@ -500,8 +574,8 @@
           "id": "./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js",
           "identifier": "delegated 96 from dll-reference _dll_dllLibrary_pro",
           "name": "delegated ./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js from dll-reference _dll_dllLibrary_pro",
-          "index": 10,
-          "index2": 6,
+          "index": 11,
+          "index2": 7,
           "size": 42,
           "built": true,
           "optional": false,
@@ -515,11 +589,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -527,8 +601,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -536,14 +610,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
           "profile": {
-            "factory": 8,
+            "factory": 197,
             "building": 0,
             "dependencies": 0
           },
@@ -574,8 +648,8 @@
           "id": "./node_modules/_vue-router@3.1.2@vue-router/dist/vue-router.esm.js",
           "identifier": "delegated 156 from dll-reference _dll_dllLibrary_pro",
           "name": "delegated ./node_modules/_vue-router@3.1.2@vue-router/dist/vue-router.esm.js from dll-reference _dll_dllLibrary_pro",
-          "index": 3,
-          "index2": 1,
+          "index": 6,
+          "index2": 3,
           "size": 42,
           "built": true,
           "optional": false,
@@ -589,11 +663,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -601,8 +675,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -610,15 +684,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
           "profile": {
-            "factory": 440,
-            "building": 515,
+            "factory": 600,
+            "building": 598,
             "dependencies": 0
           },
           "failed": false,
@@ -668,8 +742,8 @@
           "id": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
           "identifier": "delegated 21 from dll-reference _dll_dllLibrary_pro",
           "name": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
-          "index": 9,
-          "index2": 5,
+          "index": 2,
+          "index2": 1,
           "size": 42,
           "built": true,
           "optional": false,
@@ -677,49 +751,83 @@
           "chunks": [
             0
           ],
-          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-          "issuerId": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-          "issuerName": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "issuerId": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "issuerName": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
+              "id": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
               "profile": {
-                "factory": 31,
-                "building": 489
-              }
-            },
-            {
-              "id": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-              "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-              "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 858,
+                "building": 52
               }
             }
           ],
           "profile": {
-            "factory": 8,
-            "building": 0,
-            "dependencies": 0
+            "factory": 13,
+            "building": 0
           },
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "assets": [],
           "reasons": [
+            {
+              "moduleId": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "module": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "moduleName": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-63"
+            },
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-60"
+            },
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-60"
+            },
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-60"
+            },
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "type": "cjs require",
+              "userRequest": "global",
+              "loc": "1:0-63"
+            },
             {
               "moduleId": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
@@ -736,14 +844,14 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
-          "depth": 3
+          "depth": 2
         },
         {
           "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 17,
-          "index2": 16,
+          "index": 18,
+          "index2": 17,
           "size": 1058,
           "cacheable": true,
           "built": true,
@@ -758,11 +866,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -770,8 +878,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -779,15 +887,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
           "profile": {
-            "factory": 103,
-            "building": 1
+            "factory": 112,
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -837,9 +945,9 @@
           "id": "./src/main.js",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
           "name": "./src/main.js + 7 modules",
-          "index": 1,
-          "index2": 21,
-          "size": 2590,
+          "index": 4,
+          "index2": 31,
+          "size": 2958,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -858,23 +966,25 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "module": "multi ./src/main.js",
-              "moduleName": "multi ./src/main.js",
+              "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "module": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "moduleName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "type": "single entry",
               "userRequest": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "loc": "app[0]"
+              "loc": "app[1]"
             }
           ],
           "usedExports": true,
           "providedExports": [],
           "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js (<- Module is not an ECMAScript module)",
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with ./src/App.vue?vue&type=style&index=0&lang=less&module=true& (<- Module exports are unknown)",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/_vue@2.6.10@vue/dist/vue.esm.js (<- Module uses injected variables (global, setImmediate))",
             "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/_vue-router@3.1.2@vue-router/dist/vue-router.esm.js from dll-reference _dll_dllLibrary_pro (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro (<- Module is not an ECMAScript module)",
-            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./src/main.js (referenced with single entry)"
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js (referenced with single entry)"
           ],
           "depth": 1,
           "modules": [
@@ -882,31 +992,31 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
-              "index": 1,
-              "index2": 21,
-              "size": 348,
+              "index": 4,
+              "index2": 31,
+              "size": 707,
               "cacheable": true,
               "built": true,
               "optional": false,
               "prefetched": false,
               "chunks": [],
-              "issuer": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "issuer": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "issuerId": 0,
-              "issuerName": "multi ./src/main.js",
+              "issuerName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 }
               ],
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               },
               "failed": false,
               "errors": 0,
@@ -915,30 +1025,30 @@
               "reasons": [
                 {
                   "moduleId": 0,
-                  "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "module": "multi ./src/main.js",
-                  "moduleName": "multi ./src/main.js",
+                  "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "module": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+                  "moduleName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "type": "single entry",
                   "userRequest": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "loc": "app[0]"
+                  "loc": "app[1]"
                 }
               ],
               "usedExports": true,
               "providedExports": [],
               "optimizationBailout": [
-                "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./src/main.js (referenced with single entry)",
+                "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js (referenced with single entry)",
                 "ModuleConcatenation bailout: Module is not in any chunk"
               ],
               "depth": 1,
-              "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\n\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
+              "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\nimport Raven from 'raven-js';\nimport RavenVue from 'raven-js/plugins/vue';\n\nRaven\n  .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')\n  .addPlugin(RavenVue, Vue)\n  .install()\n  myUndefinedFunction();\n\nif(process.env.NODE_ENV !== 'development' ){\n  Vue.config.errorHandler = function(err, vm, info) {\n      Raven.captureException(err)\n  }\n}\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
             },
             {
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
-              "index": 2,
-              "index2": 8,
-              "size": 269,
+              "index": 5,
+              "index2": 9,
+              "size": 268,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -950,11 +1060,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -962,15 +1072,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 }
               ],
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               },
               "failed": false,
               "errors": 0,
@@ -993,7 +1103,7 @@
                   "moduleName": "./src/main.js",
                   "type": "harmony import specifier",
                   "userRequest": "./router",
-                  "loc": "20:8-14"
+                  "loc": "33:8-14"
                 }
               ],
               "usedExports": [
@@ -1006,14 +1116,14 @@
                 "ModuleConcatenation bailout: Module is not in any chunk"
               ],
               "depth": 2,
-              "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\nimport loadChildRoutes from '@page/load-child-routes.js'\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [\n    {\n      path: '/', \n      redirect: '/login'\n    },\n    ...loadChildRoutes\n  ],\n});\n"
+              "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\nimport loadChildRoutes from '@page/load-child-routes.js'\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [\n    {\n      path: '/',\n      redirect: '/login'\n    },\n    ...loadChildRoutes\n  ],\n});\n"
             },
             {
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
-              "index": 12,
-              "index2": 18,
+              "index": 13,
+              "index2": 19,
               "size": 635,
               "cacheable": true,
               "built": true,
@@ -1026,11 +1136,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -1038,15 +1148,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 }
               ],
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               },
               "failed": false,
               "errors": 0,
@@ -1069,7 +1179,7 @@
                   "moduleName": "./src/main.js",
                   "type": "harmony import specifier",
                   "userRequest": "./App",
-                  "loc": "15:20-23"
+                  "loc": "28:20-23"
                 }
               ],
               "usedExports": [
@@ -1088,8 +1198,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
-              "index": 5,
-              "index2": 4,
+              "index": 7,
+              "index2": 6,
               "size": 506,
               "cacheable": true,
               "built": true,
@@ -1102,11 +1212,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -1114,8 +1224,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -1123,15 +1233,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 }
               ],
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               },
               "failed": false,
@@ -1174,8 +1284,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
               "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
-              "index": 13,
-              "index2": 11,
+              "index": 14,
+              "index2": 12,
               "size": 233,
               "cacheable": true,
               "built": true,
@@ -1188,11 +1298,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -1200,8 +1310,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -1209,15 +1319,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 }
               ],
               "profile": {
-                "factory": 103,
-                "building": 1
+                "factory": 112,
+                "building": 2
               },
               "failed": false,
               "errors": 0,
@@ -1270,8 +1380,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "name": "./src/App.vue?vue&type=script&lang=js&",
-              "index": 15,
-              "index2": 13,
+              "index": 16,
+              "index2": 14,
               "size": 286,
               "cacheable": true,
               "built": true,
@@ -1284,11 +1394,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -1296,8 +1406,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -1305,15 +1415,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 }
               ],
               "profile": {
-                "factory": 103,
-                "building": 1
+                "factory": 112,
+                "building": 2
               },
               "failed": false,
               "errors": 0,
@@ -1373,8 +1483,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
               "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=67cd2f4a&",
-              "index": 14,
-              "index2": 10,
+              "index": 15,
+              "index2": 11,
               "size": 236,
               "cacheable": true,
               "built": true,
@@ -1387,11 +1497,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -1399,8 +1509,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -1408,9 +1518,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 },
                 {
@@ -1418,14 +1528,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
                   "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
                   "profile": {
-                    "factory": 103,
-                    "building": 1
+                    "factory": 112,
+                    "building": 2
                   }
                 }
               ],
               "profile": {
-                "factory": 7,
-                "building": 22
+                "factory": 9,
+                "building": 21
               },
               "failed": false,
               "errors": 0,
@@ -1469,8 +1579,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&",
-              "index": 16,
-              "index2": 12,
+              "index": 17,
+              "index2": 13,
               "size": 47,
               "cacheable": true,
               "built": true,
@@ -1483,11 +1593,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -1495,8 +1605,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -1504,9 +1614,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 },
                 {
@@ -1514,14 +1624,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
                   "name": "./src/App.vue?vue&type=script&lang=js&",
                   "profile": {
-                    "factory": 103,
-                    "building": 1
+                    "factory": 112,
+                    "building": 2
                   }
                 }
               ],
               "profile": {
                 "factory": 1,
-                "building": 0
+                "building": 1
               },
               "failed": false,
               "errors": 0,
@@ -1584,8 +1694,8 @@
           "id": "./src/page sync recursive v-router\\.(js)$",
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
-          "index": 6,
-          "index2": 3,
+          "index": 8,
+          "index2": 5,
           "size": 184,
           "built": true,
           "optional": false,
@@ -1599,11 +1709,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -1611,8 +1721,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -1620,9 +1730,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -1630,15 +1740,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             }
           ],
           "profile": {
-            "factory": 8,
-            "building": 27
+            "factory": 13,
+            "building": 25
           },
           "failed": false,
           "errors": 0,
@@ -1667,8 +1777,8 @@
           "id": "./src/page/login/v-router.js",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
           "name": "./src/page/login/v-router.js",
-          "index": 7,
-          "index2": 2,
+          "index": 9,
+          "index2": 4,
           "size": 139,
           "cacheable": true,
           "built": true,
@@ -1683,11 +1793,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -1695,8 +1805,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -1704,9 +1814,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -1714,8 +1824,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -1724,13 +1834,13 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             }
           ],
           "profile": {
-            "factory": 25,
+            "factory": 33,
             "building": 17
           },
           "failed": false,
@@ -1763,8 +1873,8 @@
           "id": "?c6a9",
           "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true& 0",
           "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 19,
-          "index2": 14,
+          "index": 20,
+          "index2": 15,
           "size": 1415,
           "built": false,
           "optional": false,
@@ -1778,11 +1888,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -1790,8 +1900,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -1799,9 +1909,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -1809,8 +1919,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 103,
-                "building": 1
+                "factory": 112,
+                "building": 2
               }
             },
             {
@@ -1818,8 +1928,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 5,
-                "building": 2356
+                "factory": 3,
+                "building": 2871
               }
             }
           ],
@@ -1851,7 +1961,7 @@
           "id": "dll-reference _dll_dllLibrary_pro",
           "identifier": "external \"_dll_dllLibrary_pro\"",
           "name": "external \"_dll_dllLibrary_pro\"",
-          "index": 4,
+          "index": 3,
           "index2": 0,
           "size": 42,
           "built": true,
@@ -1860,42 +1970,41 @@
           "chunks": [
             0
           ],
-          "issuer": "delegated 93 from dll-reference _dll_dllLibrary_pro",
-          "issuerId": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
-          "issuerName": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro",
+          "issuer": "delegated 21 from dll-reference _dll_dllLibrary_pro",
+          "issuerId": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
+          "issuerName": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
-              "id": null,
-              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "./src/main.js",
+              "id": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
-              "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
-              "identifier": "delegated 93 from dll-reference _dll_dllLibrary_pro",
-              "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro",
+              "id": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
+              "identifier": "delegated 21 from dll-reference _dll_dllLibrary_pro",
+              "name": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 13,
+                "building": 0
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 0
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -1968,7 +2077,8 @@
       ],
       "files": [
         "static/css/1.element-ui.e27befefd16bd876fa3e.css",
-        "static/js/1.element-ui.e27befefd16bd876fa3e.js"
+        "static/js/1.element-ui.e27befefd16bd876fa3e.js",
+        "static/js/1.element-ui.e27befefd16bd876fa3e.js.map"
       ],
       "hash": "e27befefd16bd876fa3e",
       "siblings": [
@@ -1986,8 +2096,8 @@
           "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-          "index": 21,
-          "index2": 20,
+          "index": 22,
+          "index2": 21,
           "size": 39,
           "cacheable": true,
           "built": true,
@@ -2002,11 +2112,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -2014,15 +2124,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             }
           ],
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           },
           "failed": false,
           "errors": 0,
@@ -2055,8 +2165,8 @@
           "id": "?4cd9",
           "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css 0",
           "name": "css ./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-          "index": 22,
-          "index2": 19,
+          "index": 23,
+          "index2": 20,
           "size": 278122,
           "built": false,
           "optional": false,
@@ -2070,11 +2180,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -2082,8 +2192,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -2091,9 +2201,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
@@ -2145,7 +2255,8 @@
       ],
       "files": [
         "static/css/2.login.0df491bd3edc27bb4312.css",
-        "static/js/2.login.0df491bd3edc27bb4312.js"
+        "static/js/2.login.0df491bd3edc27bb4312.js",
+        "static/js/2.login.0df491bd3edc27bb4312.js.map"
       ],
       "hash": "0df491bd3edc27bb4312",
       "siblings": [],
@@ -2162,8 +2273,8 @@
           "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 29,
-          "index2": 28,
+          "index": 39,
+          "index2": 38,
           "size": 481,
           "cacheable": true,
           "built": true,
@@ -2178,11 +2289,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -2190,8 +2301,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -2199,9 +2310,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -2209,8 +2320,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -2219,8 +2330,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -2228,7 +2339,7 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             },
@@ -2237,9 +2348,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               }
             },
             {
@@ -2253,8 +2364,8 @@
             }
           ],
           "profile": {
-            "factory": 8,
-            "building": 2212
+            "factory": 6,
+            "building": 2857
           },
           "failed": false,
           "errors": 0,
@@ -2313,8 +2424,8 @@
           "id": "./src/page/login/login.vue",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
           "name": "./src/page/login/login.vue + 4 modules",
-          "index": 23,
-          "index2": 30,
+          "index": 33,
+          "index2": 40,
           "size": 4096,
           "cacheable": true,
           "built": true,
@@ -2357,8 +2468,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
-              "index": 23,
-              "index2": 30,
+              "index": 33,
+              "index2": 40,
               "size": 649,
               "cacheable": true,
               "built": true,
@@ -2371,11 +2482,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -2383,8 +2494,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -2392,9 +2503,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 },
                 {
@@ -2402,8 +2513,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 440,
-                    "building": 515,
+                    "factory": 600,
+                    "building": 598,
                     "dependencies": 0
                   }
                 },
@@ -2412,8 +2523,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 8,
-                    "building": 27
+                    "factory": 13,
+                    "building": 25
                   }
                 },
                 {
@@ -2421,15 +2532,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 25,
+                    "factory": 33,
                     "building": 17
                   }
                 }
               ],
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               },
               "failed": false,
               "errors": 0,
@@ -2461,8 +2572,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
               "name": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
-              "index": 24,
-              "index2": 24,
+              "index": 34,
+              "index2": 34,
               "size": 247,
               "cacheable": true,
               "built": true,
@@ -2475,11 +2586,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -2487,8 +2598,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -2496,9 +2607,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 },
                 {
@@ -2506,8 +2617,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 440,
-                    "building": 515,
+                    "factory": 600,
+                    "building": 598,
                     "dependencies": 0
                   }
                 },
@@ -2516,8 +2627,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 8,
-                    "building": 27
+                    "factory": 13,
+                    "building": 25
                   }
                 },
                 {
@@ -2525,7 +2636,7 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 25,
+                    "factory": 33,
                     "building": 17
                   }
                 },
@@ -2534,9 +2645,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 5,
-                    "building": 136,
-                    "dependencies": 0
+                    "factory": 6,
+                    "building": 198,
+                    "dependencies": 1
                   }
                 }
               ],
@@ -2595,8 +2706,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
               "name": "./src/page/login/login.vue?vue&type=script&lang=js&",
-              "index": 26,
-              "index2": 26,
+              "index": 36,
+              "index2": 36,
               "size": 302,
               "cacheable": true,
               "built": true,
@@ -2609,11 +2720,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -2621,8 +2732,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -2630,9 +2741,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 },
                 {
@@ -2640,8 +2751,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 440,
-                    "building": 515,
+                    "factory": 600,
+                    "building": 598,
                     "dependencies": 0
                   }
                 },
@@ -2650,8 +2761,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 8,
-                    "building": 27
+                    "factory": 13,
+                    "building": 25
                   }
                 },
                 {
@@ -2659,7 +2770,7 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 25,
+                    "factory": 33,
                     "building": 17
                   }
                 },
@@ -2668,9 +2779,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 5,
-                    "building": 136,
-                    "dependencies": 0
+                    "factory": 6,
+                    "building": 198,
+                    "dependencies": 1
                   }
                 }
               ],
@@ -2736,8 +2847,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
               "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=template&id=3e58573a&",
-              "index": 25,
-              "index2": 23,
+              "index": 35,
+              "index2": 33,
               "size": 1603,
               "cacheable": true,
               "built": true,
@@ -2750,11 +2861,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -2762,8 +2873,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -2771,9 +2882,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 },
                 {
@@ -2781,8 +2892,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 440,
-                    "building": 515,
+                    "factory": 600,
+                    "building": 598,
                     "dependencies": 0
                   }
                 },
@@ -2791,8 +2902,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 8,
-                    "building": 27
+                    "factory": 13,
+                    "building": 25
                   }
                 },
                 {
@@ -2800,7 +2911,7 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 25,
+                    "factory": 33,
                     "building": 17
                   }
                 },
@@ -2809,9 +2920,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 5,
-                    "building": 136,
-                    "dependencies": 0
+                    "factory": 6,
+                    "building": 198,
+                    "dependencies": 1
                   }
                 },
                 {
@@ -2825,8 +2936,8 @@
                 }
               ],
               "profile": {
-                "factory": 5,
-                "building": 36
+                "factory": 4,
+                "building": 25
               },
               "failed": false,
               "errors": 0,
@@ -2870,8 +2981,8 @@
               "id": null,
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
               "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=script&lang=js&",
-              "index": 27,
-              "index2": 25,
+              "index": 37,
+              "index2": 35,
               "size": 1285,
               "cacheable": true,
               "built": true,
@@ -2884,11 +2995,11 @@
               "issuerPath": [
                 {
                   "id": 0,
-                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-                  "name": "multi ./src/main.js",
+                  "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+                  "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 1,
-                    "building": 4
+                    "factory": 0,
+                    "building": 6
                   }
                 },
                 {
@@ -2896,8 +3007,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 31,
-                    "building": 489
+                    "factory": 858,
+                    "building": 52
                   }
                 },
                 {
@@ -2905,9 +3016,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 253,
-                    "building": 3548,
-                    "dependencies": 152
+                    "factory": 397,
+                    "building": 4278,
+                    "dependencies": 202
                   }
                 },
                 {
@@ -2915,8 +3026,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 440,
-                    "building": 515,
+                    "factory": 600,
+                    "building": 598,
                     "dependencies": 0
                   }
                 },
@@ -2925,8 +3036,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 8,
-                    "building": 27
+                    "factory": 13,
+                    "building": 25
                   }
                 },
                 {
@@ -2934,7 +3045,7 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 25,
+                    "factory": 33,
                     "building": 17
                   }
                 },
@@ -2943,9 +3054,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 5,
-                    "building": 136,
-                    "dependencies": 0
+                    "factory": 6,
+                    "building": 198,
+                    "dependencies": 1
                   }
                 },
                 {
@@ -2959,8 +3070,8 @@
                 }
               ],
               "profile": {
-                "factory": 4,
-                "building": 5
+                "factory": 3,
+                "building": 4
               },
               "failed": false,
               "errors": 0,
@@ -3023,8 +3134,8 @@
           "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 28,
-          "index2": 29,
+          "index": 38,
+          "index2": 39,
           "size": 1134,
           "cacheable": true,
           "built": true,
@@ -3039,11 +3150,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -3051,8 +3162,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -3060,9 +3171,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -3070,8 +3181,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -3080,8 +3191,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -3089,7 +3200,7 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             },
@@ -3098,9 +3209,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               }
             }
           ],
@@ -3156,8 +3267,8 @@
           "id": "?d860",
           "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true& 0",
           "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
-          "index": 30,
-          "index2": 27,
+          "index": 40,
+          "index2": 37,
           "size": 918,
           "built": false,
           "optional": false,
@@ -3171,11 +3282,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -3183,8 +3294,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -3192,9 +3303,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -3202,8 +3313,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -3212,8 +3323,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -3221,7 +3332,7 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             },
@@ -3230,9 +3341,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               }
             },
             {
@@ -3249,14 +3360,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 8,
-                "building": 2212
+                "factory": 6,
+                "building": 2857
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 0
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -3302,7 +3413,8 @@
         "manifest"
       ],
       "files": [
-        "static/js/manifest.812d29ece5ac5b34a151.js"
+        "static/js/manifest.812d29ece5ac5b34a151.js",
+        "static/js/manifest.812d29ece5ac5b34a151.js.map"
       ],
       "hash": "174be9355e1d6802c003",
       "siblings": [
@@ -3334,14 +3446,15 @@
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: vendors) (name: vendors)",
-      "size": 328416,
+      "size": 451971,
       "names": [
         "vendors"
       ],
       "files": [
-        "static/js/4.vendors.d3c291ba11a403514bf4.js"
+        "static/js/4.vendors.c313a8116b218c9ef84b.js",
+        "static/js/4.vendors.c313a8116b218c9ef84b.js.map"
       ],
-      "hash": "d3c291ba11a403514bf4",
+      "hash": "c313a8116b218c9ef84b",
       "siblings": [
         0,
         1,
@@ -3354,11 +3467,849 @@
       "childrenByOrder": {},
       "modules": [
         {
+          "id": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "index": 1,
+          "index2": 2,
+          "size": 152,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuerId": 0,
+          "issuerName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            }
+          ],
+          "profile": {
+            "factory": 858,
+            "building": 52
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "module": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "moduleName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "type": "single entry",
+              "userRequest": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+              "loc": "app[0]"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "(typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {}).SENTRY_RELEASE={id:\"0.0.1\"};"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js",
+          "index": 32,
+          "index2": 30,
+          "size": 1156,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuerId": null,
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            }
+          ],
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "raven-js/plugins/vue",
+              "loc": "7:0-44"
+            },
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "harmony import specifier",
+              "userRequest": "raven-js/plugins/vue",
+              "loc": "11:13-21"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "/**\n * Vue.js 2.0 plugin\n *\n */\n\nfunction formatComponentName(vm) {\n  if (vm.$root === vm) {\n    return 'root instance';\n  }\n  var name = vm._isVue ? vm.$options.name || vm.$options._componentTag : vm.name;\n  return (\n    (name ? 'component <' + name + '>' : 'anonymous component') +\n    (vm._isVue && vm.$options.__file ? ' at ' + vm.$options.__file : '')\n  );\n}\n\nfunction vuePlugin(Raven, Vue) {\n  Vue = Vue || window.Vue;\n\n  // quit if Vue isn't on the page\n  if (!Vue || !Vue.config) return;\n\n  var _oldOnError = Vue.config.errorHandler;\n  Vue.config.errorHandler = function VueErrorHandler(error, vm, info) {\n    var metaData = {};\n\n    // vm and lifecycleHook are not always available\n    if (Object.prototype.toString.call(vm) === '[object Object]') {\n      metaData.componentName = formatComponentName(vm);\n      metaData.propsData = vm.$options.propsData;\n    }\n\n    if (typeof info !== 'undefined') {\n      metaData.lifecycleHook = info;\n    }\n\n    Raven.captureException(error, {\n      extra: metaData\n    });\n\n    if (typeof _oldOnError === 'function') {\n      _oldOnError.call(this, error, vm, info);\n    }\n  };\n}\n\nmodule.exports = vuePlugin;\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/configError.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/configError.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/configError.js",
+          "index": 30,
+          "index2": 26,
+          "size": 236,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "profile": {
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "profile": {
+                "factory": 36,
+                "building": 291,
+                "dependencies": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 38,
+            "building": 229,
+            "dependencies": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "type": "cjs require",
+              "userRequest": "./configError",
+              "loc": "6:23-47"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "function RavenConfigError(message) {\n  this.name = 'RavenConfigError';\n  this.message = message;\n}\nRavenConfigError.prototype = new Error();\nRavenConfigError.prototype.constructor = RavenConfigError;\n\nmodule.exports = RavenConfigError;\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+          "index": 31,
+          "index2": 27,
+          "size": 1240,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "profile": {
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "profile": {
+                "factory": 36,
+                "building": 291,
+                "dependencies": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 38,
+            "building": 229,
+            "dependencies": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "type": "cjs require",
+              "userRequest": "./console",
+              "loc": "39:24-44"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "var utils = require('./utils');\n\nvar wrapMethod = function(console, level, callback) {\n  var originalConsoleLevel = console[level];\n  var originalConsole = console;\n\n  if (!(level in console)) {\n    return;\n  }\n\n  var sentryLevel = level === 'warn' ? 'warning' : level;\n\n  console[level] = function() {\n    var args = [].slice.call(arguments);\n\n    var msg = utils.safeJoin(args, ' ');\n    var data = {level: sentryLevel, logger: 'console', extra: {arguments: args}};\n\n    if (level === 'assert') {\n      if (args[0] === false) {\n        // Default browsers message\n        msg =\n          'Assertion failed: ' + (utils.safeJoin(args.slice(1), ' ') || 'console.assert');\n        data.extra.arguments = args.slice(1);\n        callback && callback(msg, data);\n      }\n    } else {\n      callback && callback(msg, data);\n    }\n\n    // this fails for some browsers. :(\n    if (originalConsoleLevel) {\n      // IE9 doesn't allow calling apply on console functions directly\n      // See: https://stackoverflow.com/questions/5472938/does-ie9-support-console-log-and-is-it-a-real-function#answer-5473193\n      Function.prototype.apply.call(originalConsoleLevel, originalConsole, args);\n    }\n  };\n};\n\nmodule.exports = {\n  wrapMethod: wrapMethod\n};\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "index": 25,
+          "index2": 28,
+          "size": 70215,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "profile": {
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
+              }
+            }
+          ],
+          "profile": {
+            "factory": 36,
+            "building": 291,
+            "dependencies": 0
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "type": "cjs require",
+              "userRequest": "./raven",
+              "loc": "7:23-41"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3,
+          "source": "/*global XDomainRequest:false */\n\nvar TraceKit = require('../vendor/TraceKit/tracekit');\nvar stringify = require('../vendor/json-stringify-safe/stringify');\nvar md5 = require('../vendor/md5/md5');\nvar RavenConfigError = require('./configError');\n\nvar utils = require('./utils');\nvar isErrorEvent = utils.isErrorEvent;\nvar isDOMError = utils.isDOMError;\nvar isDOMException = utils.isDOMException;\nvar isError = utils.isError;\nvar isObject = utils.isObject;\nvar isPlainObject = utils.isPlainObject;\nvar isUndefined = utils.isUndefined;\nvar isFunction = utils.isFunction;\nvar isString = utils.isString;\nvar isArray = utils.isArray;\nvar isEmptyObject = utils.isEmptyObject;\nvar each = utils.each;\nvar objectMerge = utils.objectMerge;\nvar truncate = utils.truncate;\nvar objectFrozen = utils.objectFrozen;\nvar hasKey = utils.hasKey;\nvar joinRegExp = utils.joinRegExp;\nvar urlencode = utils.urlencode;\nvar uuid4 = utils.uuid4;\nvar htmlTreeAsString = utils.htmlTreeAsString;\nvar isSameException = utils.isSameException;\nvar isSameStacktrace = utils.isSameStacktrace;\nvar parseUrl = utils.parseUrl;\nvar fill = utils.fill;\nvar supportsFetch = utils.supportsFetch;\nvar supportsReferrerPolicy = utils.supportsReferrerPolicy;\nvar serializeKeysForMessage = utils.serializeKeysForMessage;\nvar serializeException = utils.serializeException;\nvar sanitize = utils.sanitize;\n\nvar wrapConsoleMethod = require('./console').wrapMethod;\n\nvar dsnKeys = 'source protocol user pass host port path'.split(' '),\n  dsnPattern = /^(?:(\\w+):)?\\/\\/(?:(\\w+)(:\\w+)?@)?([\\w\\.-]+)(?::(\\d+))?(\\/.*)/;\n\nfunction now() {\n  return +new Date();\n}\n\n// This is to be defensive in environments where window does not exist (see https://github.com/getsentry/raven-js/pull/785)\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};\nvar _document = _window.document;\nvar _navigator = _window.navigator;\n\nfunction keepOriginalCallback(original, callback) {\n  return isFunction(callback)\n    ? function(data) {\n        return callback(data, original);\n      }\n    : callback;\n}\n\n// First, check for JSON support\n// If there is no JSON, we no-op the core features of Raven\n// since JSON is required to encode the payload\nfunction Raven() {\n  this._hasJSON = !!(typeof JSON === 'object' && JSON.stringify);\n  // Raven can run in contexts where there's no document (react-native)\n  this._hasDocument = !isUndefined(_document);\n  this._hasNavigator = !isUndefined(_navigator);\n  this._lastCapturedException = null;\n  this._lastData = null;\n  this._lastEventId = null;\n  this._globalServer = null;\n  this._globalKey = null;\n  this._globalProject = null;\n  this._globalContext = {};\n  this._globalOptions = {\n    // SENTRY_RELEASE can be injected by https://github.com/getsentry/sentry-webpack-plugin\n    release: _window.SENTRY_RELEASE && _window.SENTRY_RELEASE.id,\n    logger: 'javascript',\n    ignoreErrors: [],\n    ignoreUrls: [],\n    whitelistUrls: [],\n    includePaths: [],\n    headers: null,\n    collectWindowErrors: true,\n    captureUnhandledRejections: true,\n    maxMessageLength: 0,\n    // By default, truncates URL values to 250 chars\n    maxUrlLength: 250,\n    stackTraceLimit: 50,\n    autoBreadcrumbs: true,\n    instrument: true,\n    sampleRate: 1,\n    sanitizeKeys: []\n  };\n  this._fetchDefaults = {\n    method: 'POST',\n    // Despite all stars in the sky saying that Edge supports old draft syntax, aka 'never', 'always', 'origin' and 'default\n    // https://caniuse.com/#feat=referrer-policy\n    // It doesn't. And it throw exception instead of ignoring this parameter...\n    // REF: https://github.com/getsentry/raven-js/issues/1233\n    referrerPolicy: supportsReferrerPolicy() ? 'origin' : ''\n  };\n  this._ignoreOnError = 0;\n  this._isRavenInstalled = false;\n  this._originalErrorStackTraceLimit = Error.stackTraceLimit;\n  // capture references to window.console *and* all its methods first\n  // before the console plugin has a chance to monkey patch\n  this._originalConsole = _window.console || {};\n  this._originalConsoleMethods = {};\n  this._plugins = [];\n  this._startTime = now();\n  this._wrappedBuiltIns = [];\n  this._breadcrumbs = [];\n  this._lastCapturedEvent = null;\n  this._keypressTimeout;\n  this._location = _window.location;\n  this._lastHref = this._location && this._location.href;\n  this._resetBackoff();\n\n  // eslint-disable-next-line guard-for-in\n  for (var method in this._originalConsole) {\n    this._originalConsoleMethods[method] = this._originalConsole[method];\n  }\n}\n\n/*\n * The core Raven singleton\n *\n * @this {Raven}\n */\n\nRaven.prototype = {\n  // Hardcode version string so that raven source can be loaded directly via\n  // webpack (using a build step causes webpack #1617). Grunt verifies that\n  // this value matches package.json during build.\n  //   See: https://github.com/getsentry/raven-js/issues/465\n  VERSION: '3.27.2',\n\n  debug: false,\n\n  TraceKit: TraceKit, // alias to TraceKit\n\n  /*\n     * Configure Raven with a DSN and extra options\n     *\n     * @param {string} dsn The public Sentry DSN\n     * @param {object} options Set of global options [optional]\n     * @return {Raven}\n     */\n  config: function(dsn, options) {\n    var self = this;\n\n    if (self._globalServer) {\n      this._logDebug('error', 'Error: Raven has already been configured');\n      return self;\n    }\n    if (!dsn) return self;\n\n    var globalOptions = self._globalOptions;\n\n    // merge in options\n    if (options) {\n      each(options, function(key, value) {\n        // tags and extra are special and need to be put into context\n        if (key === 'tags' || key === 'extra' || key === 'user') {\n          self._globalContext[key] = value;\n        } else {\n          globalOptions[key] = value;\n        }\n      });\n    }\n\n    self.setDSN(dsn);\n\n    // \"Script error.\" is hard coded into browsers for errors that it can't read.\n    // this is the result of a script being pulled in from an external domain and CORS.\n    globalOptions.ignoreErrors.push(/^Script error\\.?$/);\n    globalOptions.ignoreErrors.push(/^Javascript error: Script error\\.? on line 0$/);\n\n    // join regexp rules into one big rule\n    globalOptions.ignoreErrors = joinRegExp(globalOptions.ignoreErrors);\n    globalOptions.ignoreUrls = globalOptions.ignoreUrls.length\n      ? joinRegExp(globalOptions.ignoreUrls)\n      : false;\n    globalOptions.whitelistUrls = globalOptions.whitelistUrls.length\n      ? joinRegExp(globalOptions.whitelistUrls)\n      : false;\n    globalOptions.includePaths = joinRegExp(globalOptions.includePaths);\n    globalOptions.maxBreadcrumbs = Math.max(\n      0,\n      Math.min(globalOptions.maxBreadcrumbs || 100, 100)\n    ); // default and hard limit is 100\n\n    var autoBreadcrumbDefaults = {\n      xhr: true,\n      console: true,\n      dom: true,\n      location: true,\n      sentry: true\n    };\n\n    var autoBreadcrumbs = globalOptions.autoBreadcrumbs;\n    if ({}.toString.call(autoBreadcrumbs) === '[object Object]') {\n      autoBreadcrumbs = objectMerge(autoBreadcrumbDefaults, autoBreadcrumbs);\n    } else if (autoBreadcrumbs !== false) {\n      autoBreadcrumbs = autoBreadcrumbDefaults;\n    }\n    globalOptions.autoBreadcrumbs = autoBreadcrumbs;\n\n    var instrumentDefaults = {\n      tryCatch: true\n    };\n\n    var instrument = globalOptions.instrument;\n    if ({}.toString.call(instrument) === '[object Object]') {\n      instrument = objectMerge(instrumentDefaults, instrument);\n    } else if (instrument !== false) {\n      instrument = instrumentDefaults;\n    }\n    globalOptions.instrument = instrument;\n\n    TraceKit.collectWindowErrors = !!globalOptions.collectWindowErrors;\n\n    // return for chaining\n    return self;\n  },\n\n  /*\n     * Installs a global window.onerror error handler\n     * to capture and report uncaught exceptions.\n     * At this point, install() is required to be called due\n     * to the way TraceKit is set up.\n     *\n     * @return {Raven}\n     */\n  install: function() {\n    var self = this;\n    if (self.isSetup() && !self._isRavenInstalled) {\n      TraceKit.report.subscribe(function() {\n        self._handleOnErrorStackInfo.apply(self, arguments);\n      });\n\n      if (self._globalOptions.captureUnhandledRejections) {\n        self._attachPromiseRejectionHandler();\n      }\n\n      self._patchFunctionToString();\n\n      if (self._globalOptions.instrument && self._globalOptions.instrument.tryCatch) {\n        self._instrumentTryCatch();\n      }\n\n      if (self._globalOptions.autoBreadcrumbs) self._instrumentBreadcrumbs();\n\n      // Install all of the plugins\n      self._drainPlugins();\n\n      self._isRavenInstalled = true;\n    }\n\n    Error.stackTraceLimit = self._globalOptions.stackTraceLimit;\n    return this;\n  },\n\n  /*\n     * Set the DSN (can be called multiple time unlike config)\n     *\n     * @param {string} dsn The public Sentry DSN\n     */\n  setDSN: function(dsn) {\n    var self = this,\n      uri = self._parseDSN(dsn),\n      lastSlash = uri.path.lastIndexOf('/'),\n      path = uri.path.substr(1, lastSlash);\n\n    self._dsn = dsn;\n    self._globalKey = uri.user;\n    self._globalSecret = uri.pass && uri.pass.substr(1);\n    self._globalProject = uri.path.substr(lastSlash + 1);\n\n    self._globalServer = self._getGlobalServer(uri);\n\n    self._globalEndpoint =\n      self._globalServer + '/' + path + 'api/' + self._globalProject + '/store/';\n\n    // Reset backoff state since we may be pointing at a\n    // new project/server\n    this._resetBackoff();\n  },\n\n  /*\n     * Wrap code within a context so Raven can capture errors\n     * reliably across domains that is executed immediately.\n     *\n     * @param {object} options A specific set of options for this context [optional]\n     * @param {function} func The callback to be immediately executed within the context\n     * @param {array} args An array of arguments to be called with the callback [optional]\n     */\n  context: function(options, func, args) {\n    if (isFunction(options)) {\n      args = func || [];\n      func = options;\n      options = {};\n    }\n\n    return this.wrap(options, func).apply(this, args);\n  },\n\n  /*\n     * Wrap code within a context and returns back a new function to be executed\n     *\n     * @param {object} options A specific set of options for this context [optional]\n     * @param {function} func The function to be wrapped in a new context\n     * @param {function} _before A function to call before the try/catch wrapper [optional, private]\n     * @return {function} The newly wrapped functions with a context\n     */\n  wrap: function(options, func, _before) {\n    var self = this;\n    // 1 argument has been passed, and it's not a function\n    // so just return it\n    if (isUndefined(func) && !isFunction(options)) {\n      return options;\n    }\n\n    // options is optional\n    if (isFunction(options)) {\n      func = options;\n      options = undefined;\n    }\n\n    // At this point, we've passed along 2 arguments, and the second one\n    // is not a function either, so we'll just return the second argument.\n    if (!isFunction(func)) {\n      return func;\n    }\n\n    // We don't wanna wrap it twice!\n    try {\n      if (func.__raven__) {\n        return func;\n      }\n\n      // If this has already been wrapped in the past, return that\n      if (func.__raven_wrapper__) {\n        return func.__raven_wrapper__;\n      }\n    } catch (e) {\n      // Just accessing custom props in some Selenium environments\n      // can cause a \"Permission denied\" exception (see raven-js#495).\n      // Bail on wrapping and return the function as-is (defers to window.onerror).\n      return func;\n    }\n\n    function wrapped() {\n      var args = [],\n        i = arguments.length,\n        deep = !options || (options && options.deep !== false);\n\n      if (_before && isFunction(_before)) {\n        _before.apply(this, arguments);\n      }\n\n      // Recursively wrap all of a function's arguments that are\n      // functions themselves.\n      while (i--) args[i] = deep ? self.wrap(options, arguments[i]) : arguments[i];\n\n      try {\n        // Attempt to invoke user-land function\n        // NOTE: If you are a Sentry user, and you are seeing this stack frame, it\n        //       means Raven caught an error invoking your application code. This is\n        //       expected behavior and NOT indicative of a bug with Raven.js.\n        return func.apply(this, args);\n      } catch (e) {\n        self._ignoreNextOnError();\n        self.captureException(e, options);\n        throw e;\n      }\n    }\n\n    // copy over properties of the old function\n    for (var property in func) {\n      if (hasKey(func, property)) {\n        wrapped[property] = func[property];\n      }\n    }\n    wrapped.prototype = func.prototype;\n\n    func.__raven_wrapper__ = wrapped;\n    // Signal that this function has been wrapped/filled already\n    // for both debugging and to prevent it to being wrapped/filled twice\n    wrapped.__raven__ = true;\n    wrapped.__orig__ = func;\n\n    return wrapped;\n  },\n\n  /**\n   * Uninstalls the global error handler.\n   *\n   * @return {Raven}\n   */\n  uninstall: function() {\n    TraceKit.report.uninstall();\n\n    this._detachPromiseRejectionHandler();\n    this._unpatchFunctionToString();\n    this._restoreBuiltIns();\n    this._restoreConsole();\n\n    Error.stackTraceLimit = this._originalErrorStackTraceLimit;\n    this._isRavenInstalled = false;\n\n    return this;\n  },\n\n  /**\n   * Callback used for `unhandledrejection` event\n   *\n   * @param {PromiseRejectionEvent} event An object containing\n   *   promise: the Promise that was rejected\n   *   reason: the value with which the Promise was rejected\n   * @return void\n   */\n  _promiseRejectionHandler: function(event) {\n    this._logDebug('debug', 'Raven caught unhandled promise rejection:', event);\n    this.captureException(event.reason, {\n      mechanism: {\n        type: 'onunhandledrejection',\n        handled: false\n      }\n    });\n  },\n\n  /**\n   * Installs the global promise rejection handler.\n   *\n   * @return {raven}\n   */\n  _attachPromiseRejectionHandler: function() {\n    this._promiseRejectionHandler = this._promiseRejectionHandler.bind(this);\n    _window.addEventListener &&\n      _window.addEventListener('unhandledrejection', this._promiseRejectionHandler);\n    return this;\n  },\n\n  /**\n   * Uninstalls the global promise rejection handler.\n   *\n   * @return {raven}\n   */\n  _detachPromiseRejectionHandler: function() {\n    _window.removeEventListener &&\n      _window.removeEventListener('unhandledrejection', this._promiseRejectionHandler);\n    return this;\n  },\n\n  /**\n   * Manually capture an exception and send it over to Sentry\n   *\n   * @param {error} ex An exception to be logged\n   * @param {object} options A specific set of options for this error [optional]\n   * @return {Raven}\n   */\n  captureException: function(ex, options) {\n    options = objectMerge({trimHeadFrames: 0}, options ? options : {});\n\n    if (isErrorEvent(ex) && ex.error) {\n      // If it is an ErrorEvent with `error` property, extract it to get actual Error\n      ex = ex.error;\n    } else if (isDOMError(ex) || isDOMException(ex)) {\n      // If it is a DOMError or DOMException (which are legacy APIs, but still supported in some browsers)\n      // then we just extract the name and message, as they don't provide anything else\n      // https://developer.mozilla.org/en-US/docs/Web/API/DOMError\n      // https://developer.mozilla.org/en-US/docs/Web/API/DOMException\n      var name = ex.name || (isDOMError(ex) ? 'DOMError' : 'DOMException');\n      var message = ex.message ? name + ': ' + ex.message : name;\n\n      return this.captureMessage(\n        message,\n        objectMerge(options, {\n          // neither DOMError or DOMException provide stack trace and we most likely wont get it this way as well\n          // but it's barely any overhead so we may at least try\n          stacktrace: true,\n          trimHeadFrames: options.trimHeadFrames + 1\n        })\n      );\n    } else if (isError(ex)) {\n      // we have a real Error object\n      ex = ex;\n    } else if (isPlainObject(ex)) {\n      // If it is plain Object, serialize it manually and extract options\n      // This will allow us to group events based on top-level keys\n      // which is much better than creating new group when any key/value change\n      options = this._getCaptureExceptionOptionsFromPlainObject(options, ex);\n      ex = new Error(options.message);\n    } else {\n      // If none of previous checks were valid, then it means that\n      // it's not a DOMError/DOMException\n      // it's not a plain Object\n      // it's not a valid ErrorEvent (one with an error property)\n      // it's not an Error\n      // So bail out and capture it as a simple message:\n      return this.captureMessage(\n        ex,\n        objectMerge(options, {\n          stacktrace: true, // if we fall back to captureMessage, default to attempting a new trace\n          trimHeadFrames: options.trimHeadFrames + 1\n        })\n      );\n    }\n\n    // Store the raw exception object for potential debugging and introspection\n    this._lastCapturedException = ex;\n\n    // TraceKit.report will re-raise any exception passed to it,\n    // which means you have to wrap it in try/catch. Instead, we\n    // can wrap it here and only re-raise if TraceKit.report\n    // raises an exception different from the one we asked to\n    // report on.\n    try {\n      var stack = TraceKit.computeStackTrace(ex);\n      this._handleStackInfo(stack, options);\n    } catch (ex1) {\n      if (ex !== ex1) {\n        throw ex1;\n      }\n    }\n\n    return this;\n  },\n\n  _getCaptureExceptionOptionsFromPlainObject: function(currentOptions, ex) {\n    var exKeys = Object.keys(ex).sort();\n    var options = objectMerge(currentOptions, {\n      message:\n        'Non-Error exception captured with keys: ' + serializeKeysForMessage(exKeys),\n      fingerprint: [md5(exKeys)],\n      extra: currentOptions.extra || {}\n    });\n    options.extra.__serialized__ = serializeException(ex);\n\n    return options;\n  },\n\n  /*\n     * Manually send a message to Sentry\n     *\n     * @param {string} msg A plain message to be captured in Sentry\n     * @param {object} options A specific set of options for this message [optional]\n     * @return {Raven}\n     */\n  captureMessage: function(msg, options) {\n    // config() automagically converts ignoreErrors from a list to a RegExp so we need to test for an\n    // early call; we'll error on the side of logging anything called before configuration since it's\n    // probably something you should see:\n    if (\n      !!this._globalOptions.ignoreErrors.test &&\n      this._globalOptions.ignoreErrors.test(msg)\n    ) {\n      return;\n    }\n\n    options = options || {};\n    msg = msg + ''; // Make sure it's actually a string\n\n    var data = objectMerge(\n      {\n        message: msg\n      },\n      options\n    );\n\n    var ex;\n    // Generate a \"synthetic\" stack trace from this point.\n    // NOTE: If you are a Sentry user, and you are seeing this stack frame, it is NOT indicative\n    //       of a bug with Raven.js. Sentry generates synthetic traces either by configuration,\n    //       or if it catches a thrown object without a \"stack\" property.\n    try {\n      throw new Error(msg);\n    } catch (ex1) {\n      ex = ex1;\n    }\n\n    // null exception name so `Error` isn't prefixed to msg\n    ex.name = null;\n    var stack = TraceKit.computeStackTrace(ex);\n\n    // stack[0] is `throw new Error(msg)` call itself, we are interested in the frame that was just before that, stack[1]\n    var initialCall = isArray(stack.stack) && stack.stack[1];\n\n    // if stack[1] is `Raven.captureException`, it means that someone passed a string to it and we redirected that call\n    // to be handled by `captureMessage`, thus `initialCall` is the 3rd one, not 2nd\n    // initialCall => captureException(string) => captureMessage(string)\n    if (initialCall && initialCall.func === 'Raven.captureException') {\n      initialCall = stack.stack[2];\n    }\n\n    var fileurl = (initialCall && initialCall.url) || '';\n\n    if (\n      !!this._globalOptions.ignoreUrls.test &&\n      this._globalOptions.ignoreUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    if (\n      !!this._globalOptions.whitelistUrls.test &&\n      !this._globalOptions.whitelistUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    // Always attempt to get stacktrace if message is empty.\n    // It's the only way to provide any helpful information to the user.\n    if (this._globalOptions.stacktrace || options.stacktrace || data.message === '') {\n      // fingerprint on msg, not stack trace (legacy behavior, could be revisited)\n      data.fingerprint = data.fingerprint == null ? msg : data.fingerprint;\n\n      options = objectMerge(\n        {\n          trimHeadFrames: 0\n        },\n        options\n      );\n      // Since we know this is a synthetic trace, the top frame (this function call)\n      // MUST be from Raven.js, so mark it for trimming\n      // We add to the trim counter so that callers can choose to trim extra frames, such\n      // as utility functions.\n      options.trimHeadFrames += 1;\n\n      var frames = this._prepareFrames(stack, options);\n      data.stacktrace = {\n        // Sentry expects frames oldest to newest\n        frames: frames.reverse()\n      };\n    }\n\n    // Make sure that fingerprint is always wrapped in an array\n    if (data.fingerprint) {\n      data.fingerprint = isArray(data.fingerprint)\n        ? data.fingerprint\n        : [data.fingerprint];\n    }\n\n    // Fire away!\n    this._send(data);\n\n    return this;\n  },\n\n  captureBreadcrumb: function(obj) {\n    var crumb = objectMerge(\n      {\n        timestamp: now() / 1000\n      },\n      obj\n    );\n\n    if (isFunction(this._globalOptions.breadcrumbCallback)) {\n      var result = this._globalOptions.breadcrumbCallback(crumb);\n\n      if (isObject(result) && !isEmptyObject(result)) {\n        crumb = result;\n      } else if (result === false) {\n        return this;\n      }\n    }\n\n    this._breadcrumbs.push(crumb);\n    if (this._breadcrumbs.length > this._globalOptions.maxBreadcrumbs) {\n      this._breadcrumbs.shift();\n    }\n    return this;\n  },\n\n  addPlugin: function(plugin /*arg1, arg2, ... argN*/) {\n    var pluginArgs = [].slice.call(arguments, 1);\n\n    this._plugins.push([plugin, pluginArgs]);\n    if (this._isRavenInstalled) {\n      this._drainPlugins();\n    }\n\n    return this;\n  },\n\n  /*\n     * Set/clear a user to be sent along with the payload.\n     *\n     * @param {object} user An object representing user data [optional]\n     * @return {Raven}\n     */\n  setUserContext: function(user) {\n    // Intentionally do not merge here since that's an unexpected behavior.\n    this._globalContext.user = user;\n\n    return this;\n  },\n\n  /*\n     * Merge extra attributes to be sent along with the payload.\n     *\n     * @param {object} extra An object representing extra data [optional]\n     * @return {Raven}\n     */\n  setExtraContext: function(extra) {\n    this._mergeContext('extra', extra);\n\n    return this;\n  },\n\n  /*\n     * Merge tags to be sent along with the payload.\n     *\n     * @param {object} tags An object representing tags [optional]\n     * @return {Raven}\n     */\n  setTagsContext: function(tags) {\n    this._mergeContext('tags', tags);\n\n    return this;\n  },\n\n  /*\n     * Clear all of the context.\n     *\n     * @return {Raven}\n     */\n  clearContext: function() {\n    this._globalContext = {};\n\n    return this;\n  },\n\n  /*\n     * Get a copy of the current context. This cannot be mutated.\n     *\n     * @return {object} copy of context\n     */\n  getContext: function() {\n    // lol javascript\n    return JSON.parse(stringify(this._globalContext));\n  },\n\n  /*\n     * Set environment of application\n     *\n     * @param {string} environment Typically something like 'production'.\n     * @return {Raven}\n     */\n  setEnvironment: function(environment) {\n    this._globalOptions.environment = environment;\n\n    return this;\n  },\n\n  /*\n     * Set release version of application\n     *\n     * @param {string} release Typically something like a git SHA to identify version\n     * @return {Raven}\n     */\n  setRelease: function(release) {\n    this._globalOptions.release = release;\n\n    return this;\n  },\n\n  /*\n     * Set the dataCallback option\n     *\n     * @param {function} callback The callback to run which allows the\n     *                            data blob to be mutated before sending\n     * @return {Raven}\n     */\n  setDataCallback: function(callback) {\n    var original = this._globalOptions.dataCallback;\n    this._globalOptions.dataCallback = keepOriginalCallback(original, callback);\n    return this;\n  },\n\n  /*\n     * Set the breadcrumbCallback option\n     *\n     * @param {function} callback The callback to run which allows filtering\n     *                            or mutating breadcrumbs\n     * @return {Raven}\n     */\n  setBreadcrumbCallback: function(callback) {\n    var original = this._globalOptions.breadcrumbCallback;\n    this._globalOptions.breadcrumbCallback = keepOriginalCallback(original, callback);\n    return this;\n  },\n\n  /*\n     * Set the shouldSendCallback option\n     *\n     * @param {function} callback The callback to run which allows\n     *                            introspecting the blob before sending\n     * @return {Raven}\n     */\n  setShouldSendCallback: function(callback) {\n    var original = this._globalOptions.shouldSendCallback;\n    this._globalOptions.shouldSendCallback = keepOriginalCallback(original, callback);\n    return this;\n  },\n\n  /**\n   * Override the default HTTP transport mechanism that transmits data\n   * to the Sentry server.\n   *\n   * @param {function} transport Function invoked instead of the default\n   *                             `makeRequest` handler.\n   *\n   * @return {Raven}\n   */\n  setTransport: function(transport) {\n    this._globalOptions.transport = transport;\n\n    return this;\n  },\n\n  /*\n     * Get the latest raw exception that was captured by Raven.\n     *\n     * @return {error}\n     */\n  lastException: function() {\n    return this._lastCapturedException;\n  },\n\n  /*\n     * Get the last event id\n     *\n     * @return {string}\n     */\n  lastEventId: function() {\n    return this._lastEventId;\n  },\n\n  /*\n     * Determine if Raven is setup and ready to go.\n     *\n     * @return {boolean}\n     */\n  isSetup: function() {\n    if (!this._hasJSON) return false; // needs JSON support\n    if (!this._globalServer) {\n      if (!this.ravenNotConfiguredError) {\n        this.ravenNotConfiguredError = true;\n        this._logDebug('error', 'Error: Raven has not been configured.');\n      }\n      return false;\n    }\n    return true;\n  },\n\n  afterLoad: function() {\n    // TODO: remove window dependence?\n\n    // Attempt to initialize Raven on load\n    var RavenConfig = _window.RavenConfig;\n    if (RavenConfig) {\n      this.config(RavenConfig.dsn, RavenConfig.config).install();\n    }\n  },\n\n  showReportDialog: function(options) {\n    if (\n      !_document // doesn't work without a document (React native)\n    )\n      return;\n\n    options = objectMerge(\n      {\n        eventId: this.lastEventId(),\n        dsn: this._dsn,\n        user: this._globalContext.user || {}\n      },\n      options\n    );\n\n    if (!options.eventId) {\n      throw new RavenConfigError('Missing eventId');\n    }\n\n    if (!options.dsn) {\n      throw new RavenConfigError('Missing DSN');\n    }\n\n    var encode = encodeURIComponent;\n    var encodedOptions = [];\n\n    for (var key in options) {\n      if (key === 'user') {\n        var user = options.user;\n        if (user.name) encodedOptions.push('name=' + encode(user.name));\n        if (user.email) encodedOptions.push('email=' + encode(user.email));\n      } else {\n        encodedOptions.push(encode(key) + '=' + encode(options[key]));\n      }\n    }\n    var globalServer = this._getGlobalServer(this._parseDSN(options.dsn));\n\n    var script = _document.createElement('script');\n    script.async = true;\n    script.src = globalServer + '/api/embed/error-page/?' + encodedOptions.join('&');\n    (_document.head || _document.body).appendChild(script);\n  },\n\n  /**** Private functions ****/\n  _ignoreNextOnError: function() {\n    var self = this;\n    this._ignoreOnError += 1;\n    setTimeout(function() {\n      // onerror should trigger before setTimeout\n      self._ignoreOnError -= 1;\n    });\n  },\n\n  _triggerEvent: function(eventType, options) {\n    // NOTE: `event` is a native browser thing, so let's avoid conflicting wiht it\n    var evt, key;\n\n    if (!this._hasDocument) return;\n\n    options = options || {};\n\n    eventType = 'raven' + eventType.substr(0, 1).toUpperCase() + eventType.substr(1);\n\n    if (_document.createEvent) {\n      evt = _document.createEvent('HTMLEvents');\n      evt.initEvent(eventType, true, true);\n    } else {\n      evt = _document.createEventObject();\n      evt.eventType = eventType;\n    }\n\n    for (key in options)\n      if (hasKey(options, key)) {\n        evt[key] = options[key];\n      }\n\n    if (_document.createEvent) {\n      // IE9 if standards\n      _document.dispatchEvent(evt);\n    } else {\n      // IE8 regardless of Quirks or Standards\n      // IE9 if quirks\n      try {\n        _document.fireEvent('on' + evt.eventType.toLowerCase(), evt);\n      } catch (e) {\n        // Do nothing\n      }\n    }\n  },\n\n  /**\n   * Wraps addEventListener to capture UI breadcrumbs\n   * @param evtName the event name (e.g. \"click\")\n   * @returns {Function}\n   * @private\n   */\n  _breadcrumbEventHandler: function(evtName) {\n    var self = this;\n    return function(evt) {\n      // reset keypress timeout; e.g. triggering a 'click' after\n      // a 'keypress' will reset the keypress debounce so that a new\n      // set of keypresses can be recorded\n      self._keypressTimeout = null;\n\n      // It's possible this handler might trigger multiple times for the same\n      // event (e.g. event propagation through node ancestors). Ignore if we've\n      // already captured the event.\n      if (self._lastCapturedEvent === evt) return;\n\n      self._lastCapturedEvent = evt;\n\n      // try/catch both:\n      // - accessing evt.target (see getsentry/raven-js#838, #768)\n      // - `htmlTreeAsString` because it's complex, and just accessing the DOM incorrectly\n      //   can throw an exception in some circumstances.\n      var target;\n      try {\n        target = htmlTreeAsString(evt.target);\n      } catch (e) {\n        target = '<unknown>';\n      }\n\n      self.captureBreadcrumb({\n        category: 'ui.' + evtName, // e.g. ui.click, ui.input\n        message: target\n      });\n    };\n  },\n\n  /**\n   * Wraps addEventListener to capture keypress UI events\n   * @returns {Function}\n   * @private\n   */\n  _keypressEventHandler: function() {\n    var self = this,\n      debounceDuration = 1000; // milliseconds\n\n    // TODO: if somehow user switches keypress target before\n    //       debounce timeout is triggered, we will only capture\n    //       a single breadcrumb from the FIRST target (acceptable?)\n    return function(evt) {\n      var target;\n      try {\n        target = evt.target;\n      } catch (e) {\n        // just accessing event properties can throw an exception in some rare circumstances\n        // see: https://github.com/getsentry/raven-js/issues/838\n        return;\n      }\n      var tagName = target && target.tagName;\n\n      // only consider keypress events on actual input elements\n      // this will disregard keypresses targeting body (e.g. tabbing\n      // through elements, hotkeys, etc)\n      if (\n        !tagName ||\n        (tagName !== 'INPUT' && tagName !== 'TEXTAREA' && !target.isContentEditable)\n      )\n        return;\n\n      // record first keypress in a series, but ignore subsequent\n      // keypresses until debounce clears\n      var timeout = self._keypressTimeout;\n      if (!timeout) {\n        self._breadcrumbEventHandler('input')(evt);\n      }\n      clearTimeout(timeout);\n      self._keypressTimeout = setTimeout(function() {\n        self._keypressTimeout = null;\n      }, debounceDuration);\n    };\n  },\n\n  /**\n   * Captures a breadcrumb of type \"navigation\", normalizing input URLs\n   * @param to the originating URL\n   * @param from the target URL\n   * @private\n   */\n  _captureUrlChange: function(from, to) {\n    var parsedLoc = parseUrl(this._location.href);\n    var parsedTo = parseUrl(to);\n    var parsedFrom = parseUrl(from);\n\n    // because onpopstate only tells you the \"new\" (to) value of location.href, and\n    // not the previous (from) value, we need to track the value of the current URL\n    // state ourselves\n    this._lastHref = to;\n\n    // Use only the path component of the URL if the URL matches the current\n    // document (almost all the time when using pushState)\n    if (parsedLoc.protocol === parsedTo.protocol && parsedLoc.host === parsedTo.host)\n      to = parsedTo.relative;\n    if (parsedLoc.protocol === parsedFrom.protocol && parsedLoc.host === parsedFrom.host)\n      from = parsedFrom.relative;\n\n    this.captureBreadcrumb({\n      category: 'navigation',\n      data: {\n        to: to,\n        from: from\n      }\n    });\n  },\n\n  _patchFunctionToString: function() {\n    var self = this;\n    self._originalFunctionToString = Function.prototype.toString;\n    // eslint-disable-next-line no-extend-native\n    Function.prototype.toString = function() {\n      if (typeof this === 'function' && this.__raven__) {\n        return self._originalFunctionToString.apply(this.__orig__, arguments);\n      }\n      return self._originalFunctionToString.apply(this, arguments);\n    };\n  },\n\n  _unpatchFunctionToString: function() {\n    if (this._originalFunctionToString) {\n      // eslint-disable-next-line no-extend-native\n      Function.prototype.toString = this._originalFunctionToString;\n    }\n  },\n\n  /**\n   * Wrap timer functions and event targets to catch errors and provide\n   * better metadata.\n   */\n  _instrumentTryCatch: function() {\n    var self = this;\n\n    var wrappedBuiltIns = self._wrappedBuiltIns;\n\n    function wrapTimeFn(orig) {\n      return function(fn, t) {\n        // preserve arity\n        // Make a copy of the arguments to prevent deoptimization\n        // https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#32-leaking-arguments\n        var args = new Array(arguments.length);\n        for (var i = 0; i < args.length; ++i) {\n          args[i] = arguments[i];\n        }\n        var originalCallback = args[0];\n        if (isFunction(originalCallback)) {\n          args[0] = self.wrap(\n            {\n              mechanism: {\n                type: 'instrument',\n                data: {function: orig.name || '<anonymous>'}\n              }\n            },\n            originalCallback\n          );\n        }\n\n        // IE < 9 doesn't support .call/.apply on setInterval/setTimeout, but it\n        // also supports only two arguments and doesn't care what this is, so we\n        // can just call the original function directly.\n        if (orig.apply) {\n          return orig.apply(this, args);\n        } else {\n          return orig(args[0], args[1]);\n        }\n      };\n    }\n\n    var autoBreadcrumbs = this._globalOptions.autoBreadcrumbs;\n\n    function wrapEventTarget(global) {\n      var proto = _window[global] && _window[global].prototype;\n      if (proto && proto.hasOwnProperty && proto.hasOwnProperty('addEventListener')) {\n        fill(\n          proto,\n          'addEventListener',\n          function(orig) {\n            return function(evtName, fn, capture, secure) {\n              // preserve arity\n              try {\n                if (fn && fn.handleEvent) {\n                  fn.handleEvent = self.wrap(\n                    {\n                      mechanism: {\n                        type: 'instrument',\n                        data: {\n                          target: global,\n                          function: 'handleEvent',\n                          handler: (fn && fn.name) || '<anonymous>'\n                        }\n                      }\n                    },\n                    fn.handleEvent\n                  );\n                }\n              } catch (err) {\n                // can sometimes get 'Permission denied to access property \"handle Event'\n              }\n\n              // More breadcrumb DOM capture ... done here and not in `_instrumentBreadcrumbs`\n              // so that we don't have more than one wrapper function\n              var before, clickHandler, keypressHandler;\n\n              if (\n                autoBreadcrumbs &&\n                autoBreadcrumbs.dom &&\n                (global === 'EventTarget' || global === 'Node')\n              ) {\n                // NOTE: generating multiple handlers per addEventListener invocation, should\n                //       revisit and verify we can just use one (almost certainly)\n                clickHandler = self._breadcrumbEventHandler('click');\n                keypressHandler = self._keypressEventHandler();\n                before = function(evt) {\n                  // need to intercept every DOM event in `before` argument, in case that\n                  // same wrapped method is re-used for different events (e.g. mousemove THEN click)\n                  // see #724\n                  if (!evt) return;\n\n                  var eventType;\n                  try {\n                    eventType = evt.type;\n                  } catch (e) {\n                    // just accessing event properties can throw an exception in some rare circumstances\n                    // see: https://github.com/getsentry/raven-js/issues/838\n                    return;\n                  }\n                  if (eventType === 'click') return clickHandler(evt);\n                  else if (eventType === 'keypress') return keypressHandler(evt);\n                };\n              }\n              return orig.call(\n                this,\n                evtName,\n                self.wrap(\n                  {\n                    mechanism: {\n                      type: 'instrument',\n                      data: {\n                        target: global,\n                        function: 'addEventListener',\n                        handler: (fn && fn.name) || '<anonymous>'\n                      }\n                    }\n                  },\n                  fn,\n                  before\n                ),\n                capture,\n                secure\n              );\n            };\n          },\n          wrappedBuiltIns\n        );\n        fill(\n          proto,\n          'removeEventListener',\n          function(orig) {\n            return function(evt, fn, capture, secure) {\n              try {\n                fn = fn && (fn.__raven_wrapper__ ? fn.__raven_wrapper__ : fn);\n              } catch (e) {\n                // ignore, accessing __raven_wrapper__ will throw in some Selenium environments\n              }\n              return orig.call(this, evt, fn, capture, secure);\n            };\n          },\n          wrappedBuiltIns\n        );\n      }\n    }\n\n    fill(_window, 'setTimeout', wrapTimeFn, wrappedBuiltIns);\n    fill(_window, 'setInterval', wrapTimeFn, wrappedBuiltIns);\n    if (_window.requestAnimationFrame) {\n      fill(\n        _window,\n        'requestAnimationFrame',\n        function(orig) {\n          return function(cb) {\n            return orig(\n              self.wrap(\n                {\n                  mechanism: {\n                    type: 'instrument',\n                    data: {\n                      function: 'requestAnimationFrame',\n                      handler: (orig && orig.name) || '<anonymous>'\n                    }\n                  }\n                },\n                cb\n              )\n            );\n          };\n        },\n        wrappedBuiltIns\n      );\n    }\n\n    // event targets borrowed from bugsnag-js:\n    // https://github.com/bugsnag/bugsnag-js/blob/master/src/bugsnag.js#L666\n    var eventTargets = [\n      'EventTarget',\n      'Window',\n      'Node',\n      'ApplicationCache',\n      'AudioTrackList',\n      'ChannelMergerNode',\n      'CryptoOperation',\n      'EventSource',\n      'FileReader',\n      'HTMLUnknownElement',\n      'IDBDatabase',\n      'IDBRequest',\n      'IDBTransaction',\n      'KeyOperation',\n      'MediaController',\n      'MessagePort',\n      'ModalWindow',\n      'Notification',\n      'SVGElementInstance',\n      'Screen',\n      'TextTrack',\n      'TextTrackCue',\n      'TextTrackList',\n      'WebSocket',\n      'WebSocketWorker',\n      'Worker',\n      'XMLHttpRequest',\n      'XMLHttpRequestEventTarget',\n      'XMLHttpRequestUpload'\n    ];\n    for (var i = 0; i < eventTargets.length; i++) {\n      wrapEventTarget(eventTargets[i]);\n    }\n  },\n\n  /**\n   * Instrument browser built-ins w/ breadcrumb capturing\n   *  - XMLHttpRequests\n   *  - DOM interactions (click/typing)\n   *  - window.location changes\n   *  - console\n   *\n   * Can be disabled or individually configured via the `autoBreadcrumbs` config option\n   */\n  _instrumentBreadcrumbs: function() {\n    var self = this;\n    var autoBreadcrumbs = this._globalOptions.autoBreadcrumbs;\n\n    var wrappedBuiltIns = self._wrappedBuiltIns;\n\n    function wrapProp(prop, xhr) {\n      if (prop in xhr && isFunction(xhr[prop])) {\n        fill(xhr, prop, function(orig) {\n          return self.wrap(\n            {\n              mechanism: {\n                type: 'instrument',\n                data: {function: prop, handler: (orig && orig.name) || '<anonymous>'}\n              }\n            },\n            orig\n          );\n        }); // intentionally don't track filled methods on XHR instances\n      }\n    }\n\n    if (autoBreadcrumbs.xhr && 'XMLHttpRequest' in _window) {\n      var xhrproto = _window.XMLHttpRequest && _window.XMLHttpRequest.prototype;\n      fill(\n        xhrproto,\n        'open',\n        function(origOpen) {\n          return function(method, url) {\n            // preserve arity\n\n            // if Sentry key appears in URL, don't capture\n            if (isString(url) && url.indexOf(self._globalKey) === -1) {\n              this.__raven_xhr = {\n                method: method,\n                url: url,\n                status_code: null\n              };\n            }\n\n            return origOpen.apply(this, arguments);\n          };\n        },\n        wrappedBuiltIns\n      );\n\n      fill(\n        xhrproto,\n        'send',\n        function(origSend) {\n          return function() {\n            // preserve arity\n            var xhr = this;\n\n            function onreadystatechangeHandler() {\n              if (xhr.__raven_xhr && xhr.readyState === 4) {\n                try {\n                  // touching statusCode in some platforms throws\n                  // an exception\n                  xhr.__raven_xhr.status_code = xhr.status;\n                } catch (e) {\n                  /* do nothing */\n                }\n\n                self.captureBreadcrumb({\n                  type: 'http',\n                  category: 'xhr',\n                  data: xhr.__raven_xhr\n                });\n              }\n            }\n\n            var props = ['onload', 'onerror', 'onprogress'];\n            for (var j = 0; j < props.length; j++) {\n              wrapProp(props[j], xhr);\n            }\n\n            if ('onreadystatechange' in xhr && isFunction(xhr.onreadystatechange)) {\n              fill(\n                xhr,\n                'onreadystatechange',\n                function(orig) {\n                  return self.wrap(\n                    {\n                      mechanism: {\n                        type: 'instrument',\n                        data: {\n                          function: 'onreadystatechange',\n                          handler: (orig && orig.name) || '<anonymous>'\n                        }\n                      }\n                    },\n                    orig,\n                    onreadystatechangeHandler\n                  );\n                } /* intentionally don't track this instrumentation */\n              );\n            } else {\n              // if onreadystatechange wasn't actually set by the page on this xhr, we\n              // are free to set our own and capture the breadcrumb\n              xhr.onreadystatechange = onreadystatechangeHandler;\n            }\n\n            return origSend.apply(this, arguments);\n          };\n        },\n        wrappedBuiltIns\n      );\n    }\n\n    if (autoBreadcrumbs.xhr && supportsFetch()) {\n      fill(\n        _window,\n        'fetch',\n        function(origFetch) {\n          return function() {\n            // preserve arity\n            // Make a copy of the arguments to prevent deoptimization\n            // https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#32-leaking-arguments\n            var args = new Array(arguments.length);\n            for (var i = 0; i < args.length; ++i) {\n              args[i] = arguments[i];\n            }\n\n            var fetchInput = args[0];\n            var method = 'GET';\n            var url;\n\n            if (typeof fetchInput === 'string') {\n              url = fetchInput;\n            } else if ('Request' in _window && fetchInput instanceof _window.Request) {\n              url = fetchInput.url;\n              if (fetchInput.method) {\n                method = fetchInput.method;\n              }\n            } else {\n              url = '' + fetchInput;\n            }\n\n            // if Sentry key appears in URL, don't capture, as it's our own request\n            if (url.indexOf(self._globalKey) !== -1) {\n              return origFetch.apply(this, args);\n            }\n\n            if (args[1] && args[1].method) {\n              method = args[1].method;\n            }\n\n            var fetchData = {\n              method: method,\n              url: url,\n              status_code: null\n            };\n\n            return origFetch\n              .apply(this, args)\n              .then(function(response) {\n                fetchData.status_code = response.status;\n\n                self.captureBreadcrumb({\n                  type: 'http',\n                  category: 'fetch',\n                  data: fetchData\n                });\n\n                return response;\n              })\n              ['catch'](function(err) {\n                // if there is an error performing the request\n                self.captureBreadcrumb({\n                  type: 'http',\n                  category: 'fetch',\n                  data: fetchData,\n                  level: 'error'\n                });\n\n                throw err;\n              });\n          };\n        },\n        wrappedBuiltIns\n      );\n    }\n\n    // Capture breadcrumbs from any click that is unhandled / bubbled up all the way\n    // to the document. Do this before we instrument addEventListener.\n    if (autoBreadcrumbs.dom && this._hasDocument) {\n      if (_document.addEventListener) {\n        _document.addEventListener('click', self._breadcrumbEventHandler('click'), false);\n        _document.addEventListener('keypress', self._keypressEventHandler(), false);\n      } else if (_document.attachEvent) {\n        // IE8 Compatibility\n        _document.attachEvent('onclick', self._breadcrumbEventHandler('click'));\n        _document.attachEvent('onkeypress', self._keypressEventHandler());\n      }\n    }\n\n    // record navigation (URL) changes\n    // NOTE: in Chrome App environment, touching history.pushState, *even inside\n    //       a try/catch block*, will cause Chrome to output an error to console.error\n    // borrowed from: https://github.com/angular/angular.js/pull/13945/files\n    var chrome = _window.chrome;\n    var isChromePackagedApp = chrome && chrome.app && chrome.app.runtime;\n    var hasPushAndReplaceState =\n      !isChromePackagedApp &&\n      _window.history &&\n      _window.history.pushState &&\n      _window.history.replaceState;\n    if (autoBreadcrumbs.location && hasPushAndReplaceState) {\n      // TODO: remove onpopstate handler on uninstall()\n      var oldOnPopState = _window.onpopstate;\n      _window.onpopstate = function() {\n        var currentHref = self._location.href;\n        self._captureUrlChange(self._lastHref, currentHref);\n\n        if (oldOnPopState) {\n          return oldOnPopState.apply(this, arguments);\n        }\n      };\n\n      var historyReplacementFunction = function(origHistFunction) {\n        // note history.pushState.length is 0; intentionally not declaring\n        // params to preserve 0 arity\n        return function(/* state, title, url */) {\n          var url = arguments.length > 2 ? arguments[2] : undefined;\n\n          // url argument is optional\n          if (url) {\n            // coerce to string (this is what pushState does)\n            self._captureUrlChange(self._lastHref, url + '');\n          }\n\n          return origHistFunction.apply(this, arguments);\n        };\n      };\n\n      fill(_window.history, 'pushState', historyReplacementFunction, wrappedBuiltIns);\n      fill(_window.history, 'replaceState', historyReplacementFunction, wrappedBuiltIns);\n    }\n\n    if (autoBreadcrumbs.console && 'console' in _window && console.log) {\n      // console\n      var consoleMethodCallback = function(msg, data) {\n        self.captureBreadcrumb({\n          message: msg,\n          level: data.level,\n          category: 'console'\n        });\n      };\n\n      each(['debug', 'info', 'warn', 'error', 'log'], function(_, level) {\n        wrapConsoleMethod(console, level, consoleMethodCallback);\n      });\n    }\n  },\n\n  _restoreBuiltIns: function() {\n    // restore any wrapped builtins\n    var builtin;\n    while (this._wrappedBuiltIns.length) {\n      builtin = this._wrappedBuiltIns.shift();\n\n      var obj = builtin[0],\n        name = builtin[1],\n        orig = builtin[2];\n\n      obj[name] = orig;\n    }\n  },\n\n  _restoreConsole: function() {\n    // eslint-disable-next-line guard-for-in\n    for (var method in this._originalConsoleMethods) {\n      this._originalConsole[method] = this._originalConsoleMethods[method];\n    }\n  },\n\n  _drainPlugins: function() {\n    var self = this;\n\n    // FIX ME TODO\n    each(this._plugins, function(_, plugin) {\n      var installer = plugin[0];\n      var args = plugin[1];\n      installer.apply(self, [self].concat(args));\n    });\n  },\n\n  _parseDSN: function(str) {\n    var m = dsnPattern.exec(str),\n      dsn = {},\n      i = 7;\n\n    try {\n      while (i--) dsn[dsnKeys[i]] = m[i] || '';\n    } catch (e) {\n      throw new RavenConfigError('Invalid DSN: ' + str);\n    }\n\n    if (dsn.pass && !this._globalOptions.allowSecretKey) {\n      throw new RavenConfigError(\n        'Do not specify your secret key in the DSN. See: http://bit.ly/raven-secret-key'\n      );\n    }\n\n    return dsn;\n  },\n\n  _getGlobalServer: function(uri) {\n    // assemble the endpoint from the uri pieces\n    var globalServer = '//' + uri.host + (uri.port ? ':' + uri.port : '');\n\n    if (uri.protocol) {\n      globalServer = uri.protocol + ':' + globalServer;\n    }\n    return globalServer;\n  },\n\n  _handleOnErrorStackInfo: function(stackInfo, options) {\n    options = options || {};\n    options.mechanism = options.mechanism || {\n      type: 'onerror',\n      handled: false\n    };\n\n    // if we are intentionally ignoring errors via onerror, bail out\n    if (!this._ignoreOnError) {\n      this._handleStackInfo(stackInfo, options);\n    }\n  },\n\n  _handleStackInfo: function(stackInfo, options) {\n    var frames = this._prepareFrames(stackInfo, options);\n\n    this._triggerEvent('handle', {\n      stackInfo: stackInfo,\n      options: options\n    });\n\n    this._processException(\n      stackInfo.name,\n      stackInfo.message,\n      stackInfo.url,\n      stackInfo.lineno,\n      frames,\n      options\n    );\n  },\n\n  _prepareFrames: function(stackInfo, options) {\n    var self = this;\n    var frames = [];\n    if (stackInfo.stack && stackInfo.stack.length) {\n      each(stackInfo.stack, function(i, stack) {\n        var frame = self._normalizeFrame(stack, stackInfo.url);\n        if (frame) {\n          frames.push(frame);\n        }\n      });\n\n      // e.g. frames captured via captureMessage throw\n      if (options && options.trimHeadFrames) {\n        for (var j = 0; j < options.trimHeadFrames && j < frames.length; j++) {\n          frames[j].in_app = false;\n        }\n      }\n    }\n    frames = frames.slice(0, this._globalOptions.stackTraceLimit);\n    return frames;\n  },\n\n  _normalizeFrame: function(frame, stackInfoUrl) {\n    // normalize the frames data\n    var normalized = {\n      filename: frame.url,\n      lineno: frame.line,\n      colno: frame.column,\n      function: frame.func || '?'\n    };\n\n    // Case when we don't have any information about the error\n    // E.g. throwing a string or raw object, instead of an `Error` in Firefox\n    // Generating synthetic error doesn't add any value here\n    //\n    // We should probably somehow let a user know that they should fix their code\n    if (!frame.url) {\n      normalized.filename = stackInfoUrl; // fallback to whole stacks url from onerror handler\n    }\n\n    normalized.in_app = !// determine if an exception came from outside of our app\n    // first we check the global includePaths list.\n    (\n      (!!this._globalOptions.includePaths.test &&\n        !this._globalOptions.includePaths.test(normalized.filename)) ||\n      // Now we check for fun, if the function name is Raven or TraceKit\n      /(Raven|TraceKit)\\./.test(normalized['function']) ||\n      // finally, we do a last ditch effort and check for raven.min.js\n      /raven\\.(min\\.)?js$/.test(normalized.filename)\n    );\n\n    return normalized;\n  },\n\n  _processException: function(type, message, fileurl, lineno, frames, options) {\n    var prefixedMessage = (type ? type + ': ' : '') + (message || '');\n    if (\n      !!this._globalOptions.ignoreErrors.test &&\n      (this._globalOptions.ignoreErrors.test(message) ||\n        this._globalOptions.ignoreErrors.test(prefixedMessage))\n    ) {\n      return;\n    }\n\n    var stacktrace;\n\n    if (frames && frames.length) {\n      fileurl = frames[0].filename || fileurl;\n      // Sentry expects frames oldest to newest\n      // and JS sends them as newest to oldest\n      frames.reverse();\n      stacktrace = {frames: frames};\n    } else if (fileurl) {\n      stacktrace = {\n        frames: [\n          {\n            filename: fileurl,\n            lineno: lineno,\n            in_app: true\n          }\n        ]\n      };\n    }\n\n    if (\n      !!this._globalOptions.ignoreUrls.test &&\n      this._globalOptions.ignoreUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    if (\n      !!this._globalOptions.whitelistUrls.test &&\n      !this._globalOptions.whitelistUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    var data = objectMerge(\n      {\n        // sentry.interfaces.Exception\n        exception: {\n          values: [\n            {\n              type: type,\n              value: message,\n              stacktrace: stacktrace\n            }\n          ]\n        },\n        transaction: fileurl\n      },\n      options\n    );\n\n    var ex = data.exception.values[0];\n    if (ex.type == null && ex.value === '') {\n      ex.value = 'Unrecoverable error caught';\n    }\n\n    // Move mechanism from options to exception interface\n    // We do this, as requiring user to pass `{exception:{mechanism:{ ... }}}` would be\n    // too much\n    if (!data.exception.mechanism && data.mechanism) {\n      data.exception.mechanism = data.mechanism;\n      delete data.mechanism;\n    }\n\n    data.exception.mechanism = objectMerge(\n      {\n        type: 'generic',\n        handled: true\n      },\n      data.exception.mechanism || {}\n    );\n\n    // Fire away!\n    this._send(data);\n  },\n\n  _trimPacket: function(data) {\n    // For now, we only want to truncate the two different messages\n    // but this could/should be expanded to just trim everything\n    var max = this._globalOptions.maxMessageLength;\n    if (data.message) {\n      data.message = truncate(data.message, max);\n    }\n    if (data.exception) {\n      var exception = data.exception.values[0];\n      exception.value = truncate(exception.value, max);\n    }\n\n    var request = data.request;\n    if (request) {\n      if (request.url) {\n        request.url = truncate(request.url, this._globalOptions.maxUrlLength);\n      }\n      if (request.Referer) {\n        request.Referer = truncate(request.Referer, this._globalOptions.maxUrlLength);\n      }\n    }\n\n    if (data.breadcrumbs && data.breadcrumbs.values)\n      this._trimBreadcrumbs(data.breadcrumbs);\n\n    return data;\n  },\n\n  /**\n   * Truncate breadcrumb values (right now just URLs)\n   */\n  _trimBreadcrumbs: function(breadcrumbs) {\n    // known breadcrumb properties with urls\n    // TODO: also consider arbitrary prop values that start with (https?)?://\n    var urlProps = ['to', 'from', 'url'],\n      urlProp,\n      crumb,\n      data;\n\n    for (var i = 0; i < breadcrumbs.values.length; ++i) {\n      crumb = breadcrumbs.values[i];\n      if (\n        !crumb.hasOwnProperty('data') ||\n        !isObject(crumb.data) ||\n        objectFrozen(crumb.data)\n      )\n        continue;\n\n      data = objectMerge({}, crumb.data);\n      for (var j = 0; j < urlProps.length; ++j) {\n        urlProp = urlProps[j];\n        if (data.hasOwnProperty(urlProp) && data[urlProp]) {\n          data[urlProp] = truncate(data[urlProp], this._globalOptions.maxUrlLength);\n        }\n      }\n      breadcrumbs.values[i].data = data;\n    }\n  },\n\n  _getHttpData: function() {\n    if (!this._hasNavigator && !this._hasDocument) return;\n    var httpData = {};\n\n    if (this._hasNavigator && _navigator.userAgent) {\n      httpData.headers = {\n        'User-Agent': _navigator.userAgent\n      };\n    }\n\n    // Check in `window` instead of `document`, as we may be in ServiceWorker environment\n    if (_window.location && _window.location.href) {\n      httpData.url = _window.location.href;\n    }\n\n    if (this._hasDocument && _document.referrer) {\n      if (!httpData.headers) httpData.headers = {};\n      httpData.headers.Referer = _document.referrer;\n    }\n\n    return httpData;\n  },\n\n  _resetBackoff: function() {\n    this._backoffDuration = 0;\n    this._backoffStart = null;\n  },\n\n  _shouldBackoff: function() {\n    return this._backoffDuration && now() - this._backoffStart < this._backoffDuration;\n  },\n\n  /**\n   * Returns true if the in-process data payload matches the signature\n   * of the previously-sent data\n   *\n   * NOTE: This has to be done at this level because TraceKit can generate\n   *       data from window.onerror WITHOUT an exception object (IE8, IE9,\n   *       other old browsers). This can take the form of an \"exception\"\n   *       data object with a single frame (derived from the onerror args).\n   */\n  _isRepeatData: function(current) {\n    var last = this._lastData;\n\n    if (\n      !last ||\n      current.message !== last.message || // defined for captureMessage\n      current.transaction !== last.transaction // defined for captureException/onerror\n    )\n      return false;\n\n    // Stacktrace interface (i.e. from captureMessage)\n    if (current.stacktrace || last.stacktrace) {\n      return isSameStacktrace(current.stacktrace, last.stacktrace);\n    } else if (current.exception || last.exception) {\n      // Exception interface (i.e. from captureException/onerror)\n      return isSameException(current.exception, last.exception);\n    } else if (current.fingerprint || last.fingerprint) {\n      return Boolean(current.fingerprint && last.fingerprint) &&\n        JSON.stringify(current.fingerprint) === JSON.stringify(last.fingerprint)\n    }\n\n    return true;\n  },\n\n  _setBackoffState: function(request) {\n    // If we are already in a backoff state, don't change anything\n    if (this._shouldBackoff()) {\n      return;\n    }\n\n    var status = request.status;\n\n    // 400 - project_id doesn't exist or some other fatal\n    // 401 - invalid/revoked dsn\n    // 429 - too many requests\n    if (!(status === 400 || status === 401 || status === 429)) return;\n\n    var retry;\n    try {\n      // If Retry-After is not in Access-Control-Expose-Headers, most\n      // browsers will throw an exception trying to access it\n      if (supportsFetch()) {\n        retry = request.headers.get('Retry-After');\n      } else {\n        retry = request.getResponseHeader('Retry-After');\n      }\n\n      // Retry-After is returned in seconds\n      retry = parseInt(retry, 10) * 1000;\n    } catch (e) {\n      /* eslint no-empty:0 */\n    }\n\n    this._backoffDuration = retry\n      ? // If Sentry server returned a Retry-After value, use it\n        retry\n      : // Otherwise, double the last backoff duration (starts at 1 sec)\n        this._backoffDuration * 2 || 1000;\n\n    this._backoffStart = now();\n  },\n\n  _send: function(data) {\n    var globalOptions = this._globalOptions;\n\n    var baseData = {\n        project: this._globalProject,\n        logger: globalOptions.logger,\n        platform: 'javascript'\n      },\n      httpData = this._getHttpData();\n\n    if (httpData) {\n      baseData.request = httpData;\n    }\n\n    // HACK: delete `trimHeadFrames` to prevent from appearing in outbound payload\n    if (data.trimHeadFrames) delete data.trimHeadFrames;\n\n    data = objectMerge(baseData, data);\n\n    // Merge in the tags and extra separately since objectMerge doesn't handle a deep merge\n    data.tags = objectMerge(objectMerge({}, this._globalContext.tags), data.tags);\n    data.extra = objectMerge(objectMerge({}, this._globalContext.extra), data.extra);\n\n    // Send along our own collected metadata with extra\n    data.extra['session:duration'] = now() - this._startTime;\n\n    if (this._breadcrumbs && this._breadcrumbs.length > 0) {\n      // intentionally make shallow copy so that additions\n      // to breadcrumbs aren't accidentally sent in this request\n      data.breadcrumbs = {\n        values: [].slice.call(this._breadcrumbs, 0)\n      };\n    }\n\n    if (this._globalContext.user) {\n      // sentry.interfaces.User\n      data.user = this._globalContext.user;\n    }\n\n    // Include the environment if it's defined in globalOptions\n    if (globalOptions.environment) data.environment = globalOptions.environment;\n\n    // Include the release if it's defined in globalOptions\n    if (globalOptions.release) data.release = globalOptions.release;\n\n    // Include server_name if it's defined in globalOptions\n    if (globalOptions.serverName) data.server_name = globalOptions.serverName;\n\n    data = this._sanitizeData(data);\n\n    // Cleanup empty properties before sending them to the server\n    Object.keys(data).forEach(function(key) {\n      if (data[key] == null || data[key] === '' || isEmptyObject(data[key])) {\n        delete data[key];\n      }\n    });\n\n    if (isFunction(globalOptions.dataCallback)) {\n      data = globalOptions.dataCallback(data) || data;\n    }\n\n    // Why??????????\n    if (!data || isEmptyObject(data)) {\n      return;\n    }\n\n    // Check if the request should be filtered or not\n    if (\n      isFunction(globalOptions.shouldSendCallback) &&\n      !globalOptions.shouldSendCallback(data)\n    ) {\n      return;\n    }\n\n    // Backoff state: Sentry server previously responded w/ an error (e.g. 429 - too many requests),\n    // so drop requests until \"cool-off\" period has elapsed.\n    if (this._shouldBackoff()) {\n      this._logDebug('warn', 'Raven dropped error due to backoff: ', data);\n      return;\n    }\n\n    if (typeof globalOptions.sampleRate === 'number') {\n      if (Math.random() < globalOptions.sampleRate) {\n        this._sendProcessedPayload(data);\n      }\n    } else {\n      this._sendProcessedPayload(data);\n    }\n  },\n\n  _sanitizeData: function(data) {\n    return sanitize(data, this._globalOptions.sanitizeKeys);\n  },\n\n  _getUuid: function() {\n    return uuid4();\n  },\n\n  _sendProcessedPayload: function(data, callback) {\n    var self = this;\n    var globalOptions = this._globalOptions;\n\n    if (!this.isSetup()) return;\n\n    // Try and clean up the packet before sending by truncating long values\n    data = this._trimPacket(data);\n\n    // ideally duplicate error testing should occur *before* dataCallback/shouldSendCallback,\n    // but this would require copying an un-truncated copy of the data packet, which can be\n    // arbitrarily deep (extra_data) -- could be worthwhile? will revisit\n    if (!this._globalOptions.allowDuplicates && this._isRepeatData(data)) {\n      this._logDebug('warn', 'Raven dropped repeat event: ', data);\n      return;\n    }\n\n    // Send along an event_id if not explicitly passed.\n    // This event_id can be used to reference the error within Sentry itself.\n    // Set lastEventId after we know the error should actually be sent\n    this._lastEventId = data.event_id || (data.event_id = this._getUuid());\n\n    // Store outbound payload after trim\n    this._lastData = data;\n\n    this._logDebug('debug', 'Raven about to send:', data);\n\n    var auth = {\n      sentry_version: '7',\n      sentry_client: 'raven-js/' + this.VERSION,\n      sentry_key: this._globalKey\n    };\n\n    if (this._globalSecret) {\n      auth.sentry_secret = this._globalSecret;\n    }\n\n    var exception = data.exception && data.exception.values[0];\n\n    // only capture 'sentry' breadcrumb is autoBreadcrumbs is truthy\n    if (\n      this._globalOptions.autoBreadcrumbs &&\n      this._globalOptions.autoBreadcrumbs.sentry\n    ) {\n      this.captureBreadcrumb({\n        category: 'sentry',\n        message: exception\n          ? (exception.type ? exception.type + ': ' : '') + exception.value\n          : data.message,\n        event_id: data.event_id,\n        level: data.level || 'error' // presume error unless specified\n      });\n    }\n\n    var url = this._globalEndpoint;\n    (globalOptions.transport || this._makeRequest).call(this, {\n      url: url,\n      auth: auth,\n      data: data,\n      options: globalOptions,\n      onSuccess: function success() {\n        self._resetBackoff();\n\n        self._triggerEvent('success', {\n          data: data,\n          src: url\n        });\n        callback && callback();\n      },\n      onError: function failure(error) {\n        self._logDebug('error', 'Raven transport failed to send: ', error);\n\n        if (error.request) {\n          self._setBackoffState(error.request);\n        }\n\n        self._triggerEvent('failure', {\n          data: data,\n          src: url\n        });\n        error = error || new Error('Raven send failed (no additional details provided)');\n        callback && callback(error);\n      }\n    });\n  },\n\n  _makeRequest: function(opts) {\n    // Auth is intentionally sent as part of query string (NOT as custom HTTP header) to avoid preflight CORS requests\n    var url = opts.url + '?' + urlencode(opts.auth);\n\n    var evaluatedHeaders = null;\n    var evaluatedFetchParameters = {};\n\n    if (opts.options.headers) {\n      evaluatedHeaders = this._evaluateHash(opts.options.headers);\n    }\n\n    if (opts.options.fetchParameters) {\n      evaluatedFetchParameters = this._evaluateHash(opts.options.fetchParameters);\n    }\n\n    if (supportsFetch()) {\n      evaluatedFetchParameters.body = stringify(opts.data);\n\n      var defaultFetchOptions = objectMerge({}, this._fetchDefaults);\n      var fetchOptions = objectMerge(defaultFetchOptions, evaluatedFetchParameters);\n\n      if (evaluatedHeaders) {\n        fetchOptions.headers = evaluatedHeaders;\n      }\n\n      return _window\n        .fetch(url, fetchOptions)\n        .then(function(response) {\n          if (response.ok) {\n            opts.onSuccess && opts.onSuccess();\n          } else {\n            var error = new Error('Sentry error code: ' + response.status);\n            // It's called request only to keep compatibility with XHR interface\n            // and not add more redundant checks in setBackoffState method\n            error.request = response;\n            opts.onError && opts.onError(error);\n          }\n        })\n        ['catch'](function() {\n          opts.onError &&\n            opts.onError(new Error('Sentry error code: network unavailable'));\n        });\n    }\n\n    var request = _window.XMLHttpRequest && new _window.XMLHttpRequest();\n    if (!request) return;\n\n    // if browser doesn't support CORS (e.g. IE7), we are out of luck\n    var hasCORS = 'withCredentials' in request || typeof XDomainRequest !== 'undefined';\n\n    if (!hasCORS) return;\n\n    if ('withCredentials' in request) {\n      request.onreadystatechange = function() {\n        if (request.readyState !== 4) {\n          return;\n        } else if (request.status === 200) {\n          opts.onSuccess && opts.onSuccess();\n        } else if (opts.onError) {\n          var err = new Error('Sentry error code: ' + request.status);\n          err.request = request;\n          opts.onError(err);\n        }\n      };\n    } else {\n      request = new XDomainRequest();\n      // xdomainrequest cannot go http -> https (or vice versa),\n      // so always use protocol relative\n      url = url.replace(/^https?:/, '');\n\n      // onreadystatechange not supported by XDomainRequest\n      if (opts.onSuccess) {\n        request.onload = opts.onSuccess;\n      }\n      if (opts.onError) {\n        request.onerror = function() {\n          var err = new Error('Sentry error code: XDomainRequest');\n          err.request = request;\n          opts.onError(err);\n        };\n      }\n    }\n\n    request.open('POST', url);\n\n    if (evaluatedHeaders) {\n      each(evaluatedHeaders, function(key, value) {\n        request.setRequestHeader(key, value);\n      });\n    }\n\n    request.send(stringify(opts.data));\n  },\n\n  _evaluateHash: function(hash) {\n    var evaluated = {};\n\n    for (var key in hash) {\n      if (hash.hasOwnProperty(key)) {\n        var value = hash[key];\n        evaluated[key] = typeof value === 'function' ? value() : value;\n      }\n    }\n\n    return evaluated;\n  },\n\n  _logDebug: function(level) {\n    // We allow `Raven.debug` and `Raven.config(DSN, { debug: true })` to not make backward incompatible API change\n    if (\n      this._originalConsoleMethods[level] &&\n      (this.debug || this._globalOptions.debug)\n    ) {\n      // In IE<10 console methods do not have their own 'apply' method\n      Function.prototype.apply.call(\n        this._originalConsoleMethods[level],\n        this._originalConsole,\n        [].slice.call(arguments, 1)\n      );\n    }\n  },\n\n  _mergeContext: function(key, context) {\n    if (isUndefined(context)) {\n      delete this._globalContext[key];\n    } else {\n      this._globalContext[key] = objectMerge(this._globalContext[key] || {}, context);\n    }\n  }\n};\n\n// Deprecations\nRaven.prototype.setUser = Raven.prototype.setUserContext;\nRaven.prototype.setReleaseContext = Raven.prototype.setRelease;\n\nmodule.exports = Raven;\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "index": 24,
+          "index2": 29,
+          "size": 1937,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuerId": null,
+          "issuerName": "./src/main.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            }
+          ],
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "raven-js",
+              "loc": "6:0-29"
+            },
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "harmony import specifier",
+              "userRequest": "raven-js",
+              "loc": "9:0-5"
+            },
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "harmony import specifier",
+              "userRequest": "raven-js",
+              "loc": "17:6-11"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2,
+          "source": "/**\n * Enforces a single instance of the Raven client, and the\n * main entry point for Raven. If you are a consumer of the\n * Raven library, you SHOULD load this file (vs raven.js).\n **/\n\nvar RavenConstructor = require('./raven');\n\n// This is to be defensive in environments where window does not exist (see https://github.com/getsentry/raven-js/pull/785)\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};\nvar _Raven = _window.Raven;\n\nvar Raven = new RavenConstructor();\n\n/*\n * Allow multiple versions of Raven to be installed.\n * Strip Raven from the global context and returns the instance.\n *\n * @return {Raven}\n */\nRaven.noConflict = function() {\n  _window.Raven = _Raven;\n  return Raven;\n};\n\nRaven.afterLoad();\n\nmodule.exports = Raven;\n\n/**\n * DISCLAIMER:\n *\n * Expose `Client` constructor for cases where user want to track multiple \"sub-applications\" in one larger app.\n * It's not meant to be used by a wide audience, so pleaaase make sure that you know what you're doing before using it.\n * Accidentally calling `install` multiple times, may result in an unexpected behavior that's very hard to debug.\n *\n * It's called `Client' to be in-line with Raven Node implementation.\n *\n * HOWTO:\n *\n * import Raven from 'raven-js';\n *\n * const someAppReporter = new Raven.Client();\n * const someOtherAppReporter = new Raven.Client();\n *\n * someAppReporter.config('__DSN__', {\n *   ...config goes here\n * });\n *\n * someOtherAppReporter.config('__OTHER_DSN__', {\n *   ...config goes here\n * });\n *\n * someAppReporter.captureMessage(...);\n * someAppReporter.captureException(...);\n * someAppReporter.captureBreadcrumb(...);\n *\n * someOtherAppReporter.captureMessage(...);\n * someOtherAppReporter.captureException(...);\n * someOtherAppReporter.captureBreadcrumb(...);\n *\n * It should \"just work\".\n */\nmodule.exports.Client = RavenConstructor;\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "index": 27,
+          "index2": 23,
+          "size": 16472,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "profile": {
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "profile": {
+                "factory": 36,
+                "building": 291,
+                "dependencies": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 38,
+            "building": 229,
+            "dependencies": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "1:12-30"
+            },
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "type": "cjs require",
+              "userRequest": "./utils",
+              "loc": "8:12-30"
+            },
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+              "type": "cjs require",
+              "userRequest": "../../src/utils",
+              "loc": "1:12-38"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "var stringify = require('../vendor/json-stringify-safe/stringify');\n\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined'\n      ? global\n      : typeof self !== 'undefined'\n        ? self\n        : {};\n\nfunction isObject(what) {\n  return typeof what === 'object' && what !== null;\n}\n\n// Yanked from https://git.io/vS8DV re-used under CC0\n// with some tiny modifications\nfunction isError(value) {\n  switch (Object.prototype.toString.call(value)) {\n    case '[object Error]':\n      return true;\n    case '[object Exception]':\n      return true;\n    case '[object DOMException]':\n      return true;\n    default:\n      return value instanceof Error;\n  }\n}\n\nfunction isErrorEvent(value) {\n  return Object.prototype.toString.call(value) === '[object ErrorEvent]';\n}\n\nfunction isDOMError(value) {\n  return Object.prototype.toString.call(value) === '[object DOMError]';\n}\n\nfunction isDOMException(value) {\n  return Object.prototype.toString.call(value) === '[object DOMException]';\n}\n\nfunction isUndefined(what) {\n  return what === void 0;\n}\n\nfunction isFunction(what) {\n  return typeof what === 'function';\n}\n\nfunction isPlainObject(what) {\n  return Object.prototype.toString.call(what) === '[object Object]';\n}\n\nfunction isString(what) {\n  return Object.prototype.toString.call(what) === '[object String]';\n}\n\nfunction isArray(what) {\n  return Object.prototype.toString.call(what) === '[object Array]';\n}\n\nfunction isEmptyObject(what) {\n  if (!isPlainObject(what)) return false;\n\n  for (var _ in what) {\n    if (what.hasOwnProperty(_)) {\n      return false;\n    }\n  }\n  return true;\n}\n\nfunction supportsErrorEvent() {\n  try {\n    new ErrorEvent(''); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsDOMError() {\n  try {\n    new DOMError(''); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsDOMException() {\n  try {\n    new DOMException(''); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsFetch() {\n  if (!('fetch' in _window)) return false;\n\n  try {\n    new Headers(); // eslint-disable-line no-new\n    new Request(''); // eslint-disable-line no-new\n    new Response(); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\n// Despite all stars in the sky saying that Edge supports old draft syntax, aka 'never', 'always', 'origin' and 'default\n// https://caniuse.com/#feat=referrer-policy\n// It doesn't. And it throw exception instead of ignoring this parameter...\n// REF: https://github.com/getsentry/raven-js/issues/1233\nfunction supportsReferrerPolicy() {\n  if (!supportsFetch()) return false;\n\n  try {\n    // eslint-disable-next-line no-new\n    new Request('pickleRick', {\n      referrerPolicy: 'origin'\n    });\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsPromiseRejectionEvent() {\n  return typeof PromiseRejectionEvent === 'function';\n}\n\nfunction wrappedCallback(callback) {\n  function dataCallback(data, original) {\n    var normalizedData = callback(data) || data;\n    if (original) {\n      return original(normalizedData) || normalizedData;\n    }\n    return normalizedData;\n  }\n\n  return dataCallback;\n}\n\nfunction each(obj, callback) {\n  var i, j;\n\n  if (isUndefined(obj.length)) {\n    for (i in obj) {\n      if (hasKey(obj, i)) {\n        callback.call(null, i, obj[i]);\n      }\n    }\n  } else {\n    j = obj.length;\n    if (j) {\n      for (i = 0; i < j; i++) {\n        callback.call(null, i, obj[i]);\n      }\n    }\n  }\n}\n\nfunction objectMerge(obj1, obj2) {\n  if (!obj2) {\n    return obj1;\n  }\n  each(obj2, function(key, value) {\n    obj1[key] = value;\n  });\n  return obj1;\n}\n\n/**\n * This function is only used for react-native.\n * react-native freezes object that have already been sent over the\n * js bridge. We need this function in order to check if the object is frozen.\n * So it's ok that objectFrozen returns false if Object.isFrozen is not\n * supported because it's not relevant for other \"platforms\". See related issue:\n * https://github.com/getsentry/react-native-sentry/issues/57\n */\nfunction objectFrozen(obj) {\n  if (!Object.isFrozen) {\n    return false;\n  }\n  return Object.isFrozen(obj);\n}\n\nfunction truncate(str, max) {\n  if (typeof max !== 'number') {\n    throw new Error('2nd argument to `truncate` function should be a number');\n  }\n  if (typeof str !== 'string' || max === 0) {\n    return str;\n  }\n  return str.length <= max ? str : str.substr(0, max) + '\\u2026';\n}\n\n/**\n * hasKey, a better form of hasOwnProperty\n * Example: hasKey(MainHostObject, property) === true/false\n *\n * @param {Object} host object to check property\n * @param {string} key to check\n */\nfunction hasKey(object, key) {\n  return Object.prototype.hasOwnProperty.call(object, key);\n}\n\nfunction joinRegExp(patterns) {\n  // Combine an array of regular expressions and strings into one large regexp\n  // Be mad.\n  var sources = [],\n    i = 0,\n    len = patterns.length,\n    pattern;\n\n  for (; i < len; i++) {\n    pattern = patterns[i];\n    if (isString(pattern)) {\n      // If it's a string, we need to escape it\n      // Taken from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions\n      sources.push(pattern.replace(/([.*+?^=!:${}()|\\[\\]\\/\\\\])/g, '\\\\$1'));\n    } else if (pattern && pattern.source) {\n      // If it's a regexp already, we want to extract the source\n      sources.push(pattern.source);\n    }\n    // Intentionally skip other cases\n  }\n  return new RegExp(sources.join('|'), 'i');\n}\n\nfunction urlencode(o) {\n  var pairs = [];\n  each(o, function(key, value) {\n    pairs.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));\n  });\n  return pairs.join('&');\n}\n\n// borrowed from https://tools.ietf.org/html/rfc3986#appendix-B\n// intentionally using regex and not <a/> href parsing trick because React Native and other\n// environments where DOM might not be available\nfunction parseUrl(url) {\n  if (typeof url !== 'string') return {};\n  var match = url.match(/^(([^:\\/?#]+):)?(\\/\\/([^\\/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?$/);\n\n  // coerce to undefined values to empty string so we don't get 'undefined'\n  var query = match[6] || '';\n  var fragment = match[8] || '';\n  return {\n    protocol: match[2],\n    host: match[4],\n    path: match[5],\n    relative: match[5] + query + fragment // everything minus origin\n  };\n}\nfunction uuid4() {\n  var crypto = _window.crypto || _window.msCrypto;\n\n  if (!isUndefined(crypto) && crypto.getRandomValues) {\n    // Use window.crypto API if available\n    // eslint-disable-next-line no-undef\n    var arr = new Uint16Array(8);\n    crypto.getRandomValues(arr);\n\n    // set 4 in byte 7\n    arr[3] = (arr[3] & 0xfff) | 0x4000;\n    // set 2 most significant bits of byte 9 to '10'\n    arr[4] = (arr[4] & 0x3fff) | 0x8000;\n\n    var pad = function(num) {\n      var v = num.toString(16);\n      while (v.length < 4) {\n        v = '0' + v;\n      }\n      return v;\n    };\n\n    return (\n      pad(arr[0]) +\n      pad(arr[1]) +\n      pad(arr[2]) +\n      pad(arr[3]) +\n      pad(arr[4]) +\n      pad(arr[5]) +\n      pad(arr[6]) +\n      pad(arr[7])\n    );\n  } else {\n    // http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript/2117523#2117523\n    return 'xxxxxxxxxxxx4xxxyxxxxxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n      var r = (Math.random() * 16) | 0,\n        v = c === 'x' ? r : (r & 0x3) | 0x8;\n      return v.toString(16);\n    });\n  }\n}\n\n/**\n * Given a child DOM element, returns a query-selector statement describing that\n * and its ancestors\n * e.g. [HTMLElement] => body > div > input#foo.btn[name=baz]\n * @param elem\n * @returns {string}\n */\nfunction htmlTreeAsString(elem) {\n  /* eslint no-extra-parens:0*/\n  var MAX_TRAVERSE_HEIGHT = 5,\n    MAX_OUTPUT_LEN = 80,\n    out = [],\n    height = 0,\n    len = 0,\n    separator = ' > ',\n    sepLength = separator.length,\n    nextStr;\n\n  while (elem && height++ < MAX_TRAVERSE_HEIGHT) {\n    nextStr = htmlElementAsString(elem);\n    // bail out if\n    // - nextStr is the 'html' element\n    // - the length of the string that would be created exceeds MAX_OUTPUT_LEN\n    //   (ignore this limit if we are on the first iteration)\n    if (\n      nextStr === 'html' ||\n      (height > 1 && len + out.length * sepLength + nextStr.length >= MAX_OUTPUT_LEN)\n    ) {\n      break;\n    }\n\n    out.push(nextStr);\n\n    len += nextStr.length;\n    elem = elem.parentNode;\n  }\n\n  return out.reverse().join(separator);\n}\n\n/**\n * Returns a simple, query-selector representation of a DOM element\n * e.g. [HTMLElement] => input#foo.btn[name=baz]\n * @param HTMLElement\n * @returns {string}\n */\nfunction htmlElementAsString(elem) {\n  var out = [],\n    className,\n    classes,\n    key,\n    attr,\n    i;\n\n  if (!elem || !elem.tagName) {\n    return '';\n  }\n\n  out.push(elem.tagName.toLowerCase());\n  if (elem.id) {\n    out.push('#' + elem.id);\n  }\n\n  className = elem.className;\n  if (className && isString(className)) {\n    classes = className.split(/\\s+/);\n    for (i = 0; i < classes.length; i++) {\n      out.push('.' + classes[i]);\n    }\n  }\n  var attrWhitelist = ['type', 'name', 'title', 'alt'];\n  for (i = 0; i < attrWhitelist.length; i++) {\n    key = attrWhitelist[i];\n    attr = elem.getAttribute(key);\n    if (attr) {\n      out.push('[' + key + '=\"' + attr + '\"]');\n    }\n  }\n  return out.join('');\n}\n\n/**\n * Returns true if either a OR b is truthy, but not both\n */\nfunction isOnlyOneTruthy(a, b) {\n  return !!(!!a ^ !!b);\n}\n\n/**\n * Returns true if both parameters are undefined\n */\nfunction isBothUndefined(a, b) {\n  return isUndefined(a) && isUndefined(b);\n}\n\n/**\n * Returns true if the two input exception interfaces have the same content\n */\nfunction isSameException(ex1, ex2) {\n  if (isOnlyOneTruthy(ex1, ex2)) return false;\n\n  ex1 = ex1.values[0];\n  ex2 = ex2.values[0];\n\n  if (ex1.type !== ex2.type || ex1.value !== ex2.value) return false;\n\n  // in case both stacktraces are undefined, we can't decide so default to false\n  if (isBothUndefined(ex1.stacktrace, ex2.stacktrace)) return false;\n\n  return isSameStacktrace(ex1.stacktrace, ex2.stacktrace);\n}\n\n/**\n * Returns true if the two input stack trace interfaces have the same content\n */\nfunction isSameStacktrace(stack1, stack2) {\n  if (isOnlyOneTruthy(stack1, stack2)) return false;\n\n  var frames1 = stack1.frames;\n  var frames2 = stack2.frames;\n\n  // Exit early if stacktrace is malformed\n  if (frames1 === undefined || frames2 === undefined) return false;\n\n  // Exit early if frame count differs\n  if (frames1.length !== frames2.length) return false;\n\n  // Iterate through every frame; bail out if anything differs\n  var a, b;\n  for (var i = 0; i < frames1.length; i++) {\n    a = frames1[i];\n    b = frames2[i];\n    if (\n      a.filename !== b.filename ||\n      a.lineno !== b.lineno ||\n      a.colno !== b.colno ||\n      a['function'] !== b['function']\n    )\n      return false;\n  }\n  return true;\n}\n\n/**\n * Polyfill a method\n * @param obj object e.g. `document`\n * @param name method name present on object e.g. `addEventListener`\n * @param replacement replacement function\n * @param track {optional} record instrumentation to an array\n */\nfunction fill(obj, name, replacement, track) {\n  if (obj == null) return;\n  var orig = obj[name];\n  obj[name] = replacement(orig);\n  obj[name].__raven__ = true;\n  obj[name].__orig__ = orig;\n  if (track) {\n    track.push([obj, name, orig]);\n  }\n}\n\n/**\n * Join values in array\n * @param input array of values to be joined together\n * @param delimiter string to be placed in-between values\n * @returns {string}\n */\nfunction safeJoin(input, delimiter) {\n  if (!isArray(input)) return '';\n\n  var output = [];\n\n  for (var i = 0; i < input.length; i++) {\n    try {\n      output.push(String(input[i]));\n    } catch (e) {\n      output.push('[value cannot be serialized]');\n    }\n  }\n\n  return output.join(delimiter);\n}\n\n// Default Node.js REPL depth\nvar MAX_SERIALIZE_EXCEPTION_DEPTH = 3;\n// 50kB, as 100kB is max payload size, so half sounds reasonable\nvar MAX_SERIALIZE_EXCEPTION_SIZE = 50 * 1024;\nvar MAX_SERIALIZE_KEYS_LENGTH = 40;\n\nfunction utf8Length(value) {\n  return ~-encodeURI(value).split(/%..|./).length;\n}\n\nfunction jsonSize(value) {\n  return utf8Length(JSON.stringify(value));\n}\n\nfunction serializeValue(value) {\n  if (typeof value === 'string') {\n    var maxLength = 40;\n    return truncate(value, maxLength);\n  } else if (\n    typeof value === 'number' ||\n    typeof value === 'boolean' ||\n    typeof value === 'undefined'\n  ) {\n    return value;\n  }\n\n  var type = Object.prototype.toString.call(value);\n\n  // Node.js REPL notation\n  if (type === '[object Object]') return '[Object]';\n  if (type === '[object Array]') return '[Array]';\n  if (type === '[object Function]')\n    return value.name ? '[Function: ' + value.name + ']' : '[Function]';\n\n  return value;\n}\n\nfunction serializeObject(value, depth) {\n  if (depth === 0) return serializeValue(value);\n\n  if (isPlainObject(value)) {\n    return Object.keys(value).reduce(function(acc, key) {\n      acc[key] = serializeObject(value[key], depth - 1);\n      return acc;\n    }, {});\n  } else if (Array.isArray(value)) {\n    return value.map(function(val) {\n      return serializeObject(val, depth - 1);\n    });\n  }\n\n  return serializeValue(value);\n}\n\nfunction serializeException(ex, depth, maxSize) {\n  if (!isPlainObject(ex)) return ex;\n\n  depth = typeof depth !== 'number' ? MAX_SERIALIZE_EXCEPTION_DEPTH : depth;\n  maxSize = typeof depth !== 'number' ? MAX_SERIALIZE_EXCEPTION_SIZE : maxSize;\n\n  var serialized = serializeObject(ex, depth);\n\n  if (jsonSize(stringify(serialized)) > maxSize) {\n    return serializeException(ex, depth - 1);\n  }\n\n  return serialized;\n}\n\nfunction serializeKeysForMessage(keys, maxLength) {\n  if (typeof keys === 'number' || typeof keys === 'string') return keys.toString();\n  if (!Array.isArray(keys)) return '';\n\n  keys = keys.filter(function(key) {\n    return typeof key === 'string';\n  });\n  if (keys.length === 0) return '[object has no keys]';\n\n  maxLength = typeof maxLength !== 'number' ? MAX_SERIALIZE_KEYS_LENGTH : maxLength;\n  if (keys[0].length >= maxLength) return keys[0];\n\n  for (var usedKeys = keys.length; usedKeys > 0; usedKeys--) {\n    var serialized = keys.slice(0, usedKeys).join(', ');\n    if (serialized.length > maxLength) continue;\n    if (usedKeys === keys.length) return serialized;\n    return serialized + '\\u2026';\n  }\n\n  return '';\n}\n\nfunction sanitize(input, sanitizeKeys) {\n  if (!isArray(sanitizeKeys) || (isArray(sanitizeKeys) && sanitizeKeys.length === 0))\n    return input;\n\n  var sanitizeRegExp = joinRegExp(sanitizeKeys);\n  var sanitizeMask = '********';\n  var safeInput;\n\n  try {\n    safeInput = JSON.parse(stringify(input));\n  } catch (o_O) {\n    return input;\n  }\n\n  function sanitizeWorker(workerInput) {\n    if (isArray(workerInput)) {\n      return workerInput.map(function(val) {\n        return sanitizeWorker(val);\n      });\n    }\n\n    if (isPlainObject(workerInput)) {\n      return Object.keys(workerInput).reduce(function(acc, k) {\n        if (sanitizeRegExp.test(k)) {\n          acc[k] = sanitizeMask;\n        } else {\n          acc[k] = sanitizeWorker(workerInput[k]);\n        }\n        return acc;\n      }, {});\n    }\n\n    return workerInput;\n  }\n\n  return sanitizeWorker(safeInput);\n}\n\nmodule.exports = {\n  isObject: isObject,\n  isError: isError,\n  isErrorEvent: isErrorEvent,\n  isDOMError: isDOMError,\n  isDOMException: isDOMException,\n  isUndefined: isUndefined,\n  isFunction: isFunction,\n  isPlainObject: isPlainObject,\n  isString: isString,\n  isArray: isArray,\n  isEmptyObject: isEmptyObject,\n  supportsErrorEvent: supportsErrorEvent,\n  supportsDOMError: supportsDOMError,\n  supportsDOMException: supportsDOMException,\n  supportsFetch: supportsFetch,\n  supportsReferrerPolicy: supportsReferrerPolicy,\n  supportsPromiseRejectionEvent: supportsPromiseRejectionEvent,\n  wrappedCallback: wrappedCallback,\n  each: each,\n  objectMerge: objectMerge,\n  truncate: truncate,\n  objectFrozen: objectFrozen,\n  hasKey: hasKey,\n  joinRegExp: joinRegExp,\n  urlencode: urlencode,\n  uuid4: uuid4,\n  htmlTreeAsString: htmlTreeAsString,\n  htmlElementAsString: htmlElementAsString,\n  isSameException: isSameException,\n  isSameStacktrace: isSameStacktrace,\n  parseUrl: parseUrl,\n  fill: fill,\n  safeJoin: safeJoin,\n  serializeException: serializeException,\n  serializeKeysForMessage: serializeKeysForMessage,\n  sanitize: sanitize\n};\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "index": 26,
+          "index2": 24,
+          "size": 22226,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "profile": {
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "profile": {
+                "factory": 36,
+                "building": 291,
+                "dependencies": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 38,
+            "building": 229,
+            "dependencies": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "type": "cjs require",
+              "userRequest": "../vendor/TraceKit/tracekit",
+              "loc": "3:15-53"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "var utils = require('../../src/utils');\n\n/*\n TraceKit - Cross brower stack traces\n\n This was originally forked from github.com/occ/TraceKit, but has since been\n largely re-written and is now maintained as part of raven-js.  Tests for\n this are in test/vendor.\n\n MIT license\n*/\n\nvar TraceKit = {\n  collectWindowErrors: true,\n  debug: false\n};\n\n// This is to be defensive in environments where window does not exist (see https://github.com/getsentry/raven-js/pull/785)\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined'\n    ? global\n    : typeof self !== 'undefined'\n    ? self\n    : {};\n\n// global reference to slice\nvar _slice = [].slice;\nvar UNKNOWN_FUNCTION = '?';\n\n// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Error_types\nvar ERROR_TYPES_RE = /^(?:[Uu]ncaught (?:exception: )?)?(?:((?:Eval|Internal|Range|Reference|Syntax|Type|URI|)Error): )?(.*)$/;\n\nfunction getLocationHref() {\n  if (typeof document === 'undefined' || document.location == null) return '';\n  return document.location.href;\n}\n\nfunction getLocationOrigin() {\n  if (typeof document === 'undefined' || document.location == null) return '';\n\n  // Oh dear IE10...\n  if (!document.location.origin) {\n    return (\n      document.location.protocol +\n      '//' +\n      document.location.hostname +\n      (document.location.port ? ':' + document.location.port : '')\n    );\n  }\n\n  return document.location.origin;\n}\n\n/**\n * TraceKit.report: cross-browser processing of unhandled exceptions\n *\n * Syntax:\n *   TraceKit.report.subscribe(function(stackInfo) { ... })\n *   TraceKit.report.unsubscribe(function(stackInfo) { ... })\n *   TraceKit.report(exception)\n *   try { ...code... } catch(ex) { TraceKit.report(ex); }\n *\n * Supports:\n *   - Firefox: full stack trace with line numbers, plus column number\n *              on top frame; column number is not guaranteed\n *   - Opera:   full stack trace with line and column numbers\n *   - Chrome:  full stack trace with line and column numbers\n *   - Safari:  line and column number for the top frame only; some frames\n *              may be missing, and column number is not guaranteed\n *   - IE:      line and column number for the top frame only; some frames\n *              may be missing, and column number is not guaranteed\n *\n * In theory, TraceKit should work on all of the following versions:\n *   - IE5.5+ (only 8.0 tested)\n *   - Firefox 0.9+ (only 3.5+ tested)\n *   - Opera 7+ (only 10.50 tested; versions 9 and earlier may require\n *     Exceptions Have Stacktrace to be enabled in opera:config)\n *   - Safari 3+ (only 4+ tested)\n *   - Chrome 1+ (only 5+ tested)\n *   - Konqueror 3.5+ (untested)\n *\n * Requires TraceKit.computeStackTrace.\n *\n * Tries to catch all unhandled exceptions and report them to the\n * subscribed handlers. Please note that TraceKit.report will rethrow the\n * exception. This is REQUIRED in order to get a useful stack trace in IE.\n * If the exception does not reach the top of the browser, you will only\n * get a stack trace from the point where TraceKit.report was called.\n *\n * Handlers receive a stackInfo object as described in the\n * TraceKit.computeStackTrace docs.\n */\nTraceKit.report = (function reportModuleWrapper() {\n  var handlers = [],\n    lastArgs = null,\n    lastException = null,\n    lastExceptionStack = null;\n\n  /**\n   * Add a crash handler.\n   * @param {Function} handler\n   */\n  function subscribe(handler) {\n    installGlobalHandler();\n    handlers.push(handler);\n  }\n\n  /**\n   * Remove a crash handler.\n   * @param {Function} handler\n   */\n  function unsubscribe(handler) {\n    for (var i = handlers.length - 1; i >= 0; --i) {\n      if (handlers[i] === handler) {\n        handlers.splice(i, 1);\n      }\n    }\n  }\n\n  /**\n   * Remove all crash handlers.\n   */\n  function unsubscribeAll() {\n    uninstallGlobalHandler();\n    handlers = [];\n  }\n\n  /**\n   * Dispatch stack information to all handlers.\n   * @param {Object.<string, *>} stack\n   */\n  function notifyHandlers(stack, isWindowError) {\n    var exception = null;\n    if (isWindowError && !TraceKit.collectWindowErrors) {\n      return;\n    }\n    for (var i in handlers) {\n      if (handlers.hasOwnProperty(i)) {\n        try {\n          handlers[i].apply(null, [stack].concat(_slice.call(arguments, 2)));\n        } catch (inner) {\n          exception = inner;\n        }\n      }\n    }\n\n    if (exception) {\n      throw exception;\n    }\n  }\n\n  var _oldOnerrorHandler, _onErrorHandlerInstalled;\n\n  /**\n   * Ensures all global unhandled exceptions are recorded.\n   * Supported by Gecko and IE.\n   * @param {string} msg Error message.\n   * @param {string} url URL of script that generated the exception.\n   * @param {(number|string)} lineNo The line number at which the error\n   * occurred.\n   * @param {?(number|string)} colNo The column number at which the error\n   * occurred.\n   * @param {?Error} ex The actual Error object.\n   */\n  function traceKitWindowOnError(msg, url, lineNo, colNo, ex) {\n    var stack = null;\n    // If 'ex' is ErrorEvent, get real Error from inside\n    var exception = utils.isErrorEvent(ex) ? ex.error : ex;\n    // If 'msg' is ErrorEvent, get real message from inside\n    var message = utils.isErrorEvent(msg) ? msg.message : msg;\n\n    if (lastExceptionStack) {\n      TraceKit.computeStackTrace.augmentStackTraceWithInitialElement(\n        lastExceptionStack,\n        url,\n        lineNo,\n        message\n      );\n      processLastException();\n    } else if (exception && utils.isError(exception)) {\n      // non-string `exception` arg; attempt to extract stack trace\n\n      // New chrome and blink send along a real error object\n      // Let's just report that like a normal error.\n      // See: https://mikewest.org/2013/08/debugging-runtime-errors-with-window-onerror\n      stack = TraceKit.computeStackTrace(exception);\n      notifyHandlers(stack, true);\n    } else {\n      var location = {\n        url: url,\n        line: lineNo,\n        column: colNo\n      };\n\n      var name = undefined;\n      var groups;\n\n      if ({}.toString.call(message) === '[object String]') {\n        var groups = message.match(ERROR_TYPES_RE);\n        if (groups) {\n          name = groups[1];\n          message = groups[2];\n        }\n      }\n\n      location.func = UNKNOWN_FUNCTION;\n\n      stack = {\n        name: name,\n        message: message,\n        url: getLocationHref(),\n        stack: [location]\n      };\n      notifyHandlers(stack, true);\n    }\n\n    if (_oldOnerrorHandler) {\n      return _oldOnerrorHandler.apply(this, arguments);\n    }\n\n    return false;\n  }\n\n  function installGlobalHandler() {\n    if (_onErrorHandlerInstalled) {\n      return;\n    }\n    _oldOnerrorHandler = _window.onerror;\n    _window.onerror = traceKitWindowOnError;\n    _onErrorHandlerInstalled = true;\n  }\n\n  function uninstallGlobalHandler() {\n    if (!_onErrorHandlerInstalled) {\n      return;\n    }\n    _window.onerror = _oldOnerrorHandler;\n    _onErrorHandlerInstalled = false;\n    _oldOnerrorHandler = undefined;\n  }\n\n  function processLastException() {\n    var _lastExceptionStack = lastExceptionStack,\n      _lastArgs = lastArgs;\n    lastArgs = null;\n    lastExceptionStack = null;\n    lastException = null;\n    notifyHandlers.apply(null, [_lastExceptionStack, false].concat(_lastArgs));\n  }\n\n  /**\n   * Reports an unhandled Error to TraceKit.\n   * @param {Error} ex\n   * @param {?boolean} rethrow If false, do not re-throw the exception.\n   * Only used for window.onerror to not cause an infinite loop of\n   * rethrowing.\n   */\n  function report(ex, rethrow) {\n    var args = _slice.call(arguments, 1);\n    if (lastExceptionStack) {\n      if (lastException === ex) {\n        return; // already caught by an inner catch block, ignore\n      } else {\n        processLastException();\n      }\n    }\n\n    var stack = TraceKit.computeStackTrace(ex);\n    lastExceptionStack = stack;\n    lastException = ex;\n    lastArgs = args;\n\n    // If the stack trace is incomplete, wait for 2 seconds for\n    // slow slow IE to see if onerror occurs or not before reporting\n    // this exception; otherwise, we will end up with an incomplete\n    // stack trace\n    setTimeout(\n      function() {\n        if (lastException === ex) {\n          processLastException();\n        }\n      },\n      stack.incomplete ? 2000 : 0\n    );\n\n    if (rethrow !== false) {\n      throw ex; // re-throw to propagate to the top level (and cause window.onerror)\n    }\n  }\n\n  report.subscribe = subscribe;\n  report.unsubscribe = unsubscribe;\n  report.uninstall = unsubscribeAll;\n  return report;\n})();\n\n/**\n * TraceKit.computeStackTrace: cross-browser stack traces in JavaScript\n *\n * Syntax:\n *   s = TraceKit.computeStackTrace(exception) // consider using TraceKit.report instead (see below)\n * Returns:\n *   s.name              - exception name\n *   s.message           - exception message\n *   s.stack[i].url      - JavaScript or HTML file URL\n *   s.stack[i].func     - function name, or empty for anonymous functions (if guessing did not work)\n *   s.stack[i].args     - arguments passed to the function, if known\n *   s.stack[i].line     - line number, if known\n *   s.stack[i].column   - column number, if known\n *\n * Supports:\n *   - Firefox:  full stack trace with line numbers and unreliable column\n *               number on top frame\n *   - Opera 10: full stack trace with line and column numbers\n *   - Opera 9-: full stack trace with line numbers\n *   - Chrome:   full stack trace with line and column numbers\n *   - Safari:   line and column number for the topmost stacktrace element\n *               only\n *   - IE:       no line numbers whatsoever\n *\n * Tries to guess names of anonymous functions by looking for assignments\n * in the source code. In IE and Safari, we have to guess source file names\n * by searching for function bodies inside all page scripts. This will not\n * work for scripts that are loaded cross-domain.\n * Here be dragons: some function names may be guessed incorrectly, and\n * duplicate functions may be mismatched.\n *\n * TraceKit.computeStackTrace should only be used for tracing purposes.\n * Logging of unhandled exceptions should be done with TraceKit.report,\n * which builds on top of TraceKit.computeStackTrace and provides better\n * IE support by utilizing the window.onerror event to retrieve information\n * about the top of the stack.\n *\n * Note: In IE and Safari, no stack trace is recorded on the Error object,\n * so computeStackTrace instead walks its *own* chain of callers.\n * This means that:\n *  * in Safari, some methods may be missing from the stack trace;\n *  * in IE, the topmost function in the stack trace will always be the\n *    caller of computeStackTrace.\n *\n * This is okay for tracing (because you are likely to be calling\n * computeStackTrace from the function you want to be the topmost element\n * of the stack trace anyway), but not okay for logging unhandled\n * exceptions (because your catch block will likely be far away from the\n * inner function that actually caused the exception).\n *\n */\nTraceKit.computeStackTrace = (function computeStackTraceWrapper() {\n  // Contents of Exception in various browsers.\n  //\n  // SAFARI:\n  // ex.message = Can't find variable: qq\n  // ex.line = 59\n  // ex.sourceId = 580238192\n  // ex.sourceURL = http://...\n  // ex.expressionBeginOffset = 96\n  // ex.expressionCaretOffset = 98\n  // ex.expressionEndOffset = 98\n  // ex.name = ReferenceError\n  //\n  // FIREFOX:\n  // ex.message = qq is not defined\n  // ex.fileName = http://...\n  // ex.lineNumber = 59\n  // ex.columnNumber = 69\n  // ex.stack = ...stack trace... (see the example below)\n  // ex.name = ReferenceError\n  //\n  // CHROME:\n  // ex.message = qq is not defined\n  // ex.name = ReferenceError\n  // ex.type = not_defined\n  // ex.arguments = ['aa']\n  // ex.stack = ...stack trace...\n  //\n  // INTERNET EXPLORER:\n  // ex.message = ...\n  // ex.name = ReferenceError\n  //\n  // OPERA:\n  // ex.message = ...message... (see the example below)\n  // ex.name = ReferenceError\n  // ex.opera#sourceloc = 11  (pretty much useless, duplicates the info in ex.message)\n  // ex.stacktrace = n/a; see 'opera:config#UserPrefs|Exceptions Have Stacktrace'\n\n  /**\n   * Computes stack trace information from the stack property.\n   * Chrome and Gecko use this property.\n   * @param {Error} ex\n   * @return {?Object.<string, *>} Stack trace information.\n   */\n  function computeStackTraceFromStackProp(ex) {\n    if (typeof ex.stack === 'undefined' || !ex.stack) return;\n\n    var chrome = /^\\s*at (?:(.*?) ?\\()?((?:file|https?|blob|chrome-extension|native|eval|webpack|<anonymous>|[a-z]:|\\/).*?)(?::(\\d+))?(?::(\\d+))?\\)?\\s*$/i;\n    var winjs = /^\\s*at (?:((?:\\[object object\\])?.+) )?\\(?((?:file|ms-appx(?:-web)|https?|webpack|blob):.*?):(\\d+)(?::(\\d+))?\\)?\\s*$/i;\n    // NOTE: blob urls are now supposed to always have an origin, therefore it's format\n    // which is `blob:http://url/path/with-some-uuid`, is matched by `blob.*?:\\/` as well\n    var gecko = /^\\s*(.*?)(?:\\((.*?)\\))?(?:^|@)((?:file|https?|blob|chrome|webpack|resource|moz-extension).*?:\\/.*?|\\[native code\\]|[^@]*(?:bundle|\\d+\\.js))(?::(\\d+))?(?::(\\d+))?\\s*$/i;\n    // Used to additionally parse URL/line/column from eval frames\n    var geckoEval = /(\\S+) line (\\d+)(?: > eval line \\d+)* > eval/i;\n    var chromeEval = /\\((\\S*)(?::(\\d+))(?::(\\d+))\\)/;\n    var lines = ex.stack.split('\\n');\n    var stack = [];\n    var submatch;\n    var parts;\n    var element;\n    var reference = /^(.*) is undefined$/.exec(ex.message);\n\n    for (var i = 0, j = lines.length; i < j; ++i) {\n      if ((parts = chrome.exec(lines[i]))) {\n        var isNative = parts[2] && parts[2].indexOf('native') === 0; // start of line\n        var isEval = parts[2] && parts[2].indexOf('eval') === 0; // start of line\n        if (isEval && (submatch = chromeEval.exec(parts[2]))) {\n          // throw out eval line/column and use top-most line/column number\n          parts[2] = submatch[1]; // url\n          parts[3] = submatch[2]; // line\n          parts[4] = submatch[3]; // column\n        }\n        element = {\n          url: !isNative ? parts[2] : null,\n          func: parts[1] || UNKNOWN_FUNCTION,\n          args: isNative ? [parts[2]] : [],\n          line: parts[3] ? +parts[3] : null,\n          column: parts[4] ? +parts[4] : null\n        };\n      } else if ((parts = winjs.exec(lines[i]))) {\n        element = {\n          url: parts[2],\n          func: parts[1] || UNKNOWN_FUNCTION,\n          args: [],\n          line: +parts[3],\n          column: parts[4] ? +parts[4] : null\n        };\n      } else if ((parts = gecko.exec(lines[i]))) {\n        var isEval = parts[3] && parts[3].indexOf(' > eval') > -1;\n        if (isEval && (submatch = geckoEval.exec(parts[3]))) {\n          // throw out eval line/column and use top-most line number\n          parts[3] = submatch[1];\n          parts[4] = submatch[2];\n          parts[5] = null; // no column when eval\n        } else if (i === 0 && !parts[5] && typeof ex.columnNumber !== 'undefined') {\n          // FireFox uses this awesome columnNumber property for its top frame\n          // Also note, Firefox's column number is 0-based and everything else expects 1-based,\n          // so adding 1\n          // NOTE: this hack doesn't work if top-most frame is eval\n          stack[0].column = ex.columnNumber + 1;\n        }\n        element = {\n          url: parts[3],\n          func: parts[1] || UNKNOWN_FUNCTION,\n          args: parts[2] ? parts[2].split(',') : [],\n          line: parts[4] ? +parts[4] : null,\n          column: parts[5] ? +parts[5] : null\n        };\n      } else {\n        continue;\n      }\n\n      if (!element.func && element.line) {\n        element.func = UNKNOWN_FUNCTION;\n      }\n\n      if (element.url && element.url.substr(0, 5) === 'blob:') {\n        // Special case for handling JavaScript loaded into a blob.\n        // We use a synchronous AJAX request here as a blob is already in\n        // memory - it's not making a network request.  This will generate a warning\n        // in the browser console, but there has already been an error so that's not\n        // that much of an issue.\n        var xhr = new XMLHttpRequest();\n        xhr.open('GET', element.url, false);\n        xhr.send(null);\n\n        // If we failed to download the source, skip this patch\n        if (xhr.status === 200) {\n          var source = xhr.responseText || '';\n\n          // We trim the source down to the last 300 characters as sourceMappingURL is always at the end of the file.\n          // Why 300? To be in line with: https://github.com/getsentry/sentry/blob/4af29e8f2350e20c28a6933354e4f42437b4ba42/src/sentry/lang/javascript/processor.py#L164-L175\n          source = source.slice(-300);\n\n          // Now we dig out the source map URL\n          var sourceMaps = source.match(/\\/\\/# sourceMappingURL=(.*)$/);\n\n          // If we don't find a source map comment or we find more than one, continue on to the next element.\n          if (sourceMaps) {\n            var sourceMapAddress = sourceMaps[1];\n\n            // Now we check to see if it's a relative URL.\n            // If it is, convert it to an absolute one.\n            if (sourceMapAddress.charAt(0) === '~') {\n              sourceMapAddress = getLocationOrigin() + sourceMapAddress.slice(1);\n            }\n\n            // Now we strip the '.map' off of the end of the URL and update the\n            // element so that Sentry can match the map to the blob.\n            element.url = sourceMapAddress.slice(0, -4);\n          }\n        }\n      }\n\n      stack.push(element);\n    }\n\n    if (!stack.length) {\n      return null;\n    }\n\n    return {\n      name: ex.name,\n      message: ex.message,\n      url: getLocationHref(),\n      stack: stack\n    };\n  }\n\n  /**\n   * Adds information about the first frame to incomplete stack traces.\n   * Safari and IE require this to get complete data on the first frame.\n   * @param {Object.<string, *>} stackInfo Stack trace information from\n   * one of the compute* methods.\n   * @param {string} url The URL of the script that caused an error.\n   * @param {(number|string)} lineNo The line number of the script that\n   * caused an error.\n   * @param {string=} message The error generated by the browser, which\n   * hopefully contains the name of the object that caused the error.\n   * @return {boolean} Whether or not the stack information was\n   * augmented.\n   */\n  function augmentStackTraceWithInitialElement(stackInfo, url, lineNo, message) {\n    var initial = {\n      url: url,\n      line: lineNo\n    };\n\n    if (initial.url && initial.line) {\n      stackInfo.incomplete = false;\n\n      if (!initial.func) {\n        initial.func = UNKNOWN_FUNCTION;\n      }\n\n      if (stackInfo.stack.length > 0) {\n        if (stackInfo.stack[0].url === initial.url) {\n          if (stackInfo.stack[0].line === initial.line) {\n            return false; // already in stack trace\n          } else if (\n            !stackInfo.stack[0].line &&\n            stackInfo.stack[0].func === initial.func\n          ) {\n            stackInfo.stack[0].line = initial.line;\n            return false;\n          }\n        }\n      }\n\n      stackInfo.stack.unshift(initial);\n      stackInfo.partial = true;\n      return true;\n    } else {\n      stackInfo.incomplete = true;\n    }\n\n    return false;\n  }\n\n  /**\n   * Computes stack trace information by walking the arguments.caller\n   * chain at the time the exception occurred. This will cause earlier\n   * frames to be missed but is the only way to get any stack trace in\n   * Safari and IE. The top frame is restored by\n   * {@link augmentStackTraceWithInitialElement}.\n   * @param {Error} ex\n   * @return {?Object.<string, *>} Stack trace information.\n   */\n  function computeStackTraceByWalkingCallerChain(ex, depth) {\n    var functionName = /function\\s+([_$a-zA-Z\\xA0-\\uFFFF][_$a-zA-Z0-9\\xA0-\\uFFFF]*)?\\s*\\(/i,\n      stack = [],\n      funcs = {},\n      recursion = false,\n      parts,\n      item,\n      source;\n\n    for (\n      var curr = computeStackTraceByWalkingCallerChain.caller;\n      curr && !recursion;\n      curr = curr.caller\n    ) {\n      if (curr === computeStackTrace || curr === TraceKit.report) {\n        // console.log('skipping internal function');\n        continue;\n      }\n\n      item = {\n        url: null,\n        func: UNKNOWN_FUNCTION,\n        line: null,\n        column: null\n      };\n\n      if (curr.name) {\n        item.func = curr.name;\n      } else if ((parts = functionName.exec(curr.toString()))) {\n        item.func = parts[1];\n      }\n\n      if (typeof item.func === 'undefined') {\n        try {\n          item.func = parts.input.substring(0, parts.input.indexOf('{'));\n        } catch (e) {}\n      }\n\n      if (funcs['' + curr]) {\n        recursion = true;\n      } else {\n        funcs['' + curr] = true;\n      }\n\n      stack.push(item);\n    }\n\n    if (depth) {\n      // console.log('depth is ' + depth);\n      // console.log('stack is ' + stack.length);\n      stack.splice(0, depth);\n    }\n\n    var result = {\n      name: ex.name,\n      message: ex.message,\n      url: getLocationHref(),\n      stack: stack\n    };\n    augmentStackTraceWithInitialElement(\n      result,\n      ex.sourceURL || ex.fileName,\n      ex.line || ex.lineNumber,\n      ex.message || ex.description\n    );\n    return result;\n  }\n\n  /**\n   * Computes a stack trace for an exception.\n   * @param {Error} ex\n   * @param {(string|number)=} depth\n   */\n  function computeStackTrace(ex, depth) {\n    var stack = null;\n    depth = depth == null ? 0 : +depth;\n\n    try {\n      stack = computeStackTraceFromStackProp(ex);\n      if (stack) {\n        return stack;\n      }\n    } catch (e) {\n      if (TraceKit.debug) {\n        throw e;\n      }\n    }\n\n    try {\n      stack = computeStackTraceByWalkingCallerChain(ex, depth + 1);\n      if (stack) {\n        return stack;\n      }\n    } catch (e) {\n      if (TraceKit.debug) {\n        throw e;\n      }\n    }\n    return {\n      name: ex.name,\n      message: ex.message,\n      url: getLocationHref()\n    };\n  }\n\n  computeStackTrace.augmentStackTraceWithInitialElement = augmentStackTraceWithInitialElement;\n  computeStackTrace.computeStackTraceFromStackProp = computeStackTraceFromStackProp;\n\n  return computeStackTrace;\n})();\n\nmodule.exports = TraceKit;\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/vendor/json-stringify-safe/stringify.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/json-stringify-safe/stringify.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/vendor/json-stringify-safe/stringify.js",
+          "index": 28,
+          "index2": 22,
+          "size": 2029,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "profile": {
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "profile": {
+                "factory": 36,
+                "building": 291,
+                "dependencies": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 38,
+            "building": 229,
+            "dependencies": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "type": "cjs require",
+              "userRequest": "../vendor/json-stringify-safe/stringify",
+              "loc": "4:16-66"
+            },
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+              "type": "cjs require",
+              "userRequest": "../vendor/json-stringify-safe/stringify",
+              "loc": "1:16-66"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "/*\n json-stringify-safe\n Like JSON.stringify, but doesn't throw on circular references.\n\n Originally forked from https://github.com/isaacs/json-stringify-safe\n version 5.0.1 on 3/8/2017 and modified to handle Errors serialization\n and IE8 compatibility. Tests for this are in test/vendor.\n\n ISC license: https://github.com/isaacs/json-stringify-safe/blob/master/LICENSE\n*/\n\nexports = module.exports = stringify;\nexports.getSerialize = serializer;\n\nfunction indexOf(haystack, needle) {\n  for (var i = 0; i < haystack.length; ++i) {\n    if (haystack[i] === needle) return i;\n  }\n  return -1;\n}\n\nfunction stringify(obj, replacer, spaces, cycleReplacer) {\n  return JSON.stringify(obj, serializer(replacer, cycleReplacer), spaces);\n}\n\n// https://github.com/ftlabs/js-abbreviate/blob/fa709e5f139e7770a71827b1893f22418097fbda/index.js#L95-L106\nfunction stringifyError(value) {\n  var err = {\n    // These properties are implemented as magical getters and don't show up in for in\n    stack: value.stack,\n    message: value.message,\n    name: value.name\n  };\n\n  for (var i in value) {\n    if (Object.prototype.hasOwnProperty.call(value, i)) {\n      err[i] = value[i];\n    }\n  }\n\n  return err;\n}\n\nfunction serializer(replacer, cycleReplacer) {\n  var stack = [];\n  var keys = [];\n\n  if (cycleReplacer == null) {\n    cycleReplacer = function(key, value) {\n      if (stack[0] === value) {\n        return '[Circular ~]';\n      }\n      return '[Circular ~.' + keys.slice(0, indexOf(stack, value)).join('.') + ']';\n    };\n  }\n\n  return function(key, value) {\n    if (stack.length > 0) {\n      var thisPos = indexOf(stack, this);\n      ~thisPos ? stack.splice(thisPos + 1) : stack.push(this);\n      ~thisPos ? keys.splice(thisPos, Infinity, key) : keys.push(key);\n\n      if (~indexOf(stack, value)) {\n        value = cycleReplacer.call(this, key, value);\n      }\n    } else {\n      stack.push(value);\n    }\n\n    return replacer == null\n      ? value instanceof Error ? stringifyError(value) : value\n      : replacer.call(this, key, value);\n  };\n}\n"
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/vendor/md5/md5.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/md5/md5.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/vendor/md5/md5.js",
+          "index": 29,
+          "index2": 25,
+          "size": 7892,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            4
+          ],
+          "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "profile": {
+                "factory": 0,
+                "building": 6
+              }
+            },
+            {
+              "id": null,
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "./src/main.js",
+              "profile": {
+                "factory": 858,
+                "building": 52
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+              "profile": {
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
+              }
+            },
+            {
+              "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "profile": {
+                "factory": 36,
+                "building": 291,
+                "dependencies": 0
+              }
+            }
+          ],
+          "profile": {
+            "factory": 38,
+            "building": 229,
+            "dependencies": 4
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+              "type": "cjs require",
+              "userRequest": "../vendor/md5/md5",
+              "loc": "5:10-38"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 4,
+          "source": "/*\n * JavaScript MD5\n * https://github.com/blueimp/JavaScript-MD5\n *\n * Copyright 2011, Sebastian Tschan\n * https://blueimp.net\n *\n * Licensed under the MIT license:\n * https://opensource.org/licenses/MIT\n *\n * Based on\n * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message\n * Digest Algorithm, as defined in RFC 1321.\n * Version 2.2 Copyright (C) Paul Johnston 1999 - 2009\n * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet\n * Distributed under the BSD License\n * See http://pajhome.org.uk/crypt/md5 for more info.\n */\n\n/*\n* Add integers, wrapping at 2^32. This uses 16-bit operations internally\n* to work around bugs in some JS interpreters.\n*/\nfunction safeAdd(x, y) {\n  var lsw = (x & 0xffff) + (y & 0xffff);\n  var msw = (x >> 16) + (y >> 16) + (lsw >> 16);\n  return (msw << 16) | (lsw & 0xffff);\n}\n\n/*\n* Bitwise rotate a 32-bit number to the left.\n*/\nfunction bitRotateLeft(num, cnt) {\n  return (num << cnt) | (num >>> (32 - cnt));\n}\n\n/*\n* These functions implement the four basic operations the algorithm uses.\n*/\nfunction md5cmn(q, a, b, x, s, t) {\n  return safeAdd(bitRotateLeft(safeAdd(safeAdd(a, q), safeAdd(x, t)), s), b);\n}\nfunction md5ff(a, b, c, d, x, s, t) {\n  return md5cmn((b & c) | (~b & d), a, b, x, s, t);\n}\nfunction md5gg(a, b, c, d, x, s, t) {\n  return md5cmn((b & d) | (c & ~d), a, b, x, s, t);\n}\nfunction md5hh(a, b, c, d, x, s, t) {\n  return md5cmn(b ^ c ^ d, a, b, x, s, t);\n}\nfunction md5ii(a, b, c, d, x, s, t) {\n  return md5cmn(c ^ (b | ~d), a, b, x, s, t);\n}\n\n/*\n* Calculate the MD5 of an array of little-endian words, and a bit length.\n*/\nfunction binlMD5(x, len) {\n  /* append padding */\n  x[len >> 5] |= 0x80 << (len % 32);\n  x[(((len + 64) >>> 9) << 4) + 14] = len;\n\n  var i;\n  var olda;\n  var oldb;\n  var oldc;\n  var oldd;\n  var a = 1732584193;\n  var b = -271733879;\n  var c = -1732584194;\n  var d = 271733878;\n\n  for (i = 0; i < x.length; i += 16) {\n    olda = a;\n    oldb = b;\n    oldc = c;\n    oldd = d;\n\n    a = md5ff(a, b, c, d, x[i], 7, -680876936);\n    d = md5ff(d, a, b, c, x[i + 1], 12, -389564586);\n    c = md5ff(c, d, a, b, x[i + 2], 17, 606105819);\n    b = md5ff(b, c, d, a, x[i + 3], 22, -1044525330);\n    a = md5ff(a, b, c, d, x[i + 4], 7, -176418897);\n    d = md5ff(d, a, b, c, x[i + 5], 12, 1200080426);\n    c = md5ff(c, d, a, b, x[i + 6], 17, -1473231341);\n    b = md5ff(b, c, d, a, x[i + 7], 22, -45705983);\n    a = md5ff(a, b, c, d, x[i + 8], 7, 1770035416);\n    d = md5ff(d, a, b, c, x[i + 9], 12, -1958414417);\n    c = md5ff(c, d, a, b, x[i + 10], 17, -42063);\n    b = md5ff(b, c, d, a, x[i + 11], 22, -1990404162);\n    a = md5ff(a, b, c, d, x[i + 12], 7, 1804603682);\n    d = md5ff(d, a, b, c, x[i + 13], 12, -40341101);\n    c = md5ff(c, d, a, b, x[i + 14], 17, -1502002290);\n    b = md5ff(b, c, d, a, x[i + 15], 22, 1236535329);\n\n    a = md5gg(a, b, c, d, x[i + 1], 5, -165796510);\n    d = md5gg(d, a, b, c, x[i + 6], 9, -1069501632);\n    c = md5gg(c, d, a, b, x[i + 11], 14, 643717713);\n    b = md5gg(b, c, d, a, x[i], 20, -373897302);\n    a = md5gg(a, b, c, d, x[i + 5], 5, -701558691);\n    d = md5gg(d, a, b, c, x[i + 10], 9, 38016083);\n    c = md5gg(c, d, a, b, x[i + 15], 14, -660478335);\n    b = md5gg(b, c, d, a, x[i + 4], 20, -405537848);\n    a = md5gg(a, b, c, d, x[i + 9], 5, 568446438);\n    d = md5gg(d, a, b, c, x[i + 14], 9, -1019803690);\n    c = md5gg(c, d, a, b, x[i + 3], 14, -187363961);\n    b = md5gg(b, c, d, a, x[i + 8], 20, 1163531501);\n    a = md5gg(a, b, c, d, x[i + 13], 5, -1444681467);\n    d = md5gg(d, a, b, c, x[i + 2], 9, -51403784);\n    c = md5gg(c, d, a, b, x[i + 7], 14, 1735328473);\n    b = md5gg(b, c, d, a, x[i + 12], 20, -1926607734);\n\n    a = md5hh(a, b, c, d, x[i + 5], 4, -378558);\n    d = md5hh(d, a, b, c, x[i + 8], 11, -2022574463);\n    c = md5hh(c, d, a, b, x[i + 11], 16, 1839030562);\n    b = md5hh(b, c, d, a, x[i + 14], 23, -35309556);\n    a = md5hh(a, b, c, d, x[i + 1], 4, -1530992060);\n    d = md5hh(d, a, b, c, x[i + 4], 11, 1272893353);\n    c = md5hh(c, d, a, b, x[i + 7], 16, -155497632);\n    b = md5hh(b, c, d, a, x[i + 10], 23, -1094730640);\n    a = md5hh(a, b, c, d, x[i + 13], 4, 681279174);\n    d = md5hh(d, a, b, c, x[i], 11, -358537222);\n    c = md5hh(c, d, a, b, x[i + 3], 16, -722521979);\n    b = md5hh(b, c, d, a, x[i + 6], 23, 76029189);\n    a = md5hh(a, b, c, d, x[i + 9], 4, -640364487);\n    d = md5hh(d, a, b, c, x[i + 12], 11, -421815835);\n    c = md5hh(c, d, a, b, x[i + 15], 16, 530742520);\n    b = md5hh(b, c, d, a, x[i + 2], 23, -995338651);\n\n    a = md5ii(a, b, c, d, x[i], 6, -198630844);\n    d = md5ii(d, a, b, c, x[i + 7], 10, 1126891415);\n    c = md5ii(c, d, a, b, x[i + 14], 15, -1416354905);\n    b = md5ii(b, c, d, a, x[i + 5], 21, -57434055);\n    a = md5ii(a, b, c, d, x[i + 12], 6, 1700485571);\n    d = md5ii(d, a, b, c, x[i + 3], 10, -1894986606);\n    c = md5ii(c, d, a, b, x[i + 10], 15, -1051523);\n    b = md5ii(b, c, d, a, x[i + 1], 21, -2054922799);\n    a = md5ii(a, b, c, d, x[i + 8], 6, 1873313359);\n    d = md5ii(d, a, b, c, x[i + 15], 10, -30611744);\n    c = md5ii(c, d, a, b, x[i + 6], 15, -1560198380);\n    b = md5ii(b, c, d, a, x[i + 13], 21, 1309151649);\n    a = md5ii(a, b, c, d, x[i + 4], 6, -145523070);\n    d = md5ii(d, a, b, c, x[i + 11], 10, -1120210379);\n    c = md5ii(c, d, a, b, x[i + 2], 15, 718787259);\n    b = md5ii(b, c, d, a, x[i + 9], 21, -343485551);\n\n    a = safeAdd(a, olda);\n    b = safeAdd(b, oldb);\n    c = safeAdd(c, oldc);\n    d = safeAdd(d, oldd);\n  }\n  return [a, b, c, d];\n}\n\n/*\n* Convert an array of little-endian words to a string\n*/\nfunction binl2rstr(input) {\n  var i;\n  var output = '';\n  var length32 = input.length * 32;\n  for (i = 0; i < length32; i += 8) {\n    output += String.fromCharCode((input[i >> 5] >>> (i % 32)) & 0xff);\n  }\n  return output;\n}\n\n/*\n* Convert a raw string to an array of little-endian words\n* Characters >255 have their high-byte silently ignored.\n*/\nfunction rstr2binl(input) {\n  var i;\n  var output = [];\n  output[(input.length >> 2) - 1] = undefined;\n  for (i = 0; i < output.length; i += 1) {\n    output[i] = 0;\n  }\n  var length8 = input.length * 8;\n  for (i = 0; i < length8; i += 8) {\n    output[i >> 5] |= (input.charCodeAt(i / 8) & 0xff) << (i % 32);\n  }\n  return output;\n}\n\n/*\n* Calculate the MD5 of a raw string\n*/\nfunction rstrMD5(s) {\n  return binl2rstr(binlMD5(rstr2binl(s), s.length * 8));\n}\n\n/*\n* Calculate the HMAC-MD5, of a key and some data (raw strings)\n*/\nfunction rstrHMACMD5(key, data) {\n  var i;\n  var bkey = rstr2binl(key);\n  var ipad = [];\n  var opad = [];\n  var hash;\n  ipad[15] = opad[15] = undefined;\n  if (bkey.length > 16) {\n    bkey = binlMD5(bkey, key.length * 8);\n  }\n  for (i = 0; i < 16; i += 1) {\n    ipad[i] = bkey[i] ^ 0x36363636;\n    opad[i] = bkey[i] ^ 0x5c5c5c5c;\n  }\n  hash = binlMD5(ipad.concat(rstr2binl(data)), 512 + data.length * 8);\n  return binl2rstr(binlMD5(opad.concat(hash), 512 + 128));\n}\n\n/*\n* Convert a raw string to a hex string\n*/\nfunction rstr2hex(input) {\n  var hexTab = '0123456789abcdef';\n  var output = '';\n  var x;\n  var i;\n  for (i = 0; i < input.length; i += 1) {\n    x = input.charCodeAt(i);\n    output += hexTab.charAt((x >>> 4) & 0x0f) + hexTab.charAt(x & 0x0f);\n  }\n  return output;\n}\n\n/*\n* Encode a string as utf-8\n*/\nfunction str2rstrUTF8(input) {\n  return unescape(encodeURIComponent(input));\n}\n\n/*\n* Take string arguments and return either raw or hex encoded strings\n*/\nfunction rawMD5(s) {\n  return rstrMD5(str2rstrUTF8(s));\n}\nfunction hexMD5(s) {\n  return rstr2hex(rawMD5(s));\n}\nfunction rawHMACMD5(k, d) {\n  return rstrHMACMD5(str2rstrUTF8(k), str2rstrUTF8(d));\n}\nfunction hexHMACMD5(k, d) {\n  return rstr2hex(rawHMACMD5(k, d));\n}\n\nfunction md5(string, key, raw) {\n  if (!key) {\n    if (!raw) {\n      return hexMD5(string);\n    }\n    return rawMD5(string);\n  }\n  if (!raw) {\n    return hexHMACMD5(key, string);\n  }\n  return rawHMACMD5(key, string);\n}\n\nmodule.exports = md5;\n"
+        },
+        {
           "id": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
           "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-          "index": 20,
-          "index2": 17,
+          "index": 21,
+          "index2": 18,
           "size": 2689,
           "cacheable": true,
           "built": true,
@@ -3373,11 +4324,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -3385,8 +4336,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -3394,15 +4345,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
           "profile": {
-            "factory": 103,
-            "building": 1
+            "factory": 112,
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -3460,8 +4411,8 @@
           "id": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-          "index": 8,
-          "index2": 7,
+          "index": 10,
+          "index2": 8,
           "size": 325727,
           "cacheable": true,
           "built": true,
@@ -3476,11 +4427,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -3488,15 +4439,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             }
           ],
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           },
           "failed": false,
           "errors": 0,
@@ -3537,7 +4488,7 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "7:0-3"
+              "loc": "11:23-26"
             },
             {
               "moduleId": "./src/main.js",
@@ -3546,7 +4497,25 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "11:8-11"
+              "loc": "16:2-5"
+            },
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "harmony import specifier",
+              "userRequest": "vue",
+              "loc": "20:0-3"
+            },
+            {
+              "moduleId": "./src/main.js",
+              "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+              "module": "./src/main.js + 7 modules",
+              "moduleName": "./src/main.js + 7 modules",
+              "type": "harmony import specifier",
+              "userRequest": "vue",
+              "loc": "24:8-11"
             }
           ],
           "usedExports": [
@@ -3579,11 +4548,11 @@
   "modules": [
     {
       "id": 0,
-      "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-      "name": "multi ./src/main.js",
+      "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+      "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
       "index": 0,
-      "index2": 22,
-      "size": 28,
+      "index2": 32,
+      "size": 40,
       "built": true,
       "optional": false,
       "prefetched": false,
@@ -3595,8 +4564,8 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 1,
-        "building": 4
+        "factory": 0,
+        "building": 6
       },
       "failed": false,
       "errors": 0,
@@ -3620,11 +4589,67 @@
       "depth": 0
     },
     {
+      "id": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+      "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+      "index": 1,
+      "index2": 2,
+      "size": 152,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+      "issuerId": 0,
+      "issuerName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        }
+      ],
+      "profile": {
+        "factory": 858,
+        "building": 52
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "module": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "moduleName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "type": "single entry",
+          "userRequest": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "loc": "app[0]"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "(typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {}).SENTRY_RELEASE={id:\"0.0.1\"};"
+    },
+    {
       "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
       "identifier": "delegated 93 from dll-reference _dll_dllLibrary_pro",
       "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro",
-      "index": 11,
-      "index2": 9,
+      "index": 12,
+      "index2": 10,
       "size": 42,
       "built": true,
       "optional": false,
@@ -3638,11 +4663,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -3650,15 +4675,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         }
       ],
       "profile": {
-        "factory": 253,
-        "building": 3548,
-        "dependencies": 152
+        "factory": 397,
+        "building": 4278,
+        "dependencies": 202
       },
       "failed": false,
       "errors": 0,
@@ -3681,7 +4706,7 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "element-ui",
-          "loc": "7:8-17"
+          "loc": "20:8-17"
         }
       ],
       "usedExports": true,
@@ -3696,8 +4721,8 @@
       "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
       "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-      "index": 21,
-      "index2": 20,
+      "index": 22,
+      "index2": 21,
       "size": 39,
       "cacheable": true,
       "built": true,
@@ -3712,11 +4737,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -3724,15 +4749,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         }
       ],
       "profile": {
-        "factory": 253,
-        "building": 3548,
-        "dependencies": 152
+        "factory": 397,
+        "building": 4278,
+        "dependencies": 202
       },
       "failed": false,
       "errors": 0,
@@ -3765,8 +4790,8 @@
       "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 18,
-      "index2": 15,
+      "index": 19,
+      "index2": 16,
       "size": 39,
       "cacheable": true,
       "built": true,
@@ -3781,11 +4806,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -3793,8 +4818,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -3802,9 +4827,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         },
         {
@@ -3812,14 +4837,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 103,
-            "building": 1
+            "factory": 112,
+            "building": 2
           }
         }
       ],
       "profile": {
-        "factory": 5,
-        "building": 2356
+        "factory": 3,
+        "building": 2871
       },
       "failed": false,
       "errors": 0,
@@ -3878,8 +4903,8 @@
       "id": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js?!./node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js?!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
       "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 29,
-      "index2": 28,
+      "index": 39,
+      "index2": 38,
       "size": 481,
       "cacheable": true,
       "built": true,
@@ -3894,11 +4919,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -3906,8 +4931,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -3915,9 +4940,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         },
         {
@@ -3925,8 +4950,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 440,
-            "building": 515,
+            "factory": 600,
+            "building": 598,
             "dependencies": 0
           }
         },
@@ -3935,8 +4960,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 8,
-            "building": 27
+            "factory": 13,
+            "building": 25
           }
         },
         {
@@ -3944,7 +4969,7 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
           "name": "./src/page/login/v-router.js",
           "profile": {
-            "factory": 25,
+            "factory": 33,
             "building": 17
           }
         },
@@ -3953,9 +4978,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "name": "./src/page/login/login.vue",
           "profile": {
-            "factory": 5,
-            "building": 136,
-            "dependencies": 0
+            "factory": 6,
+            "building": 198,
+            "dependencies": 1
           }
         },
         {
@@ -3969,8 +4994,8 @@
         }
       ],
       "profile": {
-        "factory": 8,
-        "building": 2212
+        "factory": 6,
+        "building": 2857
       },
       "failed": false,
       "errors": 0,
@@ -4026,11 +5051,793 @@
       "source": "// extracted by mini-css-extract-plugin\nmodule.exports = {\"allcover\":\"allcover_2CXcLIDQ\",\"ctt\":\"ctt_1uJTflDo\",\"tb\":\"tb_1TmZxQdM\",\"lr\":\"lr_2G8Alspf\",\"login_page\":\"login_page_2YyrmPHK\",\"manage_tip\":\"manage_tip_3R8LFh-i\",\"form_contianer\":\"form_contianer_1EiNhouK\",\"submit_btn\":\"submit_btn_2JrWEv38\",\"tip\":\"tip_lH6ArTyj\",\"form-fade-enter-active\":\"form-fade-enter-active_2jR5eUuK\",\"form-fade-leave-active\":\"form-fade-leave-active_v3MIBbfC\",\"form-fade-enter\":\"form-fade-enter_2YAU9pez\"};"
     },
     {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js",
+      "index": 32,
+      "index2": 30,
+      "size": 1156,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+      "issuerId": null,
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        }
+      ],
+      "profile": {
+        "factory": 397,
+        "building": 4278,
+        "dependencies": 202
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "raven-js/plugins/vue",
+          "loc": "7:0-44"
+        },
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "harmony import specifier",
+          "userRequest": "raven-js/plugins/vue",
+          "loc": "11:13-21"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "/**\n * Vue.js 2.0 plugin\n *\n */\n\nfunction formatComponentName(vm) {\n  if (vm.$root === vm) {\n    return 'root instance';\n  }\n  var name = vm._isVue ? vm.$options.name || vm.$options._componentTag : vm.name;\n  return (\n    (name ? 'component <' + name + '>' : 'anonymous component') +\n    (vm._isVue && vm.$options.__file ? ' at ' + vm.$options.__file : '')\n  );\n}\n\nfunction vuePlugin(Raven, Vue) {\n  Vue = Vue || window.Vue;\n\n  // quit if Vue isn't on the page\n  if (!Vue || !Vue.config) return;\n\n  var _oldOnError = Vue.config.errorHandler;\n  Vue.config.errorHandler = function VueErrorHandler(error, vm, info) {\n    var metaData = {};\n\n    // vm and lifecycleHook are not always available\n    if (Object.prototype.toString.call(vm) === '[object Object]') {\n      metaData.componentName = formatComponentName(vm);\n      metaData.propsData = vm.$options.propsData;\n    }\n\n    if (typeof info !== 'undefined') {\n      metaData.lifecycleHook = info;\n    }\n\n    Raven.captureException(error, {\n      extra: metaData\n    });\n\n    if (typeof _oldOnError === 'function') {\n      _oldOnError.call(this, error, vm, info);\n    }\n  };\n}\n\nmodule.exports = vuePlugin;\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/src/configError.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/configError.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/src/configError.js",
+      "index": 30,
+      "index2": 26,
+      "size": 236,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "profile": {
+            "factory": 36,
+            "building": 291,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 229,
+        "dependencies": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "type": "cjs require",
+          "userRequest": "./configError",
+          "loc": "6:23-47"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "function RavenConfigError(message) {\n  this.name = 'RavenConfigError';\n  this.message = message;\n}\nRavenConfigError.prototype = new Error();\nRavenConfigError.prototype.constructor = RavenConfigError;\n\nmodule.exports = RavenConfigError;\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+      "index": 31,
+      "index2": 27,
+      "size": 1240,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "profile": {
+            "factory": 36,
+            "building": 291,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 229,
+        "dependencies": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "type": "cjs require",
+          "userRequest": "./console",
+          "loc": "39:24-44"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "var utils = require('./utils');\n\nvar wrapMethod = function(console, level, callback) {\n  var originalConsoleLevel = console[level];\n  var originalConsole = console;\n\n  if (!(level in console)) {\n    return;\n  }\n\n  var sentryLevel = level === 'warn' ? 'warning' : level;\n\n  console[level] = function() {\n    var args = [].slice.call(arguments);\n\n    var msg = utils.safeJoin(args, ' ');\n    var data = {level: sentryLevel, logger: 'console', extra: {arguments: args}};\n\n    if (level === 'assert') {\n      if (args[0] === false) {\n        // Default browsers message\n        msg =\n          'Assertion failed: ' + (utils.safeJoin(args.slice(1), ' ') || 'console.assert');\n        data.extra.arguments = args.slice(1);\n        callback && callback(msg, data);\n      }\n    } else {\n      callback && callback(msg, data);\n    }\n\n    // this fails for some browsers. :(\n    if (originalConsoleLevel) {\n      // IE9 doesn't allow calling apply on console functions directly\n      // See: https://stackoverflow.com/questions/5472938/does-ie9-support-console-log-and-is-it-a-real-function#answer-5473193\n      Function.prototype.apply.call(originalConsoleLevel, originalConsole, args);\n    }\n  };\n};\n\nmodule.exports = {\n  wrapMethod: wrapMethod\n};\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "index": 25,
+      "index2": 28,
+      "size": 70215,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+      "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+      "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          }
+        }
+      ],
+      "profile": {
+        "factory": 36,
+        "building": 291,
+        "dependencies": 0
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "type": "cjs require",
+          "userRequest": "./raven",
+          "loc": "7:23-41"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3,
+      "source": "/*global XDomainRequest:false */\n\nvar TraceKit = require('../vendor/TraceKit/tracekit');\nvar stringify = require('../vendor/json-stringify-safe/stringify');\nvar md5 = require('../vendor/md5/md5');\nvar RavenConfigError = require('./configError');\n\nvar utils = require('./utils');\nvar isErrorEvent = utils.isErrorEvent;\nvar isDOMError = utils.isDOMError;\nvar isDOMException = utils.isDOMException;\nvar isError = utils.isError;\nvar isObject = utils.isObject;\nvar isPlainObject = utils.isPlainObject;\nvar isUndefined = utils.isUndefined;\nvar isFunction = utils.isFunction;\nvar isString = utils.isString;\nvar isArray = utils.isArray;\nvar isEmptyObject = utils.isEmptyObject;\nvar each = utils.each;\nvar objectMerge = utils.objectMerge;\nvar truncate = utils.truncate;\nvar objectFrozen = utils.objectFrozen;\nvar hasKey = utils.hasKey;\nvar joinRegExp = utils.joinRegExp;\nvar urlencode = utils.urlencode;\nvar uuid4 = utils.uuid4;\nvar htmlTreeAsString = utils.htmlTreeAsString;\nvar isSameException = utils.isSameException;\nvar isSameStacktrace = utils.isSameStacktrace;\nvar parseUrl = utils.parseUrl;\nvar fill = utils.fill;\nvar supportsFetch = utils.supportsFetch;\nvar supportsReferrerPolicy = utils.supportsReferrerPolicy;\nvar serializeKeysForMessage = utils.serializeKeysForMessage;\nvar serializeException = utils.serializeException;\nvar sanitize = utils.sanitize;\n\nvar wrapConsoleMethod = require('./console').wrapMethod;\n\nvar dsnKeys = 'source protocol user pass host port path'.split(' '),\n  dsnPattern = /^(?:(\\w+):)?\\/\\/(?:(\\w+)(:\\w+)?@)?([\\w\\.-]+)(?::(\\d+))?(\\/.*)/;\n\nfunction now() {\n  return +new Date();\n}\n\n// This is to be defensive in environments where window does not exist (see https://github.com/getsentry/raven-js/pull/785)\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};\nvar _document = _window.document;\nvar _navigator = _window.navigator;\n\nfunction keepOriginalCallback(original, callback) {\n  return isFunction(callback)\n    ? function(data) {\n        return callback(data, original);\n      }\n    : callback;\n}\n\n// First, check for JSON support\n// If there is no JSON, we no-op the core features of Raven\n// since JSON is required to encode the payload\nfunction Raven() {\n  this._hasJSON = !!(typeof JSON === 'object' && JSON.stringify);\n  // Raven can run in contexts where there's no document (react-native)\n  this._hasDocument = !isUndefined(_document);\n  this._hasNavigator = !isUndefined(_navigator);\n  this._lastCapturedException = null;\n  this._lastData = null;\n  this._lastEventId = null;\n  this._globalServer = null;\n  this._globalKey = null;\n  this._globalProject = null;\n  this._globalContext = {};\n  this._globalOptions = {\n    // SENTRY_RELEASE can be injected by https://github.com/getsentry/sentry-webpack-plugin\n    release: _window.SENTRY_RELEASE && _window.SENTRY_RELEASE.id,\n    logger: 'javascript',\n    ignoreErrors: [],\n    ignoreUrls: [],\n    whitelistUrls: [],\n    includePaths: [],\n    headers: null,\n    collectWindowErrors: true,\n    captureUnhandledRejections: true,\n    maxMessageLength: 0,\n    // By default, truncates URL values to 250 chars\n    maxUrlLength: 250,\n    stackTraceLimit: 50,\n    autoBreadcrumbs: true,\n    instrument: true,\n    sampleRate: 1,\n    sanitizeKeys: []\n  };\n  this._fetchDefaults = {\n    method: 'POST',\n    // Despite all stars in the sky saying that Edge supports old draft syntax, aka 'never', 'always', 'origin' and 'default\n    // https://caniuse.com/#feat=referrer-policy\n    // It doesn't. And it throw exception instead of ignoring this parameter...\n    // REF: https://github.com/getsentry/raven-js/issues/1233\n    referrerPolicy: supportsReferrerPolicy() ? 'origin' : ''\n  };\n  this._ignoreOnError = 0;\n  this._isRavenInstalled = false;\n  this._originalErrorStackTraceLimit = Error.stackTraceLimit;\n  // capture references to window.console *and* all its methods first\n  // before the console plugin has a chance to monkey patch\n  this._originalConsole = _window.console || {};\n  this._originalConsoleMethods = {};\n  this._plugins = [];\n  this._startTime = now();\n  this._wrappedBuiltIns = [];\n  this._breadcrumbs = [];\n  this._lastCapturedEvent = null;\n  this._keypressTimeout;\n  this._location = _window.location;\n  this._lastHref = this._location && this._location.href;\n  this._resetBackoff();\n\n  // eslint-disable-next-line guard-for-in\n  for (var method in this._originalConsole) {\n    this._originalConsoleMethods[method] = this._originalConsole[method];\n  }\n}\n\n/*\n * The core Raven singleton\n *\n * @this {Raven}\n */\n\nRaven.prototype = {\n  // Hardcode version string so that raven source can be loaded directly via\n  // webpack (using a build step causes webpack #1617). Grunt verifies that\n  // this value matches package.json during build.\n  //   See: https://github.com/getsentry/raven-js/issues/465\n  VERSION: '3.27.2',\n\n  debug: false,\n\n  TraceKit: TraceKit, // alias to TraceKit\n\n  /*\n     * Configure Raven with a DSN and extra options\n     *\n     * @param {string} dsn The public Sentry DSN\n     * @param {object} options Set of global options [optional]\n     * @return {Raven}\n     */\n  config: function(dsn, options) {\n    var self = this;\n\n    if (self._globalServer) {\n      this._logDebug('error', 'Error: Raven has already been configured');\n      return self;\n    }\n    if (!dsn) return self;\n\n    var globalOptions = self._globalOptions;\n\n    // merge in options\n    if (options) {\n      each(options, function(key, value) {\n        // tags and extra are special and need to be put into context\n        if (key === 'tags' || key === 'extra' || key === 'user') {\n          self._globalContext[key] = value;\n        } else {\n          globalOptions[key] = value;\n        }\n      });\n    }\n\n    self.setDSN(dsn);\n\n    // \"Script error.\" is hard coded into browsers for errors that it can't read.\n    // this is the result of a script being pulled in from an external domain and CORS.\n    globalOptions.ignoreErrors.push(/^Script error\\.?$/);\n    globalOptions.ignoreErrors.push(/^Javascript error: Script error\\.? on line 0$/);\n\n    // join regexp rules into one big rule\n    globalOptions.ignoreErrors = joinRegExp(globalOptions.ignoreErrors);\n    globalOptions.ignoreUrls = globalOptions.ignoreUrls.length\n      ? joinRegExp(globalOptions.ignoreUrls)\n      : false;\n    globalOptions.whitelistUrls = globalOptions.whitelistUrls.length\n      ? joinRegExp(globalOptions.whitelistUrls)\n      : false;\n    globalOptions.includePaths = joinRegExp(globalOptions.includePaths);\n    globalOptions.maxBreadcrumbs = Math.max(\n      0,\n      Math.min(globalOptions.maxBreadcrumbs || 100, 100)\n    ); // default and hard limit is 100\n\n    var autoBreadcrumbDefaults = {\n      xhr: true,\n      console: true,\n      dom: true,\n      location: true,\n      sentry: true\n    };\n\n    var autoBreadcrumbs = globalOptions.autoBreadcrumbs;\n    if ({}.toString.call(autoBreadcrumbs) === '[object Object]') {\n      autoBreadcrumbs = objectMerge(autoBreadcrumbDefaults, autoBreadcrumbs);\n    } else if (autoBreadcrumbs !== false) {\n      autoBreadcrumbs = autoBreadcrumbDefaults;\n    }\n    globalOptions.autoBreadcrumbs = autoBreadcrumbs;\n\n    var instrumentDefaults = {\n      tryCatch: true\n    };\n\n    var instrument = globalOptions.instrument;\n    if ({}.toString.call(instrument) === '[object Object]') {\n      instrument = objectMerge(instrumentDefaults, instrument);\n    } else if (instrument !== false) {\n      instrument = instrumentDefaults;\n    }\n    globalOptions.instrument = instrument;\n\n    TraceKit.collectWindowErrors = !!globalOptions.collectWindowErrors;\n\n    // return for chaining\n    return self;\n  },\n\n  /*\n     * Installs a global window.onerror error handler\n     * to capture and report uncaught exceptions.\n     * At this point, install() is required to be called due\n     * to the way TraceKit is set up.\n     *\n     * @return {Raven}\n     */\n  install: function() {\n    var self = this;\n    if (self.isSetup() && !self._isRavenInstalled) {\n      TraceKit.report.subscribe(function() {\n        self._handleOnErrorStackInfo.apply(self, arguments);\n      });\n\n      if (self._globalOptions.captureUnhandledRejections) {\n        self._attachPromiseRejectionHandler();\n      }\n\n      self._patchFunctionToString();\n\n      if (self._globalOptions.instrument && self._globalOptions.instrument.tryCatch) {\n        self._instrumentTryCatch();\n      }\n\n      if (self._globalOptions.autoBreadcrumbs) self._instrumentBreadcrumbs();\n\n      // Install all of the plugins\n      self._drainPlugins();\n\n      self._isRavenInstalled = true;\n    }\n\n    Error.stackTraceLimit = self._globalOptions.stackTraceLimit;\n    return this;\n  },\n\n  /*\n     * Set the DSN (can be called multiple time unlike config)\n     *\n     * @param {string} dsn The public Sentry DSN\n     */\n  setDSN: function(dsn) {\n    var self = this,\n      uri = self._parseDSN(dsn),\n      lastSlash = uri.path.lastIndexOf('/'),\n      path = uri.path.substr(1, lastSlash);\n\n    self._dsn = dsn;\n    self._globalKey = uri.user;\n    self._globalSecret = uri.pass && uri.pass.substr(1);\n    self._globalProject = uri.path.substr(lastSlash + 1);\n\n    self._globalServer = self._getGlobalServer(uri);\n\n    self._globalEndpoint =\n      self._globalServer + '/' + path + 'api/' + self._globalProject + '/store/';\n\n    // Reset backoff state since we may be pointing at a\n    // new project/server\n    this._resetBackoff();\n  },\n\n  /*\n     * Wrap code within a context so Raven can capture errors\n     * reliably across domains that is executed immediately.\n     *\n     * @param {object} options A specific set of options for this context [optional]\n     * @param {function} func The callback to be immediately executed within the context\n     * @param {array} args An array of arguments to be called with the callback [optional]\n     */\n  context: function(options, func, args) {\n    if (isFunction(options)) {\n      args = func || [];\n      func = options;\n      options = {};\n    }\n\n    return this.wrap(options, func).apply(this, args);\n  },\n\n  /*\n     * Wrap code within a context and returns back a new function to be executed\n     *\n     * @param {object} options A specific set of options for this context [optional]\n     * @param {function} func The function to be wrapped in a new context\n     * @param {function} _before A function to call before the try/catch wrapper [optional, private]\n     * @return {function} The newly wrapped functions with a context\n     */\n  wrap: function(options, func, _before) {\n    var self = this;\n    // 1 argument has been passed, and it's not a function\n    // so just return it\n    if (isUndefined(func) && !isFunction(options)) {\n      return options;\n    }\n\n    // options is optional\n    if (isFunction(options)) {\n      func = options;\n      options = undefined;\n    }\n\n    // At this point, we've passed along 2 arguments, and the second one\n    // is not a function either, so we'll just return the second argument.\n    if (!isFunction(func)) {\n      return func;\n    }\n\n    // We don't wanna wrap it twice!\n    try {\n      if (func.__raven__) {\n        return func;\n      }\n\n      // If this has already been wrapped in the past, return that\n      if (func.__raven_wrapper__) {\n        return func.__raven_wrapper__;\n      }\n    } catch (e) {\n      // Just accessing custom props in some Selenium environments\n      // can cause a \"Permission denied\" exception (see raven-js#495).\n      // Bail on wrapping and return the function as-is (defers to window.onerror).\n      return func;\n    }\n\n    function wrapped() {\n      var args = [],\n        i = arguments.length,\n        deep = !options || (options && options.deep !== false);\n\n      if (_before && isFunction(_before)) {\n        _before.apply(this, arguments);\n      }\n\n      // Recursively wrap all of a function's arguments that are\n      // functions themselves.\n      while (i--) args[i] = deep ? self.wrap(options, arguments[i]) : arguments[i];\n\n      try {\n        // Attempt to invoke user-land function\n        // NOTE: If you are a Sentry user, and you are seeing this stack frame, it\n        //       means Raven caught an error invoking your application code. This is\n        //       expected behavior and NOT indicative of a bug with Raven.js.\n        return func.apply(this, args);\n      } catch (e) {\n        self._ignoreNextOnError();\n        self.captureException(e, options);\n        throw e;\n      }\n    }\n\n    // copy over properties of the old function\n    for (var property in func) {\n      if (hasKey(func, property)) {\n        wrapped[property] = func[property];\n      }\n    }\n    wrapped.prototype = func.prototype;\n\n    func.__raven_wrapper__ = wrapped;\n    // Signal that this function has been wrapped/filled already\n    // for both debugging and to prevent it to being wrapped/filled twice\n    wrapped.__raven__ = true;\n    wrapped.__orig__ = func;\n\n    return wrapped;\n  },\n\n  /**\n   * Uninstalls the global error handler.\n   *\n   * @return {Raven}\n   */\n  uninstall: function() {\n    TraceKit.report.uninstall();\n\n    this._detachPromiseRejectionHandler();\n    this._unpatchFunctionToString();\n    this._restoreBuiltIns();\n    this._restoreConsole();\n\n    Error.stackTraceLimit = this._originalErrorStackTraceLimit;\n    this._isRavenInstalled = false;\n\n    return this;\n  },\n\n  /**\n   * Callback used for `unhandledrejection` event\n   *\n   * @param {PromiseRejectionEvent} event An object containing\n   *   promise: the Promise that was rejected\n   *   reason: the value with which the Promise was rejected\n   * @return void\n   */\n  _promiseRejectionHandler: function(event) {\n    this._logDebug('debug', 'Raven caught unhandled promise rejection:', event);\n    this.captureException(event.reason, {\n      mechanism: {\n        type: 'onunhandledrejection',\n        handled: false\n      }\n    });\n  },\n\n  /**\n   * Installs the global promise rejection handler.\n   *\n   * @return {raven}\n   */\n  _attachPromiseRejectionHandler: function() {\n    this._promiseRejectionHandler = this._promiseRejectionHandler.bind(this);\n    _window.addEventListener &&\n      _window.addEventListener('unhandledrejection', this._promiseRejectionHandler);\n    return this;\n  },\n\n  /**\n   * Uninstalls the global promise rejection handler.\n   *\n   * @return {raven}\n   */\n  _detachPromiseRejectionHandler: function() {\n    _window.removeEventListener &&\n      _window.removeEventListener('unhandledrejection', this._promiseRejectionHandler);\n    return this;\n  },\n\n  /**\n   * Manually capture an exception and send it over to Sentry\n   *\n   * @param {error} ex An exception to be logged\n   * @param {object} options A specific set of options for this error [optional]\n   * @return {Raven}\n   */\n  captureException: function(ex, options) {\n    options = objectMerge({trimHeadFrames: 0}, options ? options : {});\n\n    if (isErrorEvent(ex) && ex.error) {\n      // If it is an ErrorEvent with `error` property, extract it to get actual Error\n      ex = ex.error;\n    } else if (isDOMError(ex) || isDOMException(ex)) {\n      // If it is a DOMError or DOMException (which are legacy APIs, but still supported in some browsers)\n      // then we just extract the name and message, as they don't provide anything else\n      // https://developer.mozilla.org/en-US/docs/Web/API/DOMError\n      // https://developer.mozilla.org/en-US/docs/Web/API/DOMException\n      var name = ex.name || (isDOMError(ex) ? 'DOMError' : 'DOMException');\n      var message = ex.message ? name + ': ' + ex.message : name;\n\n      return this.captureMessage(\n        message,\n        objectMerge(options, {\n          // neither DOMError or DOMException provide stack trace and we most likely wont get it this way as well\n          // but it's barely any overhead so we may at least try\n          stacktrace: true,\n          trimHeadFrames: options.trimHeadFrames + 1\n        })\n      );\n    } else if (isError(ex)) {\n      // we have a real Error object\n      ex = ex;\n    } else if (isPlainObject(ex)) {\n      // If it is plain Object, serialize it manually and extract options\n      // This will allow us to group events based on top-level keys\n      // which is much better than creating new group when any key/value change\n      options = this._getCaptureExceptionOptionsFromPlainObject(options, ex);\n      ex = new Error(options.message);\n    } else {\n      // If none of previous checks were valid, then it means that\n      // it's not a DOMError/DOMException\n      // it's not a plain Object\n      // it's not a valid ErrorEvent (one with an error property)\n      // it's not an Error\n      // So bail out and capture it as a simple message:\n      return this.captureMessage(\n        ex,\n        objectMerge(options, {\n          stacktrace: true, // if we fall back to captureMessage, default to attempting a new trace\n          trimHeadFrames: options.trimHeadFrames + 1\n        })\n      );\n    }\n\n    // Store the raw exception object for potential debugging and introspection\n    this._lastCapturedException = ex;\n\n    // TraceKit.report will re-raise any exception passed to it,\n    // which means you have to wrap it in try/catch. Instead, we\n    // can wrap it here and only re-raise if TraceKit.report\n    // raises an exception different from the one we asked to\n    // report on.\n    try {\n      var stack = TraceKit.computeStackTrace(ex);\n      this._handleStackInfo(stack, options);\n    } catch (ex1) {\n      if (ex !== ex1) {\n        throw ex1;\n      }\n    }\n\n    return this;\n  },\n\n  _getCaptureExceptionOptionsFromPlainObject: function(currentOptions, ex) {\n    var exKeys = Object.keys(ex).sort();\n    var options = objectMerge(currentOptions, {\n      message:\n        'Non-Error exception captured with keys: ' + serializeKeysForMessage(exKeys),\n      fingerprint: [md5(exKeys)],\n      extra: currentOptions.extra || {}\n    });\n    options.extra.__serialized__ = serializeException(ex);\n\n    return options;\n  },\n\n  /*\n     * Manually send a message to Sentry\n     *\n     * @param {string} msg A plain message to be captured in Sentry\n     * @param {object} options A specific set of options for this message [optional]\n     * @return {Raven}\n     */\n  captureMessage: function(msg, options) {\n    // config() automagically converts ignoreErrors from a list to a RegExp so we need to test for an\n    // early call; we'll error on the side of logging anything called before configuration since it's\n    // probably something you should see:\n    if (\n      !!this._globalOptions.ignoreErrors.test &&\n      this._globalOptions.ignoreErrors.test(msg)\n    ) {\n      return;\n    }\n\n    options = options || {};\n    msg = msg + ''; // Make sure it's actually a string\n\n    var data = objectMerge(\n      {\n        message: msg\n      },\n      options\n    );\n\n    var ex;\n    // Generate a \"synthetic\" stack trace from this point.\n    // NOTE: If you are a Sentry user, and you are seeing this stack frame, it is NOT indicative\n    //       of a bug with Raven.js. Sentry generates synthetic traces either by configuration,\n    //       or if it catches a thrown object without a \"stack\" property.\n    try {\n      throw new Error(msg);\n    } catch (ex1) {\n      ex = ex1;\n    }\n\n    // null exception name so `Error` isn't prefixed to msg\n    ex.name = null;\n    var stack = TraceKit.computeStackTrace(ex);\n\n    // stack[0] is `throw new Error(msg)` call itself, we are interested in the frame that was just before that, stack[1]\n    var initialCall = isArray(stack.stack) && stack.stack[1];\n\n    // if stack[1] is `Raven.captureException`, it means that someone passed a string to it and we redirected that call\n    // to be handled by `captureMessage`, thus `initialCall` is the 3rd one, not 2nd\n    // initialCall => captureException(string) => captureMessage(string)\n    if (initialCall && initialCall.func === 'Raven.captureException') {\n      initialCall = stack.stack[2];\n    }\n\n    var fileurl = (initialCall && initialCall.url) || '';\n\n    if (\n      !!this._globalOptions.ignoreUrls.test &&\n      this._globalOptions.ignoreUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    if (\n      !!this._globalOptions.whitelistUrls.test &&\n      !this._globalOptions.whitelistUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    // Always attempt to get stacktrace if message is empty.\n    // It's the only way to provide any helpful information to the user.\n    if (this._globalOptions.stacktrace || options.stacktrace || data.message === '') {\n      // fingerprint on msg, not stack trace (legacy behavior, could be revisited)\n      data.fingerprint = data.fingerprint == null ? msg : data.fingerprint;\n\n      options = objectMerge(\n        {\n          trimHeadFrames: 0\n        },\n        options\n      );\n      // Since we know this is a synthetic trace, the top frame (this function call)\n      // MUST be from Raven.js, so mark it for trimming\n      // We add to the trim counter so that callers can choose to trim extra frames, such\n      // as utility functions.\n      options.trimHeadFrames += 1;\n\n      var frames = this._prepareFrames(stack, options);\n      data.stacktrace = {\n        // Sentry expects frames oldest to newest\n        frames: frames.reverse()\n      };\n    }\n\n    // Make sure that fingerprint is always wrapped in an array\n    if (data.fingerprint) {\n      data.fingerprint = isArray(data.fingerprint)\n        ? data.fingerprint\n        : [data.fingerprint];\n    }\n\n    // Fire away!\n    this._send(data);\n\n    return this;\n  },\n\n  captureBreadcrumb: function(obj) {\n    var crumb = objectMerge(\n      {\n        timestamp: now() / 1000\n      },\n      obj\n    );\n\n    if (isFunction(this._globalOptions.breadcrumbCallback)) {\n      var result = this._globalOptions.breadcrumbCallback(crumb);\n\n      if (isObject(result) && !isEmptyObject(result)) {\n        crumb = result;\n      } else if (result === false) {\n        return this;\n      }\n    }\n\n    this._breadcrumbs.push(crumb);\n    if (this._breadcrumbs.length > this._globalOptions.maxBreadcrumbs) {\n      this._breadcrumbs.shift();\n    }\n    return this;\n  },\n\n  addPlugin: function(plugin /*arg1, arg2, ... argN*/) {\n    var pluginArgs = [].slice.call(arguments, 1);\n\n    this._plugins.push([plugin, pluginArgs]);\n    if (this._isRavenInstalled) {\n      this._drainPlugins();\n    }\n\n    return this;\n  },\n\n  /*\n     * Set/clear a user to be sent along with the payload.\n     *\n     * @param {object} user An object representing user data [optional]\n     * @return {Raven}\n     */\n  setUserContext: function(user) {\n    // Intentionally do not merge here since that's an unexpected behavior.\n    this._globalContext.user = user;\n\n    return this;\n  },\n\n  /*\n     * Merge extra attributes to be sent along with the payload.\n     *\n     * @param {object} extra An object representing extra data [optional]\n     * @return {Raven}\n     */\n  setExtraContext: function(extra) {\n    this._mergeContext('extra', extra);\n\n    return this;\n  },\n\n  /*\n     * Merge tags to be sent along with the payload.\n     *\n     * @param {object} tags An object representing tags [optional]\n     * @return {Raven}\n     */\n  setTagsContext: function(tags) {\n    this._mergeContext('tags', tags);\n\n    return this;\n  },\n\n  /*\n     * Clear all of the context.\n     *\n     * @return {Raven}\n     */\n  clearContext: function() {\n    this._globalContext = {};\n\n    return this;\n  },\n\n  /*\n     * Get a copy of the current context. This cannot be mutated.\n     *\n     * @return {object} copy of context\n     */\n  getContext: function() {\n    // lol javascript\n    return JSON.parse(stringify(this._globalContext));\n  },\n\n  /*\n     * Set environment of application\n     *\n     * @param {string} environment Typically something like 'production'.\n     * @return {Raven}\n     */\n  setEnvironment: function(environment) {\n    this._globalOptions.environment = environment;\n\n    return this;\n  },\n\n  /*\n     * Set release version of application\n     *\n     * @param {string} release Typically something like a git SHA to identify version\n     * @return {Raven}\n     */\n  setRelease: function(release) {\n    this._globalOptions.release = release;\n\n    return this;\n  },\n\n  /*\n     * Set the dataCallback option\n     *\n     * @param {function} callback The callback to run which allows the\n     *                            data blob to be mutated before sending\n     * @return {Raven}\n     */\n  setDataCallback: function(callback) {\n    var original = this._globalOptions.dataCallback;\n    this._globalOptions.dataCallback = keepOriginalCallback(original, callback);\n    return this;\n  },\n\n  /*\n     * Set the breadcrumbCallback option\n     *\n     * @param {function} callback The callback to run which allows filtering\n     *                            or mutating breadcrumbs\n     * @return {Raven}\n     */\n  setBreadcrumbCallback: function(callback) {\n    var original = this._globalOptions.breadcrumbCallback;\n    this._globalOptions.breadcrumbCallback = keepOriginalCallback(original, callback);\n    return this;\n  },\n\n  /*\n     * Set the shouldSendCallback option\n     *\n     * @param {function} callback The callback to run which allows\n     *                            introspecting the blob before sending\n     * @return {Raven}\n     */\n  setShouldSendCallback: function(callback) {\n    var original = this._globalOptions.shouldSendCallback;\n    this._globalOptions.shouldSendCallback = keepOriginalCallback(original, callback);\n    return this;\n  },\n\n  /**\n   * Override the default HTTP transport mechanism that transmits data\n   * to the Sentry server.\n   *\n   * @param {function} transport Function invoked instead of the default\n   *                             `makeRequest` handler.\n   *\n   * @return {Raven}\n   */\n  setTransport: function(transport) {\n    this._globalOptions.transport = transport;\n\n    return this;\n  },\n\n  /*\n     * Get the latest raw exception that was captured by Raven.\n     *\n     * @return {error}\n     */\n  lastException: function() {\n    return this._lastCapturedException;\n  },\n\n  /*\n     * Get the last event id\n     *\n     * @return {string}\n     */\n  lastEventId: function() {\n    return this._lastEventId;\n  },\n\n  /*\n     * Determine if Raven is setup and ready to go.\n     *\n     * @return {boolean}\n     */\n  isSetup: function() {\n    if (!this._hasJSON) return false; // needs JSON support\n    if (!this._globalServer) {\n      if (!this.ravenNotConfiguredError) {\n        this.ravenNotConfiguredError = true;\n        this._logDebug('error', 'Error: Raven has not been configured.');\n      }\n      return false;\n    }\n    return true;\n  },\n\n  afterLoad: function() {\n    // TODO: remove window dependence?\n\n    // Attempt to initialize Raven on load\n    var RavenConfig = _window.RavenConfig;\n    if (RavenConfig) {\n      this.config(RavenConfig.dsn, RavenConfig.config).install();\n    }\n  },\n\n  showReportDialog: function(options) {\n    if (\n      !_document // doesn't work without a document (React native)\n    )\n      return;\n\n    options = objectMerge(\n      {\n        eventId: this.lastEventId(),\n        dsn: this._dsn,\n        user: this._globalContext.user || {}\n      },\n      options\n    );\n\n    if (!options.eventId) {\n      throw new RavenConfigError('Missing eventId');\n    }\n\n    if (!options.dsn) {\n      throw new RavenConfigError('Missing DSN');\n    }\n\n    var encode = encodeURIComponent;\n    var encodedOptions = [];\n\n    for (var key in options) {\n      if (key === 'user') {\n        var user = options.user;\n        if (user.name) encodedOptions.push('name=' + encode(user.name));\n        if (user.email) encodedOptions.push('email=' + encode(user.email));\n      } else {\n        encodedOptions.push(encode(key) + '=' + encode(options[key]));\n      }\n    }\n    var globalServer = this._getGlobalServer(this._parseDSN(options.dsn));\n\n    var script = _document.createElement('script');\n    script.async = true;\n    script.src = globalServer + '/api/embed/error-page/?' + encodedOptions.join('&');\n    (_document.head || _document.body).appendChild(script);\n  },\n\n  /**** Private functions ****/\n  _ignoreNextOnError: function() {\n    var self = this;\n    this._ignoreOnError += 1;\n    setTimeout(function() {\n      // onerror should trigger before setTimeout\n      self._ignoreOnError -= 1;\n    });\n  },\n\n  _triggerEvent: function(eventType, options) {\n    // NOTE: `event` is a native browser thing, so let's avoid conflicting wiht it\n    var evt, key;\n\n    if (!this._hasDocument) return;\n\n    options = options || {};\n\n    eventType = 'raven' + eventType.substr(0, 1).toUpperCase() + eventType.substr(1);\n\n    if (_document.createEvent) {\n      evt = _document.createEvent('HTMLEvents');\n      evt.initEvent(eventType, true, true);\n    } else {\n      evt = _document.createEventObject();\n      evt.eventType = eventType;\n    }\n\n    for (key in options)\n      if (hasKey(options, key)) {\n        evt[key] = options[key];\n      }\n\n    if (_document.createEvent) {\n      // IE9 if standards\n      _document.dispatchEvent(evt);\n    } else {\n      // IE8 regardless of Quirks or Standards\n      // IE9 if quirks\n      try {\n        _document.fireEvent('on' + evt.eventType.toLowerCase(), evt);\n      } catch (e) {\n        // Do nothing\n      }\n    }\n  },\n\n  /**\n   * Wraps addEventListener to capture UI breadcrumbs\n   * @param evtName the event name (e.g. \"click\")\n   * @returns {Function}\n   * @private\n   */\n  _breadcrumbEventHandler: function(evtName) {\n    var self = this;\n    return function(evt) {\n      // reset keypress timeout; e.g. triggering a 'click' after\n      // a 'keypress' will reset the keypress debounce so that a new\n      // set of keypresses can be recorded\n      self._keypressTimeout = null;\n\n      // It's possible this handler might trigger multiple times for the same\n      // event (e.g. event propagation through node ancestors). Ignore if we've\n      // already captured the event.\n      if (self._lastCapturedEvent === evt) return;\n\n      self._lastCapturedEvent = evt;\n\n      // try/catch both:\n      // - accessing evt.target (see getsentry/raven-js#838, #768)\n      // - `htmlTreeAsString` because it's complex, and just accessing the DOM incorrectly\n      //   can throw an exception in some circumstances.\n      var target;\n      try {\n        target = htmlTreeAsString(evt.target);\n      } catch (e) {\n        target = '<unknown>';\n      }\n\n      self.captureBreadcrumb({\n        category: 'ui.' + evtName, // e.g. ui.click, ui.input\n        message: target\n      });\n    };\n  },\n\n  /**\n   * Wraps addEventListener to capture keypress UI events\n   * @returns {Function}\n   * @private\n   */\n  _keypressEventHandler: function() {\n    var self = this,\n      debounceDuration = 1000; // milliseconds\n\n    // TODO: if somehow user switches keypress target before\n    //       debounce timeout is triggered, we will only capture\n    //       a single breadcrumb from the FIRST target (acceptable?)\n    return function(evt) {\n      var target;\n      try {\n        target = evt.target;\n      } catch (e) {\n        // just accessing event properties can throw an exception in some rare circumstances\n        // see: https://github.com/getsentry/raven-js/issues/838\n        return;\n      }\n      var tagName = target && target.tagName;\n\n      // only consider keypress events on actual input elements\n      // this will disregard keypresses targeting body (e.g. tabbing\n      // through elements, hotkeys, etc)\n      if (\n        !tagName ||\n        (tagName !== 'INPUT' && tagName !== 'TEXTAREA' && !target.isContentEditable)\n      )\n        return;\n\n      // record first keypress in a series, but ignore subsequent\n      // keypresses until debounce clears\n      var timeout = self._keypressTimeout;\n      if (!timeout) {\n        self._breadcrumbEventHandler('input')(evt);\n      }\n      clearTimeout(timeout);\n      self._keypressTimeout = setTimeout(function() {\n        self._keypressTimeout = null;\n      }, debounceDuration);\n    };\n  },\n\n  /**\n   * Captures a breadcrumb of type \"navigation\", normalizing input URLs\n   * @param to the originating URL\n   * @param from the target URL\n   * @private\n   */\n  _captureUrlChange: function(from, to) {\n    var parsedLoc = parseUrl(this._location.href);\n    var parsedTo = parseUrl(to);\n    var parsedFrom = parseUrl(from);\n\n    // because onpopstate only tells you the \"new\" (to) value of location.href, and\n    // not the previous (from) value, we need to track the value of the current URL\n    // state ourselves\n    this._lastHref = to;\n\n    // Use only the path component of the URL if the URL matches the current\n    // document (almost all the time when using pushState)\n    if (parsedLoc.protocol === parsedTo.protocol && parsedLoc.host === parsedTo.host)\n      to = parsedTo.relative;\n    if (parsedLoc.protocol === parsedFrom.protocol && parsedLoc.host === parsedFrom.host)\n      from = parsedFrom.relative;\n\n    this.captureBreadcrumb({\n      category: 'navigation',\n      data: {\n        to: to,\n        from: from\n      }\n    });\n  },\n\n  _patchFunctionToString: function() {\n    var self = this;\n    self._originalFunctionToString = Function.prototype.toString;\n    // eslint-disable-next-line no-extend-native\n    Function.prototype.toString = function() {\n      if (typeof this === 'function' && this.__raven__) {\n        return self._originalFunctionToString.apply(this.__orig__, arguments);\n      }\n      return self._originalFunctionToString.apply(this, arguments);\n    };\n  },\n\n  _unpatchFunctionToString: function() {\n    if (this._originalFunctionToString) {\n      // eslint-disable-next-line no-extend-native\n      Function.prototype.toString = this._originalFunctionToString;\n    }\n  },\n\n  /**\n   * Wrap timer functions and event targets to catch errors and provide\n   * better metadata.\n   */\n  _instrumentTryCatch: function() {\n    var self = this;\n\n    var wrappedBuiltIns = self._wrappedBuiltIns;\n\n    function wrapTimeFn(orig) {\n      return function(fn, t) {\n        // preserve arity\n        // Make a copy of the arguments to prevent deoptimization\n        // https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#32-leaking-arguments\n        var args = new Array(arguments.length);\n        for (var i = 0; i < args.length; ++i) {\n          args[i] = arguments[i];\n        }\n        var originalCallback = args[0];\n        if (isFunction(originalCallback)) {\n          args[0] = self.wrap(\n            {\n              mechanism: {\n                type: 'instrument',\n                data: {function: orig.name || '<anonymous>'}\n              }\n            },\n            originalCallback\n          );\n        }\n\n        // IE < 9 doesn't support .call/.apply on setInterval/setTimeout, but it\n        // also supports only two arguments and doesn't care what this is, so we\n        // can just call the original function directly.\n        if (orig.apply) {\n          return orig.apply(this, args);\n        } else {\n          return orig(args[0], args[1]);\n        }\n      };\n    }\n\n    var autoBreadcrumbs = this._globalOptions.autoBreadcrumbs;\n\n    function wrapEventTarget(global) {\n      var proto = _window[global] && _window[global].prototype;\n      if (proto && proto.hasOwnProperty && proto.hasOwnProperty('addEventListener')) {\n        fill(\n          proto,\n          'addEventListener',\n          function(orig) {\n            return function(evtName, fn, capture, secure) {\n              // preserve arity\n              try {\n                if (fn && fn.handleEvent) {\n                  fn.handleEvent = self.wrap(\n                    {\n                      mechanism: {\n                        type: 'instrument',\n                        data: {\n                          target: global,\n                          function: 'handleEvent',\n                          handler: (fn && fn.name) || '<anonymous>'\n                        }\n                      }\n                    },\n                    fn.handleEvent\n                  );\n                }\n              } catch (err) {\n                // can sometimes get 'Permission denied to access property \"handle Event'\n              }\n\n              // More breadcrumb DOM capture ... done here and not in `_instrumentBreadcrumbs`\n              // so that we don't have more than one wrapper function\n              var before, clickHandler, keypressHandler;\n\n              if (\n                autoBreadcrumbs &&\n                autoBreadcrumbs.dom &&\n                (global === 'EventTarget' || global === 'Node')\n              ) {\n                // NOTE: generating multiple handlers per addEventListener invocation, should\n                //       revisit and verify we can just use one (almost certainly)\n                clickHandler = self._breadcrumbEventHandler('click');\n                keypressHandler = self._keypressEventHandler();\n                before = function(evt) {\n                  // need to intercept every DOM event in `before` argument, in case that\n                  // same wrapped method is re-used for different events (e.g. mousemove THEN click)\n                  // see #724\n                  if (!evt) return;\n\n                  var eventType;\n                  try {\n                    eventType = evt.type;\n                  } catch (e) {\n                    // just accessing event properties can throw an exception in some rare circumstances\n                    // see: https://github.com/getsentry/raven-js/issues/838\n                    return;\n                  }\n                  if (eventType === 'click') return clickHandler(evt);\n                  else if (eventType === 'keypress') return keypressHandler(evt);\n                };\n              }\n              return orig.call(\n                this,\n                evtName,\n                self.wrap(\n                  {\n                    mechanism: {\n                      type: 'instrument',\n                      data: {\n                        target: global,\n                        function: 'addEventListener',\n                        handler: (fn && fn.name) || '<anonymous>'\n                      }\n                    }\n                  },\n                  fn,\n                  before\n                ),\n                capture,\n                secure\n              );\n            };\n          },\n          wrappedBuiltIns\n        );\n        fill(\n          proto,\n          'removeEventListener',\n          function(orig) {\n            return function(evt, fn, capture, secure) {\n              try {\n                fn = fn && (fn.__raven_wrapper__ ? fn.__raven_wrapper__ : fn);\n              } catch (e) {\n                // ignore, accessing __raven_wrapper__ will throw in some Selenium environments\n              }\n              return orig.call(this, evt, fn, capture, secure);\n            };\n          },\n          wrappedBuiltIns\n        );\n      }\n    }\n\n    fill(_window, 'setTimeout', wrapTimeFn, wrappedBuiltIns);\n    fill(_window, 'setInterval', wrapTimeFn, wrappedBuiltIns);\n    if (_window.requestAnimationFrame) {\n      fill(\n        _window,\n        'requestAnimationFrame',\n        function(orig) {\n          return function(cb) {\n            return orig(\n              self.wrap(\n                {\n                  mechanism: {\n                    type: 'instrument',\n                    data: {\n                      function: 'requestAnimationFrame',\n                      handler: (orig && orig.name) || '<anonymous>'\n                    }\n                  }\n                },\n                cb\n              )\n            );\n          };\n        },\n        wrappedBuiltIns\n      );\n    }\n\n    // event targets borrowed from bugsnag-js:\n    // https://github.com/bugsnag/bugsnag-js/blob/master/src/bugsnag.js#L666\n    var eventTargets = [\n      'EventTarget',\n      'Window',\n      'Node',\n      'ApplicationCache',\n      'AudioTrackList',\n      'ChannelMergerNode',\n      'CryptoOperation',\n      'EventSource',\n      'FileReader',\n      'HTMLUnknownElement',\n      'IDBDatabase',\n      'IDBRequest',\n      'IDBTransaction',\n      'KeyOperation',\n      'MediaController',\n      'MessagePort',\n      'ModalWindow',\n      'Notification',\n      'SVGElementInstance',\n      'Screen',\n      'TextTrack',\n      'TextTrackCue',\n      'TextTrackList',\n      'WebSocket',\n      'WebSocketWorker',\n      'Worker',\n      'XMLHttpRequest',\n      'XMLHttpRequestEventTarget',\n      'XMLHttpRequestUpload'\n    ];\n    for (var i = 0; i < eventTargets.length; i++) {\n      wrapEventTarget(eventTargets[i]);\n    }\n  },\n\n  /**\n   * Instrument browser built-ins w/ breadcrumb capturing\n   *  - XMLHttpRequests\n   *  - DOM interactions (click/typing)\n   *  - window.location changes\n   *  - console\n   *\n   * Can be disabled or individually configured via the `autoBreadcrumbs` config option\n   */\n  _instrumentBreadcrumbs: function() {\n    var self = this;\n    var autoBreadcrumbs = this._globalOptions.autoBreadcrumbs;\n\n    var wrappedBuiltIns = self._wrappedBuiltIns;\n\n    function wrapProp(prop, xhr) {\n      if (prop in xhr && isFunction(xhr[prop])) {\n        fill(xhr, prop, function(orig) {\n          return self.wrap(\n            {\n              mechanism: {\n                type: 'instrument',\n                data: {function: prop, handler: (orig && orig.name) || '<anonymous>'}\n              }\n            },\n            orig\n          );\n        }); // intentionally don't track filled methods on XHR instances\n      }\n    }\n\n    if (autoBreadcrumbs.xhr && 'XMLHttpRequest' in _window) {\n      var xhrproto = _window.XMLHttpRequest && _window.XMLHttpRequest.prototype;\n      fill(\n        xhrproto,\n        'open',\n        function(origOpen) {\n          return function(method, url) {\n            // preserve arity\n\n            // if Sentry key appears in URL, don't capture\n            if (isString(url) && url.indexOf(self._globalKey) === -1) {\n              this.__raven_xhr = {\n                method: method,\n                url: url,\n                status_code: null\n              };\n            }\n\n            return origOpen.apply(this, arguments);\n          };\n        },\n        wrappedBuiltIns\n      );\n\n      fill(\n        xhrproto,\n        'send',\n        function(origSend) {\n          return function() {\n            // preserve arity\n            var xhr = this;\n\n            function onreadystatechangeHandler() {\n              if (xhr.__raven_xhr && xhr.readyState === 4) {\n                try {\n                  // touching statusCode in some platforms throws\n                  // an exception\n                  xhr.__raven_xhr.status_code = xhr.status;\n                } catch (e) {\n                  /* do nothing */\n                }\n\n                self.captureBreadcrumb({\n                  type: 'http',\n                  category: 'xhr',\n                  data: xhr.__raven_xhr\n                });\n              }\n            }\n\n            var props = ['onload', 'onerror', 'onprogress'];\n            for (var j = 0; j < props.length; j++) {\n              wrapProp(props[j], xhr);\n            }\n\n            if ('onreadystatechange' in xhr && isFunction(xhr.onreadystatechange)) {\n              fill(\n                xhr,\n                'onreadystatechange',\n                function(orig) {\n                  return self.wrap(\n                    {\n                      mechanism: {\n                        type: 'instrument',\n                        data: {\n                          function: 'onreadystatechange',\n                          handler: (orig && orig.name) || '<anonymous>'\n                        }\n                      }\n                    },\n                    orig,\n                    onreadystatechangeHandler\n                  );\n                } /* intentionally don't track this instrumentation */\n              );\n            } else {\n              // if onreadystatechange wasn't actually set by the page on this xhr, we\n              // are free to set our own and capture the breadcrumb\n              xhr.onreadystatechange = onreadystatechangeHandler;\n            }\n\n            return origSend.apply(this, arguments);\n          };\n        },\n        wrappedBuiltIns\n      );\n    }\n\n    if (autoBreadcrumbs.xhr && supportsFetch()) {\n      fill(\n        _window,\n        'fetch',\n        function(origFetch) {\n          return function() {\n            // preserve arity\n            // Make a copy of the arguments to prevent deoptimization\n            // https://github.com/petkaantonov/bluebird/wiki/Optimization-killers#32-leaking-arguments\n            var args = new Array(arguments.length);\n            for (var i = 0; i < args.length; ++i) {\n              args[i] = arguments[i];\n            }\n\n            var fetchInput = args[0];\n            var method = 'GET';\n            var url;\n\n            if (typeof fetchInput === 'string') {\n              url = fetchInput;\n            } else if ('Request' in _window && fetchInput instanceof _window.Request) {\n              url = fetchInput.url;\n              if (fetchInput.method) {\n                method = fetchInput.method;\n              }\n            } else {\n              url = '' + fetchInput;\n            }\n\n            // if Sentry key appears in URL, don't capture, as it's our own request\n            if (url.indexOf(self._globalKey) !== -1) {\n              return origFetch.apply(this, args);\n            }\n\n            if (args[1] && args[1].method) {\n              method = args[1].method;\n            }\n\n            var fetchData = {\n              method: method,\n              url: url,\n              status_code: null\n            };\n\n            return origFetch\n              .apply(this, args)\n              .then(function(response) {\n                fetchData.status_code = response.status;\n\n                self.captureBreadcrumb({\n                  type: 'http',\n                  category: 'fetch',\n                  data: fetchData\n                });\n\n                return response;\n              })\n              ['catch'](function(err) {\n                // if there is an error performing the request\n                self.captureBreadcrumb({\n                  type: 'http',\n                  category: 'fetch',\n                  data: fetchData,\n                  level: 'error'\n                });\n\n                throw err;\n              });\n          };\n        },\n        wrappedBuiltIns\n      );\n    }\n\n    // Capture breadcrumbs from any click that is unhandled / bubbled up all the way\n    // to the document. Do this before we instrument addEventListener.\n    if (autoBreadcrumbs.dom && this._hasDocument) {\n      if (_document.addEventListener) {\n        _document.addEventListener('click', self._breadcrumbEventHandler('click'), false);\n        _document.addEventListener('keypress', self._keypressEventHandler(), false);\n      } else if (_document.attachEvent) {\n        // IE8 Compatibility\n        _document.attachEvent('onclick', self._breadcrumbEventHandler('click'));\n        _document.attachEvent('onkeypress', self._keypressEventHandler());\n      }\n    }\n\n    // record navigation (URL) changes\n    // NOTE: in Chrome App environment, touching history.pushState, *even inside\n    //       a try/catch block*, will cause Chrome to output an error to console.error\n    // borrowed from: https://github.com/angular/angular.js/pull/13945/files\n    var chrome = _window.chrome;\n    var isChromePackagedApp = chrome && chrome.app && chrome.app.runtime;\n    var hasPushAndReplaceState =\n      !isChromePackagedApp &&\n      _window.history &&\n      _window.history.pushState &&\n      _window.history.replaceState;\n    if (autoBreadcrumbs.location && hasPushAndReplaceState) {\n      // TODO: remove onpopstate handler on uninstall()\n      var oldOnPopState = _window.onpopstate;\n      _window.onpopstate = function() {\n        var currentHref = self._location.href;\n        self._captureUrlChange(self._lastHref, currentHref);\n\n        if (oldOnPopState) {\n          return oldOnPopState.apply(this, arguments);\n        }\n      };\n\n      var historyReplacementFunction = function(origHistFunction) {\n        // note history.pushState.length is 0; intentionally not declaring\n        // params to preserve 0 arity\n        return function(/* state, title, url */) {\n          var url = arguments.length > 2 ? arguments[2] : undefined;\n\n          // url argument is optional\n          if (url) {\n            // coerce to string (this is what pushState does)\n            self._captureUrlChange(self._lastHref, url + '');\n          }\n\n          return origHistFunction.apply(this, arguments);\n        };\n      };\n\n      fill(_window.history, 'pushState', historyReplacementFunction, wrappedBuiltIns);\n      fill(_window.history, 'replaceState', historyReplacementFunction, wrappedBuiltIns);\n    }\n\n    if (autoBreadcrumbs.console && 'console' in _window && console.log) {\n      // console\n      var consoleMethodCallback = function(msg, data) {\n        self.captureBreadcrumb({\n          message: msg,\n          level: data.level,\n          category: 'console'\n        });\n      };\n\n      each(['debug', 'info', 'warn', 'error', 'log'], function(_, level) {\n        wrapConsoleMethod(console, level, consoleMethodCallback);\n      });\n    }\n  },\n\n  _restoreBuiltIns: function() {\n    // restore any wrapped builtins\n    var builtin;\n    while (this._wrappedBuiltIns.length) {\n      builtin = this._wrappedBuiltIns.shift();\n\n      var obj = builtin[0],\n        name = builtin[1],\n        orig = builtin[2];\n\n      obj[name] = orig;\n    }\n  },\n\n  _restoreConsole: function() {\n    // eslint-disable-next-line guard-for-in\n    for (var method in this._originalConsoleMethods) {\n      this._originalConsole[method] = this._originalConsoleMethods[method];\n    }\n  },\n\n  _drainPlugins: function() {\n    var self = this;\n\n    // FIX ME TODO\n    each(this._plugins, function(_, plugin) {\n      var installer = plugin[0];\n      var args = plugin[1];\n      installer.apply(self, [self].concat(args));\n    });\n  },\n\n  _parseDSN: function(str) {\n    var m = dsnPattern.exec(str),\n      dsn = {},\n      i = 7;\n\n    try {\n      while (i--) dsn[dsnKeys[i]] = m[i] || '';\n    } catch (e) {\n      throw new RavenConfigError('Invalid DSN: ' + str);\n    }\n\n    if (dsn.pass && !this._globalOptions.allowSecretKey) {\n      throw new RavenConfigError(\n        'Do not specify your secret key in the DSN. See: http://bit.ly/raven-secret-key'\n      );\n    }\n\n    return dsn;\n  },\n\n  _getGlobalServer: function(uri) {\n    // assemble the endpoint from the uri pieces\n    var globalServer = '//' + uri.host + (uri.port ? ':' + uri.port : '');\n\n    if (uri.protocol) {\n      globalServer = uri.protocol + ':' + globalServer;\n    }\n    return globalServer;\n  },\n\n  _handleOnErrorStackInfo: function(stackInfo, options) {\n    options = options || {};\n    options.mechanism = options.mechanism || {\n      type: 'onerror',\n      handled: false\n    };\n\n    // if we are intentionally ignoring errors via onerror, bail out\n    if (!this._ignoreOnError) {\n      this._handleStackInfo(stackInfo, options);\n    }\n  },\n\n  _handleStackInfo: function(stackInfo, options) {\n    var frames = this._prepareFrames(stackInfo, options);\n\n    this._triggerEvent('handle', {\n      stackInfo: stackInfo,\n      options: options\n    });\n\n    this._processException(\n      stackInfo.name,\n      stackInfo.message,\n      stackInfo.url,\n      stackInfo.lineno,\n      frames,\n      options\n    );\n  },\n\n  _prepareFrames: function(stackInfo, options) {\n    var self = this;\n    var frames = [];\n    if (stackInfo.stack && stackInfo.stack.length) {\n      each(stackInfo.stack, function(i, stack) {\n        var frame = self._normalizeFrame(stack, stackInfo.url);\n        if (frame) {\n          frames.push(frame);\n        }\n      });\n\n      // e.g. frames captured via captureMessage throw\n      if (options && options.trimHeadFrames) {\n        for (var j = 0; j < options.trimHeadFrames && j < frames.length; j++) {\n          frames[j].in_app = false;\n        }\n      }\n    }\n    frames = frames.slice(0, this._globalOptions.stackTraceLimit);\n    return frames;\n  },\n\n  _normalizeFrame: function(frame, stackInfoUrl) {\n    // normalize the frames data\n    var normalized = {\n      filename: frame.url,\n      lineno: frame.line,\n      colno: frame.column,\n      function: frame.func || '?'\n    };\n\n    // Case when we don't have any information about the error\n    // E.g. throwing a string or raw object, instead of an `Error` in Firefox\n    // Generating synthetic error doesn't add any value here\n    //\n    // We should probably somehow let a user know that they should fix their code\n    if (!frame.url) {\n      normalized.filename = stackInfoUrl; // fallback to whole stacks url from onerror handler\n    }\n\n    normalized.in_app = !// determine if an exception came from outside of our app\n    // first we check the global includePaths list.\n    (\n      (!!this._globalOptions.includePaths.test &&\n        !this._globalOptions.includePaths.test(normalized.filename)) ||\n      // Now we check for fun, if the function name is Raven or TraceKit\n      /(Raven|TraceKit)\\./.test(normalized['function']) ||\n      // finally, we do a last ditch effort and check for raven.min.js\n      /raven\\.(min\\.)?js$/.test(normalized.filename)\n    );\n\n    return normalized;\n  },\n\n  _processException: function(type, message, fileurl, lineno, frames, options) {\n    var prefixedMessage = (type ? type + ': ' : '') + (message || '');\n    if (\n      !!this._globalOptions.ignoreErrors.test &&\n      (this._globalOptions.ignoreErrors.test(message) ||\n        this._globalOptions.ignoreErrors.test(prefixedMessage))\n    ) {\n      return;\n    }\n\n    var stacktrace;\n\n    if (frames && frames.length) {\n      fileurl = frames[0].filename || fileurl;\n      // Sentry expects frames oldest to newest\n      // and JS sends them as newest to oldest\n      frames.reverse();\n      stacktrace = {frames: frames};\n    } else if (fileurl) {\n      stacktrace = {\n        frames: [\n          {\n            filename: fileurl,\n            lineno: lineno,\n            in_app: true\n          }\n        ]\n      };\n    }\n\n    if (\n      !!this._globalOptions.ignoreUrls.test &&\n      this._globalOptions.ignoreUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    if (\n      !!this._globalOptions.whitelistUrls.test &&\n      !this._globalOptions.whitelistUrls.test(fileurl)\n    ) {\n      return;\n    }\n\n    var data = objectMerge(\n      {\n        // sentry.interfaces.Exception\n        exception: {\n          values: [\n            {\n              type: type,\n              value: message,\n              stacktrace: stacktrace\n            }\n          ]\n        },\n        transaction: fileurl\n      },\n      options\n    );\n\n    var ex = data.exception.values[0];\n    if (ex.type == null && ex.value === '') {\n      ex.value = 'Unrecoverable error caught';\n    }\n\n    // Move mechanism from options to exception interface\n    // We do this, as requiring user to pass `{exception:{mechanism:{ ... }}}` would be\n    // too much\n    if (!data.exception.mechanism && data.mechanism) {\n      data.exception.mechanism = data.mechanism;\n      delete data.mechanism;\n    }\n\n    data.exception.mechanism = objectMerge(\n      {\n        type: 'generic',\n        handled: true\n      },\n      data.exception.mechanism || {}\n    );\n\n    // Fire away!\n    this._send(data);\n  },\n\n  _trimPacket: function(data) {\n    // For now, we only want to truncate the two different messages\n    // but this could/should be expanded to just trim everything\n    var max = this._globalOptions.maxMessageLength;\n    if (data.message) {\n      data.message = truncate(data.message, max);\n    }\n    if (data.exception) {\n      var exception = data.exception.values[0];\n      exception.value = truncate(exception.value, max);\n    }\n\n    var request = data.request;\n    if (request) {\n      if (request.url) {\n        request.url = truncate(request.url, this._globalOptions.maxUrlLength);\n      }\n      if (request.Referer) {\n        request.Referer = truncate(request.Referer, this._globalOptions.maxUrlLength);\n      }\n    }\n\n    if (data.breadcrumbs && data.breadcrumbs.values)\n      this._trimBreadcrumbs(data.breadcrumbs);\n\n    return data;\n  },\n\n  /**\n   * Truncate breadcrumb values (right now just URLs)\n   */\n  _trimBreadcrumbs: function(breadcrumbs) {\n    // known breadcrumb properties with urls\n    // TODO: also consider arbitrary prop values that start with (https?)?://\n    var urlProps = ['to', 'from', 'url'],\n      urlProp,\n      crumb,\n      data;\n\n    for (var i = 0; i < breadcrumbs.values.length; ++i) {\n      crumb = breadcrumbs.values[i];\n      if (\n        !crumb.hasOwnProperty('data') ||\n        !isObject(crumb.data) ||\n        objectFrozen(crumb.data)\n      )\n        continue;\n\n      data = objectMerge({}, crumb.data);\n      for (var j = 0; j < urlProps.length; ++j) {\n        urlProp = urlProps[j];\n        if (data.hasOwnProperty(urlProp) && data[urlProp]) {\n          data[urlProp] = truncate(data[urlProp], this._globalOptions.maxUrlLength);\n        }\n      }\n      breadcrumbs.values[i].data = data;\n    }\n  },\n\n  _getHttpData: function() {\n    if (!this._hasNavigator && !this._hasDocument) return;\n    var httpData = {};\n\n    if (this._hasNavigator && _navigator.userAgent) {\n      httpData.headers = {\n        'User-Agent': _navigator.userAgent\n      };\n    }\n\n    // Check in `window` instead of `document`, as we may be in ServiceWorker environment\n    if (_window.location && _window.location.href) {\n      httpData.url = _window.location.href;\n    }\n\n    if (this._hasDocument && _document.referrer) {\n      if (!httpData.headers) httpData.headers = {};\n      httpData.headers.Referer = _document.referrer;\n    }\n\n    return httpData;\n  },\n\n  _resetBackoff: function() {\n    this._backoffDuration = 0;\n    this._backoffStart = null;\n  },\n\n  _shouldBackoff: function() {\n    return this._backoffDuration && now() - this._backoffStart < this._backoffDuration;\n  },\n\n  /**\n   * Returns true if the in-process data payload matches the signature\n   * of the previously-sent data\n   *\n   * NOTE: This has to be done at this level because TraceKit can generate\n   *       data from window.onerror WITHOUT an exception object (IE8, IE9,\n   *       other old browsers). This can take the form of an \"exception\"\n   *       data object with a single frame (derived from the onerror args).\n   */\n  _isRepeatData: function(current) {\n    var last = this._lastData;\n\n    if (\n      !last ||\n      current.message !== last.message || // defined for captureMessage\n      current.transaction !== last.transaction // defined for captureException/onerror\n    )\n      return false;\n\n    // Stacktrace interface (i.e. from captureMessage)\n    if (current.stacktrace || last.stacktrace) {\n      return isSameStacktrace(current.stacktrace, last.stacktrace);\n    } else if (current.exception || last.exception) {\n      // Exception interface (i.e. from captureException/onerror)\n      return isSameException(current.exception, last.exception);\n    } else if (current.fingerprint || last.fingerprint) {\n      return Boolean(current.fingerprint && last.fingerprint) &&\n        JSON.stringify(current.fingerprint) === JSON.stringify(last.fingerprint)\n    }\n\n    return true;\n  },\n\n  _setBackoffState: function(request) {\n    // If we are already in a backoff state, don't change anything\n    if (this._shouldBackoff()) {\n      return;\n    }\n\n    var status = request.status;\n\n    // 400 - project_id doesn't exist or some other fatal\n    // 401 - invalid/revoked dsn\n    // 429 - too many requests\n    if (!(status === 400 || status === 401 || status === 429)) return;\n\n    var retry;\n    try {\n      // If Retry-After is not in Access-Control-Expose-Headers, most\n      // browsers will throw an exception trying to access it\n      if (supportsFetch()) {\n        retry = request.headers.get('Retry-After');\n      } else {\n        retry = request.getResponseHeader('Retry-After');\n      }\n\n      // Retry-After is returned in seconds\n      retry = parseInt(retry, 10) * 1000;\n    } catch (e) {\n      /* eslint no-empty:0 */\n    }\n\n    this._backoffDuration = retry\n      ? // If Sentry server returned a Retry-After value, use it\n        retry\n      : // Otherwise, double the last backoff duration (starts at 1 sec)\n        this._backoffDuration * 2 || 1000;\n\n    this._backoffStart = now();\n  },\n\n  _send: function(data) {\n    var globalOptions = this._globalOptions;\n\n    var baseData = {\n        project: this._globalProject,\n        logger: globalOptions.logger,\n        platform: 'javascript'\n      },\n      httpData = this._getHttpData();\n\n    if (httpData) {\n      baseData.request = httpData;\n    }\n\n    // HACK: delete `trimHeadFrames` to prevent from appearing in outbound payload\n    if (data.trimHeadFrames) delete data.trimHeadFrames;\n\n    data = objectMerge(baseData, data);\n\n    // Merge in the tags and extra separately since objectMerge doesn't handle a deep merge\n    data.tags = objectMerge(objectMerge({}, this._globalContext.tags), data.tags);\n    data.extra = objectMerge(objectMerge({}, this._globalContext.extra), data.extra);\n\n    // Send along our own collected metadata with extra\n    data.extra['session:duration'] = now() - this._startTime;\n\n    if (this._breadcrumbs && this._breadcrumbs.length > 0) {\n      // intentionally make shallow copy so that additions\n      // to breadcrumbs aren't accidentally sent in this request\n      data.breadcrumbs = {\n        values: [].slice.call(this._breadcrumbs, 0)\n      };\n    }\n\n    if (this._globalContext.user) {\n      // sentry.interfaces.User\n      data.user = this._globalContext.user;\n    }\n\n    // Include the environment if it's defined in globalOptions\n    if (globalOptions.environment) data.environment = globalOptions.environment;\n\n    // Include the release if it's defined in globalOptions\n    if (globalOptions.release) data.release = globalOptions.release;\n\n    // Include server_name if it's defined in globalOptions\n    if (globalOptions.serverName) data.server_name = globalOptions.serverName;\n\n    data = this._sanitizeData(data);\n\n    // Cleanup empty properties before sending them to the server\n    Object.keys(data).forEach(function(key) {\n      if (data[key] == null || data[key] === '' || isEmptyObject(data[key])) {\n        delete data[key];\n      }\n    });\n\n    if (isFunction(globalOptions.dataCallback)) {\n      data = globalOptions.dataCallback(data) || data;\n    }\n\n    // Why??????????\n    if (!data || isEmptyObject(data)) {\n      return;\n    }\n\n    // Check if the request should be filtered or not\n    if (\n      isFunction(globalOptions.shouldSendCallback) &&\n      !globalOptions.shouldSendCallback(data)\n    ) {\n      return;\n    }\n\n    // Backoff state: Sentry server previously responded w/ an error (e.g. 429 - too many requests),\n    // so drop requests until \"cool-off\" period has elapsed.\n    if (this._shouldBackoff()) {\n      this._logDebug('warn', 'Raven dropped error due to backoff: ', data);\n      return;\n    }\n\n    if (typeof globalOptions.sampleRate === 'number') {\n      if (Math.random() < globalOptions.sampleRate) {\n        this._sendProcessedPayload(data);\n      }\n    } else {\n      this._sendProcessedPayload(data);\n    }\n  },\n\n  _sanitizeData: function(data) {\n    return sanitize(data, this._globalOptions.sanitizeKeys);\n  },\n\n  _getUuid: function() {\n    return uuid4();\n  },\n\n  _sendProcessedPayload: function(data, callback) {\n    var self = this;\n    var globalOptions = this._globalOptions;\n\n    if (!this.isSetup()) return;\n\n    // Try and clean up the packet before sending by truncating long values\n    data = this._trimPacket(data);\n\n    // ideally duplicate error testing should occur *before* dataCallback/shouldSendCallback,\n    // but this would require copying an un-truncated copy of the data packet, which can be\n    // arbitrarily deep (extra_data) -- could be worthwhile? will revisit\n    if (!this._globalOptions.allowDuplicates && this._isRepeatData(data)) {\n      this._logDebug('warn', 'Raven dropped repeat event: ', data);\n      return;\n    }\n\n    // Send along an event_id if not explicitly passed.\n    // This event_id can be used to reference the error within Sentry itself.\n    // Set lastEventId after we know the error should actually be sent\n    this._lastEventId = data.event_id || (data.event_id = this._getUuid());\n\n    // Store outbound payload after trim\n    this._lastData = data;\n\n    this._logDebug('debug', 'Raven about to send:', data);\n\n    var auth = {\n      sentry_version: '7',\n      sentry_client: 'raven-js/' + this.VERSION,\n      sentry_key: this._globalKey\n    };\n\n    if (this._globalSecret) {\n      auth.sentry_secret = this._globalSecret;\n    }\n\n    var exception = data.exception && data.exception.values[0];\n\n    // only capture 'sentry' breadcrumb is autoBreadcrumbs is truthy\n    if (\n      this._globalOptions.autoBreadcrumbs &&\n      this._globalOptions.autoBreadcrumbs.sentry\n    ) {\n      this.captureBreadcrumb({\n        category: 'sentry',\n        message: exception\n          ? (exception.type ? exception.type + ': ' : '') + exception.value\n          : data.message,\n        event_id: data.event_id,\n        level: data.level || 'error' // presume error unless specified\n      });\n    }\n\n    var url = this._globalEndpoint;\n    (globalOptions.transport || this._makeRequest).call(this, {\n      url: url,\n      auth: auth,\n      data: data,\n      options: globalOptions,\n      onSuccess: function success() {\n        self._resetBackoff();\n\n        self._triggerEvent('success', {\n          data: data,\n          src: url\n        });\n        callback && callback();\n      },\n      onError: function failure(error) {\n        self._logDebug('error', 'Raven transport failed to send: ', error);\n\n        if (error.request) {\n          self._setBackoffState(error.request);\n        }\n\n        self._triggerEvent('failure', {\n          data: data,\n          src: url\n        });\n        error = error || new Error('Raven send failed (no additional details provided)');\n        callback && callback(error);\n      }\n    });\n  },\n\n  _makeRequest: function(opts) {\n    // Auth is intentionally sent as part of query string (NOT as custom HTTP header) to avoid preflight CORS requests\n    var url = opts.url + '?' + urlencode(opts.auth);\n\n    var evaluatedHeaders = null;\n    var evaluatedFetchParameters = {};\n\n    if (opts.options.headers) {\n      evaluatedHeaders = this._evaluateHash(opts.options.headers);\n    }\n\n    if (opts.options.fetchParameters) {\n      evaluatedFetchParameters = this._evaluateHash(opts.options.fetchParameters);\n    }\n\n    if (supportsFetch()) {\n      evaluatedFetchParameters.body = stringify(opts.data);\n\n      var defaultFetchOptions = objectMerge({}, this._fetchDefaults);\n      var fetchOptions = objectMerge(defaultFetchOptions, evaluatedFetchParameters);\n\n      if (evaluatedHeaders) {\n        fetchOptions.headers = evaluatedHeaders;\n      }\n\n      return _window\n        .fetch(url, fetchOptions)\n        .then(function(response) {\n          if (response.ok) {\n            opts.onSuccess && opts.onSuccess();\n          } else {\n            var error = new Error('Sentry error code: ' + response.status);\n            // It's called request only to keep compatibility with XHR interface\n            // and not add more redundant checks in setBackoffState method\n            error.request = response;\n            opts.onError && opts.onError(error);\n          }\n        })\n        ['catch'](function() {\n          opts.onError &&\n            opts.onError(new Error('Sentry error code: network unavailable'));\n        });\n    }\n\n    var request = _window.XMLHttpRequest && new _window.XMLHttpRequest();\n    if (!request) return;\n\n    // if browser doesn't support CORS (e.g. IE7), we are out of luck\n    var hasCORS = 'withCredentials' in request || typeof XDomainRequest !== 'undefined';\n\n    if (!hasCORS) return;\n\n    if ('withCredentials' in request) {\n      request.onreadystatechange = function() {\n        if (request.readyState !== 4) {\n          return;\n        } else if (request.status === 200) {\n          opts.onSuccess && opts.onSuccess();\n        } else if (opts.onError) {\n          var err = new Error('Sentry error code: ' + request.status);\n          err.request = request;\n          opts.onError(err);\n        }\n      };\n    } else {\n      request = new XDomainRequest();\n      // xdomainrequest cannot go http -> https (or vice versa),\n      // so always use protocol relative\n      url = url.replace(/^https?:/, '');\n\n      // onreadystatechange not supported by XDomainRequest\n      if (opts.onSuccess) {\n        request.onload = opts.onSuccess;\n      }\n      if (opts.onError) {\n        request.onerror = function() {\n          var err = new Error('Sentry error code: XDomainRequest');\n          err.request = request;\n          opts.onError(err);\n        };\n      }\n    }\n\n    request.open('POST', url);\n\n    if (evaluatedHeaders) {\n      each(evaluatedHeaders, function(key, value) {\n        request.setRequestHeader(key, value);\n      });\n    }\n\n    request.send(stringify(opts.data));\n  },\n\n  _evaluateHash: function(hash) {\n    var evaluated = {};\n\n    for (var key in hash) {\n      if (hash.hasOwnProperty(key)) {\n        var value = hash[key];\n        evaluated[key] = typeof value === 'function' ? value() : value;\n      }\n    }\n\n    return evaluated;\n  },\n\n  _logDebug: function(level) {\n    // We allow `Raven.debug` and `Raven.config(DSN, { debug: true })` to not make backward incompatible API change\n    if (\n      this._originalConsoleMethods[level] &&\n      (this.debug || this._globalOptions.debug)\n    ) {\n      // In IE<10 console methods do not have their own 'apply' method\n      Function.prototype.apply.call(\n        this._originalConsoleMethods[level],\n        this._originalConsole,\n        [].slice.call(arguments, 1)\n      );\n    }\n  },\n\n  _mergeContext: function(key, context) {\n    if (isUndefined(context)) {\n      delete this._globalContext[key];\n    } else {\n      this._globalContext[key] = objectMerge(this._globalContext[key] || {}, context);\n    }\n  }\n};\n\n// Deprecations\nRaven.prototype.setUser = Raven.prototype.setUserContext;\nRaven.prototype.setReleaseContext = Raven.prototype.setRelease;\n\nmodule.exports = Raven;\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+      "index": 24,
+      "index2": 29,
+      "size": 1937,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+      "issuerId": null,
+      "issuerName": "./src/main.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        }
+      ],
+      "profile": {
+        "factory": 397,
+        "building": 4278,
+        "dependencies": 202
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "raven-js",
+          "loc": "6:0-29"
+        },
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "harmony import specifier",
+          "userRequest": "raven-js",
+          "loc": "9:0-5"
+        },
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "harmony import specifier",
+          "userRequest": "raven-js",
+          "loc": "17:6-11"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2,
+      "source": "/**\n * Enforces a single instance of the Raven client, and the\n * main entry point for Raven. If you are a consumer of the\n * Raven library, you SHOULD load this file (vs raven.js).\n **/\n\nvar RavenConstructor = require('./raven');\n\n// This is to be defensive in environments where window does not exist (see https://github.com/getsentry/raven-js/pull/785)\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};\nvar _Raven = _window.Raven;\n\nvar Raven = new RavenConstructor();\n\n/*\n * Allow multiple versions of Raven to be installed.\n * Strip Raven from the global context and returns the instance.\n *\n * @return {Raven}\n */\nRaven.noConflict = function() {\n  _window.Raven = _Raven;\n  return Raven;\n};\n\nRaven.afterLoad();\n\nmodule.exports = Raven;\n\n/**\n * DISCLAIMER:\n *\n * Expose `Client` constructor for cases where user want to track multiple \"sub-applications\" in one larger app.\n * It's not meant to be used by a wide audience, so pleaaase make sure that you know what you're doing before using it.\n * Accidentally calling `install` multiple times, may result in an unexpected behavior that's very hard to debug.\n *\n * It's called `Client' to be in-line with Raven Node implementation.\n *\n * HOWTO:\n *\n * import Raven from 'raven-js';\n *\n * const someAppReporter = new Raven.Client();\n * const someOtherAppReporter = new Raven.Client();\n *\n * someAppReporter.config('__DSN__', {\n *   ...config goes here\n * });\n *\n * someOtherAppReporter.config('__OTHER_DSN__', {\n *   ...config goes here\n * });\n *\n * someAppReporter.captureMessage(...);\n * someAppReporter.captureException(...);\n * someAppReporter.captureBreadcrumb(...);\n *\n * someOtherAppReporter.captureMessage(...);\n * someOtherAppReporter.captureException(...);\n * someOtherAppReporter.captureBreadcrumb(...);\n *\n * It should \"just work\".\n */\nmodule.exports.Client = RavenConstructor;\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+      "index": 27,
+      "index2": 23,
+      "size": 16472,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "profile": {
+            "factory": 36,
+            "building": 291,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 229,
+        "dependencies": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/console.js",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "1:12-30"
+        },
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "type": "cjs require",
+          "userRequest": "./utils",
+          "loc": "8:12-30"
+        },
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "type": "cjs require",
+          "userRequest": "../../src/utils",
+          "loc": "1:12-38"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "var stringify = require('../vendor/json-stringify-safe/stringify');\n\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined'\n      ? global\n      : typeof self !== 'undefined'\n        ? self\n        : {};\n\nfunction isObject(what) {\n  return typeof what === 'object' && what !== null;\n}\n\n// Yanked from https://git.io/vS8DV re-used under CC0\n// with some tiny modifications\nfunction isError(value) {\n  switch (Object.prototype.toString.call(value)) {\n    case '[object Error]':\n      return true;\n    case '[object Exception]':\n      return true;\n    case '[object DOMException]':\n      return true;\n    default:\n      return value instanceof Error;\n  }\n}\n\nfunction isErrorEvent(value) {\n  return Object.prototype.toString.call(value) === '[object ErrorEvent]';\n}\n\nfunction isDOMError(value) {\n  return Object.prototype.toString.call(value) === '[object DOMError]';\n}\n\nfunction isDOMException(value) {\n  return Object.prototype.toString.call(value) === '[object DOMException]';\n}\n\nfunction isUndefined(what) {\n  return what === void 0;\n}\n\nfunction isFunction(what) {\n  return typeof what === 'function';\n}\n\nfunction isPlainObject(what) {\n  return Object.prototype.toString.call(what) === '[object Object]';\n}\n\nfunction isString(what) {\n  return Object.prototype.toString.call(what) === '[object String]';\n}\n\nfunction isArray(what) {\n  return Object.prototype.toString.call(what) === '[object Array]';\n}\n\nfunction isEmptyObject(what) {\n  if (!isPlainObject(what)) return false;\n\n  for (var _ in what) {\n    if (what.hasOwnProperty(_)) {\n      return false;\n    }\n  }\n  return true;\n}\n\nfunction supportsErrorEvent() {\n  try {\n    new ErrorEvent(''); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsDOMError() {\n  try {\n    new DOMError(''); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsDOMException() {\n  try {\n    new DOMException(''); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsFetch() {\n  if (!('fetch' in _window)) return false;\n\n  try {\n    new Headers(); // eslint-disable-line no-new\n    new Request(''); // eslint-disable-line no-new\n    new Response(); // eslint-disable-line no-new\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\n// Despite all stars in the sky saying that Edge supports old draft syntax, aka 'never', 'always', 'origin' and 'default\n// https://caniuse.com/#feat=referrer-policy\n// It doesn't. And it throw exception instead of ignoring this parameter...\n// REF: https://github.com/getsentry/raven-js/issues/1233\nfunction supportsReferrerPolicy() {\n  if (!supportsFetch()) return false;\n\n  try {\n    // eslint-disable-next-line no-new\n    new Request('pickleRick', {\n      referrerPolicy: 'origin'\n    });\n    return true;\n  } catch (e) {\n    return false;\n  }\n}\n\nfunction supportsPromiseRejectionEvent() {\n  return typeof PromiseRejectionEvent === 'function';\n}\n\nfunction wrappedCallback(callback) {\n  function dataCallback(data, original) {\n    var normalizedData = callback(data) || data;\n    if (original) {\n      return original(normalizedData) || normalizedData;\n    }\n    return normalizedData;\n  }\n\n  return dataCallback;\n}\n\nfunction each(obj, callback) {\n  var i, j;\n\n  if (isUndefined(obj.length)) {\n    for (i in obj) {\n      if (hasKey(obj, i)) {\n        callback.call(null, i, obj[i]);\n      }\n    }\n  } else {\n    j = obj.length;\n    if (j) {\n      for (i = 0; i < j; i++) {\n        callback.call(null, i, obj[i]);\n      }\n    }\n  }\n}\n\nfunction objectMerge(obj1, obj2) {\n  if (!obj2) {\n    return obj1;\n  }\n  each(obj2, function(key, value) {\n    obj1[key] = value;\n  });\n  return obj1;\n}\n\n/**\n * This function is only used for react-native.\n * react-native freezes object that have already been sent over the\n * js bridge. We need this function in order to check if the object is frozen.\n * So it's ok that objectFrozen returns false if Object.isFrozen is not\n * supported because it's not relevant for other \"platforms\". See related issue:\n * https://github.com/getsentry/react-native-sentry/issues/57\n */\nfunction objectFrozen(obj) {\n  if (!Object.isFrozen) {\n    return false;\n  }\n  return Object.isFrozen(obj);\n}\n\nfunction truncate(str, max) {\n  if (typeof max !== 'number') {\n    throw new Error('2nd argument to `truncate` function should be a number');\n  }\n  if (typeof str !== 'string' || max === 0) {\n    return str;\n  }\n  return str.length <= max ? str : str.substr(0, max) + '\\u2026';\n}\n\n/**\n * hasKey, a better form of hasOwnProperty\n * Example: hasKey(MainHostObject, property) === true/false\n *\n * @param {Object} host object to check property\n * @param {string} key to check\n */\nfunction hasKey(object, key) {\n  return Object.prototype.hasOwnProperty.call(object, key);\n}\n\nfunction joinRegExp(patterns) {\n  // Combine an array of regular expressions and strings into one large regexp\n  // Be mad.\n  var sources = [],\n    i = 0,\n    len = patterns.length,\n    pattern;\n\n  for (; i < len; i++) {\n    pattern = patterns[i];\n    if (isString(pattern)) {\n      // If it's a string, we need to escape it\n      // Taken from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions\n      sources.push(pattern.replace(/([.*+?^=!:${}()|\\[\\]\\/\\\\])/g, '\\\\$1'));\n    } else if (pattern && pattern.source) {\n      // If it's a regexp already, we want to extract the source\n      sources.push(pattern.source);\n    }\n    // Intentionally skip other cases\n  }\n  return new RegExp(sources.join('|'), 'i');\n}\n\nfunction urlencode(o) {\n  var pairs = [];\n  each(o, function(key, value) {\n    pairs.push(encodeURIComponent(key) + '=' + encodeURIComponent(value));\n  });\n  return pairs.join('&');\n}\n\n// borrowed from https://tools.ietf.org/html/rfc3986#appendix-B\n// intentionally using regex and not <a/> href parsing trick because React Native and other\n// environments where DOM might not be available\nfunction parseUrl(url) {\n  if (typeof url !== 'string') return {};\n  var match = url.match(/^(([^:\\/?#]+):)?(\\/\\/([^\\/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?$/);\n\n  // coerce to undefined values to empty string so we don't get 'undefined'\n  var query = match[6] || '';\n  var fragment = match[8] || '';\n  return {\n    protocol: match[2],\n    host: match[4],\n    path: match[5],\n    relative: match[5] + query + fragment // everything minus origin\n  };\n}\nfunction uuid4() {\n  var crypto = _window.crypto || _window.msCrypto;\n\n  if (!isUndefined(crypto) && crypto.getRandomValues) {\n    // Use window.crypto API if available\n    // eslint-disable-next-line no-undef\n    var arr = new Uint16Array(8);\n    crypto.getRandomValues(arr);\n\n    // set 4 in byte 7\n    arr[3] = (arr[3] & 0xfff) | 0x4000;\n    // set 2 most significant bits of byte 9 to '10'\n    arr[4] = (arr[4] & 0x3fff) | 0x8000;\n\n    var pad = function(num) {\n      var v = num.toString(16);\n      while (v.length < 4) {\n        v = '0' + v;\n      }\n      return v;\n    };\n\n    return (\n      pad(arr[0]) +\n      pad(arr[1]) +\n      pad(arr[2]) +\n      pad(arr[3]) +\n      pad(arr[4]) +\n      pad(arr[5]) +\n      pad(arr[6]) +\n      pad(arr[7])\n    );\n  } else {\n    // http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript/2117523#2117523\n    return 'xxxxxxxxxxxx4xxxyxxxxxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n      var r = (Math.random() * 16) | 0,\n        v = c === 'x' ? r : (r & 0x3) | 0x8;\n      return v.toString(16);\n    });\n  }\n}\n\n/**\n * Given a child DOM element, returns a query-selector statement describing that\n * and its ancestors\n * e.g. [HTMLElement] => body > div > input#foo.btn[name=baz]\n * @param elem\n * @returns {string}\n */\nfunction htmlTreeAsString(elem) {\n  /* eslint no-extra-parens:0*/\n  var MAX_TRAVERSE_HEIGHT = 5,\n    MAX_OUTPUT_LEN = 80,\n    out = [],\n    height = 0,\n    len = 0,\n    separator = ' > ',\n    sepLength = separator.length,\n    nextStr;\n\n  while (elem && height++ < MAX_TRAVERSE_HEIGHT) {\n    nextStr = htmlElementAsString(elem);\n    // bail out if\n    // - nextStr is the 'html' element\n    // - the length of the string that would be created exceeds MAX_OUTPUT_LEN\n    //   (ignore this limit if we are on the first iteration)\n    if (\n      nextStr === 'html' ||\n      (height > 1 && len + out.length * sepLength + nextStr.length >= MAX_OUTPUT_LEN)\n    ) {\n      break;\n    }\n\n    out.push(nextStr);\n\n    len += nextStr.length;\n    elem = elem.parentNode;\n  }\n\n  return out.reverse().join(separator);\n}\n\n/**\n * Returns a simple, query-selector representation of a DOM element\n * e.g. [HTMLElement] => input#foo.btn[name=baz]\n * @param HTMLElement\n * @returns {string}\n */\nfunction htmlElementAsString(elem) {\n  var out = [],\n    className,\n    classes,\n    key,\n    attr,\n    i;\n\n  if (!elem || !elem.tagName) {\n    return '';\n  }\n\n  out.push(elem.tagName.toLowerCase());\n  if (elem.id) {\n    out.push('#' + elem.id);\n  }\n\n  className = elem.className;\n  if (className && isString(className)) {\n    classes = className.split(/\\s+/);\n    for (i = 0; i < classes.length; i++) {\n      out.push('.' + classes[i]);\n    }\n  }\n  var attrWhitelist = ['type', 'name', 'title', 'alt'];\n  for (i = 0; i < attrWhitelist.length; i++) {\n    key = attrWhitelist[i];\n    attr = elem.getAttribute(key);\n    if (attr) {\n      out.push('[' + key + '=\"' + attr + '\"]');\n    }\n  }\n  return out.join('');\n}\n\n/**\n * Returns true if either a OR b is truthy, but not both\n */\nfunction isOnlyOneTruthy(a, b) {\n  return !!(!!a ^ !!b);\n}\n\n/**\n * Returns true if both parameters are undefined\n */\nfunction isBothUndefined(a, b) {\n  return isUndefined(a) && isUndefined(b);\n}\n\n/**\n * Returns true if the two input exception interfaces have the same content\n */\nfunction isSameException(ex1, ex2) {\n  if (isOnlyOneTruthy(ex1, ex2)) return false;\n\n  ex1 = ex1.values[0];\n  ex2 = ex2.values[0];\n\n  if (ex1.type !== ex2.type || ex1.value !== ex2.value) return false;\n\n  // in case both stacktraces are undefined, we can't decide so default to false\n  if (isBothUndefined(ex1.stacktrace, ex2.stacktrace)) return false;\n\n  return isSameStacktrace(ex1.stacktrace, ex2.stacktrace);\n}\n\n/**\n * Returns true if the two input stack trace interfaces have the same content\n */\nfunction isSameStacktrace(stack1, stack2) {\n  if (isOnlyOneTruthy(stack1, stack2)) return false;\n\n  var frames1 = stack1.frames;\n  var frames2 = stack2.frames;\n\n  // Exit early if stacktrace is malformed\n  if (frames1 === undefined || frames2 === undefined) return false;\n\n  // Exit early if frame count differs\n  if (frames1.length !== frames2.length) return false;\n\n  // Iterate through every frame; bail out if anything differs\n  var a, b;\n  for (var i = 0; i < frames1.length; i++) {\n    a = frames1[i];\n    b = frames2[i];\n    if (\n      a.filename !== b.filename ||\n      a.lineno !== b.lineno ||\n      a.colno !== b.colno ||\n      a['function'] !== b['function']\n    )\n      return false;\n  }\n  return true;\n}\n\n/**\n * Polyfill a method\n * @param obj object e.g. `document`\n * @param name method name present on object e.g. `addEventListener`\n * @param replacement replacement function\n * @param track {optional} record instrumentation to an array\n */\nfunction fill(obj, name, replacement, track) {\n  if (obj == null) return;\n  var orig = obj[name];\n  obj[name] = replacement(orig);\n  obj[name].__raven__ = true;\n  obj[name].__orig__ = orig;\n  if (track) {\n    track.push([obj, name, orig]);\n  }\n}\n\n/**\n * Join values in array\n * @param input array of values to be joined together\n * @param delimiter string to be placed in-between values\n * @returns {string}\n */\nfunction safeJoin(input, delimiter) {\n  if (!isArray(input)) return '';\n\n  var output = [];\n\n  for (var i = 0; i < input.length; i++) {\n    try {\n      output.push(String(input[i]));\n    } catch (e) {\n      output.push('[value cannot be serialized]');\n    }\n  }\n\n  return output.join(delimiter);\n}\n\n// Default Node.js REPL depth\nvar MAX_SERIALIZE_EXCEPTION_DEPTH = 3;\n// 50kB, as 100kB is max payload size, so half sounds reasonable\nvar MAX_SERIALIZE_EXCEPTION_SIZE = 50 * 1024;\nvar MAX_SERIALIZE_KEYS_LENGTH = 40;\n\nfunction utf8Length(value) {\n  return ~-encodeURI(value).split(/%..|./).length;\n}\n\nfunction jsonSize(value) {\n  return utf8Length(JSON.stringify(value));\n}\n\nfunction serializeValue(value) {\n  if (typeof value === 'string') {\n    var maxLength = 40;\n    return truncate(value, maxLength);\n  } else if (\n    typeof value === 'number' ||\n    typeof value === 'boolean' ||\n    typeof value === 'undefined'\n  ) {\n    return value;\n  }\n\n  var type = Object.prototype.toString.call(value);\n\n  // Node.js REPL notation\n  if (type === '[object Object]') return '[Object]';\n  if (type === '[object Array]') return '[Array]';\n  if (type === '[object Function]')\n    return value.name ? '[Function: ' + value.name + ']' : '[Function]';\n\n  return value;\n}\n\nfunction serializeObject(value, depth) {\n  if (depth === 0) return serializeValue(value);\n\n  if (isPlainObject(value)) {\n    return Object.keys(value).reduce(function(acc, key) {\n      acc[key] = serializeObject(value[key], depth - 1);\n      return acc;\n    }, {});\n  } else if (Array.isArray(value)) {\n    return value.map(function(val) {\n      return serializeObject(val, depth - 1);\n    });\n  }\n\n  return serializeValue(value);\n}\n\nfunction serializeException(ex, depth, maxSize) {\n  if (!isPlainObject(ex)) return ex;\n\n  depth = typeof depth !== 'number' ? MAX_SERIALIZE_EXCEPTION_DEPTH : depth;\n  maxSize = typeof depth !== 'number' ? MAX_SERIALIZE_EXCEPTION_SIZE : maxSize;\n\n  var serialized = serializeObject(ex, depth);\n\n  if (jsonSize(stringify(serialized)) > maxSize) {\n    return serializeException(ex, depth - 1);\n  }\n\n  return serialized;\n}\n\nfunction serializeKeysForMessage(keys, maxLength) {\n  if (typeof keys === 'number' || typeof keys === 'string') return keys.toString();\n  if (!Array.isArray(keys)) return '';\n\n  keys = keys.filter(function(key) {\n    return typeof key === 'string';\n  });\n  if (keys.length === 0) return '[object has no keys]';\n\n  maxLength = typeof maxLength !== 'number' ? MAX_SERIALIZE_KEYS_LENGTH : maxLength;\n  if (keys[0].length >= maxLength) return keys[0];\n\n  for (var usedKeys = keys.length; usedKeys > 0; usedKeys--) {\n    var serialized = keys.slice(0, usedKeys).join(', ');\n    if (serialized.length > maxLength) continue;\n    if (usedKeys === keys.length) return serialized;\n    return serialized + '\\u2026';\n  }\n\n  return '';\n}\n\nfunction sanitize(input, sanitizeKeys) {\n  if (!isArray(sanitizeKeys) || (isArray(sanitizeKeys) && sanitizeKeys.length === 0))\n    return input;\n\n  var sanitizeRegExp = joinRegExp(sanitizeKeys);\n  var sanitizeMask = '********';\n  var safeInput;\n\n  try {\n    safeInput = JSON.parse(stringify(input));\n  } catch (o_O) {\n    return input;\n  }\n\n  function sanitizeWorker(workerInput) {\n    if (isArray(workerInput)) {\n      return workerInput.map(function(val) {\n        return sanitizeWorker(val);\n      });\n    }\n\n    if (isPlainObject(workerInput)) {\n      return Object.keys(workerInput).reduce(function(acc, k) {\n        if (sanitizeRegExp.test(k)) {\n          acc[k] = sanitizeMask;\n        } else {\n          acc[k] = sanitizeWorker(workerInput[k]);\n        }\n        return acc;\n      }, {});\n    }\n\n    return workerInput;\n  }\n\n  return sanitizeWorker(safeInput);\n}\n\nmodule.exports = {\n  isObject: isObject,\n  isError: isError,\n  isErrorEvent: isErrorEvent,\n  isDOMError: isDOMError,\n  isDOMException: isDOMException,\n  isUndefined: isUndefined,\n  isFunction: isFunction,\n  isPlainObject: isPlainObject,\n  isString: isString,\n  isArray: isArray,\n  isEmptyObject: isEmptyObject,\n  supportsErrorEvent: supportsErrorEvent,\n  supportsDOMError: supportsDOMError,\n  supportsDOMException: supportsDOMException,\n  supportsFetch: supportsFetch,\n  supportsReferrerPolicy: supportsReferrerPolicy,\n  supportsPromiseRejectionEvent: supportsPromiseRejectionEvent,\n  wrappedCallback: wrappedCallback,\n  each: each,\n  objectMerge: objectMerge,\n  truncate: truncate,\n  objectFrozen: objectFrozen,\n  hasKey: hasKey,\n  joinRegExp: joinRegExp,\n  urlencode: urlencode,\n  uuid4: uuid4,\n  htmlTreeAsString: htmlTreeAsString,\n  htmlElementAsString: htmlElementAsString,\n  isSameException: isSameException,\n  isSameStacktrace: isSameStacktrace,\n  parseUrl: parseUrl,\n  fill: fill,\n  safeJoin: safeJoin,\n  serializeException: serializeException,\n  serializeKeysForMessage: serializeKeysForMessage,\n  sanitize: sanitize\n};\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+      "index": 26,
+      "index2": 24,
+      "size": 22226,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "profile": {
+            "factory": 36,
+            "building": 291,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 229,
+        "dependencies": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "type": "cjs require",
+          "userRequest": "../vendor/TraceKit/tracekit",
+          "loc": "3:15-53"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "var utils = require('../../src/utils');\n\n/*\n TraceKit - Cross brower stack traces\n\n This was originally forked from github.com/occ/TraceKit, but has since been\n largely re-written and is now maintained as part of raven-js.  Tests for\n this are in test/vendor.\n\n MIT license\n*/\n\nvar TraceKit = {\n  collectWindowErrors: true,\n  debug: false\n};\n\n// This is to be defensive in environments where window does not exist (see https://github.com/getsentry/raven-js/pull/785)\nvar _window =\n  typeof window !== 'undefined'\n    ? window\n    : typeof global !== 'undefined'\n    ? global\n    : typeof self !== 'undefined'\n    ? self\n    : {};\n\n// global reference to slice\nvar _slice = [].slice;\nvar UNKNOWN_FUNCTION = '?';\n\n// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error#Error_types\nvar ERROR_TYPES_RE = /^(?:[Uu]ncaught (?:exception: )?)?(?:((?:Eval|Internal|Range|Reference|Syntax|Type|URI|)Error): )?(.*)$/;\n\nfunction getLocationHref() {\n  if (typeof document === 'undefined' || document.location == null) return '';\n  return document.location.href;\n}\n\nfunction getLocationOrigin() {\n  if (typeof document === 'undefined' || document.location == null) return '';\n\n  // Oh dear IE10...\n  if (!document.location.origin) {\n    return (\n      document.location.protocol +\n      '//' +\n      document.location.hostname +\n      (document.location.port ? ':' + document.location.port : '')\n    );\n  }\n\n  return document.location.origin;\n}\n\n/**\n * TraceKit.report: cross-browser processing of unhandled exceptions\n *\n * Syntax:\n *   TraceKit.report.subscribe(function(stackInfo) { ... })\n *   TraceKit.report.unsubscribe(function(stackInfo) { ... })\n *   TraceKit.report(exception)\n *   try { ...code... } catch(ex) { TraceKit.report(ex); }\n *\n * Supports:\n *   - Firefox: full stack trace with line numbers, plus column number\n *              on top frame; column number is not guaranteed\n *   - Opera:   full stack trace with line and column numbers\n *   - Chrome:  full stack trace with line and column numbers\n *   - Safari:  line and column number for the top frame only; some frames\n *              may be missing, and column number is not guaranteed\n *   - IE:      line and column number for the top frame only; some frames\n *              may be missing, and column number is not guaranteed\n *\n * In theory, TraceKit should work on all of the following versions:\n *   - IE5.5+ (only 8.0 tested)\n *   - Firefox 0.9+ (only 3.5+ tested)\n *   - Opera 7+ (only 10.50 tested; versions 9 and earlier may require\n *     Exceptions Have Stacktrace to be enabled in opera:config)\n *   - Safari 3+ (only 4+ tested)\n *   - Chrome 1+ (only 5+ tested)\n *   - Konqueror 3.5+ (untested)\n *\n * Requires TraceKit.computeStackTrace.\n *\n * Tries to catch all unhandled exceptions and report them to the\n * subscribed handlers. Please note that TraceKit.report will rethrow the\n * exception. This is REQUIRED in order to get a useful stack trace in IE.\n * If the exception does not reach the top of the browser, you will only\n * get a stack trace from the point where TraceKit.report was called.\n *\n * Handlers receive a stackInfo object as described in the\n * TraceKit.computeStackTrace docs.\n */\nTraceKit.report = (function reportModuleWrapper() {\n  var handlers = [],\n    lastArgs = null,\n    lastException = null,\n    lastExceptionStack = null;\n\n  /**\n   * Add a crash handler.\n   * @param {Function} handler\n   */\n  function subscribe(handler) {\n    installGlobalHandler();\n    handlers.push(handler);\n  }\n\n  /**\n   * Remove a crash handler.\n   * @param {Function} handler\n   */\n  function unsubscribe(handler) {\n    for (var i = handlers.length - 1; i >= 0; --i) {\n      if (handlers[i] === handler) {\n        handlers.splice(i, 1);\n      }\n    }\n  }\n\n  /**\n   * Remove all crash handlers.\n   */\n  function unsubscribeAll() {\n    uninstallGlobalHandler();\n    handlers = [];\n  }\n\n  /**\n   * Dispatch stack information to all handlers.\n   * @param {Object.<string, *>} stack\n   */\n  function notifyHandlers(stack, isWindowError) {\n    var exception = null;\n    if (isWindowError && !TraceKit.collectWindowErrors) {\n      return;\n    }\n    for (var i in handlers) {\n      if (handlers.hasOwnProperty(i)) {\n        try {\n          handlers[i].apply(null, [stack].concat(_slice.call(arguments, 2)));\n        } catch (inner) {\n          exception = inner;\n        }\n      }\n    }\n\n    if (exception) {\n      throw exception;\n    }\n  }\n\n  var _oldOnerrorHandler, _onErrorHandlerInstalled;\n\n  /**\n   * Ensures all global unhandled exceptions are recorded.\n   * Supported by Gecko and IE.\n   * @param {string} msg Error message.\n   * @param {string} url URL of script that generated the exception.\n   * @param {(number|string)} lineNo The line number at which the error\n   * occurred.\n   * @param {?(number|string)} colNo The column number at which the error\n   * occurred.\n   * @param {?Error} ex The actual Error object.\n   */\n  function traceKitWindowOnError(msg, url, lineNo, colNo, ex) {\n    var stack = null;\n    // If 'ex' is ErrorEvent, get real Error from inside\n    var exception = utils.isErrorEvent(ex) ? ex.error : ex;\n    // If 'msg' is ErrorEvent, get real message from inside\n    var message = utils.isErrorEvent(msg) ? msg.message : msg;\n\n    if (lastExceptionStack) {\n      TraceKit.computeStackTrace.augmentStackTraceWithInitialElement(\n        lastExceptionStack,\n        url,\n        lineNo,\n        message\n      );\n      processLastException();\n    } else if (exception && utils.isError(exception)) {\n      // non-string `exception` arg; attempt to extract stack trace\n\n      // New chrome and blink send along a real error object\n      // Let's just report that like a normal error.\n      // See: https://mikewest.org/2013/08/debugging-runtime-errors-with-window-onerror\n      stack = TraceKit.computeStackTrace(exception);\n      notifyHandlers(stack, true);\n    } else {\n      var location = {\n        url: url,\n        line: lineNo,\n        column: colNo\n      };\n\n      var name = undefined;\n      var groups;\n\n      if ({}.toString.call(message) === '[object String]') {\n        var groups = message.match(ERROR_TYPES_RE);\n        if (groups) {\n          name = groups[1];\n          message = groups[2];\n        }\n      }\n\n      location.func = UNKNOWN_FUNCTION;\n\n      stack = {\n        name: name,\n        message: message,\n        url: getLocationHref(),\n        stack: [location]\n      };\n      notifyHandlers(stack, true);\n    }\n\n    if (_oldOnerrorHandler) {\n      return _oldOnerrorHandler.apply(this, arguments);\n    }\n\n    return false;\n  }\n\n  function installGlobalHandler() {\n    if (_onErrorHandlerInstalled) {\n      return;\n    }\n    _oldOnerrorHandler = _window.onerror;\n    _window.onerror = traceKitWindowOnError;\n    _onErrorHandlerInstalled = true;\n  }\n\n  function uninstallGlobalHandler() {\n    if (!_onErrorHandlerInstalled) {\n      return;\n    }\n    _window.onerror = _oldOnerrorHandler;\n    _onErrorHandlerInstalled = false;\n    _oldOnerrorHandler = undefined;\n  }\n\n  function processLastException() {\n    var _lastExceptionStack = lastExceptionStack,\n      _lastArgs = lastArgs;\n    lastArgs = null;\n    lastExceptionStack = null;\n    lastException = null;\n    notifyHandlers.apply(null, [_lastExceptionStack, false].concat(_lastArgs));\n  }\n\n  /**\n   * Reports an unhandled Error to TraceKit.\n   * @param {Error} ex\n   * @param {?boolean} rethrow If false, do not re-throw the exception.\n   * Only used for window.onerror to not cause an infinite loop of\n   * rethrowing.\n   */\n  function report(ex, rethrow) {\n    var args = _slice.call(arguments, 1);\n    if (lastExceptionStack) {\n      if (lastException === ex) {\n        return; // already caught by an inner catch block, ignore\n      } else {\n        processLastException();\n      }\n    }\n\n    var stack = TraceKit.computeStackTrace(ex);\n    lastExceptionStack = stack;\n    lastException = ex;\n    lastArgs = args;\n\n    // If the stack trace is incomplete, wait for 2 seconds for\n    // slow slow IE to see if onerror occurs or not before reporting\n    // this exception; otherwise, we will end up with an incomplete\n    // stack trace\n    setTimeout(\n      function() {\n        if (lastException === ex) {\n          processLastException();\n        }\n      },\n      stack.incomplete ? 2000 : 0\n    );\n\n    if (rethrow !== false) {\n      throw ex; // re-throw to propagate to the top level (and cause window.onerror)\n    }\n  }\n\n  report.subscribe = subscribe;\n  report.unsubscribe = unsubscribe;\n  report.uninstall = unsubscribeAll;\n  return report;\n})();\n\n/**\n * TraceKit.computeStackTrace: cross-browser stack traces in JavaScript\n *\n * Syntax:\n *   s = TraceKit.computeStackTrace(exception) // consider using TraceKit.report instead (see below)\n * Returns:\n *   s.name              - exception name\n *   s.message           - exception message\n *   s.stack[i].url      - JavaScript or HTML file URL\n *   s.stack[i].func     - function name, or empty for anonymous functions (if guessing did not work)\n *   s.stack[i].args     - arguments passed to the function, if known\n *   s.stack[i].line     - line number, if known\n *   s.stack[i].column   - column number, if known\n *\n * Supports:\n *   - Firefox:  full stack trace with line numbers and unreliable column\n *               number on top frame\n *   - Opera 10: full stack trace with line and column numbers\n *   - Opera 9-: full stack trace with line numbers\n *   - Chrome:   full stack trace with line and column numbers\n *   - Safari:   line and column number for the topmost stacktrace element\n *               only\n *   - IE:       no line numbers whatsoever\n *\n * Tries to guess names of anonymous functions by looking for assignments\n * in the source code. In IE and Safari, we have to guess source file names\n * by searching for function bodies inside all page scripts. This will not\n * work for scripts that are loaded cross-domain.\n * Here be dragons: some function names may be guessed incorrectly, and\n * duplicate functions may be mismatched.\n *\n * TraceKit.computeStackTrace should only be used for tracing purposes.\n * Logging of unhandled exceptions should be done with TraceKit.report,\n * which builds on top of TraceKit.computeStackTrace and provides better\n * IE support by utilizing the window.onerror event to retrieve information\n * about the top of the stack.\n *\n * Note: In IE and Safari, no stack trace is recorded on the Error object,\n * so computeStackTrace instead walks its *own* chain of callers.\n * This means that:\n *  * in Safari, some methods may be missing from the stack trace;\n *  * in IE, the topmost function in the stack trace will always be the\n *    caller of computeStackTrace.\n *\n * This is okay for tracing (because you are likely to be calling\n * computeStackTrace from the function you want to be the topmost element\n * of the stack trace anyway), but not okay for logging unhandled\n * exceptions (because your catch block will likely be far away from the\n * inner function that actually caused the exception).\n *\n */\nTraceKit.computeStackTrace = (function computeStackTraceWrapper() {\n  // Contents of Exception in various browsers.\n  //\n  // SAFARI:\n  // ex.message = Can't find variable: qq\n  // ex.line = 59\n  // ex.sourceId = 580238192\n  // ex.sourceURL = http://...\n  // ex.expressionBeginOffset = 96\n  // ex.expressionCaretOffset = 98\n  // ex.expressionEndOffset = 98\n  // ex.name = ReferenceError\n  //\n  // FIREFOX:\n  // ex.message = qq is not defined\n  // ex.fileName = http://...\n  // ex.lineNumber = 59\n  // ex.columnNumber = 69\n  // ex.stack = ...stack trace... (see the example below)\n  // ex.name = ReferenceError\n  //\n  // CHROME:\n  // ex.message = qq is not defined\n  // ex.name = ReferenceError\n  // ex.type = not_defined\n  // ex.arguments = ['aa']\n  // ex.stack = ...stack trace...\n  //\n  // INTERNET EXPLORER:\n  // ex.message = ...\n  // ex.name = ReferenceError\n  //\n  // OPERA:\n  // ex.message = ...message... (see the example below)\n  // ex.name = ReferenceError\n  // ex.opera#sourceloc = 11  (pretty much useless, duplicates the info in ex.message)\n  // ex.stacktrace = n/a; see 'opera:config#UserPrefs|Exceptions Have Stacktrace'\n\n  /**\n   * Computes stack trace information from the stack property.\n   * Chrome and Gecko use this property.\n   * @param {Error} ex\n   * @return {?Object.<string, *>} Stack trace information.\n   */\n  function computeStackTraceFromStackProp(ex) {\n    if (typeof ex.stack === 'undefined' || !ex.stack) return;\n\n    var chrome = /^\\s*at (?:(.*?) ?\\()?((?:file|https?|blob|chrome-extension|native|eval|webpack|<anonymous>|[a-z]:|\\/).*?)(?::(\\d+))?(?::(\\d+))?\\)?\\s*$/i;\n    var winjs = /^\\s*at (?:((?:\\[object object\\])?.+) )?\\(?((?:file|ms-appx(?:-web)|https?|webpack|blob):.*?):(\\d+)(?::(\\d+))?\\)?\\s*$/i;\n    // NOTE: blob urls are now supposed to always have an origin, therefore it's format\n    // which is `blob:http://url/path/with-some-uuid`, is matched by `blob.*?:\\/` as well\n    var gecko = /^\\s*(.*?)(?:\\((.*?)\\))?(?:^|@)((?:file|https?|blob|chrome|webpack|resource|moz-extension).*?:\\/.*?|\\[native code\\]|[^@]*(?:bundle|\\d+\\.js))(?::(\\d+))?(?::(\\d+))?\\s*$/i;\n    // Used to additionally parse URL/line/column from eval frames\n    var geckoEval = /(\\S+) line (\\d+)(?: > eval line \\d+)* > eval/i;\n    var chromeEval = /\\((\\S*)(?::(\\d+))(?::(\\d+))\\)/;\n    var lines = ex.stack.split('\\n');\n    var stack = [];\n    var submatch;\n    var parts;\n    var element;\n    var reference = /^(.*) is undefined$/.exec(ex.message);\n\n    for (var i = 0, j = lines.length; i < j; ++i) {\n      if ((parts = chrome.exec(lines[i]))) {\n        var isNative = parts[2] && parts[2].indexOf('native') === 0; // start of line\n        var isEval = parts[2] && parts[2].indexOf('eval') === 0; // start of line\n        if (isEval && (submatch = chromeEval.exec(parts[2]))) {\n          // throw out eval line/column and use top-most line/column number\n          parts[2] = submatch[1]; // url\n          parts[3] = submatch[2]; // line\n          parts[4] = submatch[3]; // column\n        }\n        element = {\n          url: !isNative ? parts[2] : null,\n          func: parts[1] || UNKNOWN_FUNCTION,\n          args: isNative ? [parts[2]] : [],\n          line: parts[3] ? +parts[3] : null,\n          column: parts[4] ? +parts[4] : null\n        };\n      } else if ((parts = winjs.exec(lines[i]))) {\n        element = {\n          url: parts[2],\n          func: parts[1] || UNKNOWN_FUNCTION,\n          args: [],\n          line: +parts[3],\n          column: parts[4] ? +parts[4] : null\n        };\n      } else if ((parts = gecko.exec(lines[i]))) {\n        var isEval = parts[3] && parts[3].indexOf(' > eval') > -1;\n        if (isEval && (submatch = geckoEval.exec(parts[3]))) {\n          // throw out eval line/column and use top-most line number\n          parts[3] = submatch[1];\n          parts[4] = submatch[2];\n          parts[5] = null; // no column when eval\n        } else if (i === 0 && !parts[5] && typeof ex.columnNumber !== 'undefined') {\n          // FireFox uses this awesome columnNumber property for its top frame\n          // Also note, Firefox's column number is 0-based and everything else expects 1-based,\n          // so adding 1\n          // NOTE: this hack doesn't work if top-most frame is eval\n          stack[0].column = ex.columnNumber + 1;\n        }\n        element = {\n          url: parts[3],\n          func: parts[1] || UNKNOWN_FUNCTION,\n          args: parts[2] ? parts[2].split(',') : [],\n          line: parts[4] ? +parts[4] : null,\n          column: parts[5] ? +parts[5] : null\n        };\n      } else {\n        continue;\n      }\n\n      if (!element.func && element.line) {\n        element.func = UNKNOWN_FUNCTION;\n      }\n\n      if (element.url && element.url.substr(0, 5) === 'blob:') {\n        // Special case for handling JavaScript loaded into a blob.\n        // We use a synchronous AJAX request here as a blob is already in\n        // memory - it's not making a network request.  This will generate a warning\n        // in the browser console, but there has already been an error so that's not\n        // that much of an issue.\n        var xhr = new XMLHttpRequest();\n        xhr.open('GET', element.url, false);\n        xhr.send(null);\n\n        // If we failed to download the source, skip this patch\n        if (xhr.status === 200) {\n          var source = xhr.responseText || '';\n\n          // We trim the source down to the last 300 characters as sourceMappingURL is always at the end of the file.\n          // Why 300? To be in line with: https://github.com/getsentry/sentry/blob/4af29e8f2350e20c28a6933354e4f42437b4ba42/src/sentry/lang/javascript/processor.py#L164-L175\n          source = source.slice(-300);\n\n          // Now we dig out the source map URL\n          var sourceMaps = source.match(/\\/\\/# sourceMappingURL=(.*)$/);\n\n          // If we don't find a source map comment or we find more than one, continue on to the next element.\n          if (sourceMaps) {\n            var sourceMapAddress = sourceMaps[1];\n\n            // Now we check to see if it's a relative URL.\n            // If it is, convert it to an absolute one.\n            if (sourceMapAddress.charAt(0) === '~') {\n              sourceMapAddress = getLocationOrigin() + sourceMapAddress.slice(1);\n            }\n\n            // Now we strip the '.map' off of the end of the URL and update the\n            // element so that Sentry can match the map to the blob.\n            element.url = sourceMapAddress.slice(0, -4);\n          }\n        }\n      }\n\n      stack.push(element);\n    }\n\n    if (!stack.length) {\n      return null;\n    }\n\n    return {\n      name: ex.name,\n      message: ex.message,\n      url: getLocationHref(),\n      stack: stack\n    };\n  }\n\n  /**\n   * Adds information about the first frame to incomplete stack traces.\n   * Safari and IE require this to get complete data on the first frame.\n   * @param {Object.<string, *>} stackInfo Stack trace information from\n   * one of the compute* methods.\n   * @param {string} url The URL of the script that caused an error.\n   * @param {(number|string)} lineNo The line number of the script that\n   * caused an error.\n   * @param {string=} message The error generated by the browser, which\n   * hopefully contains the name of the object that caused the error.\n   * @return {boolean} Whether or not the stack information was\n   * augmented.\n   */\n  function augmentStackTraceWithInitialElement(stackInfo, url, lineNo, message) {\n    var initial = {\n      url: url,\n      line: lineNo\n    };\n\n    if (initial.url && initial.line) {\n      stackInfo.incomplete = false;\n\n      if (!initial.func) {\n        initial.func = UNKNOWN_FUNCTION;\n      }\n\n      if (stackInfo.stack.length > 0) {\n        if (stackInfo.stack[0].url === initial.url) {\n          if (stackInfo.stack[0].line === initial.line) {\n            return false; // already in stack trace\n          } else if (\n            !stackInfo.stack[0].line &&\n            stackInfo.stack[0].func === initial.func\n          ) {\n            stackInfo.stack[0].line = initial.line;\n            return false;\n          }\n        }\n      }\n\n      stackInfo.stack.unshift(initial);\n      stackInfo.partial = true;\n      return true;\n    } else {\n      stackInfo.incomplete = true;\n    }\n\n    return false;\n  }\n\n  /**\n   * Computes stack trace information by walking the arguments.caller\n   * chain at the time the exception occurred. This will cause earlier\n   * frames to be missed but is the only way to get any stack trace in\n   * Safari and IE. The top frame is restored by\n   * {@link augmentStackTraceWithInitialElement}.\n   * @param {Error} ex\n   * @return {?Object.<string, *>} Stack trace information.\n   */\n  function computeStackTraceByWalkingCallerChain(ex, depth) {\n    var functionName = /function\\s+([_$a-zA-Z\\xA0-\\uFFFF][_$a-zA-Z0-9\\xA0-\\uFFFF]*)?\\s*\\(/i,\n      stack = [],\n      funcs = {},\n      recursion = false,\n      parts,\n      item,\n      source;\n\n    for (\n      var curr = computeStackTraceByWalkingCallerChain.caller;\n      curr && !recursion;\n      curr = curr.caller\n    ) {\n      if (curr === computeStackTrace || curr === TraceKit.report) {\n        // console.log('skipping internal function');\n        continue;\n      }\n\n      item = {\n        url: null,\n        func: UNKNOWN_FUNCTION,\n        line: null,\n        column: null\n      };\n\n      if (curr.name) {\n        item.func = curr.name;\n      } else if ((parts = functionName.exec(curr.toString()))) {\n        item.func = parts[1];\n      }\n\n      if (typeof item.func === 'undefined') {\n        try {\n          item.func = parts.input.substring(0, parts.input.indexOf('{'));\n        } catch (e) {}\n      }\n\n      if (funcs['' + curr]) {\n        recursion = true;\n      } else {\n        funcs['' + curr] = true;\n      }\n\n      stack.push(item);\n    }\n\n    if (depth) {\n      // console.log('depth is ' + depth);\n      // console.log('stack is ' + stack.length);\n      stack.splice(0, depth);\n    }\n\n    var result = {\n      name: ex.name,\n      message: ex.message,\n      url: getLocationHref(),\n      stack: stack\n    };\n    augmentStackTraceWithInitialElement(\n      result,\n      ex.sourceURL || ex.fileName,\n      ex.line || ex.lineNumber,\n      ex.message || ex.description\n    );\n    return result;\n  }\n\n  /**\n   * Computes a stack trace for an exception.\n   * @param {Error} ex\n   * @param {(string|number)=} depth\n   */\n  function computeStackTrace(ex, depth) {\n    var stack = null;\n    depth = depth == null ? 0 : +depth;\n\n    try {\n      stack = computeStackTraceFromStackProp(ex);\n      if (stack) {\n        return stack;\n      }\n    } catch (e) {\n      if (TraceKit.debug) {\n        throw e;\n      }\n    }\n\n    try {\n      stack = computeStackTraceByWalkingCallerChain(ex, depth + 1);\n      if (stack) {\n        return stack;\n      }\n    } catch (e) {\n      if (TraceKit.debug) {\n        throw e;\n      }\n    }\n    return {\n      name: ex.name,\n      message: ex.message,\n      url: getLocationHref()\n    };\n  }\n\n  computeStackTrace.augmentStackTraceWithInitialElement = augmentStackTraceWithInitialElement;\n  computeStackTrace.computeStackTraceFromStackProp = computeStackTraceFromStackProp;\n\n  return computeStackTrace;\n})();\n\nmodule.exports = TraceKit;\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/vendor/json-stringify-safe/stringify.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/json-stringify-safe/stringify.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/vendor/json-stringify-safe/stringify.js",
+      "index": 28,
+      "index2": 22,
+      "size": 2029,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "profile": {
+            "factory": 36,
+            "building": 291,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 229,
+        "dependencies": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "type": "cjs require",
+          "userRequest": "../vendor/json-stringify-safe/stringify",
+          "loc": "4:16-66"
+        },
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "type": "cjs require",
+          "userRequest": "../vendor/json-stringify-safe/stringify",
+          "loc": "1:16-66"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "/*\n json-stringify-safe\n Like JSON.stringify, but doesn't throw on circular references.\n\n Originally forked from https://github.com/isaacs/json-stringify-safe\n version 5.0.1 on 3/8/2017 and modified to handle Errors serialization\n and IE8 compatibility. Tests for this are in test/vendor.\n\n ISC license: https://github.com/isaacs/json-stringify-safe/blob/master/LICENSE\n*/\n\nexports = module.exports = stringify;\nexports.getSerialize = serializer;\n\nfunction indexOf(haystack, needle) {\n  for (var i = 0; i < haystack.length; ++i) {\n    if (haystack[i] === needle) return i;\n  }\n  return -1;\n}\n\nfunction stringify(obj, replacer, spaces, cycleReplacer) {\n  return JSON.stringify(obj, serializer(replacer, cycleReplacer), spaces);\n}\n\n// https://github.com/ftlabs/js-abbreviate/blob/fa709e5f139e7770a71827b1893f22418097fbda/index.js#L95-L106\nfunction stringifyError(value) {\n  var err = {\n    // These properties are implemented as magical getters and don't show up in for in\n    stack: value.stack,\n    message: value.message,\n    name: value.name\n  };\n\n  for (var i in value) {\n    if (Object.prototype.hasOwnProperty.call(value, i)) {\n      err[i] = value[i];\n    }\n  }\n\n  return err;\n}\n\nfunction serializer(replacer, cycleReplacer) {\n  var stack = [];\n  var keys = [];\n\n  if (cycleReplacer == null) {\n    cycleReplacer = function(key, value) {\n      if (stack[0] === value) {\n        return '[Circular ~]';\n      }\n      return '[Circular ~.' + keys.slice(0, indexOf(stack, value)).join('.') + ']';\n    };\n  }\n\n  return function(key, value) {\n    if (stack.length > 0) {\n      var thisPos = indexOf(stack, this);\n      ~thisPos ? stack.splice(thisPos + 1) : stack.push(this);\n      ~thisPos ? keys.splice(thisPos, Infinity, key) : keys.push(key);\n\n      if (~indexOf(stack, value)) {\n        value = cycleReplacer.call(this, key, value);\n      }\n    } else {\n      stack.push(value);\n    }\n\n    return replacer == null\n      ? value instanceof Error ? stringifyError(value) : value\n      : replacer.call(this, key, value);\n  };\n}\n"
+    },
+    {
+      "id": "./node_modules/_raven-js@3.27.2@raven-js/vendor/md5/md5.js",
+      "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/md5/md5.js",
+      "name": "./node_modules/_raven-js@3.27.2@raven-js/vendor/md5/md5.js",
+      "index": 29,
+      "index2": 25,
+      "size": 7892,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        4
+      ],
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "profile": {
+            "factory": 0,
+            "building": 6
+          }
+        },
+        {
+          "id": null,
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "./src/main.js",
+          "profile": {
+            "factory": 858,
+            "building": 52
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "profile": {
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
+          }
+        },
+        {
+          "id": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "profile": {
+            "factory": 36,
+            "building": 291,
+            "dependencies": 0
+          }
+        }
+      ],
+      "profile": {
+        "factory": 38,
+        "building": 229,
+        "dependencies": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "type": "cjs require",
+          "userRequest": "../vendor/md5/md5",
+          "loc": "5:10-38"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 4,
+      "source": "/*\n * JavaScript MD5\n * https://github.com/blueimp/JavaScript-MD5\n *\n * Copyright 2011, Sebastian Tschan\n * https://blueimp.net\n *\n * Licensed under the MIT license:\n * https://opensource.org/licenses/MIT\n *\n * Based on\n * A JavaScript implementation of the RSA Data Security, Inc. MD5 Message\n * Digest Algorithm, as defined in RFC 1321.\n * Version 2.2 Copyright (C) Paul Johnston 1999 - 2009\n * Other contributors: Greg Holt, Andrew Kepert, Ydnar, Lostinet\n * Distributed under the BSD License\n * See http://pajhome.org.uk/crypt/md5 for more info.\n */\n\n/*\n* Add integers, wrapping at 2^32. This uses 16-bit operations internally\n* to work around bugs in some JS interpreters.\n*/\nfunction safeAdd(x, y) {\n  var lsw = (x & 0xffff) + (y & 0xffff);\n  var msw = (x >> 16) + (y >> 16) + (lsw >> 16);\n  return (msw << 16) | (lsw & 0xffff);\n}\n\n/*\n* Bitwise rotate a 32-bit number to the left.\n*/\nfunction bitRotateLeft(num, cnt) {\n  return (num << cnt) | (num >>> (32 - cnt));\n}\n\n/*\n* These functions implement the four basic operations the algorithm uses.\n*/\nfunction md5cmn(q, a, b, x, s, t) {\n  return safeAdd(bitRotateLeft(safeAdd(safeAdd(a, q), safeAdd(x, t)), s), b);\n}\nfunction md5ff(a, b, c, d, x, s, t) {\n  return md5cmn((b & c) | (~b & d), a, b, x, s, t);\n}\nfunction md5gg(a, b, c, d, x, s, t) {\n  return md5cmn((b & d) | (c & ~d), a, b, x, s, t);\n}\nfunction md5hh(a, b, c, d, x, s, t) {\n  return md5cmn(b ^ c ^ d, a, b, x, s, t);\n}\nfunction md5ii(a, b, c, d, x, s, t) {\n  return md5cmn(c ^ (b | ~d), a, b, x, s, t);\n}\n\n/*\n* Calculate the MD5 of an array of little-endian words, and a bit length.\n*/\nfunction binlMD5(x, len) {\n  /* append padding */\n  x[len >> 5] |= 0x80 << (len % 32);\n  x[(((len + 64) >>> 9) << 4) + 14] = len;\n\n  var i;\n  var olda;\n  var oldb;\n  var oldc;\n  var oldd;\n  var a = 1732584193;\n  var b = -271733879;\n  var c = -1732584194;\n  var d = 271733878;\n\n  for (i = 0; i < x.length; i += 16) {\n    olda = a;\n    oldb = b;\n    oldc = c;\n    oldd = d;\n\n    a = md5ff(a, b, c, d, x[i], 7, -680876936);\n    d = md5ff(d, a, b, c, x[i + 1], 12, -389564586);\n    c = md5ff(c, d, a, b, x[i + 2], 17, 606105819);\n    b = md5ff(b, c, d, a, x[i + 3], 22, -1044525330);\n    a = md5ff(a, b, c, d, x[i + 4], 7, -176418897);\n    d = md5ff(d, a, b, c, x[i + 5], 12, 1200080426);\n    c = md5ff(c, d, a, b, x[i + 6], 17, -1473231341);\n    b = md5ff(b, c, d, a, x[i + 7], 22, -45705983);\n    a = md5ff(a, b, c, d, x[i + 8], 7, 1770035416);\n    d = md5ff(d, a, b, c, x[i + 9], 12, -1958414417);\n    c = md5ff(c, d, a, b, x[i + 10], 17, -42063);\n    b = md5ff(b, c, d, a, x[i + 11], 22, -1990404162);\n    a = md5ff(a, b, c, d, x[i + 12], 7, 1804603682);\n    d = md5ff(d, a, b, c, x[i + 13], 12, -40341101);\n    c = md5ff(c, d, a, b, x[i + 14], 17, -1502002290);\n    b = md5ff(b, c, d, a, x[i + 15], 22, 1236535329);\n\n    a = md5gg(a, b, c, d, x[i + 1], 5, -165796510);\n    d = md5gg(d, a, b, c, x[i + 6], 9, -1069501632);\n    c = md5gg(c, d, a, b, x[i + 11], 14, 643717713);\n    b = md5gg(b, c, d, a, x[i], 20, -373897302);\n    a = md5gg(a, b, c, d, x[i + 5], 5, -701558691);\n    d = md5gg(d, a, b, c, x[i + 10], 9, 38016083);\n    c = md5gg(c, d, a, b, x[i + 15], 14, -660478335);\n    b = md5gg(b, c, d, a, x[i + 4], 20, -405537848);\n    a = md5gg(a, b, c, d, x[i + 9], 5, 568446438);\n    d = md5gg(d, a, b, c, x[i + 14], 9, -1019803690);\n    c = md5gg(c, d, a, b, x[i + 3], 14, -187363961);\n    b = md5gg(b, c, d, a, x[i + 8], 20, 1163531501);\n    a = md5gg(a, b, c, d, x[i + 13], 5, -1444681467);\n    d = md5gg(d, a, b, c, x[i + 2], 9, -51403784);\n    c = md5gg(c, d, a, b, x[i + 7], 14, 1735328473);\n    b = md5gg(b, c, d, a, x[i + 12], 20, -1926607734);\n\n    a = md5hh(a, b, c, d, x[i + 5], 4, -378558);\n    d = md5hh(d, a, b, c, x[i + 8], 11, -2022574463);\n    c = md5hh(c, d, a, b, x[i + 11], 16, 1839030562);\n    b = md5hh(b, c, d, a, x[i + 14], 23, -35309556);\n    a = md5hh(a, b, c, d, x[i + 1], 4, -1530992060);\n    d = md5hh(d, a, b, c, x[i + 4], 11, 1272893353);\n    c = md5hh(c, d, a, b, x[i + 7], 16, -155497632);\n    b = md5hh(b, c, d, a, x[i + 10], 23, -1094730640);\n    a = md5hh(a, b, c, d, x[i + 13], 4, 681279174);\n    d = md5hh(d, a, b, c, x[i], 11, -358537222);\n    c = md5hh(c, d, a, b, x[i + 3], 16, -722521979);\n    b = md5hh(b, c, d, a, x[i + 6], 23, 76029189);\n    a = md5hh(a, b, c, d, x[i + 9], 4, -640364487);\n    d = md5hh(d, a, b, c, x[i + 12], 11, -421815835);\n    c = md5hh(c, d, a, b, x[i + 15], 16, 530742520);\n    b = md5hh(b, c, d, a, x[i + 2], 23, -995338651);\n\n    a = md5ii(a, b, c, d, x[i], 6, -198630844);\n    d = md5ii(d, a, b, c, x[i + 7], 10, 1126891415);\n    c = md5ii(c, d, a, b, x[i + 14], 15, -1416354905);\n    b = md5ii(b, c, d, a, x[i + 5], 21, -57434055);\n    a = md5ii(a, b, c, d, x[i + 12], 6, 1700485571);\n    d = md5ii(d, a, b, c, x[i + 3], 10, -1894986606);\n    c = md5ii(c, d, a, b, x[i + 10], 15, -1051523);\n    b = md5ii(b, c, d, a, x[i + 1], 21, -2054922799);\n    a = md5ii(a, b, c, d, x[i + 8], 6, 1873313359);\n    d = md5ii(d, a, b, c, x[i + 15], 10, -30611744);\n    c = md5ii(c, d, a, b, x[i + 6], 15, -1560198380);\n    b = md5ii(b, c, d, a, x[i + 13], 21, 1309151649);\n    a = md5ii(a, b, c, d, x[i + 4], 6, -145523070);\n    d = md5ii(d, a, b, c, x[i + 11], 10, -1120210379);\n    c = md5ii(c, d, a, b, x[i + 2], 15, 718787259);\n    b = md5ii(b, c, d, a, x[i + 9], 21, -343485551);\n\n    a = safeAdd(a, olda);\n    b = safeAdd(b, oldb);\n    c = safeAdd(c, oldc);\n    d = safeAdd(d, oldd);\n  }\n  return [a, b, c, d];\n}\n\n/*\n* Convert an array of little-endian words to a string\n*/\nfunction binl2rstr(input) {\n  var i;\n  var output = '';\n  var length32 = input.length * 32;\n  for (i = 0; i < length32; i += 8) {\n    output += String.fromCharCode((input[i >> 5] >>> (i % 32)) & 0xff);\n  }\n  return output;\n}\n\n/*\n* Convert a raw string to an array of little-endian words\n* Characters >255 have their high-byte silently ignored.\n*/\nfunction rstr2binl(input) {\n  var i;\n  var output = [];\n  output[(input.length >> 2) - 1] = undefined;\n  for (i = 0; i < output.length; i += 1) {\n    output[i] = 0;\n  }\n  var length8 = input.length * 8;\n  for (i = 0; i < length8; i += 8) {\n    output[i >> 5] |= (input.charCodeAt(i / 8) & 0xff) << (i % 32);\n  }\n  return output;\n}\n\n/*\n* Calculate the MD5 of a raw string\n*/\nfunction rstrMD5(s) {\n  return binl2rstr(binlMD5(rstr2binl(s), s.length * 8));\n}\n\n/*\n* Calculate the HMAC-MD5, of a key and some data (raw strings)\n*/\nfunction rstrHMACMD5(key, data) {\n  var i;\n  var bkey = rstr2binl(key);\n  var ipad = [];\n  var opad = [];\n  var hash;\n  ipad[15] = opad[15] = undefined;\n  if (bkey.length > 16) {\n    bkey = binlMD5(bkey, key.length * 8);\n  }\n  for (i = 0; i < 16; i += 1) {\n    ipad[i] = bkey[i] ^ 0x36363636;\n    opad[i] = bkey[i] ^ 0x5c5c5c5c;\n  }\n  hash = binlMD5(ipad.concat(rstr2binl(data)), 512 + data.length * 8);\n  return binl2rstr(binlMD5(opad.concat(hash), 512 + 128));\n}\n\n/*\n* Convert a raw string to a hex string\n*/\nfunction rstr2hex(input) {\n  var hexTab = '0123456789abcdef';\n  var output = '';\n  var x;\n  var i;\n  for (i = 0; i < input.length; i += 1) {\n    x = input.charCodeAt(i);\n    output += hexTab.charAt((x >>> 4) & 0x0f) + hexTab.charAt(x & 0x0f);\n  }\n  return output;\n}\n\n/*\n* Encode a string as utf-8\n*/\nfunction str2rstrUTF8(input) {\n  return unescape(encodeURIComponent(input));\n}\n\n/*\n* Take string arguments and return either raw or hex encoded strings\n*/\nfunction rawMD5(s) {\n  return rstrMD5(str2rstrUTF8(s));\n}\nfunction hexMD5(s) {\n  return rstr2hex(rawMD5(s));\n}\nfunction rawHMACMD5(k, d) {\n  return rstrHMACMD5(str2rstrUTF8(k), str2rstrUTF8(d));\n}\nfunction hexHMACMD5(k, d) {\n  return rstr2hex(rawHMACMD5(k, d));\n}\n\nfunction md5(string, key, raw) {\n  if (!key) {\n    if (!raw) {\n      return hexMD5(string);\n    }\n    return rawMD5(string);\n  }\n  if (!raw) {\n    return hexHMACMD5(key, string);\n  }\n  return rawHMACMD5(key, string);\n}\n\nmodule.exports = md5;\n"
+    },
+    {
       "id": "./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js",
       "identifier": "delegated 96 from dll-reference _dll_dllLibrary_pro",
       "name": "delegated ./node_modules/_timers-browserify@2.0.11@timers-browserify/main.js from dll-reference _dll_dllLibrary_pro",
-      "index": 10,
-      "index2": 6,
+      "index": 11,
+      "index2": 7,
       "size": 42,
       "built": true,
       "optional": false,
@@ -4044,11 +5851,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -4056,8 +5863,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -4065,14 +5872,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         }
       ],
       "profile": {
-        "factory": 8,
+        "factory": 197,
         "building": 0,
         "dependencies": 0
       },
@@ -4103,8 +5910,8 @@
       "id": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
       "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
-      "index": 20,
-      "index2": 17,
+      "index": 21,
+      "index2": 18,
       "size": 2689,
       "cacheable": true,
       "built": true,
@@ -4119,11 +5926,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -4131,8 +5938,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -4140,15 +5947,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         }
       ],
       "profile": {
-        "factory": 103,
-        "building": 1
+        "factory": 112,
+        "building": 2
       },
       "failed": false,
       "errors": 0,
@@ -4206,8 +6013,8 @@
       "id": "./node_modules/_vue-router@3.1.2@vue-router/dist/vue-router.esm.js",
       "identifier": "delegated 156 from dll-reference _dll_dllLibrary_pro",
       "name": "delegated ./node_modules/_vue-router@3.1.2@vue-router/dist/vue-router.esm.js from dll-reference _dll_dllLibrary_pro",
-      "index": 3,
-      "index2": 1,
+      "index": 6,
+      "index2": 3,
       "size": 42,
       "built": true,
       "optional": false,
@@ -4221,11 +6028,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -4233,8 +6040,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -4242,15 +6049,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         }
       ],
       "profile": {
-        "factory": 440,
-        "building": 515,
+        "factory": 600,
+        "building": 598,
         "dependencies": 0
       },
       "failed": false,
@@ -4300,8 +6107,8 @@
       "id": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
       "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-      "index": 8,
-      "index2": 7,
+      "index": 10,
+      "index2": 8,
       "size": 325727,
       "cacheable": true,
       "built": true,
@@ -4316,11 +6123,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -4328,15 +6135,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         }
       ],
       "profile": {
-        "factory": 253,
-        "building": 3548,
-        "dependencies": 152
+        "factory": 397,
+        "building": 4278,
+        "dependencies": 202
       },
       "failed": false,
       "errors": 0,
@@ -4377,7 +6184,7 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "7:0-3"
+          "loc": "11:23-26"
         },
         {
           "moduleId": "./src/main.js",
@@ -4386,7 +6193,25 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "11:8-11"
+          "loc": "16:2-5"
+        },
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "harmony import specifier",
+          "userRequest": "vue",
+          "loc": "20:0-3"
+        },
+        {
+          "moduleId": "./src/main.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
+          "module": "./src/main.js + 7 modules",
+          "moduleName": "./src/main.js + 7 modules",
+          "type": "harmony import specifier",
+          "userRequest": "vue",
+          "loc": "24:8-11"
         }
       ],
       "usedExports": [
@@ -4406,8 +6231,8 @@
       "id": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
       "identifier": "delegated 21 from dll-reference _dll_dllLibrary_pro",
       "name": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
-      "index": 9,
-      "index2": 5,
+      "index": 2,
+      "index2": 1,
       "size": 42,
       "built": true,
       "optional": false,
@@ -4415,49 +6240,83 @@
       "chunks": [
         0
       ],
-      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-      "issuerId": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-      "issuerName": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
+      "issuer": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+      "issuerId": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+      "issuerName": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "./src/main.js",
+          "id": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
           "profile": {
-            "factory": 31,
-            "building": 489
-          }
-        },
-        {
-          "id": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-          "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
-          "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 858,
+            "building": 52
           }
         }
       ],
       "profile": {
-        "factory": 8,
-        "building": 0,
-        "dependencies": 0
+        "factory": 13,
+        "building": 0
       },
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "assets": [],
       "reasons": [
+        {
+          "moduleId": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "module": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "moduleName": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-63"
+        },
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-60"
+        },
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-60"
+        },
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/src/utils.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-60"
+        },
+        {
+          "moduleId": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "module": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "moduleName": "./node_modules/_raven-js@3.27.2@raven-js/vendor/TraceKit/tracekit.js",
+          "type": "cjs require",
+          "userRequest": "global",
+          "loc": "1:0-63"
+        },
         {
           "moduleId": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "moduleIdentifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
@@ -4474,14 +6333,14 @@
         "ModuleConcatenation bailout: Module is not an ECMAScript module",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
-      "depth": 3
+      "depth": 2
     },
     {
       "id": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
       "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 17,
-      "index2": 16,
+      "index": 18,
+      "index2": 17,
       "size": 1058,
       "cacheable": true,
       "built": true,
@@ -4496,11 +6355,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -4508,8 +6367,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -4517,15 +6376,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         }
       ],
       "profile": {
-        "factory": 103,
-        "building": 1
+        "factory": 112,
+        "building": 2
       },
       "failed": false,
       "errors": 0,
@@ -4575,9 +6434,9 @@
       "id": "./src/main.js",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js 9fb207a498845248b2c112296d0921dd",
       "name": "./src/main.js + 7 modules",
-      "index": 1,
-      "index2": 21,
-      "size": 2590,
+      "index": 4,
+      "index2": 31,
+      "size": 2958,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -4596,23 +6455,25 @@
       "reasons": [
         {
           "moduleId": 0,
-          "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "module": "multi ./src/main.js",
-          "moduleName": "multi ./src/main.js",
+          "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "module": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+          "moduleName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "type": "single entry",
           "userRequest": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-          "loc": "app[0]"
+          "loc": "app[1]"
         }
       ],
       "usedExports": true,
       "providedExports": [],
       "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/_raven-js@3.27.2@raven-js/plugins/vue.js (<- Module is not an ECMAScript module)",
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with ./src/App.vue?vue&type=style&index=0&lang=less&module=true& (<- Module exports are unknown)",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/_vue-loader@15.7.1@vue-loader/lib/runtime/componentNormalizer.js",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/_vue@2.6.10@vue/dist/vue.esm.js (<- Module uses injected variables (global, setImmediate))",
         "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/_vue-router@3.1.2@vue-router/dist/vue-router.esm.js from dll-reference _dll_dllLibrary_pro (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro (<- Module is not an ECMAScript module)",
-        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./src/main.js (referenced with single entry)"
+        "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js (referenced with single entry)"
       ],
       "depth": 1,
       "modules": [
@@ -4620,31 +6481,31 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
-          "index": 1,
-          "index2": 21,
-          "size": 348,
+          "index": 4,
+          "index2": 31,
+          "size": 707,
           "cacheable": true,
           "built": true,
           "optional": false,
           "prefetched": false,
           "chunks": [],
-          "issuer": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "issuer": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "issuerId": 0,
-          "issuerName": "multi ./src/main.js",
+          "issuerName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             }
           ],
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           },
           "failed": false,
           "errors": 0,
@@ -4653,30 +6514,30 @@
           "reasons": [
             {
               "moduleId": 0,
-              "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "module": "multi ./src/main.js",
-              "moduleName": "multi ./src/main.js",
+              "moduleIdentifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "module": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
+              "moduleName": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "type": "single entry",
               "userRequest": "/Users/jiayali/Desktop/vue-zero/src/main.js",
-              "loc": "app[0]"
+              "loc": "app[1]"
             }
           ],
           "usedExports": true,
           "providedExports": [],
           "optimizationBailout": [
-            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./src/main.js (referenced with single entry)",
+            "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js (referenced with single entry)",
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
           "depth": 1,
-          "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\n\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
+          "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\nimport Raven from 'raven-js';\nimport RavenVue from 'raven-js/plugins/vue';\n\nRaven\n  .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')\n  .addPlugin(RavenVue, Vue)\n  .install()\n  myUndefinedFunction();\n\nif(process.env.NODE_ENV !== 'development' ){\n  Vue.config.errorHandler = function(err, vm, info) {\n      Raven.captureException(err)\n  }\n}\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
         },
         {
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
-          "index": 2,
-          "index2": 8,
-          "size": 269,
+          "index": 5,
+          "index2": 9,
+          "size": 268,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4688,11 +6549,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -4700,15 +6561,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             }
           ],
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           },
           "failed": false,
           "errors": 0,
@@ -4731,7 +6592,7 @@
               "moduleName": "./src/main.js",
               "type": "harmony import specifier",
               "userRequest": "./router",
-              "loc": "20:8-14"
+              "loc": "33:8-14"
             }
           ],
           "usedExports": [
@@ -4744,14 +6605,14 @@
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
           "depth": 2,
-          "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\nimport loadChildRoutes from '@page/load-child-routes.js'\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [\n    {\n      path: '/', \n      redirect: '/login'\n    },\n    ...loadChildRoutes\n  ],\n});\n"
+          "source": "import Vue from 'vue';\nimport VueRouter from 'vue-router';\nimport loadChildRoutes from '@page/load-child-routes.js'\n\nVue.use(VueRouter);\n\nexport default new VueRouter({\n  routes: [\n    {\n      path: '/',\n      redirect: '/login'\n    },\n    ...loadChildRoutes\n  ],\n});\n"
         },
         {
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
-          "index": 12,
-          "index2": 18,
+          "index": 13,
+          "index2": 19,
           "size": 635,
           "cacheable": true,
           "built": true,
@@ -4764,11 +6625,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -4776,15 +6637,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             }
           ],
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           },
           "failed": false,
           "errors": 0,
@@ -4807,7 +6668,7 @@
               "moduleName": "./src/main.js",
               "type": "harmony import specifier",
               "userRequest": "./App",
-              "loc": "15:20-23"
+              "loc": "28:20-23"
             }
           ],
           "usedExports": [
@@ -4826,8 +6687,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
-          "index": 5,
-          "index2": 4,
+          "index": 7,
+          "index2": 6,
           "size": 506,
           "cacheable": true,
           "built": true,
@@ -4840,11 +6701,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -4852,8 +6713,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -4861,15 +6722,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
           "profile": {
-            "factory": 440,
-            "building": 515,
+            "factory": 600,
+            "building": 598,
             "dependencies": 0
           },
           "failed": false,
@@ -4912,8 +6773,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
           "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
-          "index": 13,
-          "index2": 11,
+          "index": 14,
+          "index2": 12,
           "size": 233,
           "cacheable": true,
           "built": true,
@@ -4926,11 +6787,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -4938,8 +6799,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -4947,15 +6808,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
           "profile": {
-            "factory": 103,
-            "building": 1
+            "factory": 112,
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -5008,8 +6869,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
           "name": "./src/App.vue?vue&type=script&lang=js&",
-          "index": 15,
-          "index2": 13,
+          "index": 16,
+          "index2": 14,
           "size": 286,
           "cacheable": true,
           "built": true,
@@ -5022,11 +6883,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5034,8 +6895,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5043,15 +6904,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             }
           ],
           "profile": {
-            "factory": 103,
-            "building": 1
+            "factory": 112,
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -5111,8 +6972,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
           "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=67cd2f4a&",
-          "index": 14,
-          "index2": 10,
+          "index": 15,
+          "index2": 11,
           "size": 236,
           "cacheable": true,
           "built": true,
@@ -5125,11 +6986,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5137,8 +6998,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5146,9 +7007,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -5156,14 +7017,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
               "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
               "profile": {
-                "factory": 103,
-                "building": 1
+                "factory": 112,
+                "building": 2
               }
             }
           ],
           "profile": {
-            "factory": 7,
-            "building": 22
+            "factory": 9,
+            "building": 21
           },
           "failed": false,
           "errors": 0,
@@ -5207,8 +7068,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
           "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&",
-          "index": 16,
-          "index2": 12,
+          "index": 17,
+          "index2": 13,
           "size": 47,
           "cacheable": true,
           "built": true,
@@ -5221,11 +7082,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5233,8 +7094,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5242,9 +7103,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -5252,14 +7113,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "name": "./src/App.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 103,
-                "building": 1
+                "factory": 112,
+                "building": 2
               }
             }
           ],
           "profile": {
             "factory": 1,
-            "building": 0
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -5322,8 +7183,8 @@
       "id": "./src/page sync recursive v-router\\.(js)$",
       "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
       "name": "./src/page sync v-router\\.(js)$",
-      "index": 6,
-      "index2": 3,
+      "index": 8,
+      "index2": 5,
       "size": 184,
       "built": true,
       "optional": false,
@@ -5337,11 +7198,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -5349,8 +7210,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -5358,9 +7219,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         },
         {
@@ -5368,15 +7229,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 440,
-            "building": 515,
+            "factory": 600,
+            "building": 598,
             "dependencies": 0
           }
         }
       ],
       "profile": {
-        "factory": 8,
-        "building": 27
+        "factory": 13,
+        "building": 25
       },
       "failed": false,
       "errors": 0,
@@ -5405,8 +7266,8 @@
       "id": "./src/page/login/login.vue",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue 8812b72f2f1db4cf7238bc1d03f5f3c8",
       "name": "./src/page/login/login.vue + 4 modules",
-      "index": 23,
-      "index2": 30,
+      "index": 33,
+      "index2": 40,
       "size": 4096,
       "cacheable": true,
       "built": true,
@@ -5449,8 +7310,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "name": "./src/page/login/login.vue",
-          "index": 23,
-          "index2": 30,
+          "index": 33,
+          "index2": 40,
           "size": 649,
           "cacheable": true,
           "built": true,
@@ -5463,11 +7324,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5475,8 +7336,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5484,9 +7345,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -5494,8 +7355,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -5504,8 +7365,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -5513,15 +7374,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             }
           ],
           "profile": {
-            "factory": 5,
-            "building": 136,
-            "dependencies": 0
+            "factory": 6,
+            "building": 198,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -5553,8 +7414,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
           "name": "./src/page/login/login.vue?vue&type=template&id=3e58573a&",
-          "index": 24,
-          "index2": 24,
+          "index": 34,
+          "index2": 34,
           "size": 247,
           "cacheable": true,
           "built": true,
@@ -5567,11 +7428,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5579,8 +7440,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5588,9 +7449,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -5598,8 +7459,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -5608,8 +7469,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -5617,7 +7478,7 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             },
@@ -5626,9 +7487,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               }
             }
           ],
@@ -5687,8 +7548,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
           "name": "./src/page/login/login.vue?vue&type=script&lang=js&",
-          "index": 26,
-          "index2": 26,
+          "index": 36,
+          "index2": 36,
           "size": 302,
           "cacheable": true,
           "built": true,
@@ -5701,11 +7562,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5713,8 +7574,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5722,9 +7583,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -5732,8 +7593,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -5742,8 +7603,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -5751,7 +7612,7 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             },
@@ -5760,9 +7621,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               }
             }
           ],
@@ -5828,8 +7689,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=template&id=3e58573a&",
           "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=template&id=3e58573a&",
-          "index": 25,
-          "index2": 23,
+          "index": 35,
+          "index2": 33,
           "size": 1603,
           "cacheable": true,
           "built": true,
@@ -5842,11 +7703,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5854,8 +7715,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5863,9 +7724,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -5873,8 +7734,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -5883,8 +7744,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -5892,7 +7753,7 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             },
@@ -5901,9 +7762,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               }
             },
             {
@@ -5917,8 +7778,8 @@
             }
           ],
           "profile": {
-            "factory": 5,
-            "building": 36
+            "factory": 4,
+            "building": 25
           },
           "failed": false,
           "errors": 0,
@@ -5962,8 +7823,8 @@
           "id": null,
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=script&lang=js&",
           "name": "./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=script&lang=js&",
-          "index": 27,
-          "index2": 25,
+          "index": 37,
+          "index2": 35,
           "size": 1285,
           "cacheable": true,
           "built": true,
@@ -5976,11 +7837,11 @@
           "issuerPath": [
             {
               "id": 0,
-              "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-              "name": "multi ./src/main.js",
+              "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+              "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 1,
-                "building": 4
+                "factory": 0,
+                "building": 6
               }
             },
             {
@@ -5988,8 +7849,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 31,
-                "building": 489
+                "factory": 858,
+                "building": 52
               }
             },
             {
@@ -5997,9 +7858,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 253,
-                "building": 3548,
-                "dependencies": 152
+                "factory": 397,
+                "building": 4278,
+                "dependencies": 202
               }
             },
             {
@@ -6007,8 +7868,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 440,
-                "building": 515,
+                "factory": 600,
+                "building": 598,
                 "dependencies": 0
               }
             },
@@ -6017,8 +7878,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 8,
-                "building": 27
+                "factory": 13,
+                "building": 25
               }
             },
             {
@@ -6026,7 +7887,7 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 25,
+                "factory": 33,
                 "building": 17
               }
             },
@@ -6035,9 +7896,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 5,
-                "building": 136,
-                "dependencies": 0
+                "factory": 6,
+                "building": 198,
+                "dependencies": 1
               }
             },
             {
@@ -6051,8 +7912,8 @@
             }
           ],
           "profile": {
-            "factory": 4,
-            "building": 5
+            "factory": 3,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -6115,8 +7976,8 @@
       "id": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
       "name": "./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 28,
-      "index2": 29,
+      "index": 38,
+      "index2": 39,
       "size": 1134,
       "cacheable": true,
       "built": true,
@@ -6131,11 +7992,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -6143,8 +8004,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -6152,9 +8013,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         },
         {
@@ -6162,8 +8023,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 440,
-            "building": 515,
+            "factory": 600,
+            "building": 598,
             "dependencies": 0
           }
         },
@@ -6172,8 +8033,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 8,
-            "building": 27
+            "factory": 13,
+            "building": 25
           }
         },
         {
@@ -6181,7 +8042,7 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
           "name": "./src/page/login/v-router.js",
           "profile": {
-            "factory": 25,
+            "factory": 33,
             "building": 17
           }
         },
@@ -6190,9 +8051,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "name": "./src/page/login/login.vue",
           "profile": {
-            "factory": 5,
-            "building": 136,
-            "dependencies": 0
+            "factory": 6,
+            "building": 198,
+            "dependencies": 1
           }
         }
       ],
@@ -6248,8 +8109,8 @@
       "id": "./src/page/login/v-router.js",
       "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
       "name": "./src/page/login/v-router.js",
-      "index": 7,
-      "index2": 2,
+      "index": 9,
+      "index2": 4,
       "size": 139,
       "cacheable": true,
       "built": true,
@@ -6264,11 +8125,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -6276,8 +8137,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -6285,9 +8146,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         },
         {
@@ -6295,8 +8156,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 440,
-            "building": 515,
+            "factory": 600,
+            "building": 598,
             "dependencies": 0
           }
         },
@@ -6305,13 +8166,13 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 8,
-            "building": 27
+            "factory": 13,
+            "building": 25
           }
         }
       ],
       "profile": {
-        "factory": 25,
+        "factory": 33,
         "building": 17
       },
       "failed": false,
@@ -6344,8 +8205,8 @@
       "id": "?4cd9",
       "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css 0",
       "name": "css ./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
-      "index": 22,
-      "index2": 19,
+      "index": 23,
+      "index2": 20,
       "size": 278122,
       "built": false,
       "optional": false,
@@ -6359,11 +8220,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -6371,8 +8232,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -6380,9 +8241,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         }
       ],
@@ -6414,8 +8275,8 @@
       "id": "?c6a9",
       "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true& 0",
       "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 19,
-      "index2": 14,
+      "index": 20,
+      "index2": 15,
       "size": 1415,
       "built": false,
       "optional": false,
@@ -6429,11 +8290,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -6441,8 +8302,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -6450,9 +8311,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         },
         {
@@ -6460,8 +8321,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 103,
-            "building": 1
+            "factory": 112,
+            "building": 2
           }
         },
         {
@@ -6469,8 +8330,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 5,
-            "building": 2356
+            "factory": 3,
+            "building": 2871
           }
         }
       ],
@@ -6502,8 +8363,8 @@
       "id": "?d860",
       "identifier": "css /Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true& 0",
       "name": "css ./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
-      "index": 30,
-      "index2": 27,
+      "index": 40,
+      "index2": 37,
       "size": 918,
       "built": false,
       "optional": false,
@@ -6517,11 +8378,11 @@
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
@@ -6529,8 +8390,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
@@ -6538,9 +8399,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 397,
+            "building": 4278,
+            "dependencies": 202
           }
         },
         {
@@ -6548,8 +8409,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 440,
-            "building": 515,
+            "factory": 600,
+            "building": 598,
             "dependencies": 0
           }
         },
@@ -6558,8 +8419,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 8,
-            "building": 27
+            "factory": 13,
+            "building": 25
           }
         },
         {
@@ -6567,7 +8428,7 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
           "name": "./src/page/login/v-router.js",
           "profile": {
-            "factory": 25,
+            "factory": 33,
             "building": 17
           }
         },
@@ -6576,9 +8437,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "name": "./src/page/login/login.vue",
           "profile": {
-            "factory": 5,
-            "building": 136,
-            "dependencies": 0
+            "factory": 6,
+            "building": 198,
+            "dependencies": 1
           }
         },
         {
@@ -6595,14 +8456,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 8,
-            "building": 2212
+            "factory": 6,
+            "building": 2857
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 0
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -6628,7 +8489,7 @@
       "id": "dll-reference _dll_dllLibrary_pro",
       "identifier": "external \"_dll_dllLibrary_pro\"",
       "name": "external \"_dll_dllLibrary_pro\"",
-      "index": 4,
+      "index": 3,
       "index2": 0,
       "size": 42,
       "built": true,
@@ -6637,42 +8498,41 @@
       "chunks": [
         0
       ],
-      "issuer": "delegated 93 from dll-reference _dll_dllLibrary_pro",
-      "issuerId": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
-      "issuerName": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro",
+      "issuer": "delegated 21 from dll-reference _dll_dllLibrary_pro",
+      "issuerId": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
+      "issuerName": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
       "issuerPath": [
         {
           "id": 0,
-          "identifier": "multi /Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "multi ./src/main.js",
+          "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
+          "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 1,
-            "building": 4
+            "factory": 0,
+            "building": 6
           }
         },
         {
-          "id": null,
-          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
-          "name": "./src/main.js",
+          "id": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
+          "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
           "profile": {
-            "factory": 31,
-            "building": 489
+            "factory": 858,
+            "building": 52
           }
         },
         {
-          "id": "./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js",
-          "identifier": "delegated 93 from dll-reference _dll_dllLibrary_pro",
-          "name": "delegated ./node_modules/_element-ui@2.11.1@element-ui/lib/element-ui.common.js from dll-reference _dll_dllLibrary_pro",
+          "id": "./node_modules/_webpack@4.27.1@webpack/buildin/global.js",
+          "identifier": "delegated 21 from dll-reference _dll_dllLibrary_pro",
+          "name": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
           "profile": {
-            "factory": 253,
-            "building": 3548,
-            "dependencies": 152
+            "factory": 13,
+            "building": 0
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 0
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -6800,8 +8660,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 513,
-                "building": 19
+                "factory": 799,
+                "building": 70
               },
               "failed": false,
               "errors": 0,
@@ -6849,14 +8709,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 513,
-                    "building": 19
+                    "factory": 799,
+                    "building": 70
                   }
                 }
               ],
               "profile": {
-                "factory": 13,
-                "building": 2431
+                "factory": 44,
+                "building": 1018
               },
               "failed": false,
               "errors": 0,
@@ -6905,8 +8765,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 513,
-                    "building": 19
+                    "factory": 799,
+                    "building": 70
                   }
                 },
                 {
@@ -6914,14 +8774,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "profile": {
-                    "factory": 13,
-                    "building": 2431
+                    "factory": 44,
+                    "building": 1018
                   }
                 }
               ],
               "profile": {
-                "factory": 1,
-                "building": 194
+                "factory": 2128,
+                "building": 10
               },
               "failed": false,
               "errors": 0,
@@ -6970,8 +8830,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 513,
-                    "building": 19
+                    "factory": 799,
+                    "building": 70
                   }
                 },
                 {
@@ -6979,14 +8839,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "profile": {
-                    "factory": 13,
-                    "building": 2431
+                    "factory": 44,
+                    "building": 1018
                   }
                 }
               ],
               "profile": {
-                "factory": 1,
-                "building": 194
+                "factory": 2128,
+                "building": 10
               },
               "failed": false,
               "errors": 0,
@@ -7046,8 +8906,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 513,
-            "building": 19
+            "factory": 799,
+            "building": 70
           },
           "failed": false,
           "errors": 0,
@@ -7095,14 +8955,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 513,
-                "building": 19
+                "factory": 799,
+                "building": 70
               }
             }
           ],
           "profile": {
-            "factory": 13,
-            "building": 2431
+            "factory": 44,
+            "building": 1018
           },
           "failed": false,
           "errors": 0,
@@ -7151,8 +9011,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 513,
-                "building": 19
+                "factory": 799,
+                "building": 70
               }
             },
             {
@@ -7160,14 +9020,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
               "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
               "profile": {
-                "factory": 13,
-                "building": 2431
+                "factory": 44,
+                "building": 1018
               }
             }
           ],
           "profile": {
-            "factory": 1,
-            "building": 194
+            "factory": 2128,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -7216,8 +9076,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 513,
-                "building": 19
+                "factory": 799,
+                "building": 70
               }
             },
             {
@@ -7225,14 +9085,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
               "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
               "profile": {
-                "factory": 13,
-                "building": 2431
+                "factory": 44,
+                "building": 1018
               }
             }
           ],
           "profile": {
-            "factory": 1,
-            "building": 194
+            "factory": 2128,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -7333,8 +9193,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 3,
-                "building": 2026
+                "factory": 2,
+                "building": 2805
               },
               "failed": false,
               "errors": 0,
@@ -7383,14 +9243,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
                   "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
                   "profile": {
-                    "factory": 3,
-                    "building": 2026
+                    "factory": 2,
+                    "building": 2805
                   }
                 }
               ],
               "profile": {
-                "factory": 133,
-                "building": 170
+                "factory": 47,
+                "building": 7
               },
               "failed": false,
               "errors": 0,
@@ -7450,8 +9310,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 3,
-            "building": 2026
+            "factory": 2,
+            "building": 2805
           },
           "failed": false,
           "errors": 0,
@@ -7500,14 +9360,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 3,
-                "building": 2026
+                "factory": 2,
+                "building": 2805
               }
             }
           ],
           "profile": {
-            "factory": 133,
-            "building": 170
+            "factory": 47,
+            "building": 7
           },
           "failed": false,
           "errors": 0,
@@ -7608,8 +9468,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 2,
-                "building": 2153
+                "factory": 6,
+                "building": 2824
               },
               "failed": false,
               "errors": 0,
@@ -7658,14 +9518,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
                   "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
                   "profile": {
-                    "factory": 2,
-                    "building": 2153
+                    "factory": 6,
+                    "building": 2824
                   }
                 }
               ],
               "profile": {
-                "factory": 1,
-                "building": 2
+                "factory": 0,
+                "building": 1
               },
               "failed": false,
               "errors": 0,
@@ -7725,8 +9585,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 2,
-            "building": 2153
+            "factory": 6,
+            "building": 2824
           },
           "failed": false,
           "errors": 0,
@@ -7775,14 +9635,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 2,
-                "building": 2153
+                "factory": 6,
+                "building": 2824
               }
             }
           ],
           "profile": {
-            "factory": 1,
-            "building": 2
+            "factory": 0,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -7887,14 +9747,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 2,
-                    "building": 3506
+                    "factory": 3,
+                    "building": 4233
                   }
                 }
               ],
               "profile": {
-                "factory": 14,
-                "building": 10
+                "factory": 16,
+                "building": 9
               },
               "failed": false,
               "errors": 0,
@@ -7943,14 +9803,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 2,
-                    "building": 3506
+                    "factory": 3,
+                    "building": 4233
                   }
                 }
               ],
               "profile": {
-                "factory": 14,
-                "building": 10
+                "factory": 16,
+                "building": 9
               },
               "failed": false,
               "errors": 0,
@@ -7999,14 +9859,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 2,
-                    "building": 3506
+                    "factory": 3,
+                    "building": 4233
                   }
                 }
               ],
               "profile": {
-                "factory": 14,
-                "building": 10
+                "factory": 16,
+                "building": 9
               },
               "failed": false,
               "errors": 0,
@@ -8055,14 +9915,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 2,
-                    "building": 3506
+                    "factory": 3,
+                    "building": 4233
                   }
                 }
               ],
               "profile": {
-                "factory": 14,
-                "building": 10
+                "factory": 16,
+                "building": 9
               },
               "failed": false,
               "errors": 0,
@@ -8107,8 +9967,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 2,
-                "building": 3506
+                "factory": 3,
+                "building": 4233
               },
               "failed": false,
               "errors": 0,
@@ -8172,14 +10032,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 2,
-                "building": 3506
+                "factory": 3,
+                "building": 4233
               }
             }
           ],
           "profile": {
-            "factory": 14,
-            "building": 10
+            "factory": 16,
+            "building": 9
           },
           "failed": false,
           "errors": 0,
@@ -8228,14 +10088,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 2,
-                "building": 3506
+                "factory": 3,
+                "building": 4233
               }
             }
           ],
           "profile": {
-            "factory": 14,
-            "building": 10
+            "factory": 16,
+            "building": 9
           },
           "failed": false,
           "errors": 0,
@@ -8284,14 +10144,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 2,
-                "building": 3506
+                "factory": 3,
+                "building": 4233
               }
             }
           ],
           "profile": {
-            "factory": 14,
-            "building": 10
+            "factory": 16,
+            "building": 9
           },
           "failed": false,
           "errors": 0,
@@ -8340,14 +10200,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 2,
-                "building": 3506
+                "factory": 3,
+                "building": 4233
               }
             }
           ],
           "profile": {
-            "factory": 14,
-            "building": 10
+            "factory": 16,
+            "building": 9
           },
           "failed": false,
           "errors": 0,
@@ -8392,8 +10252,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 2,
-            "building": 3506
+            "factory": 3,
+            "building": 4233
           },
           "failed": false,
           "errors": 0,
