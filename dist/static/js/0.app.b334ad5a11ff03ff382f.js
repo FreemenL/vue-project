@@ -177,7 +177,6 @@ singleton_default.a
   .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')
   .addPlugin(vue_default.a, vue_esm["a" /* default */])
   .install()
-  myUndefinedFunction();
 
 if(true ){
   vue_esm["a" /* default */].config.errorHandler = function(err, vm, info) {
@@ -264,4 +263,4 @@ module.exports = _dll_dllLibrary_pro;
 /***/ })
 
 },[[0,3,1,4]]]);
-//# sourceMappingURL=0.app.0d4aac7183eecd1d072c.js.map
+//# sourceMappingURL=0.app.b334ad5a11ff03ff382f.js.map

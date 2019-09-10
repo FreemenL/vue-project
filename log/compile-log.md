@@ -2,16 +2,16 @@
   "errors": [],
   "warnings": [],
   "version": "4.27.1",
-  "hash": "956d93ab4c7803dd13b8",
-  "time": 13894,
-  "builtAt": 1568099849093,
+  "hash": "988c3964bd6786df7e50",
+  "time": 14800,
+  "builtAt": 1568119843371,
   "publicPath": "./",
   "outputPath": "/Users/jiayali/Desktop/vue-zero/dist",
   "assetsByChunkName": {
     "app": [
-      "static/css/0.app.0d4aac7183eecd1d072c.css",
-      "static/js/0.app.0d4aac7183eecd1d072c.js",
-      "static/js/0.app.0d4aac7183eecd1d072c.js.map"
+      "static/css/0.app.b334ad5a11ff03ff382f.css",
+      "static/js/0.app.b334ad5a11ff03ff382f.js",
+      "static/js/0.app.b334ad5a11ff03ff382f.js.map"
     ],
     "element-ui": [
       "static/css/1.element-ui.e27befefd16bd876fa3e.css",
@@ -41,7 +41,7 @@
       "emitted": true
     },
     {
-      "name": "static/css/0.app.0d4aac7183eecd1d072c.css",
+      "name": "static/css/0.app.b334ad5a11ff03ff382f.css",
       "size": 1415,
       "chunks": [
         0
@@ -123,8 +123,8 @@
       "emitted": true
     },
     {
-      "name": "static/js/0.app.0d4aac7183eecd1d072c.js",
-      "size": 11220,
+      "name": "static/js/0.app.b334ad5a11ff03ff382f.js",
+      "size": 11195,
       "chunks": [
         0
       ],
@@ -134,15 +134,15 @@
       "emitted": true
     },
     {
-      "name": "static/js/0.app.0d4aac7183eecd1d072c.js.gz",
-      "size": 2465,
+      "name": "static/js/0.app.b334ad5a11ff03ff382f.js.gz",
+      "size": 2456,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
     },
     {
-      "name": "static/js/0.app.0d4aac7183eecd1d072c.js.map",
-      "size": 7662,
+      "name": "static/js/0.app.b334ad5a11ff03ff382f.js.map",
+      "size": 7631,
       "chunks": [
         0
       ],
@@ -271,9 +271,9 @@
         "static/js/1.element-ui.e27befefd16bd876fa3e.js.map",
         "static/js/4.vendors.c313a8116b218c9ef84b.js",
         "static/js/4.vendors.c313a8116b218c9ef84b.js.map",
-        "static/css/0.app.0d4aac7183eecd1d072c.css",
-        "static/js/0.app.0d4aac7183eecd1d072c.js",
-        "static/js/0.app.0d4aac7183eecd1d072c.js.map"
+        "static/css/0.app.b334ad5a11ff03ff382f.css",
+        "static/js/0.app.b334ad5a11ff03ff382f.js",
+        "static/js/0.app.b334ad5a11ff03ff382f.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -295,9 +295,9 @@
         "static/js/1.element-ui.e27befefd16bd876fa3e.js.map",
         "static/js/4.vendors.c313a8116b218c9ef84b.js",
         "static/js/4.vendors.c313a8116b218c9ef84b.js.map",
-        "static/css/0.app.0d4aac7183eecd1d072c.css",
-        "static/js/0.app.0d4aac7183eecd1d072c.js",
-        "static/js/0.app.0d4aac7183eecd1d072c.js.map"
+        "static/css/0.app.b334ad5a11ff03ff382f.css",
+        "static/js/0.app.b334ad5a11ff03ff382f.js",
+        "static/js/0.app.b334ad5a11ff03ff382f.js.map"
       ],
       "children": {},
       "childAssets": {}
@@ -321,16 +321,16 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 6043,
+      "size": 6018,
       "names": [
         "app"
       ],
       "files": [
-        "static/css/0.app.0d4aac7183eecd1d072c.css",
-        "static/js/0.app.0d4aac7183eecd1d072c.js",
-        "static/js/0.app.0d4aac7183eecd1d072c.js.map"
+        "static/css/0.app.b334ad5a11ff03ff382f.css",
+        "static/js/0.app.b334ad5a11ff03ff382f.js",
+        "static/js/0.app.b334ad5a11ff03ff382f.js.map"
       ],
-      "hash": "0d4aac7183eecd1d072c",
+      "hash": "b334ad5a11ff03ff382f",
       "siblings": [
         1,
         3,
@@ -360,8 +360,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           },
           "failed": false,
           "errors": 0,
@@ -406,8 +406,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -415,15 +415,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           },
           "failed": false,
           "errors": 0,
@@ -446,7 +446,7 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "element-ui",
-              "loc": "20:8-17"
+              "loc": "19:8-17"
             }
           ],
           "usedExports": true,
@@ -480,8 +480,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -489,8 +489,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -498,9 +498,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -508,14 +508,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 112,
-                "building": 2
+                "factory": 103,
+                "building": 0
               }
             }
           ],
           "profile": {
             "factory": 3,
-            "building": 2871
+            "building": 3637
           },
           "failed": false,
           "errors": 0,
@@ -592,8 +592,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -601,8 +601,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -610,14 +610,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 197,
+            "factory": 201,
             "building": 0,
             "dependencies": 0
           },
@@ -666,8 +666,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -675,8 +675,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -684,15 +684,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 600,
-            "building": 598,
+            "factory": 495,
+            "building": 575,
             "dependencies": 0
           },
           "failed": false,
@@ -760,8 +760,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -769,14 +769,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
               "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 13,
-            "building": 0
+            "factory": 21,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -869,8 +869,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -878,8 +878,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -887,15 +887,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 112,
-            "building": 2
+            "factory": 103,
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -947,7 +947,7 @@
           "name": "./src/main.js + 7 modules",
           "index": 4,
           "index2": 31,
-          "size": 2958,
+          "size": 2933,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -994,7 +994,7 @@
               "name": "./src/main.js",
               "index": 4,
               "index2": 31,
-              "size": 707,
+              "size": 682,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -1009,14 +1009,14 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 }
               ],
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               },
               "failed": false,
               "errors": 0,
@@ -1040,7 +1040,7 @@
                 "ModuleConcatenation bailout: Module is not in any chunk"
               ],
               "depth": 1,
-              "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\nimport Raven from 'raven-js';\nimport RavenVue from 'raven-js/plugins/vue';\n\nRaven\n  .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')\n  .addPlugin(RavenVue, Vue)\n  .install()\n  myUndefinedFunction();\n\nif(process.env.NODE_ENV !== 'development' ){\n  Vue.config.errorHandler = function(err, vm, info) {\n      Raven.captureException(err)\n  }\n}\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
+              "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\nimport Raven from 'raven-js';\nimport RavenVue from 'raven-js/plugins/vue';\n\nRaven\n  .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')\n  .addPlugin(RavenVue, Vue)\n  .install()\n\nif(process.env.NODE_ENV !== 'development' ){\n  Vue.config.errorHandler = function(err, vm, info) {\n      Raven.captureException(err)\n  }\n}\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
             },
             {
               "id": null,
@@ -1063,8 +1063,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -1072,15 +1072,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 }
               ],
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               },
               "failed": false,
               "errors": 0,
@@ -1103,7 +1103,7 @@
                   "moduleName": "./src/main.js",
                   "type": "harmony import specifier",
                   "userRequest": "./router",
-                  "loc": "33:8-14"
+                  "loc": "32:8-14"
                 }
               ],
               "usedExports": [
@@ -1139,8 +1139,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -1148,15 +1148,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 }
               ],
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               },
               "failed": false,
               "errors": 0,
@@ -1179,7 +1179,7 @@
                   "moduleName": "./src/main.js",
                   "type": "harmony import specifier",
                   "userRequest": "./App",
-                  "loc": "28:20-23"
+                  "loc": "27:20-23"
                 }
               ],
               "usedExports": [
@@ -1215,8 +1215,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -1224,8 +1224,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -1233,15 +1233,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 }
               ],
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               },
               "failed": false,
@@ -1301,8 +1301,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -1310,8 +1310,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -1319,15 +1319,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 }
               ],
               "profile": {
-                "factory": 112,
-                "building": 2
+                "factory": 103,
+                "building": 0
               },
               "failed": false,
               "errors": 0,
@@ -1397,8 +1397,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -1406,8 +1406,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -1415,15 +1415,15 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 }
               ],
               "profile": {
-                "factory": 112,
-                "building": 2
+                "factory": 103,
+                "building": 0
               },
               "failed": false,
               "errors": 0,
@@ -1500,8 +1500,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -1509,8 +1509,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -1518,9 +1518,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 },
                 {
@@ -1528,14 +1528,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
                   "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
                   "profile": {
-                    "factory": 112,
-                    "building": 2
+                    "factory": 103,
+                    "building": 0
                   }
                 }
               ],
               "profile": {
-                "factory": 9,
-                "building": 21
+                "factory": 6,
+                "building": 19
               },
               "failed": false,
               "errors": 0,
@@ -1596,8 +1596,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -1605,8 +1605,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -1614,9 +1614,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
                   "name": "./src/App.vue",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 },
                 {
@@ -1624,8 +1624,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
                   "name": "./src/App.vue?vue&type=script&lang=js&",
                   "profile": {
-                    "factory": 112,
-                    "building": 2
+                    "factory": 103,
+                    "building": 0
                   }
                 }
               ],
@@ -1712,8 +1712,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -1721,8 +1721,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -1730,9 +1730,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -1740,15 +1740,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             }
           ],
           "profile": {
-            "factory": 13,
-            "building": 25
+            "factory": 5,
+            "building": 11
           },
           "failed": false,
           "errors": 0,
@@ -1796,8 +1796,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -1805,8 +1805,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -1814,9 +1814,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -1824,8 +1824,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -1834,14 +1834,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             }
           ],
           "profile": {
-            "factory": 33,
-            "building": 17
+            "factory": 31,
+            "building": 27
           },
           "failed": false,
           "errors": 0,
@@ -1891,8 +1891,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -1900,8 +1900,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -1909,9 +1909,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -1919,8 +1919,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 112,
-                "building": 2
+                "factory": 103,
+                "building": 0
               }
             },
             {
@@ -1929,12 +1929,12 @@
               "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
                 "factory": 3,
-                "building": 2871
+                "building": 3637
               }
             }
           ],
           "profile": {
-            "factory": 0,
+            "factory": 1,
             "building": 0
           },
           "failed": false,
@@ -1979,8 +1979,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -1988,8 +1988,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
               "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -1997,14 +1997,14 @@
               "identifier": "delegated 21 from dll-reference _dll_dllLibrary_pro",
               "name": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
               "profile": {
-                "factory": 13,
-                "building": 0
+                "factory": 21,
+                "building": 1
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -2115,8 +2115,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -2124,15 +2124,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           },
           "failed": false,
           "errors": 0,
@@ -2183,8 +2183,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -2192,8 +2192,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -2201,9 +2201,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
@@ -2292,8 +2292,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -2301,8 +2301,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -2310,9 +2310,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -2320,8 +2320,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -2330,8 +2330,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -2339,8 +2339,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             },
             {
@@ -2348,8 +2348,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               }
             },
@@ -2364,8 +2364,8 @@
             }
           ],
           "profile": {
-            "factory": 6,
-            "building": 2857
+            "factory": 5,
+            "building": 3481
           },
           "failed": false,
           "errors": 0,
@@ -2485,8 +2485,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -2494,8 +2494,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -2503,9 +2503,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 },
                 {
@@ -2513,8 +2513,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 600,
-                    "building": 598,
+                    "factory": 495,
+                    "building": 575,
                     "dependencies": 0
                   }
                 },
@@ -2523,8 +2523,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 13,
-                    "building": 25
+                    "factory": 5,
+                    "building": 11
                   }
                 },
                 {
@@ -2532,14 +2532,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 33,
-                    "building": 17
+                    "factory": 31,
+                    "building": 27
                   }
                 }
               ],
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               },
               "failed": false,
@@ -2589,8 +2589,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -2598,8 +2598,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -2607,9 +2607,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 },
                 {
@@ -2617,8 +2617,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 600,
-                    "building": 598,
+                    "factory": 495,
+                    "building": 575,
                     "dependencies": 0
                   }
                 },
@@ -2627,8 +2627,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 13,
-                    "building": 25
+                    "factory": 5,
+                    "building": 11
                   }
                 },
                 {
@@ -2636,8 +2636,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 33,
-                    "building": 17
+                    "factory": 31,
+                    "building": 27
                   }
                 },
                 {
@@ -2645,8 +2645,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 6,
-                    "building": 198,
+                    "factory": 2,
+                    "building": 154,
                     "dependencies": 1
                   }
                 }
@@ -2723,8 +2723,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -2732,8 +2732,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -2741,9 +2741,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 },
                 {
@@ -2751,8 +2751,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 600,
-                    "building": 598,
+                    "factory": 495,
+                    "building": 575,
                     "dependencies": 0
                   }
                 },
@@ -2761,8 +2761,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 13,
-                    "building": 25
+                    "factory": 5,
+                    "building": 11
                   }
                 },
                 {
@@ -2770,8 +2770,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 33,
-                    "building": 17
+                    "factory": 31,
+                    "building": 27
                   }
                 },
                 {
@@ -2779,8 +2779,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 6,
-                    "building": 198,
+                    "factory": 2,
+                    "building": 154,
                     "dependencies": 1
                   }
                 }
@@ -2864,8 +2864,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -2873,8 +2873,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -2882,9 +2882,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 },
                 {
@@ -2892,8 +2892,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 600,
-                    "building": 598,
+                    "factory": 495,
+                    "building": 575,
                     "dependencies": 0
                   }
                 },
@@ -2902,8 +2902,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 13,
-                    "building": 25
+                    "factory": 5,
+                    "building": 11
                   }
                 },
                 {
@@ -2911,8 +2911,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 33,
-                    "building": 17
+                    "factory": 31,
+                    "building": 27
                   }
                 },
                 {
@@ -2920,8 +2920,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 6,
-                    "building": 198,
+                    "factory": 2,
+                    "building": 154,
                     "dependencies": 1
                   }
                 },
@@ -2936,7 +2936,7 @@
                 }
               ],
               "profile": {
-                "factory": 4,
+                "factory": 3,
                 "building": 25
               },
               "failed": false,
@@ -2998,8 +2998,8 @@
                   "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
                   "profile": {
-                    "factory": 0,
-                    "building": 6
+                    "factory": 1,
+                    "building": 8
                   }
                 },
                 {
@@ -3007,8 +3007,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
                   "name": "./src/main.js",
                   "profile": {
-                    "factory": 858,
-                    "building": 52
+                    "factory": 637,
+                    "building": 14
                   }
                 },
                 {
@@ -3016,9 +3016,9 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
                   "name": "./src/router/index.js",
                   "profile": {
-                    "factory": 397,
-                    "building": 4278,
-                    "dependencies": 202
+                    "factory": 303,
+                    "building": 5449,
+                    "dependencies": 155
                   }
                 },
                 {
@@ -3026,8 +3026,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
                   "name": "./src/page/load-child-routes.js",
                   "profile": {
-                    "factory": 600,
-                    "building": 598,
+                    "factory": 495,
+                    "building": 575,
                     "dependencies": 0
                   }
                 },
@@ -3036,8 +3036,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
                   "name": "./src/page sync v-router\\.(js)$",
                   "profile": {
-                    "factory": 13,
-                    "building": 25
+                    "factory": 5,
+                    "building": 11
                   }
                 },
                 {
@@ -3045,8 +3045,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
                   "name": "./src/page/login/v-router.js",
                   "profile": {
-                    "factory": 33,
-                    "building": 17
+                    "factory": 31,
+                    "building": 27
                   }
                 },
                 {
@@ -3054,8 +3054,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
                   "name": "./src/page/login/login.vue",
                   "profile": {
-                    "factory": 6,
-                    "building": 198,
+                    "factory": 2,
+                    "building": 154,
                     "dependencies": 1
                   }
                 },
@@ -3071,7 +3071,7 @@
               ],
               "profile": {
                 "factory": 3,
-                "building": 4
+                "building": 3
               },
               "failed": false,
               "errors": 0,
@@ -3153,8 +3153,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3162,8 +3162,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -3171,9 +3171,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -3181,8 +3181,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -3191,8 +3191,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -3200,8 +3200,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             },
             {
@@ -3209,8 +3209,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               }
             }
@@ -3285,8 +3285,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3294,8 +3294,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -3303,9 +3303,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -3313,8 +3313,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -3323,8 +3323,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -3332,8 +3332,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             },
             {
@@ -3341,8 +3341,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               }
             },
@@ -3360,14 +3360,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 6,
-                "building": 2857
+                "factory": 5,
+                "building": 3481
               }
             }
           ],
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -3489,14 +3489,14 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             }
           ],
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           },
           "failed": false,
           "errors": 0,
@@ -3545,8 +3545,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3554,15 +3554,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           },
           "failed": false,
           "errors": 0,
@@ -3622,8 +3622,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3631,8 +3631,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -3640,9 +3640,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -3650,16 +3650,16 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "profile": {
-                "factory": 36,
-                "building": 291,
-                "dependencies": 0
+                "factory": 27,
+                "building": 240,
+                "dependencies": 1
               }
             }
           ],
           "profile": {
             "factory": 38,
-            "building": 229,
-            "dependencies": 4
+            "building": 227,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -3708,8 +3708,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3717,8 +3717,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -3726,9 +3726,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -3736,16 +3736,16 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "profile": {
-                "factory": 36,
-                "building": 291,
-                "dependencies": 0
+                "factory": 27,
+                "building": 240,
+                "dependencies": 1
               }
             }
           ],
           "profile": {
             "factory": 38,
-            "building": 229,
-            "dependencies": 4
+            "building": 227,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -3794,8 +3794,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3803,8 +3803,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -3812,16 +3812,16 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 36,
-            "building": 291,
-            "dependencies": 0
+            "factory": 27,
+            "building": 240,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -3870,8 +3870,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3879,15 +3879,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           },
           "failed": false,
           "errors": 0,
@@ -3919,7 +3919,7 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "raven-js",
-              "loc": "17:6-11"
+              "loc": "16:6-11"
             }
           ],
           "usedExports": [
@@ -3956,8 +3956,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -3965,8 +3965,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -3974,9 +3974,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -3984,16 +3984,16 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "profile": {
-                "factory": 36,
-                "building": 291,
-                "dependencies": 0
+                "factory": 27,
+                "building": 240,
+                "dependencies": 1
               }
             }
           ],
           "profile": {
             "factory": 38,
-            "building": 229,
-            "dependencies": 4
+            "building": 227,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -4060,8 +4060,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -4069,8 +4069,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -4078,9 +4078,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -4088,16 +4088,16 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "profile": {
-                "factory": 36,
-                "building": 291,
-                "dependencies": 0
+                "factory": 27,
+                "building": 240,
+                "dependencies": 1
               }
             }
           ],
           "profile": {
             "factory": 38,
-            "building": 229,
-            "dependencies": 4
+            "building": 227,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -4146,8 +4146,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -4155,8 +4155,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -4164,9 +4164,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -4174,16 +4174,16 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "profile": {
-                "factory": 36,
-                "building": 291,
-                "dependencies": 0
+                "factory": 27,
+                "building": 240,
+                "dependencies": 1
               }
             }
           ],
           "profile": {
             "factory": 38,
-            "building": 229,
-            "dependencies": 4
+            "building": 227,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -4241,8 +4241,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -4250,8 +4250,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -4259,9 +4259,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -4269,16 +4269,16 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
               "profile": {
-                "factory": 36,
-                "building": 291,
-                "dependencies": 0
+                "factory": 27,
+                "building": 240,
+                "dependencies": 1
               }
             }
           ],
           "profile": {
             "factory": 38,
-            "building": 229,
-            "dependencies": 4
+            "building": 227,
+            "dependencies": 2
           },
           "failed": false,
           "errors": 0,
@@ -4327,8 +4327,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -4336,8 +4336,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -4345,15 +4345,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 112,
-            "building": 2
+            "factory": 103,
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -4430,8 +4430,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -4439,15 +4439,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           },
           "failed": false,
           "errors": 0,
@@ -4497,7 +4497,7 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "16:2-5"
+              "loc": "15:2-5"
             },
             {
               "moduleId": "./src/main.js",
@@ -4506,7 +4506,7 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "20:0-3"
+              "loc": "19:0-3"
             },
             {
               "moduleId": "./src/main.js",
@@ -4515,7 +4515,7 @@
               "moduleName": "./src/main.js + 7 modules",
               "type": "harmony import specifier",
               "userRequest": "vue",
-              "loc": "24:8-11"
+              "loc": "23:8-11"
             }
           ],
           "usedExports": [
@@ -4564,8 +4564,8 @@
       "issuerName": null,
       "issuerPath": null,
       "profile": {
-        "factory": 0,
-        "building": 6
+        "factory": 1,
+        "building": 8
       },
       "failed": false,
       "errors": 0,
@@ -4611,14 +4611,14 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         }
       ],
       "profile": {
-        "factory": 858,
-        "building": 52
+        "factory": 637,
+        "building": 14
       },
       "failed": false,
       "errors": 0,
@@ -4666,8 +4666,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -4675,15 +4675,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         }
       ],
       "profile": {
-        "factory": 397,
-        "building": 4278,
-        "dependencies": 202
+        "factory": 303,
+        "building": 5449,
+        "dependencies": 155
       },
       "failed": false,
       "errors": 0,
@@ -4706,7 +4706,7 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "element-ui",
-          "loc": "20:8-17"
+          "loc": "19:8-17"
         }
       ],
       "usedExports": true,
@@ -4740,8 +4740,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -4749,15 +4749,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         }
       ],
       "profile": {
-        "factory": 397,
-        "building": 4278,
-        "dependencies": 202
+        "factory": 303,
+        "building": 5449,
+        "dependencies": 155
       },
       "failed": false,
       "errors": 0,
@@ -4809,8 +4809,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -4818,8 +4818,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -4827,9 +4827,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -4837,14 +4837,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 112,
-            "building": 2
+            "factory": 103,
+            "building": 0
           }
         }
       ],
       "profile": {
         "factory": 3,
-        "building": 2871
+        "building": 3637
       },
       "failed": false,
       "errors": 0,
@@ -4922,8 +4922,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -4931,8 +4931,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -4940,9 +4940,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -4950,8 +4950,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 600,
-            "building": 598,
+            "factory": 495,
+            "building": 575,
             "dependencies": 0
           }
         },
@@ -4960,8 +4960,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 13,
-            "building": 25
+            "factory": 5,
+            "building": 11
           }
         },
         {
@@ -4969,8 +4969,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
           "name": "./src/page/login/v-router.js",
           "profile": {
-            "factory": 33,
-            "building": 17
+            "factory": 31,
+            "building": 27
           }
         },
         {
@@ -4978,8 +4978,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "name": "./src/page/login/login.vue",
           "profile": {
-            "factory": 6,
-            "building": 198,
+            "factory": 2,
+            "building": 154,
             "dependencies": 1
           }
         },
@@ -4994,8 +4994,8 @@
         }
       ],
       "profile": {
-        "factory": 6,
-        "building": 2857
+        "factory": 5,
+        "building": 3481
       },
       "failed": false,
       "errors": 0,
@@ -5073,8 +5073,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5082,15 +5082,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         }
       ],
       "profile": {
-        "factory": 397,
-        "building": 4278,
-        "dependencies": 202
+        "factory": 303,
+        "building": 5449,
+        "dependencies": 155
       },
       "failed": false,
       "errors": 0,
@@ -5150,8 +5150,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5159,8 +5159,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5168,9 +5168,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -5178,16 +5178,16 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "profile": {
-            "factory": 36,
-            "building": 291,
-            "dependencies": 0
+            "factory": 27,
+            "building": 240,
+            "dependencies": 1
           }
         }
       ],
       "profile": {
         "factory": 38,
-        "building": 229,
-        "dependencies": 4
+        "building": 227,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -5236,8 +5236,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5245,8 +5245,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5254,9 +5254,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -5264,16 +5264,16 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "profile": {
-            "factory": 36,
-            "building": 291,
-            "dependencies": 0
+            "factory": 27,
+            "building": 240,
+            "dependencies": 1
           }
         }
       ],
       "profile": {
         "factory": 38,
-        "building": 229,
-        "dependencies": 4
+        "building": 227,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -5322,8 +5322,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5331,8 +5331,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5340,16 +5340,16 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         }
       ],
       "profile": {
-        "factory": 36,
-        "building": 291,
-        "dependencies": 0
+        "factory": 27,
+        "building": 240,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -5398,8 +5398,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5407,15 +5407,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         }
       ],
       "profile": {
-        "factory": 397,
-        "building": 4278,
-        "dependencies": 202
+        "factory": 303,
+        "building": 5449,
+        "dependencies": 155
       },
       "failed": false,
       "errors": 0,
@@ -5447,7 +5447,7 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "raven-js",
-          "loc": "17:6-11"
+          "loc": "16:6-11"
         }
       ],
       "usedExports": [
@@ -5484,8 +5484,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5493,8 +5493,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5502,9 +5502,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -5512,16 +5512,16 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "profile": {
-            "factory": 36,
-            "building": 291,
-            "dependencies": 0
+            "factory": 27,
+            "building": 240,
+            "dependencies": 1
           }
         }
       ],
       "profile": {
         "factory": 38,
-        "building": 229,
-        "dependencies": 4
+        "building": 227,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -5588,8 +5588,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5597,8 +5597,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5606,9 +5606,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -5616,16 +5616,16 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "profile": {
-            "factory": 36,
-            "building": 291,
-            "dependencies": 0
+            "factory": 27,
+            "building": 240,
+            "dependencies": 1
           }
         }
       ],
       "profile": {
         "factory": 38,
-        "building": 229,
-        "dependencies": 4
+        "building": 227,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -5674,8 +5674,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5683,8 +5683,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5692,9 +5692,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -5702,16 +5702,16 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "profile": {
-            "factory": 36,
-            "building": 291,
-            "dependencies": 0
+            "factory": 27,
+            "building": 240,
+            "dependencies": 1
           }
         }
       ],
       "profile": {
         "factory": 38,
-        "building": 229,
-        "dependencies": 4
+        "building": 227,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -5769,8 +5769,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5778,8 +5778,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5787,9 +5787,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/singleton.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -5797,16 +5797,16 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "name": "./node_modules/_raven-js@3.27.2@raven-js/src/raven.js",
           "profile": {
-            "factory": 36,
-            "building": 291,
-            "dependencies": 0
+            "factory": 27,
+            "building": 240,
+            "dependencies": 1
           }
         }
       ],
       "profile": {
         "factory": 38,
-        "building": 229,
-        "dependencies": 4
+        "building": 227,
+        "dependencies": 2
       },
       "failed": false,
       "errors": 0,
@@ -5854,8 +5854,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5863,8 +5863,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5872,14 +5872,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "name": "./node_modules/_vue@2.6.10@vue/dist/vue.esm.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         }
       ],
       "profile": {
-        "factory": 197,
+        "factory": 201,
         "building": 0,
         "dependencies": 0
       },
@@ -5929,8 +5929,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -5938,8 +5938,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -5947,15 +5947,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         }
       ],
       "profile": {
-        "factory": 112,
-        "building": 2
+        "factory": 103,
+        "building": 0
       },
       "failed": false,
       "errors": 0,
@@ -6031,8 +6031,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -6040,8 +6040,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -6049,15 +6049,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         }
       ],
       "profile": {
-        "factory": 600,
-        "building": 598,
+        "factory": 495,
+        "building": 575,
         "dependencies": 0
       },
       "failed": false,
@@ -6126,8 +6126,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -6135,15 +6135,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         }
       ],
       "profile": {
-        "factory": 397,
-        "building": 4278,
-        "dependencies": 202
+        "factory": 303,
+        "building": 5449,
+        "dependencies": 155
       },
       "failed": false,
       "errors": 0,
@@ -6193,7 +6193,7 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "16:2-5"
+          "loc": "15:2-5"
         },
         {
           "moduleId": "./src/main.js",
@@ -6202,7 +6202,7 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "20:0-3"
+          "loc": "19:0-3"
         },
         {
           "moduleId": "./src/main.js",
@@ -6211,7 +6211,7 @@
           "moduleName": "./src/main.js + 7 modules",
           "type": "harmony import specifier",
           "userRequest": "vue",
-          "loc": "24:8-11"
+          "loc": "23:8-11"
         }
       ],
       "usedExports": [
@@ -6249,8 +6249,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -6258,14 +6258,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
           "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 0
+        "factory": 21,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -6358,8 +6358,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -6367,8 +6367,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -6376,15 +6376,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         }
       ],
       "profile": {
-        "factory": 112,
-        "building": 2
+        "factory": 103,
+        "building": 0
       },
       "failed": false,
       "errors": 0,
@@ -6436,7 +6436,7 @@
       "name": "./src/main.js + 7 modules",
       "index": 4,
       "index2": 31,
-      "size": 2958,
+      "size": 2933,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -6483,7 +6483,7 @@
           "name": "./src/main.js",
           "index": 4,
           "index2": 31,
-          "size": 707,
+          "size": 682,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -6498,14 +6498,14 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             }
           ],
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           },
           "failed": false,
           "errors": 0,
@@ -6529,7 +6529,7 @@
             "ModuleConcatenation bailout: Module is not in any chunk"
           ],
           "depth": 1,
-          "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\nimport Raven from 'raven-js';\nimport RavenVue from 'raven-js/plugins/vue';\n\nRaven\n  .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')\n  .addPlugin(RavenVue, Vue)\n  .install()\n  myUndefinedFunction();\n\nif(process.env.NODE_ENV !== 'development' ){\n  Vue.config.errorHandler = function(err, vm, info) {\n      Raven.captureException(err)\n  }\n}\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
+          "source": "import Vue from 'vue';\nimport router from './router';\nimport ElementUI from 'element-ui';\nimport App from './App';\nimport 'element-ui/lib/theme-chalk/index.css';\nimport Raven from 'raven-js';\nimport RavenVue from 'raven-js/plugins/vue';\n\nRaven\n  .config('https://e0b06eb8289b4405a282d660fb78e44a@sentry.io/1722672')\n  .addPlugin(RavenVue, Vue)\n  .install()\n\nif(process.env.NODE_ENV !== 'development' ){\n  Vue.config.errorHandler = function(err, vm, info) {\n      Raven.captureException(err)\n  }\n}\nVue.use(ElementUI);\n\nconst app = {\n  run(router) {\n    new Vue({\n      el: '#root',\n      router,\n      template: '<App/>',\n      components: { App },\n    });\n  },\n};\n\napp.run(router);\n"
         },
         {
           "id": null,
@@ -6552,8 +6552,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -6561,15 +6561,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           },
           "failed": false,
           "errors": 0,
@@ -6592,7 +6592,7 @@
               "moduleName": "./src/main.js",
               "type": "harmony import specifier",
               "userRequest": "./router",
-              "loc": "33:8-14"
+              "loc": "32:8-14"
             }
           ],
           "usedExports": [
@@ -6628,8 +6628,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -6637,15 +6637,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             }
           ],
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           },
           "failed": false,
           "errors": 0,
@@ -6668,7 +6668,7 @@
               "moduleName": "./src/main.js",
               "type": "harmony import specifier",
               "userRequest": "./App",
-              "loc": "28:20-23"
+              "loc": "27:20-23"
             }
           ],
           "usedExports": [
@@ -6704,8 +6704,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -6713,8 +6713,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -6722,15 +6722,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 600,
-            "building": 598,
+            "factory": 495,
+            "building": 575,
             "dependencies": 0
           },
           "failed": false,
@@ -6790,8 +6790,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -6799,8 +6799,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -6808,15 +6808,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 112,
-            "building": 2
+            "factory": 103,
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -6886,8 +6886,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -6895,8 +6895,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -6904,15 +6904,15 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             }
           ],
           "profile": {
-            "factory": 112,
-            "building": 2
+            "factory": 103,
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -6989,8 +6989,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -6998,8 +6998,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -7007,9 +7007,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -7017,14 +7017,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=template&id=67cd2f4a&",
               "name": "./src/App.vue?vue&type=template&id=67cd2f4a&",
               "profile": {
-                "factory": 112,
-                "building": 2
+                "factory": 103,
+                "building": 0
               }
             }
           ],
           "profile": {
-            "factory": 9,
-            "building": 21
+            "factory": 6,
+            "building": 19
           },
           "failed": false,
           "errors": 0,
@@ -7085,8 +7085,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -7094,8 +7094,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -7103,9 +7103,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
               "name": "./src/App.vue",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -7113,8 +7113,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=script&lang=js&",
               "name": "./src/App.vue?vue&type=script&lang=js&",
               "profile": {
-                "factory": 112,
-                "building": 2
+                "factory": 103,
+                "building": 0
               }
             }
           ],
@@ -7201,8 +7201,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -7210,8 +7210,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -7219,9 +7219,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -7229,15 +7229,15 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 600,
-            "building": 598,
+            "factory": 495,
+            "building": 575,
             "dependencies": 0
           }
         }
       ],
       "profile": {
-        "factory": 13,
-        "building": 25
+        "factory": 5,
+        "building": 11
       },
       "failed": false,
       "errors": 0,
@@ -7327,8 +7327,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -7336,8 +7336,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -7345,9 +7345,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -7355,8 +7355,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -7365,8 +7365,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -7374,14 +7374,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             }
           ],
           "profile": {
-            "factory": 6,
-            "building": 198,
+            "factory": 2,
+            "building": 154,
             "dependencies": 1
           },
           "failed": false,
@@ -7431,8 +7431,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -7440,8 +7440,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -7449,9 +7449,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -7459,8 +7459,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -7469,8 +7469,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -7478,8 +7478,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             },
             {
@@ -7487,8 +7487,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               }
             }
@@ -7565,8 +7565,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -7574,8 +7574,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -7583,9 +7583,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -7593,8 +7593,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -7603,8 +7603,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -7612,8 +7612,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             },
             {
@@ -7621,8 +7621,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               }
             }
@@ -7706,8 +7706,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -7715,8 +7715,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -7724,9 +7724,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -7734,8 +7734,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -7744,8 +7744,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -7753,8 +7753,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             },
             {
@@ -7762,8 +7762,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               }
             },
@@ -7778,7 +7778,7 @@
             }
           ],
           "profile": {
-            "factory": 4,
+            "factory": 3,
             "building": 25
           },
           "failed": false,
@@ -7840,8 +7840,8 @@
               "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
               "profile": {
-                "factory": 0,
-                "building": 6
+                "factory": 1,
+                "building": 8
               }
             },
             {
@@ -7849,8 +7849,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
               "name": "./src/main.js",
               "profile": {
-                "factory": 858,
-                "building": 52
+                "factory": 637,
+                "building": 14
               }
             },
             {
@@ -7858,9 +7858,9 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
               "name": "./src/router/index.js",
               "profile": {
-                "factory": 397,
-                "building": 4278,
-                "dependencies": 202
+                "factory": 303,
+                "building": 5449,
+                "dependencies": 155
               }
             },
             {
@@ -7868,8 +7868,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
               "name": "./src/page/load-child-routes.js",
               "profile": {
-                "factory": 600,
-                "building": 598,
+                "factory": 495,
+                "building": 575,
                 "dependencies": 0
               }
             },
@@ -7878,8 +7878,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
               "name": "./src/page sync v-router\\.(js)$",
               "profile": {
-                "factory": 13,
-                "building": 25
+                "factory": 5,
+                "building": 11
               }
             },
             {
@@ -7887,8 +7887,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
               "name": "./src/page/login/v-router.js",
               "profile": {
-                "factory": 33,
-                "building": 17
+                "factory": 31,
+                "building": 27
               }
             },
             {
@@ -7896,8 +7896,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
               "name": "./src/page/login/login.vue",
               "profile": {
-                "factory": 6,
-                "building": 198,
+                "factory": 2,
+                "building": 154,
                 "dependencies": 1
               }
             },
@@ -7913,7 +7913,7 @@
           ],
           "profile": {
             "factory": 3,
-            "building": 4
+            "building": 3
           },
           "failed": false,
           "errors": 0,
@@ -7995,8 +7995,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -8004,8 +8004,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -8013,9 +8013,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -8023,8 +8023,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 600,
-            "building": 598,
+            "factory": 495,
+            "building": 575,
             "dependencies": 0
           }
         },
@@ -8033,8 +8033,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 13,
-            "building": 25
+            "factory": 5,
+            "building": 11
           }
         },
         {
@@ -8042,8 +8042,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
           "name": "./src/page/login/v-router.js",
           "profile": {
-            "factory": 33,
-            "building": 17
+            "factory": 31,
+            "building": 27
           }
         },
         {
@@ -8051,8 +8051,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "name": "./src/page/login/login.vue",
           "profile": {
-            "factory": 6,
-            "building": 198,
+            "factory": 2,
+            "building": 154,
             "dependencies": 1
           }
         }
@@ -8128,8 +8128,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -8137,8 +8137,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -8146,9 +8146,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -8156,8 +8156,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 600,
-            "building": 598,
+            "factory": 495,
+            "building": 575,
             "dependencies": 0
           }
         },
@@ -8166,14 +8166,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 13,
-            "building": 25
+            "factory": 5,
+            "building": 11
           }
         }
       ],
       "profile": {
-        "factory": 33,
-        "building": 17
+        "factory": 31,
+        "building": 27
       },
       "failed": false,
       "errors": 0,
@@ -8223,8 +8223,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -8232,8 +8232,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -8241,9 +8241,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "name": "./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         }
       ],
@@ -8293,8 +8293,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -8302,8 +8302,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -8311,9 +8311,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue",
           "name": "./src/App.vue",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -8321,8 +8321,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/pitcher.js??ref--4!/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 112,
-            "building": 2
+            "factory": 103,
+            "building": 0
           }
         },
         {
@@ -8331,12 +8331,12 @@
           "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
             "factory": 3,
-            "building": 2871
+            "building": 3637
           }
         }
       ],
       "profile": {
-        "factory": 0,
+        "factory": 1,
         "building": 0
       },
       "failed": false,
@@ -8381,8 +8381,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -8390,8 +8390,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "./src/main.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -8399,9 +8399,9 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/router/index.js",
           "name": "./src/router/index.js",
           "profile": {
-            "factory": 397,
-            "building": 4278,
-            "dependencies": 202
+            "factory": 303,
+            "building": 5449,
+            "dependencies": 155
           }
         },
         {
@@ -8409,8 +8409,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/load-child-routes.js",
           "name": "./src/page/load-child-routes.js",
           "profile": {
-            "factory": 600,
-            "building": 598,
+            "factory": 495,
+            "building": 575,
             "dependencies": 0
           }
         },
@@ -8419,8 +8419,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/src/page sync /v-router\\.(js)$/",
           "name": "./src/page sync v-router\\.(js)$",
           "profile": {
-            "factory": 13,
-            "building": 25
+            "factory": 5,
+            "building": 11
           }
         },
         {
@@ -8428,8 +8428,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/v-router.js",
           "name": "./src/page/login/v-router.js",
           "profile": {
-            "factory": 33,
-            "building": 17
+            "factory": 31,
+            "building": 27
           }
         },
         {
@@ -8437,8 +8437,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/node_modules/_eslint-loader@3.0.0@eslint-loader/dist/cjs.js??ref--0-0!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue",
           "name": "./src/page/login/login.vue",
           "profile": {
-            "factory": 6,
-            "building": 198,
+            "factory": 2,
+            "building": 154,
             "dependencies": 1
           }
         },
@@ -8456,14 +8456,14 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "name": "./node_modules/_mini-css-extract-plugin@0.8.0@mini-css-extract-plugin/dist/loader.js!./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
           "profile": {
-            "factory": 6,
-            "building": 2857
+            "factory": 5,
+            "building": 3481
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 1
+        "building": 0
       },
       "failed": false,
       "errors": 0,
@@ -8507,8 +8507,8 @@
           "identifier": "multi /Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js /Users/jiayali/Desktop/vue-zero/src/main.js",
           "name": "multi ./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js ./src/main.js",
           "profile": {
-            "factory": 0,
-            "building": 6
+            "factory": 1,
+            "building": 8
           }
         },
         {
@@ -8516,8 +8516,8 @@
           "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry.loader.js??ref--24-0!/Users/jiayali/Desktop/vue-zero/node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
           "name": "./node_modules/_@sentry_webpack-plugin@1.8.1@@sentry/webpack-plugin/src/sentry-webpack.module.js",
           "profile": {
-            "factory": 858,
-            "building": 52
+            "factory": 637,
+            "building": 14
           }
         },
         {
@@ -8525,14 +8525,14 @@
           "identifier": "delegated 21 from dll-reference _dll_dllLibrary_pro",
           "name": "delegated ./node_modules/_webpack@4.27.1@webpack/buildin/global.js from dll-reference _dll_dllLibrary_pro",
           "profile": {
-            "factory": 13,
-            "building": 0
+            "factory": 21,
+            "building": 1
           }
         }
       ],
       "profile": {
         "factory": 0,
-        "building": 1
+        "building": 0
       },
       "failed": false,
       "errors": 0,
@@ -8660,8 +8660,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 799,
-                "building": 70
+                "factory": 591,
+                "building": 24
               },
               "failed": false,
               "errors": 0,
@@ -8709,14 +8709,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 799,
-                    "building": 70
+                    "factory": 591,
+                    "building": 24
                   }
                 }
               ],
               "profile": {
-                "factory": 44,
-                "building": 1018
+                "factory": 35,
+                "building": 939
               },
               "failed": false,
               "errors": 0,
@@ -8765,8 +8765,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 799,
-                    "building": 70
+                    "factory": 591,
+                    "building": 24
                   }
                 },
                 {
@@ -8774,14 +8774,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "profile": {
-                    "factory": 44,
-                    "building": 1018
+                    "factory": 35,
+                    "building": 939
                   }
                 }
               ],
               "profile": {
-                "factory": 2128,
-                "building": 10
+                "factory": 4,
+                "building": 2746
               },
               "failed": false,
               "errors": 0,
@@ -8830,8 +8830,8 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
                   "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
                   "profile": {
-                    "factory": 799,
-                    "building": 70
+                    "factory": 591,
+                    "building": 24
                   }
                 },
                 {
@@ -8839,14 +8839,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
                   "profile": {
-                    "factory": 44,
-                    "building": 1018
+                    "factory": 35,
+                    "building": 939
                   }
                 }
               ],
               "profile": {
-                "factory": 2128,
-                "building": 10
+                "factory": 4,
+                "building": 2746
               },
               "failed": false,
               "errors": 0,
@@ -8906,8 +8906,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 799,
-            "building": 70
+            "factory": 591,
+            "building": 24
           },
           "failed": false,
           "errors": 0,
@@ -8955,14 +8955,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 799,
-                "building": 70
+                "factory": 591,
+                "building": 24
               }
             }
           ],
           "profile": {
-            "factory": 44,
-            "building": 1018
+            "factory": 35,
+            "building": 939
           },
           "failed": false,
           "errors": 0,
@@ -9011,8 +9011,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 799,
-                "building": 70
+                "factory": 591,
+                "building": 24
               }
             },
             {
@@ -9020,14 +9020,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
               "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
               "profile": {
-                "factory": 44,
-                "building": 1018
+                "factory": 35,
+                "building": 939
               }
             }
           ],
           "profile": {
-            "factory": 2128,
-            "building": 10
+            "factory": 4,
+            "building": 2746
           },
           "failed": false,
           "errors": 0,
@@ -9076,8 +9076,8 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!/Users/jiayali/Desktop/vue-zero/build/template/index.html",
               "name": "./node_modules/_html-webpack-plugin@3.2.0@html-webpack-plugin/lib/loader.js!./build/template/index.html",
               "profile": {
-                "factory": 799,
-                "building": 70
+                "factory": 591,
+                "building": 24
               }
             },
             {
@@ -9085,14 +9085,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_lodash@4.17.15@lodash/lodash.js",
               "name": "./node_modules/_lodash@4.17.15@lodash/lodash.js",
               "profile": {
-                "factory": 44,
-                "building": 1018
+                "factory": 35,
+                "building": 939
               }
             }
           ],
           "profile": {
-            "factory": 2128,
-            "building": 10
+            "factory": 4,
+            "building": 2746
           },
           "failed": false,
           "errors": 0,
@@ -9194,7 +9194,7 @@
               "issuerPath": null,
               "profile": {
                 "factory": 2,
-                "building": 2805
+                "building": 3399
               },
               "failed": false,
               "errors": 0,
@@ -9244,13 +9244,13 @@
                   "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
                   "profile": {
                     "factory": 2,
-                    "building": 2805
+                    "building": 3399
                   }
                 }
               ],
               "profile": {
-                "factory": 47,
-                "building": 7
+                "factory": 26,
+                "building": 196
               },
               "failed": false,
               "errors": 0,
@@ -9311,7 +9311,7 @@
           "issuerPath": null,
           "profile": {
             "factory": 2,
-            "building": 2805
+            "building": 3399
           },
           "failed": false,
           "errors": 0,
@@ -9361,13 +9361,13 @@
               "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
                 "factory": 2,
-                "building": 2805
+                "building": 3399
               }
             }
           ],
           "profile": {
-            "factory": 47,
-            "building": 7
+            "factory": 26,
+            "building": 196
           },
           "failed": false,
           "errors": 0,
@@ -9468,8 +9468,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 6,
-                "building": 2824
+                "factory": 2,
+                "building": 3436
               },
               "failed": false,
               "errors": 0,
@@ -9518,14 +9518,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
                   "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
                   "profile": {
-                    "factory": 6,
-                    "building": 2824
+                    "factory": 2,
+                    "building": 3436
                   }
                 }
               ],
               "profile": {
-                "factory": 0,
-                "building": 1
+                "factory": 1,
+                "building": 5
               },
               "failed": false,
               "errors": 0,
@@ -9585,8 +9585,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 6,
-            "building": 2824
+            "factory": 2,
+            "building": 3436
           },
           "failed": false,
           "errors": 0,
@@ -9635,14 +9635,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!/Users/jiayali/Desktop/vue-zero/node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js!/Users/jiayali/Desktop/vue-zero/node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!/Users/jiayali/Desktop/vue-zero/node_modules/_vue-loader@15.7.1@vue-loader/lib/index.js??vue-loader-options!/Users/jiayali/Desktop/vue-zero/src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "name": "./node_modules/_css-loader@2.0.0@css-loader/dist/cjs.js??ref--3-1!./node_modules/_vue-loader@15.7.1@vue-loader/lib/loaders/stylePostLoader.js!./node_modules/_postcss-loader@3.0.0@postcss-loader/src!./node_modules/_less-loader@5.0.0@less-loader/dist/cjs.js??ref--3-3!./node_modules/_vue-loader@15.7.1@vue-loader/lib??vue-loader-options!./src/page/login/login.vue?vue&type=style&index=0&lang=less&module=true&",
               "profile": {
-                "factory": 6,
-                "building": 2824
+                "factory": 2,
+                "building": 3436
               }
             }
           ],
           "profile": {
-            "factory": 0,
-            "building": 1
+            "factory": 1,
+            "building": 5
           },
           "failed": false,
           "errors": 0,
@@ -9747,14 +9747,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 3,
-                    "building": 4233
+                    "factory": 4,
+                    "building": 5404
                   }
                 }
               ],
               "profile": {
-                "factory": 16,
-                "building": 9
+                "factory": 18,
+                "building": 10
               },
               "failed": false,
               "errors": 0,
@@ -9803,14 +9803,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 3,
-                    "building": 4233
+                    "factory": 4,
+                    "building": 5404
                   }
                 }
               ],
               "profile": {
-                "factory": 16,
-                "building": 9
+                "factory": 18,
+                "building": 10
               },
               "failed": false,
               "errors": 0,
@@ -9859,14 +9859,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 3,
-                    "building": 4233
+                    "factory": 4,
+                    "building": 5404
                   }
                 }
               ],
               "profile": {
-                "factory": 16,
-                "building": 9
+                "factory": 18,
+                "building": 10
               },
               "failed": false,
               "errors": 0,
@@ -9915,14 +9915,14 @@
                   "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
                   "profile": {
-                    "factory": 3,
-                    "building": 4233
+                    "factory": 4,
+                    "building": 5404
                   }
                 }
               ],
               "profile": {
-                "factory": 16,
-                "building": 9
+                "factory": 18,
+                "building": 10
               },
               "failed": false,
               "errors": 0,
@@ -9967,8 +9967,8 @@
               "issuerName": null,
               "issuerPath": null,
               "profile": {
-                "factory": 3,
-                "building": 4233
+                "factory": 4,
+                "building": 5404
               },
               "failed": false,
               "errors": 0,
@@ -10032,14 +10032,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 3,
-                "building": 4233
+                "factory": 4,
+                "building": 5404
               }
             }
           ],
           "profile": {
-            "factory": 16,
-            "building": 9
+            "factory": 18,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -10088,14 +10088,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 3,
-                "building": 4233
+                "factory": 4,
+                "building": 5404
               }
             }
           ],
           "profile": {
-            "factory": 16,
-            "building": 9
+            "factory": 18,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -10144,14 +10144,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 3,
-                "building": 4233
+                "factory": 4,
+                "building": 5404
               }
             }
           ],
           "profile": {
-            "factory": 16,
-            "building": 9
+            "factory": 18,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -10200,14 +10200,14 @@
               "identifier": "/Users/jiayali/Desktop/vue-zero/node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!/Users/jiayali/Desktop/vue-zero/node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "name": "./node_modules/_happypack@5.0.1@happypack/loader.js?id=happyStyle!./node_modules/_element-ui@2.11.1@element-ui/lib/theme-chalk/index.css",
               "profile": {
-                "factory": 3,
-                "building": 4233
+                "factory": 4,
+                "building": 5404
               }
             }
           ],
           "profile": {
-            "factory": 16,
-            "building": 9
+            "factory": 18,
+            "building": 10
           },
           "failed": false,
           "errors": 0,
@@ -10252,8 +10252,8 @@
           "issuerName": null,
           "issuerPath": null,
           "profile": {
-            "factory": 3,
-            "building": 4233
+            "factory": 4,
+            "building": 5404
           },
           "failed": false,
           "errors": 0,
